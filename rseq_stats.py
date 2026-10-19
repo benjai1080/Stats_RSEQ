@@ -82,6 +82,7 @@ class Player:
         self.seconds = 0.0
         self.stints = []              # [début, fin, +/-] en secondes de match écoulées
         self.last_out = -1.0          # dernière sortie du terrain (secondes écoulées)
+        self.last_act = -1.0          # dernière action notée (secondes écoulées)
 
     @property
     def key(self):
@@ -688,6 +689,8 @@ class Game:
         actor = None
         if ev.who and ev.kind not in ("SUBIN", "SUBOUT", "TIMEOUT"):
             actor = self.player(ev.side, ev.who)
+        if actor is not None:
+            actor.last_act = t
         if actor is not None and actor not in self.on[ev.side] and not self.early_sub(ev, actor):
             self.enter(actor, t)
             role, idx = self.next_role(actor, ev, subs_only=True)
@@ -733,15 +736,16 @@ class Game:
         changed = []
         while len(self.on[side]) > 5:
             def out_rank(q):
+                # Sort d'abord : qui entre bientôt, puis qui ne fait plus rien, puis le moins actif.
                 role, idx = self.next_role(q, ev)
-                return {"IN": 0, None: 1}.get(role, 2), -idx
+                return {"IN": 0, None: 1}.get(role, 2), -idx, q.last_act, q.name
             q = min((q for q in self.on[side] if q not in keep), key=out_rank)
             self.leave(q, t)
             changed.append(f"−{q.name}")
         while len(self.on[side]) < 5:
             def in_rank(q):
                 role, idx = self.next_role(q, ev)
-                return {"ACT": 0, "OUT": 0, None: 1}.get(role, 2), idx, -q.last_out
+                return {"ACT": 0, "OUT": 0, None: 1}.get(role, 2), idx, -q.last_out, q.name
             bench = [q for q in team.players.values() if q not in self.on[side]]
             if not bench:
                 break
