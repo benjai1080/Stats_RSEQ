@@ -1,7 +1,12 @@
-"""Rapport HTML d'un match rejoué par rseq_stats.py (un seul fichier, sans dépendance)."""
+"""Rapport HTML d'un match rejoué par rseq_stats.py (un seul fichier, sans dépendance).
+
+Les sections par équipe prennent une « vue » (équipe, adversaire, quintettes, passes) : un match
+ou une saison cumulée (rseq_saison.py) se présentent de la même façon.
+"""
 import html
 from datetime import date
 
+from rseq_guide import GUIDE_CSS, annex_section
 from rseq_stats import (HOME, SIDES, VIS, compare_box, fmt_clock, lead_stats, other,
                         period_length, player_advanced, team_advanced)
 
@@ -45,6 +50,26 @@ def tone(x):
     return "pos" if x > 0 else "neg"
 
 
+class Row(list):
+    """Ligne de tableau ; `mj` (matchs joués) sert au filtre des joueurs de la vue saison."""
+    mj = None
+
+
+def with_games(cells, mj):
+    if mj is None:
+        return cells
+    row = Row(cells)
+    row.mj = mj
+    return row
+
+
+def games_of(v, *keys):
+    """Matchs joués (le plus petit nombre si plusieurs joueurs) ; None hors de la vue saison."""
+    if not v.games:
+        return None
+    return min(v.games.get(k, 0) for k in keys)
+
+
 def table(headers, rows, cls="", sortable=True, foot=None):
     """headers : liste de (titre, infobulle) ; rows : listes de cellules (texte ou (texte, classe))."""
     out = [f'<div class="scroll"><table class="{cls}{" sortable" if sortable else ""}"><thead><tr>']
@@ -61,7 +86,8 @@ def table(headers, rows, cls="", sortable=True, foot=None):
                 cells.append(f'<td class="{k}"{sort}>{txt}</td>')
             else:
                 cells.append(f"<td>{c}</td>")
-        return "<tr>" + "".join(cells) + "</tr>"
+        mj = f' data-mj="{r.mj}"' if getattr(r, "mj", None) is not None else ""
+        return f"<tr{mj}>" + "".join(cells) + "</tr>"
 
     out.extend(row_html(r) for r in rows)
     out.append("</tbody>")
@@ -69,6 +95,21 @@ def table(headers, rows, cls="", sortable=True, foot=None):
         out.append("<tfoot>" + "".join(row_html(r) for r in foot) + "</tfoot>")
     out.append("</table></div>")
     return "".join(out)
+
+
+class View:
+    """Ce qu'il faut pour les sections d'une équipe : elle, l'adversaire, ses quintettes et ses passes."""
+
+    def __init__(self, team, opp, lineups, assists, games=None):
+        self.team, self.opp = team, opp
+        self.lineups = lineups        # objets Lineup (seconds, on_tm, on_op, players)
+        self.assists = assists        # [(nombre, clé du passeur, clé du marqueur)]
+        self.games = games            # saison : matchs joués par joueur (GmSc et EVAL par match)
+
+
+def game_view(game, side):
+    assists = [(n, a, s) for (sd, a, s), n in game.assists.items() if sd == side]
+    return View(game.teams[side], game.teams[other(side)], list(game.lineups[side].values()), assists)
 
 
 def ordered_players(team):
@@ -84,8 +125,8 @@ def player_name(p):
 # ---------------------------------------------------------------------------
 # Sections
 
-def box_section(game, side):
-    t = game.teams[side]
+def box_section(v):
+    t = v.team
     heads = [("Joueur", ""), ("MIN", "Minutes jouées, recalculées par les entrées et sorties"),
              ("PTS", "Points"), ("TIR", "Paniers réussis-tentés"), ("3PTS", "Tirs de 3 points"),
              ("LF", "Lancers francs"), ("RO", "Rebonds offensifs"), ("RD", "Rebonds défensifs"),
@@ -106,12 +147,12 @@ def box_section(game, side):
             ["Total", mmss(sum(p.seconds for p in t.players.values()) / 5), tb["PTS"],
              made(tb["FGM"], tb["FGA"]), made(tb["3PM"], tb["3PA"]), made(tb["FTM"], tb["FTA"]),
              tb["OREB"], tb["DREB"], tb["REB"], tb["AST"], tb["TOV"], tb["STL"], tb["BLK"], tb["PF"],
-             signed(tb["PTS"] - game.teams[other(side)].box["PTS"])]]
+             signed(tb["PTS"] - v.opp.box["PTS"])]]
     return table(heads, rows, "box", foot=foot)
 
 
-def impact_section(game, side):
-    t, o = game.teams[side], game.teams[other(side)]
+def impact_section(v):
+    t, o = v.team, v.opp
     heads = [("Joueur", ""), ("MIN", "Minutes jouées"),
              ("POSS", "Possessions offensives de l'équipe pendant qu'il est sur le terrain"),
              ("+/-", "Écart au score sur le terrain"),
@@ -125,18 +166,18 @@ def impact_section(game, side):
     rows = []
     for p in ordered_players(t):
         a = player_advanced(p, t, o)
-        rows.append([player_name(p), (mmss(p.seconds), "", p.seconds), a["POSS"],
+        rows.append(with_games([player_name(p), (mmss(p.seconds), "", p.seconds), a["POSS"],
                      (signed(a["+/-"]), tone(a["+/-"]), a["+/-"]), p.on_tm["PTS"], p.on_op["PTS"],
                      num(a["ORtg"]), num(a["DRtg"]),
                      (signed(a["Net"], 1), tone(a["Net"]), a["Net"] or 0),
                      (signed(a["OffNet"], 1), tone(a["OffNet"]), a["OffNet"] or 0),
                      (signed(a["OnOff"], 1), tone(a["OnOff"]), a["OnOff"] or 0),
-                     (signed(a["OFF_+/-"]), tone(a["OFF_+/-"]), a["OFF_+/-"])])
+                     (signed(a["OFF_+/-"]), tone(a["OFF_+/-"]), a["OFF_+/-"])], games_of(v, p.key)))
     return table(heads, rows)
 
 
-def efficiency_section(game, side):
-    t, o = game.teams[side], game.teams[other(side)]
+def efficiency_section(v):
+    t, o = v.team, v.opp
     heads = [("Joueur", ""), ("eFG%", "Pourcentage effectif : (paniers + 0,5 × 3 pts) / tirs"),
              ("TS%", "Tir vrai : points / (2 × (tirs + 0,44 × LF tentés))"),
              ("PPT", "Points par tir tenté"),
@@ -149,23 +190,27 @@ def efficiency_section(game, side):
              ("CTR%", "Contres par tir de 2 points adverse sur le terrain"),
              ("PD/BP", "Passes décisives par balle perdue"),
              ("Assisté%", "Part de ses paniers marqués sur une passe décisive"),
-             ("GmSc", "Game Score (Hollinger)"), ("EVAL", "Évaluation FIBA")]
+             ("GmSc", "Game Score (Hollinger)" + (", par match" if v.games else "")),
+             ("EVAL", "Évaluation FIBA" + (", par match" if v.games else ""))]
     rows = []
     for p in ordered_players(t):
         a = player_advanced(p, t, o)
-        rows.append([player_name(p), pct(a["eFG%"]), pct(a["TS%"]), num(a["PPS"], 2),
+        if v.games and v.games.get(p.key):
+            a["GmSc"] /= v.games[p.key]
+            a["EFF"] = round(a["EFF"] / v.games[p.key], 1)
+        rows.append(with_games([player_name(p), pct(a["eFG%"]), pct(a["TS%"]), num(a["PPS"], 2),
                      pct(a["USG%"]), pct(a["AST%"]), pct(a["TOV%"]), pct(a["OREB%"]),
                      pct(a["DREB%"]), pct(a["STL%"]), pct(a["BLK%"]), num(a["AST/TO"], 2),
                      pct(a["AFG%"]), (num(a["GmSc"]), tone(a["GmSc"]), a["GmSc"]),
-                     (a["EFF"], tone(a["EFF"]), a["EFF"])])
+                     (a["EFF"], tone(a["EFF"]), a["EFF"])], games_of(v, p.key)))
     return table(heads, rows)
 
 
 SHOT_KINDS = [("LAYUP", "Lay-up"), ("DUNK", "Smash"), ("JUMPER", "Tir 2 pts"), ("3PT", "3 pts")]
 
 
-def shots_section(game, side):
-    t = game.teams[side]
+def shots_section(v):
+    t = v.team
     heads = [("Joueur", "")] + [(k, f"{k} réussis-tentés") for _, k in SHOT_KINDS] + [
         ("Raquette", "Points dans la raquette [Pnt]"), ("Contre-att.", "Points en contre-attaque [FB]"),
         ("2e chance", "Points après un rebond offensif, dans la même possession"),
@@ -178,15 +223,17 @@ def shots_section(game, side):
             a = b[key + "_A"]
             cells.append((made(b[key + "_M"], a) if a else "–", "", b[key + "_M"]))
         cells += [b["PNT"], b["FB"], b["2CH"], b["PTO"]]
-        rows.append(cells)
+        rows.append(with_games(cells, games_of(v, p.key)))
     others = sorted({k[:-2] for k in t.box if k.endswith("_A")} - {k for k, _ in SHOT_KINDS})
     note = (f'<p class="note">Autres types de tirs : {esc(", ".join(others))}.</p>' if others else "")
     return table(heads, rows) + note
 
 
-def lineups_section(game, side):
-    lus = [lu for lu in game.lineups[side].values() if lu.seconds >= 1]
+def lineups_section(v, limit=None):
+    lus = [lu for lu in v.lineups if lu.seconds >= 1]
     lus.sort(key=lambda lu: -lu.seconds)
+    hidden = len(lus) - limit if limit and len(lus) > limit else 0
+    lus = lus[:limit] if limit else lus
     heads = [("Quintette", ""), ("MIN", "Temps joué ensemble"),
              ("POSS", "Possessions offensives"), ("PTS +", "Points marqués"), ("PTS −", "Points accordés"),
              ("+/-", "Écart"), ("ORtg", "Points marqués par 100 possessions"),
@@ -198,22 +245,25 @@ def lineups_section(game, side):
         n = o - d if o is not None and d is not None else None
         names = ", ".join(f'<span class="num">{esc(p.num)}</span>&nbsp;{esc(p.name.split()[-1])}'
                           for p in lu.players)
-        rows.append([(names, "name lineup", lu.seconds), (mmss(lu.seconds), "", lu.seconds),
+        rows.append(with_games([(names, "name lineup", lu.seconds), (mmss(lu.seconds), "", lu.seconds),
                      f'{lu.on_tm["POSS"]}/{lu.on_op["POSS"]}', lu.on_tm["PTS"], lu.on_op["PTS"],
                      (signed(lu.plus_minus), tone(lu.plus_minus), lu.plus_minus),
-                     num(o), num(d), (signed(n, 1), tone(n), n or 0)])
+                     num(o), num(d), (signed(n, 1), tone(n), n or 0)],
+                               games_of(v, *(p.key for p in lu.players))))
+    more = f" {hidden} autres quintettes, moins utilisés, ne sont pas affichés." if hidden else ""
     return (table(heads, rows) +
             '<p class="note">POSS : possessions en attaque / en défense. Sur quelques possessions, '
-            'les ratings varient énormément : lire d\'abord le temps joué.</p>')
+            f'les ratings varient énormément : lire d\'abord le temps joué.{more}</p>')
 
 
-def assists_section(game, side):
-    t = game.teams[side]
-    items = sorted(((n, a, s) for (sd, a, s), n in game.assists.items() if sd == side), reverse=True)
+def assists_section(v):
+    t = v.team
+    items = sorted(v.assists, reverse=True)
     if not items:
         return '<p class="note">Aucune passe décisive.</p>'
-    rows = [[esc(t.players[a].name if a in t.players else a),
-             (esc(t.players[s].name if s in t.players else s), "name"), n] for n, a, s in items]
+    rows = [with_games([esc(t.players[a].name if a in t.players else a),
+                        (esc(t.players[s].name if s in t.players else s), "name"), n], games_of(v, a, s))
+            for n, a, s in items]
     return table([("Passeur", ""), ("Marqueur", ""), ("Paniers", "")], rows)
 
 
@@ -313,7 +363,7 @@ def periods_table(game):
 # ---------------------------------------------------------------------------
 # Graphiques (SVG)
 
-def flow_chart(game):
+def flow_chart(game, prefix=""):
     """Écart au score dans le temps (au-dessus : visiteurs devant)."""
     W, H, PAD_L, PAD_R, PAD_T, PAD_B = 900, 260, 34, 10, 14, 26
     total = game.game_seconds
@@ -331,8 +381,8 @@ def flow_chart(game):
     for t, m in pts[1:]:
         path.append(f"H{x(t):.1f}V{y(m):.1f}")
     line = "".join(path)
-    area_v = f'<path d="{line}V{y(0):.1f}H{x(0):.1f}Z" class="area-v" clip-path="url(#above)"/>'
-    area_h = f'<path d="{line}V{y(0):.1f}H{x(0):.1f}Z" class="area-h" clip-path="url(#below)"/>'
+    area_v = f'<path d="{line}V{y(0):.1f}H{x(0):.1f}Z" class="area-v" clip-path="url(#{prefix}above)"/>'
+    area_h = f'<path d="{line}V{y(0):.1f}H{x(0):.1f}Z" class="area-h" clip-path="url(#{prefix}below)"/>'
     grid = []
     for m in range(-top, top + 1, 5):
         grid.append(f'<line x1="{PAD_L}" x2="{W - PAD_R}" y1="{y(m):.1f}" y2="{y(m):.1f}" class="{"zero" if m == 0 else "grid"}"/>'
@@ -346,8 +396,8 @@ def flow_chart(game):
         t0 = t1
     v, h = game.teams[VIS].name, game.teams[HOME].name
     return f'''<svg viewBox="0 0 {W} {H}" class="chart" role="img" aria-label="Écart au score pendant le match">
-<defs><clipPath id="above"><rect x="0" y="0" width="{W}" height="{y(0):.1f}"/></clipPath>
-<clipPath id="below"><rect x="0" y="{y(0):.1f}" width="{W}" height="{H}"/></clipPath></defs>
+<defs><clipPath id="{prefix}above"><rect x="0" y="0" width="{W}" height="{y(0):.1f}"/></clipPath>
+<clipPath id="{prefix}below"><rect x="0" y="{y(0):.1f}" width="{W}" height="{H}"/></clipPath></defs>
 {"".join(grid)}{area_v}{area_h}<path d="{line}" class="flow"/>
 <text x="{PAD_L + 6}" y="{PAD_T + 12}" class="lbl v">{esc(v)} devant</text>
 <text x="{PAD_L + 6}" y="{H - PAD_B - 6}" class="lbl h">{esc(h)} devant</text></svg>'''
@@ -392,54 +442,59 @@ def rotation_chart(game, side):
 # ---------------------------------------------------------------------------
 # Validation
 
-def validation_section(game):
+def bullet_list(items, limit=8):
+    """Liste à puces ; au-delà de `limit`, le reste se déplie."""
+    items = [f"<li>{esc(x)}</li>" for x in items]
+    if len(items) <= limit:
+        return "<ul>" + "".join(items) + "</ul>"
+    return ("<ul>" + "".join(items[:limit]) + "</ul><details><summary>"
+            f"{len(items) - limit} de plus</summary><ul>" + "".join(items[limit:]) + "</ul></details>")
+
+
+def split_diffs(game):
     diffs = compare_box(game)
+    return [d for d in diffs if d[2] != "MIN"], [d for d in diffs if d[2] == "MIN"]
+
+
+def validation_section(game):
+    stats, mins = split_diffs(game)
     out = []
-    if not diffs:
+    if not stats:
         out.append('<p class="ok">✔ Le box score recalculé à partir du play-by-play est identique au box score '
-                   'officiel (toutes les colonnes, tous les joueurs, minutes à ±1).</p>')
+                   'officiel (toutes les colonnes, tous les joueurs).</p>')
     else:
-        out.append(f'<p class="warn">{len(diffs)} écart(s) entre le box score recalculé et le box score officiel. '
+        out.append(f'<p class="warn">{len(stats)} écart(s) entre le box score recalculé et le box score officiel. '
                    'Ils viennent de la feuille de match elle-même : le play-by-play et le box score officiel '
-                   'ne racontent pas tout à fait la même chose.</p>')
-        rows = [[esc(a), esc(b), esc(k), esc(off), esc(calc)] for a, b, k, off, calc in diffs]
+                   '(parfois corrigé après le match) ne racontent pas tout à fait la même chose.</p>')
+    if stats or mins:
+        rows = [[esc(a), esc(b), esc(k), esc(off), esc(calc)] for a, b, k, off, calc in stats + mins]
         out.append(table([("Équipe", ""), ("Joueur", ""), ("Stat", ""), ("Officiel", ""), ("Recalculé", "")],
                          rows, sortable=False))
+    if mins:
+        out.append(f'<p class="note">{len(mins)} écart(s) de minutes de plus d\'une minute : la feuille oublie '
+                   'des changements, que le rejeu corrige à partir des actions des joueurs (voir plus bas).</p>')
     if game.corrections:
         out.append("<h4>Changements avancés</h4><p class=\"note\">Le joueur agit juste avant son entrée notée "
-                   "(même arrêt de jeu) : ses changements sont appliqués au moment de l'action.</p><ul>"
-                   + "".join(f"<li>{esc(c)}</li>" for c in game.corrections) + "</ul>")
-    notes = game.warnings + game.score_mismatches
+                   "(même arrêt de jeu) : ses changements sont appliqués au moment de l'action.</p>"
+                   + bullet_list(game.corrections))
+    if game.repairs:
+        out.append("<h4>Quintettes corrigés</h4><p class=\"note\">Changement oublié par la feuille : un joueur "
+                   "agit sans être entré, ou une équipe n'a pas cinq joueurs. Le rejeu se fie à la suite de la "
+                   "période (qui agit, qui entre ou sort ensuite).</p>" + bullet_list(game.repairs))
+    if game.score_mismatches:
+        out.append("<h4>Colonne « score » du play-by-play</h4><p class=\"note\">Le score écrit diffère du score "
+                   "recalculé. Certaines feuilles comptent 2 points par lancer franc dans cette colonne ; "
+                   "le score recalculé est comparé au score officiel par période.</p>"
+                   + bullet_list(game.score_mismatches, 3))
     anomalies = [e for e in game.events if e.anomaly]
-    if notes:
-        out.append("<h4>Incohérences de la feuille de match</h4><p class=\"note\">Les stats restent créditées au "
-                   "joueur nommé ; le +/- et les minutes suivent les changements notés.</p><ul>"
-                   + "".join(f"<li>{esc(w)}</li>" for w in notes) + "</ul>")
+    if game.warnings:
+        out.append("<h4>Autres incohérences</h4>" + bullet_list(game.warnings))
     if anomalies:
         out.append("<h4>Possessions ambiguës</h4><p class=\"note\">Action d'une équipe qui n'avait pas le ballon "
-                   "selon la séquence notée ; une possession est ajoutée.</p><ul>"
-                   + "".join(f"<li>P{e.period} {fmt_clock(e.rem)} : {esc(e.text)}</li>" for e in anomalies)
-                   + "</ul>")
+                   "selon la séquence notée ; une possession est ajoutée.</p>"
+                   + bullet_list([f"P{e.period} {fmt_clock(e.rem)} : {e.text}" for e in anomalies]))
     return "".join(out)
 
-
-GLOSSARY = [
-    ("+/-", "Points marqués moins points accordés par l'équipe pendant que le joueur est sur le terrain."),
-    ("Possession", "Comptée à chaque changement de main du ballon : panier réussi, rebond défensif, balle "
-                   "perdue, dernier lancer franc réussi. Un rebond offensif prolonge la possession."),
-    ("ORtg / DRtg", "Points marqués / accordés par 100 possessions. Net = ORtg − DRtg."),
-    ("On-Off", "Net de l'équipe avec le joueur sur le terrain moins Net quand il est sur le banc."),
-    ("eFG%", "(Paniers + 0,5 × paniers à 3 pts) / tirs tentés : un panier à 3 vaut 1,5 panier à 2."),
-    ("TS%", "Points / (2 × (tirs + 0,44 × lancers francs tentés)) : efficacité qui compte aussi les LF."),
-    ("USG%", "(Tirs + 0,44 × LF + pertes) du joueur / les mêmes actions de l'équipe pendant qu'il joue."),
-    ("PD%", "Passes décisives / paniers des coéquipiers pendant qu'il joue."),
-    ("RO% / RD%", "Rebonds captés / rebonds disponibles pendant qu'il joue."),
-    ("INT% / CTR%", "Interceptions par possession adverse ; contres par tir de 2 points adverse."),
-    ("GmSc", "Game Score de Hollinger : PTS + 0,4 PR − 0,7 TT − 0,4 LF ratés + 0,7 RO + 0,3 RD + INT "
-             "+ 0,7 PD + 0,7 CTR − 0,4 F − BP."),
-    ("EVAL", "Évaluation FIBA : PTS + REB + PD + INT + CTR − tirs ratés − LF ratés − BP."),
-    ("Rythme", "Possessions par équipe ramenées à 40 minutes."),
-]
 
 CSS = """
 :root{--navy:#0B2545;--navy2:#13315C;--gold:#D4AF37;--goldInk:#8C6A12;--bg:#F4F6FA;--surface:#fff;
@@ -530,50 +585,66 @@ document.querySelectorAll('table.sortable').forEach(function(t){
 """
 
 
-def render(game):
+ROTATION_LEGEND = ('<div class="legend"><span><i style="background:#2E8A57"></i>présence gagnée</span>'
+                   '<span><i style="background:#B8503D"></i>présence perdue</span><span>'
+                   '<i style="background:#8D99AE"></i>égalité</span></div>')
+
+
+def game_header(game):
     v, h = game.teams[VIS], game.teams[HOME]
-    meta = game.meta
-    src = game.source
+    meta, src = game.meta, game.source
     src_html = (f'<a href="{esc(src)}">{esc(src)}</a>' if src.startswith("http") else esc(src.split("/")[-1]))
     crowd = f"· {meta['attendance']} spectateurs" if meta.get("attendance") else ""
+    return (f'<div class="score"><span class="t">{esc(v.name)}</span><span class="n">{game.score[VIS]}</span>'
+            f'<span class="t">{esc(h.name)}</span><span class="n">{game.score[HOME]}</span></div>'
+            f'<div class="meta">{esc(meta.get("date", ""))} · {esc(meta.get("site", ""))} {crowd} · source : '
+            f'{src_html}</div>')
+
+
+def game_body(game, prefix="", sides=SIDES):
+    """Le rapport d'un match, sans en-tête de page. `prefix` rend les ancres uniques dans une page."""
     nav = [("equipes", "Équipes"), ("ecart", "Écart au score")]
-    for side in SIDES:
-        nav.append((f"t{side}", game.teams[side].name))
-    nav += [("validation", "Validation"), ("glossaire", "Glossaire")]
-    body = [f"""<header><div class="wrap"><h1>Box score recalculé · stats avancées</h1>
-<div class="score"><span class="t">{esc(v.name)}</span><span class="n">{game.score[VIS]}</span>
-<span class="t">{esc(h.name)}</span><span class="n">{game.score[HOME]}</span></div>
-<div class="meta">{esc(meta.get("date", ""))} · {esc(meta.get("site", ""))}
-{crowd} · source : {src_html}</div>
-</div></header><main><nav>{"".join(f'<a href="#{a}">{esc(b)}</a>' for a, b in nav)}</nav>"""]
-    diffs = compare_box(game)
-    body.append(f'<p class="{"ok" if not diffs else "warn"}" style="margin-top:14px">'
-                + ("✔ Box score recalculé identique au box score officiel."
-                   if not diffs else f"{len(diffs)} écart(s) avec le box score officiel : voir Validation.")
-                + "</p>")
-    body.append(f'<h2 id="equipes">Équipes</h2>{periods_table(game)}{team_section(game)}')
-    body.append(f'<h2 id="ecart">Écart au score</h2>{flow_chart(game)}')
-    for side in SIDES:
-        t = game.teams[side]
-        body.append(f'<h2 id="t{side}">{esc(t.name)} <span class="muted">'
+    nav += [(f"t{side}", game.teams[side].name) for side in sides]
+    nav += [("validation", "Validation")] + ([("glossaire", "Annexe")] if not prefix else [])
+    links = "".join(f'<a href="#{prefix}{a}">{esc(b)}</a>' for a, b in nav)
+    body = [f"<nav>{links}</nav>"]
+    stats, mins = split_diffs(game)
+    msg = ("✔ Box score recalculé identique au box score officiel" if not stats
+           else f"{len(stats)} écart(s) de stats avec le box score officiel")
+    if game.repairs:
+        msg += f" · {len(game.repairs)} correction(s) de quintette"
+    body.append(f'<p class="{"ok" if not stats else "warn"}" style="margin-top:14px">{msg} '
+                f'(voir <a href="#{prefix}validation">Validation</a>).</p>')
+    body.append(f'<h2 id="{prefix}equipes">Équipes</h2>{periods_table(game)}{team_section(game)}')
+    body.append(f'<h2 id="{prefix}ecart">Écart au score</h2>{flow_chart(game, prefix)}')
+    for side in sides:
+        t, v = game.teams[side], game_view(game, side)
+        body.append(f'<h2 id="{prefix}t{side}">{esc(t.name)} <span class="muted">'
                     f'({"visiteurs" if side == VIS else "locaux"})</span></h2>')
-        body.append("<h3>Box score recalculé</h3>" + box_section(game, side))
-        body.append('<h3>Rotations</h3><div class="legend"><span><i style="background:#2E8A57"></i>présence gagnée'
-                    '</span><span><i style="background:#B8503D"></i>présence perdue</span><span>'
-                    '<i style="background:#8D99AE"></i>égalité</span></div>' + rotation_chart(game, side))
-        body.append("<h3>Impact sur le terrain</h3>" + impact_section(game, side))
-        body.append("<h3>Efficacité individuelle</h3>" + efficiency_section(game, side))
-        body.append("<h3>Tirs et sources de points</h3>" + shots_section(game, side))
-        body.append("<h3>Quintettes</h3>" + lineups_section(game, side))
-        body.append("<h3>Passes décisives : qui sert qui</h3>" + assists_section(game, side))
-    body.append('<h2 id="validation">Validation</h2>' + validation_section(game))
-    body.append('<h2 id="glossaire">Glossaire</h2><p class="note">Un seul match, c\'est peu : '
-                'les stats « sur le terrain » d\'un joueur qui a joué quelques minutes reposent sur une poignée '
-                'de possessions. Survoler un titre de colonne affiche sa définition ; cliquer trie le tableau.</p><dl>'
-                + "".join(f"<dt>{esc(a)}</dt><dd>{esc(b)}</dd>" for a, b in GLOSSARY) + "</dl>")
-    body.append(f"</main><footer>Généré le {date.today().isoformat()} par Stats_RSEQ (rseq_stats.py)</footer>")
-    title = f"{v.name} {game.score[VIS]} – {h.name} {game.score[HOME]}"
+        body.append("<h3>Box score recalculé</h3>" + box_section(v))
+        body.append("<h3>Rotations</h3>" + ROTATION_LEGEND + rotation_chart(game, side))
+        body.append("<h3>Impact sur le terrain</h3>" + impact_section(v))
+        body.append("<h3>Efficacité individuelle</h3>" + efficiency_section(v))
+        body.append("<h3>Tirs et sources de points</h3>" + shots_section(v))
+        body.append("<h3>Quintettes</h3>" + lineups_section(v))
+        body.append("<h3>Passes décisives : qui sert qui</h3>" + assists_section(v))
+    body.append(f'<h2 id="{prefix}validation">Validation</h2>' + validation_section(game))
+    return "".join(body)
+
+
+def page(title, header, body, script=""):
     return (f'<!doctype html><html lang="fr"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width,initial-scale=1">'
-            f"<title>{esc(title)}</title><style>{CSS}</style></head><body>"
-            + "".join(body) + f"<script>{SORT_JS}</script></body></html>")
+            f"<title>{esc(title)}</title><style>{CSS}{GUIDE_CSS}</style></head><body>"
+            f'<header><div class="wrap">{header}</div></header><main>{body}</main>'
+            f"<footer>Généré le {date.today().isoformat()} par Stats_RSEQ</footer>"
+            f"<script>{SORT_JS}{script}</script></body></html>")
+
+
+def render(game):
+    v, h = game.teams[VIS], game.teams[HOME]
+    header = "<h1>Box score recalculé · stats avancées</h1>" + game_header(game)
+    body = game_body(game) + annex_section(
+        "Un seul match, c'est peu : les stats « sur le terrain » d'un joueur qui a joué quelques minutes "
+        "reposent sur une poignée de possessions.")
+    return page(f"{v.name} {game.score[VIS]} – {h.name} {game.score[HOME]}", header, body)

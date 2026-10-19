@@ -11,17 +11,36 @@ Outil Python (bibliothèque standard seulement) qui lit une page de match de [rs
 - les **quatre facteurs** d'équipe, le rythme, l'origine des points (raquette, contre-attaque, deuxième chance, après une balle perdue, banc), changements de meneur, plus grande avance, plus longue série ;
 - **qui sert qui** (passeur → marqueur).
 
-Exemple : [`exemples/m001.html`](exemples/m001.html) (Montmorency 92 – Édouard-Montpetit 67, 2025-10-17), produit à partir de [`exemples/m001.htm`](exemples/m001.htm). Les mêmes données en JSON : [`exemples/m001.json`](exemples/m001.json).
+Deux rapports :
+
+- **un match** : `rseq_stats.py` ;
+- **la saison complète d'une équipe** : `rseq_saison.py`. Il cumule tous ses matchs ; une liste déroulante affiche la saison ou chaque match. Un bouton (facultatif) masque les joueurs de 2 matchs ou moins (`FEW_GAMES`), ainsi que les quintettes et les passes où ils apparaissent. Il calcule aussi les **repères de la ligue** (médiane et fourchette de chaque stat sur tous les matchs de la saison).
+
+Chaque rapport se termine par une **annexe** qui explique chaque stat : la question à laquelle elle répond, son calcul, comment la lire, ses pièges, et les repères de la ligue.
+
+Exemple de saison : [`exemples/saison-edouard-montpetit.html`](exemples/saison-edouard-montpetit.html) (Édouard-Montpetit 2025-26, 16 matchs).
+
+Exemple de match : [`exemples/m001.html`](exemples/m001.html) (Montmorency 92 – Édouard-Montpetit 67, 2025-10-17), produit à partir de [`exemples/m001.htm`](exemples/m001.htm). Les mêmes données en JSON : [`exemples/m001.json`](exemples/m001.json).
 
 ## Commandes
 
 ```bash
 python3 rseq_stats.py https://www.rseq-stats.ca/collegial/basketball-m-d1/stats/2526/m001.htm \
     -o rapport.html --json stats.json
+python3 rseq_saison.py "Edouard-Montpetit" -o saison.html --json saison.json
 python3 -m unittest                    # tests
 ```
 
 La source peut être une URL ou une page enregistrée (`.htm`). Sans `-o`, l'outil affiche seulement le résumé et les écarts.
+
+`rseq_saison.py` parcourt les pages m001, m002… de la saison jusqu'à cinq pages absentes de suite (la page d'index du site est fermée). Il les garde dans `.cache/` pour ne pas les retélécharger. Options : `--ligue` (défaut `collegial/basketball-m-d1`), `--saison` (défaut `2526`), `--cache`.
+
+### Saison : d'où viennent les chiffres
+
+- **Stats de base** (points, rebonds, passes, minutes, pourcentages) : box scores officiels cumulés. La ligue les corrige parfois après le match, sans corriger le play-by-play.
+- **Tout ce qui demande de savoir qui était sur le terrain** (+/-, on/off, ratings, quintettes, USG%, PD%, RO%…) : play-by-play rejoué, cumulé.
+- **Noms** : un même joueur s'écrit parfois différemment (« Dumont » et « Keysean Dumont », « Bukovesan » et « Bucovesan »). Les noms sont regroupés sans accents, et un nom de famille seul (ou à une lettre près) rejoint le nom complet. Les numéros ne servent pas : un même numéro passe d'un joueur à l'autre pendant la saison. Les regroupements sont listés dans le rapport.
+- **Fiabilité** de chaque match : écarts entre le play-by-play et le box officiel, quintettes corrigés.
 
 ## Comment le match est rejoué
 
@@ -58,8 +77,9 @@ Deuxième chance : points marqués après un rebond offensif, dans la même poss
 ## Validation et limites
 
 - **m001** : box score recalculé identique au box score officiel (toutes les colonnes, tous les joueurs ; minutes à ±1). La somme des +/- vaut 5 × l'écart final et les minutes totalisent 200 par équipe (tests).
-- Essayé aussi sur m003, m010 et m025 : quelques écarts (rebonds défensifs, passes, minutes) que le play-by-play ne contient pas. Ils viennent de la feuille officielle, corrigée après coup ou saisie avec des erreurs ; le rapport les liste dans **Validation**.
-- **Erreurs de la feuille de match.** Il arrive qu'un joueur soit crédité d'une action alors que les changements notés le placent sur le banc. Si son entrée est notée au plus 5 secondes plus tard (`SUB_TOLERANCE`), ses changements sont avancés au moment de l'action ; sinon, la stat lui reste créditée mais le +/- suit les changements notés, et l'incohérence est listée.
+- **Saison 2025-26 d'Édouard-Montpetit (16 matchs)** : score final et score par période recalculés identiques à l'officiel dans les 16 matchs. Écarts de stats individuelles avec le box officiel : 0 à 15 par match, sauf m074 (2 prolongations, 107 écarts). Le box officiel de m074 a visiblement été corrigé après le match : Ali Diouf a 20 points au box et 28 au play-by-play.
+- **Erreurs de la feuille de match.** Il arrive qu'un joueur soit crédité d'une action alors que les changements notés le placent sur le banc. Si son entrée est notée au plus 5 secondes plus tard (`SUB_TOLERANCE`), ses changements sont avancés au moment de l'action. Sinon, le quintette est **réparé** à partir de la suite de la période : un joueur qui agit ou sort bientôt est sur le terrain ; un joueur qui entre bientôt, ou ne fait plus rien, est sur le banc. Chaque équipe a donc toujours cinq joueurs (200 minutes par match). Chaque réparation est listée.
+- **Feuilles abîmées.** Certaines salles écrivent `GOOD! FT` au lieu de `GOOD! FT SHOT`, des rebonds ou des pertes sans nom (attribués à l'équipe, ou rebond mort entre deux lancers francs), ou des textes corrompus (`MISSEDDFTDby)Ali Diouf`) : ils sont réparés. Dans plusieurs feuilles, la colonne « score » compte 2 points par lancer franc : le score est donc recalculé à partir des actions, puis comparé au score officiel par période.
 - **Changements pendant la pause** non écrits : les partants de la période sont déduits (voir plus haut) ; un joueur sans action ni changement pendant toute une période ne peut pas être détecté.
 - **Un seul match, c'est peu.** Les ratings d'un joueur qui a joué quelques minutes, ou d'un quintette resté 30 secondes ensemble, reposent sur une poignée de possessions : lire d'abord le temps joué.
 - Certaines pages (ex. m002) n'ont pas de play-by-play : rien à recalculer.
