@@ -204,6 +204,8 @@ class Saison(unittest.TestCase):
         self.assertIn('<select id="vue">', page)
         self.assertIn('data-vue="m001"', page)
         self.assertIn("Annexe : comprendre et interpréter les stats", page)
+        self.assertIn('id="filtre-mj"', page)
+        self.assertIn('<tr data-mj="1">', page)        # un seul match : toutes les lignes filtrables
 
 
 if __name__ == "__main__":

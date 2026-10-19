@@ -14,7 +14,7 @@ Outil Python (bibliothèque standard seulement) qui lit une page de match de [rs
 Deux rapports :
 
 - **un match** : `rseq_stats.py` ;
-- **la saison complète d'une équipe** : `rseq_saison.py`. Il cumule tous ses matchs ; une liste déroulante affiche la saison ou chaque match. Il calcule aussi les **repères de la ligue** (médiane et fourchette de chaque stat sur tous les matchs de la saison).
+- **la saison complète d'une équipe** : `rseq_saison.py`. Il cumule tous ses matchs ; une liste déroulante affiche la saison ou chaque match. Un bouton (facultatif) masque les joueurs de 2 matchs ou moins (`FEW_GAMES`), ainsi que les quintettes et les passes où ils apparaissent. Il calcule aussi les **repères de la ligue** (médiane et fourchette de chaque stat sur tous les matchs de la saison).
 
 Chaque rapport se termine par une **annexe** qui explique chaque stat : la question à laquelle elle répond, son calcul, comment la lire, ses pièges, et les repères de la ligue.
 

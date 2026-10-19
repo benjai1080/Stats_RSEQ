@@ -27,7 +27,7 @@ import rseq_stats as rs
 from rseq_guide import annex_section
 from rseq_rapport import (View, assists_section, efficiency_section, esc, game_body, game_header,
                           impact_section, lineups_section, made, num, page, pct, shots_section, signed,
-                          split_diffs, table, tone)
+                          split_diffs, table, tone, with_games)
 
 BASE = "https://www.rseq-stats.ca/{ligue}/stats/{saison}/m{n:03d}.htm"
 SEASON_SIDE, OPP_SIDE = rs.HOME, rs.VIS     # côtés fictifs de l'équipe cumulée et de ses adversaires
@@ -443,12 +443,13 @@ def official_tables(season):
 
         def per(k):
             return (num(o[k] / gp), "", o[k] / gp)
-        rows_avg.append([name, gp, season.gs[key], per("MIN"), per("PTS"), per("REB"), per("OREB"),
-                         per("AST"), per("TOV"), per("STL"), per("BLK"), per("PF"),
-                         pct(sh["FG%"]), pct(sh["3P%"]), pct(sh["FT%"]), pct(sh["TS%"])])
-        rows_tot.append([name, gp, o["MIN"], o["PTS"], (made(o["FGM"], o["FGA"]), "", o["FGM"]),
-                         (made(o["3PM"], o["3PA"]), "", o["3PM"]), (made(o["FTM"], o["FTA"]), "", o["FTM"]),
-                         o["OREB"], o["DREB"], o["REB"], o["AST"], o["TOV"], o["STL"], o["BLK"], o["PF"]])
+        rows_avg.append(with_games([name, gp, season.gs[key], per("MIN"), per("PTS"), per("REB"), per("OREB"),
+                                    per("AST"), per("TOV"), per("STL"), per("BLK"), per("PF"),
+                                    pct(sh["FG%"]), pct(sh["3P%"]), pct(sh["FT%"]), pct(sh["TS%"])], gp))
+        rows_tot.append(with_games([name, gp, o["MIN"], o["PTS"], (made(o["FGM"], o["FGA"]), "", o["FGM"]),
+                                    (made(o["3PM"], o["3PA"]), "", o["3PM"]),
+                                    (made(o["FTM"], o["FTA"]), "", o["FTM"]), o["OREB"], o["DREB"], o["REB"],
+                                    o["AST"], o["TOV"], o["STL"], o["BLK"], o["PF"]], gp))
     heads_tot = [("Joueur", ""), ("MJ", ""), ("MIN", ""), ("PTS", ""), ("TIR", ""), ("3PTS", ""), ("LF", ""),
                  ("RO", ""), ("RD", ""), ("REB", ""), ("PD", ""), ("BP", ""), ("INT", ""), ("CTR", ""), ("F", "")]
     return ("<h3>Moyennes par match</h3>" + table(heads_avg, rows_avg)
@@ -495,9 +496,30 @@ background:#fff;color:var(--navy);max-width:100%}
 .rel{font-size:.78rem;padding:2px 8px;border-radius:10px;font-weight:600}
 .rel.ok{background:#E7F3EC;color:var(--keep)}.rel.bof{background:#FBF1E6;color:var(--goldInk)}
 .rel.bad{background:#F8E5E1;color:var(--drop)}
+.filtre{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin:12px 0 0}
+.filtre button{font:inherit;font-size:.88rem;padding:6px 12px;border-radius:16px;cursor:pointer;
+border:1px solid var(--navy2);background:var(--surface);color:var(--navy2)}
+.filtre button[aria-pressed="true"]{background:var(--navy2);color:#fff}
+.filtre span{font-size:.8rem}
 """
 
+FEW_GAMES = 2      # le bouton de filtre masque les joueurs qui ont joué ce nombre de matchs ou moins
+
 SEASON_JS = """
+(function(){
+  var btn=document.getElementById('filtre-mj');
+  function filtre(on){
+    var max=+btn.dataset.max;
+    document.querySelectorAll('section.vue[data-vue="saison"] tr[data-mj]').forEach(function(tr){
+      tr.hidden=on&&+tr.dataset.mj<=max;
+    });
+    btn.setAttribute('aria-pressed',on?'true':'false');
+    btn.textContent=(on?'Afficher':'Masquer')+' les joueurs de '+max+' matchs ou moins';
+    try{localStorage.setItem('filtre-mj',on?'1':'0')}catch(e){}
+  }
+  btn.addEventListener('click',function(){filtre(btn.getAttribute('aria-pressed')!=='true')});
+  try{if(localStorage.getItem('filtre-mj')==='1')filtre(true)}catch(e){}
+})();
 (function(){
   var sel=document.getElementById('vue');
   function show(v){
@@ -535,6 +557,11 @@ def render_season(season, saison_label, bench=None):
     nav = [("bilan", "Bilan"), ("resultats", "Résultats"), ("equipe", "Équipe"), ("joueurs", "Joueurs"),
            ("impact", "Impact"), ("quintettes", "Quintettes"), ("fiabilite", "Fiabilité"), ("annexe", "Annexe")]
     body.append("<nav>" + "".join(f'<a href="#saison-{x}">{esc(y)}</a>' for x, y in nav) + "</nav>")
+    few = sum(1 for k in season.team.players if season.gp[k] <= FEW_GAMES)
+    body.append(f'<div class="filtre"><button type="button" id="filtre-mj" aria-pressed="false" '
+                f'data-max="{FEW_GAMES}">Masquer les joueurs de {FEW_GAMES} matchs ou moins</button>'
+                f'<span class="muted" id="filtre-info">{few} joueur(s) concerné(s) ; le filtre touche aussi '
+                "les quintettes et les passes où ils apparaissent.</span></div>")
     cards = [(f"{w}-{l}", "victoires – défaites"),
              (f"{season.record(home)[0]}-{season.record(home)[1]}", "à domicile"),
              (f"{season.record(away)[0]}-{season.record(away)[1]}", "à l'extérieur"),

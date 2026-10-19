@@ -50,6 +50,26 @@ def tone(x):
     return "pos" if x > 0 else "neg"
 
 
+class Row(list):
+    """Ligne de tableau ; `mj` (matchs joués) sert au filtre des joueurs de la vue saison."""
+    mj = None
+
+
+def with_games(cells, mj):
+    if mj is None:
+        return cells
+    row = Row(cells)
+    row.mj = mj
+    return row
+
+
+def games_of(v, *keys):
+    """Matchs joués (le plus petit nombre si plusieurs joueurs) ; None hors de la vue saison."""
+    if not v.games:
+        return None
+    return min(v.games.get(k, 0) for k in keys)
+
+
 def table(headers, rows, cls="", sortable=True, foot=None):
     """headers : liste de (titre, infobulle) ; rows : listes de cellules (texte ou (texte, classe))."""
     out = [f'<div class="scroll"><table class="{cls}{" sortable" if sortable else ""}"><thead><tr>']
@@ -66,7 +86,8 @@ def table(headers, rows, cls="", sortable=True, foot=None):
                 cells.append(f'<td class="{k}"{sort}>{txt}</td>')
             else:
                 cells.append(f"<td>{c}</td>")
-        return "<tr>" + "".join(cells) + "</tr>"
+        mj = f' data-mj="{r.mj}"' if getattr(r, "mj", None) is not None else ""
+        return f"<tr{mj}>" + "".join(cells) + "</tr>"
 
     out.extend(row_html(r) for r in rows)
     out.append("</tbody>")
@@ -145,13 +166,13 @@ def impact_section(v):
     rows = []
     for p in ordered_players(t):
         a = player_advanced(p, t, o)
-        rows.append([player_name(p), (mmss(p.seconds), "", p.seconds), a["POSS"],
+        rows.append(with_games([player_name(p), (mmss(p.seconds), "", p.seconds), a["POSS"],
                      (signed(a["+/-"]), tone(a["+/-"]), a["+/-"]), p.on_tm["PTS"], p.on_op["PTS"],
                      num(a["ORtg"]), num(a["DRtg"]),
                      (signed(a["Net"], 1), tone(a["Net"]), a["Net"] or 0),
                      (signed(a["OffNet"], 1), tone(a["OffNet"]), a["OffNet"] or 0),
                      (signed(a["OnOff"], 1), tone(a["OnOff"]), a["OnOff"] or 0),
-                     (signed(a["OFF_+/-"]), tone(a["OFF_+/-"]), a["OFF_+/-"])])
+                     (signed(a["OFF_+/-"]), tone(a["OFF_+/-"]), a["OFF_+/-"])], games_of(v, p.key)))
     return table(heads, rows)
 
 
@@ -177,11 +198,11 @@ def efficiency_section(v):
         if v.games and v.games.get(p.key):
             a["GmSc"] /= v.games[p.key]
             a["EFF"] = round(a["EFF"] / v.games[p.key], 1)
-        rows.append([player_name(p), pct(a["eFG%"]), pct(a["TS%"]), num(a["PPS"], 2),
+        rows.append(with_games([player_name(p), pct(a["eFG%"]), pct(a["TS%"]), num(a["PPS"], 2),
                      pct(a["USG%"]), pct(a["AST%"]), pct(a["TOV%"]), pct(a["OREB%"]),
                      pct(a["DREB%"]), pct(a["STL%"]), pct(a["BLK%"]), num(a["AST/TO"], 2),
                      pct(a["AFG%"]), (num(a["GmSc"]), tone(a["GmSc"]), a["GmSc"]),
-                     (a["EFF"], tone(a["EFF"]), a["EFF"])])
+                     (a["EFF"], tone(a["EFF"]), a["EFF"])], games_of(v, p.key)))
     return table(heads, rows)
 
 
@@ -202,7 +223,7 @@ def shots_section(v):
             a = b[key + "_A"]
             cells.append((made(b[key + "_M"], a) if a else "–", "", b[key + "_M"]))
         cells += [b["PNT"], b["FB"], b["2CH"], b["PTO"]]
-        rows.append(cells)
+        rows.append(with_games(cells, games_of(v, p.key)))
     others = sorted({k[:-2] for k in t.box if k.endswith("_A")} - {k for k, _ in SHOT_KINDS})
     note = (f'<p class="note">Autres types de tirs : {esc(", ".join(others))}.</p>' if others else "")
     return table(heads, rows) + note
@@ -224,10 +245,11 @@ def lineups_section(v, limit=None):
         n = o - d if o is not None and d is not None else None
         names = ", ".join(f'<span class="num">{esc(p.num)}</span>&nbsp;{esc(p.name.split()[-1])}'
                           for p in lu.players)
-        rows.append([(names, "name lineup", lu.seconds), (mmss(lu.seconds), "", lu.seconds),
+        rows.append(with_games([(names, "name lineup", lu.seconds), (mmss(lu.seconds), "", lu.seconds),
                      f'{lu.on_tm["POSS"]}/{lu.on_op["POSS"]}', lu.on_tm["PTS"], lu.on_op["PTS"],
                      (signed(lu.plus_minus), tone(lu.plus_minus), lu.plus_minus),
-                     num(o), num(d), (signed(n, 1), tone(n), n or 0)])
+                     num(o), num(d), (signed(n, 1), tone(n), n or 0)],
+                               games_of(v, *(p.key for p in lu.players))))
     more = f" {hidden} autres quintettes, moins utilisés, ne sont pas affichés." if hidden else ""
     return (table(heads, rows) +
             '<p class="note">POSS : possessions en attaque / en défense. Sur quelques possessions, '
@@ -239,8 +261,9 @@ def assists_section(v):
     items = sorted(v.assists, reverse=True)
     if not items:
         return '<p class="note">Aucune passe décisive.</p>'
-    rows = [[esc(t.players[a].name if a in t.players else a),
-             (esc(t.players[s].name if s in t.players else s), "name"), n] for n, a, s in items]
+    rows = [with_games([esc(t.players[a].name if a in t.players else a),
+                        (esc(t.players[s].name if s in t.players else s), "name"), n], games_of(v, a, s))
+            for n, a, s in items]
     return table([("Passeur", ""), ("Marqueur", ""), ("Paniers", "")], rows)
 
 
