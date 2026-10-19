@@ -1,0 +1,17 @@
+# Tests de l'outil (Python, bibliothèque standard seulement).
+name: Tests
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Tests Python
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tests
+        run: python3 --version && python3 -m unittest -v
