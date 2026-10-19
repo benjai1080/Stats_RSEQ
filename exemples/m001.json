@@ -1,0 +1,3787 @@
+{
+ "source": "https://www.rseq-stats.ca/collegial/basketball-m-d1/stats/2526/m001.htm",
+ "meta": {
+  "date": "2025-10-17",
+  "site": "Edouard-Montpetit",
+  "attendance": 125
+ },
+ "teams": {
+  "V": {
+   "name": "Montmorency",
+   "box": {
+    "FGA": 72,
+    "2PA": 62,
+    "JUMPER_A": 53,
+    "FGM": 33,
+    "PTS": 92,
+    "JUMPER_M": 22,
+    "PNT": 54,
+    "AFGM": 10,
+    "POSS": 85,
+    "AST": 10,
+    "DREB": 31,
+    "REB": 53,
+    "LAYUP_A": 9,
+    "LAYUP_M": 7,
+    "FB": 8,
+    "FTA": 33,
+    "FTM": 22,
+    "STL": 17,
+    "OREB": 22,
+    "TOV": 21,
+    "3PA": 10,
+    "3PT_A": 10,
+    "3PM": 4,
+    "3PT_M": 4,
+    "2CH": 17,
+    "PF": 11,
+    "PTO": 19,
+    "BLK": 3,
+    "TF": 1
+   },
+   "periods": [
+    28,
+    12,
+    23,
+    29
+   ],
+   "advanced": {
+    "FG%": 0.4583333333333333,
+    "3P%": 0.4,
+    "FT%": 0.6666666666666666,
+    "eFG%": 0.4861111111111111,
+    "TS%": 0.5316689782709201,
+    "3PAr": 0.1388888888888889,
+    "FTr": 0.4583333333333333,
+    "POSS": 85,
+    "POSS_EST": 85.52,
+    "PACE": 85.0,
+    "ORtg": 108.23529411764706,
+    "DRtg": 78.82352941176471,
+    "Net": 29.411764705882348,
+    "TOV%": 0.24705882352941178,
+    "OREB%": 0.5116279069767442,
+    "DREB%": 0.7380952380952381,
+    "FTM/FGA": 0.3055555555555556,
+    "AST_RATIO": 0.30303030303030304,
+    "PPP": 1.0823529411764705,
+    "BENCH": 23,
+    "PNT": 54,
+    "FB": 8,
+    "2CH": 17,
+    "PTO": 19,
+    "TIMEOUTS": 2
+   },
+   "players": [
+    {
+     "num": "02",
+     "name": "Emrick Janvier",
+     "starter": true,
+     "seconds": 1792,
+     "box": {
+      "DREB": 2,
+      "REB": 2,
+      "FGA": 10,
+      "2PA": 9,
+      "JUMPER_A": 6,
+      "STL": 2,
+      "LAYUP_A": 3,
+      "FGM": 4,
+      "PTS": 10,
+      "LAYUP_M": 3,
+      "PNT": 8,
+      "FTA": 5,
+      "FTM": 2,
+      "PF": 2,
+      "JUMPER_M": 1,
+      "AFGM": 1,
+      "TOV": 1,
+      "3PA": 1,
+      "3PT_A": 1,
+      "AST": 1,
+      "FB": 2,
+      "TF": 1
+     },
+     "advanced": {
+      "FG%": 0.4,
+      "3P%": 0.0,
+      "FT%": 0.4,
+      "eFG%": 0.4,
+      "TS%": 0.4098360655737705,
+      "3PAr": 0.1,
+      "FTr": 0.5,
+      "+/-": 5,
+      "POSS": 64,
+      "OPP_POSS": 62,
+      "ORtg": 90.625,
+      "DRtg": 85.48387096774194,
+      "Net": 5.141129032258064,
+      "OffNet": 101.03519668737059,
+      "OnOff": -95.89406765511252,
+      "OFF_+/-": 20,
+      "USG%": 0.1751592356687898,
+      "AST%": 0.05555555555555555,
+      "TOV%": 0.07575757575757576,
+      "OREB%": 0.0,
+      "DREB%": 0.06896551724137931,
+      "REB%": 0.03278688524590164,
+      "STL%": 0.03225806451612903,
+      "BLK%": 0.0,
+      "AST/TO": 1.0,
+      "PPS": 1.0,
+      "AFG%": 0.25,
+      "GmSc": 4.9,
+      "EFF": 5
+     },
+     "stints": [
+      [
+       0,
+       188,
+       1
+      ],
+      [
+       260,
+       600,
+       7
+      ],
+      [
+       600,
+       630,
+       -3
+      ],
+      [
+       632,
+       1019,
+       -8
+      ],
+      [
+       1200,
+       1487,
+       -1
+      ],
+      [
+       1607,
+       1800,
+       3
+      ],
+      [
+       1800,
+       1983,
+       4
+      ],
+      [
+       2084,
+       2268,
+       2
+      ]
+     ]
+    },
+    {
+     "num": "03",
+     "name": "Elliot Chabanol",
+     "starter": true,
+     "seconds": 1799,
+     "box": {
+      "AST": 2,
+      "FGA": 11,
+      "2PA": 9,
+      "JUMPER_A": 9,
+      "FGM": 3,
+      "PTS": 9,
+      "JUMPER_M": 2,
+      "PNT": 2,
+      "DREB": 3,
+      "REB": 4,
+      "TOV": 3,
+      "STL": 4,
+      "3PA": 2,
+      "3PT_A": 2,
+      "PF": 1,
+      "FTA": 5,
+      "3PM": 1,
+      "3PT_M": 1,
+      "FTM": 2,
+      "PTO": 1,
+      "OREB": 1
+     },
+     "advanced": {
+      "FG%": 0.2727272727272727,
+      "3P%": 0.5,
+      "FT%": 0.4,
+      "eFG%": 0.3181818181818182,
+      "TS%": 0.34090909090909094,
+      "3PAr": 0.18181818181818182,
+      "FTr": 0.45454545454545453,
+      "+/-": 4,
+      "POSS": 62,
+      "OPP_POSS": 61,
+      "ORtg": 96.7741935483871,
+      "DRtg": 91.80327868852459,
+      "Net": 4.970914859862518,
+      "OffNet": 93.29710144927535,
+      "OnOff": -88.32618658941283,
+      "OFF_+/-": 21,
+      "USG%": 0.2085478887744593,
+      "AST%": 0.10526315789473684,
+      "TOV%": 0.1851851851851852,
+      "OREB%": 0.027777777777777776,
+      "DREB%": 0.09375,
+      "REB%": 0.058823529411764705,
+      "STL%": 0.06557377049180328,
+      "BLK%": 0.0,
+      "AST/TO": 0.6666666666666666,
+      "PPS": 0.8181818181818182,
+      "AFG%": 0.0,
+      "GmSc": 4.899999999999999,
+      "EFF": 5
+     },
+     "stints": [
+      [
+       0,
+       260,
+       1
+      ],
+      [
+       353,
+       502,
+       -2
+      ],
+      [
+       600,
+       632,
+       -3
+      ],
+      [
+       634,
+       1019,
+       -8
+      ],
+      [
+       1106,
+       1200,
+       2
+      ],
+      [
+       1200,
+       1455,
+       -1
+      ],
+      [
+       1487,
+       1800,
+       11
+      ],
+      [
+       1800,
+       1983,
+       4
+      ],
+      [
+       2140,
+       2268,
+       0
+      ]
+     ]
+    },
+    {
+     "num": "06",
+     "name": "Mathis Beauchamp",
+     "starter": true,
+     "seconds": 1675,
+     "box": {
+      "FGA": 18,
+      "2PA": 14,
+      "JUMPER_A": 12,
+      "FGM": 6,
+      "PTS": 16,
+      "JUMPER_M": 3,
+      "PNT": 10,
+      "AFGM": 3,
+      "LAYUP_A": 2,
+      "LAYUP_M": 2,
+      "FB": 2,
+      "FTA": 3,
+      "FTM": 3,
+      "OREB": 8,
+      "REB": 12,
+      "2CH": 6,
+      "3PA": 4,
+      "3PT_A": 4,
+      "DREB": 4,
+      "TOV": 6,
+      "STL": 1,
+      "BLK": 1,
+      "3PM": 1,
+      "3PT_M": 1,
+      "PF": 2,
+      "AST": 1,
+      "PTO": 2
+     },
+     "advanced": {
+      "FG%": 0.3333333333333333,
+      "3P%": 0.25,
+      "FT%": 1.0,
+      "eFG%": 0.3611111111111111,
+      "TS%": 0.41407867494824013,
+      "3PAr": 0.2222222222222222,
+      "FTr": 0.16666666666666666,
+      "+/-": 8,
+      "POSS": 60,
+      "OPP_POSS": 58,
+      "ORtg": 100.0,
+      "DRtg": 89.65517241379311,
+      "Net": 10.34482758620689,
+      "OffNet": 72.44444444444444,
+      "OnOff": -62.09961685823755,
+      "OFF_+/-": 17,
+      "USG%": 0.3302034428794992,
+      "AST%": 0.0625,
+      "TOV%": 0.23696682464454977,
+      "OREB%": 0.24242424242424243,
+      "DREB%": 0.12903225806451613,
+      "REB%": 0.1875,
+      "STL%": 0.017241379310344827,
+      "BLK%": 0.041666666666666664,
+      "AST/TO": 0.16666666666666666,
+      "PPS": 0.8888888888888888,
+      "AFG%": 0.5,
+      "GmSc": 8.199999999999996,
+      "EFF": 13
+     },
+     "stints": [
+      [
+       0,
+       260,
+       1
+      ],
+      [
+       353,
+       502,
+       -2
+      ],
+      [
+       592,
+       600,
+       2
+      ],
+      [
+       600,
+       931,
+       -9
+      ],
+      [
+       1019,
+       1200,
+       7
+      ],
+      [
+       1200,
+       1455,
+       -1
+      ],
+      [
+       1562,
+       1742,
+       6
+      ],
+      [
+       1800,
+       1983,
+       4
+      ],
+      [
+       2140,
+       2268,
+       0
+      ]
+     ]
+    },
+    {
+     "num": "21",
+     "name": "Mathis Yoka",
+     "starter": true,
+     "seconds": 1512,
+     "box": {
+      "AST": 1,
+      "FGA": 7,
+      "2PA": 7,
+      "JUMPER_A": 7,
+      "FGM": 5,
+      "PTS": 12,
+      "JUMPER_M": 5,
+      "PNT": 10,
+      "AFGM": 2,
+      "FTA": 4,
+      "FTM": 2,
+      "PF": 2,
+      "TOV": 1,
+      "OREB": 2,
+      "REB": 6,
+      "2CH": 1,
+      "DREB": 4,
+      "BLK": 1
+     },
+     "advanced": {
+      "FG%": 0.7142857142857143,
+      "3P%": null,
+      "FT%": 0.5,
+      "eFG%": 0.7142857142857143,
+      "TS%": 0.684931506849315,
+      "3PAr": 0.0,
+      "FTr": 0.5714285714285714,
+      "+/-": 8,
+      "POSS": 51,
+      "OPP_POSS": 51,
+      "ORtg": 101.96078431372548,
+      "DRtg": 86.27450980392157,
+      "Net": 15.686274509803908,
+      "OffNet": 50.0,
+      "OnOff": -34.31372549019609,
+      "OFF_+/-": 17,
+      "USG%": 0.1565105837075048,
+      "AST%": 0.07142857142857142,
+      "TOV%": 0.10245901639344263,
+      "OREB%": 0.07692307692307693,
+      "DREB%": 0.16,
+      "REB%": 0.11764705882352941,
+      "STL%": 0.0,
+      "BLK%": 0.05,
+      "AST/TO": 1.0,
+      "PPS": 1.7142857142857142,
+      "AFG%": 0.4,
+      "GmSc": 10.499999999999998,
+      "EFF": 15
+     },
+     "stints": [
+      [
+       0,
+       188,
+       1
+      ],
+      [
+       260,
+       401,
+       1
+      ],
+      [
+       502,
+       592,
+       4
+      ],
+      [
+       600,
+       632,
+       -3
+      ],
+      [
+       725,
+       931,
+       -5
+      ],
+      [
+       1019,
+       1089,
+       4
+      ],
+      [
+       1200,
+       1455,
+       -1
+      ],
+      [
+       1607,
+       1770,
+       1
+      ],
+      [
+       1800,
+       1983,
+       4
+      ],
+      [
+       2084,
+       2268,
+       2
+      ]
+     ]
+    },
+    {
+     "num": "33",
+     "name": "Eddy Mael Polom",
+     "starter": true,
+     "seconds": 1484,
+     "box": {
+      "AST": 1,
+      "FGA": 12,
+      "2PA": 12,
+      "JUMPER_A": 11,
+      "OREB": 4,
+      "REB": 12,
+      "DREB": 8,
+      "TOV": 4,
+      "FGM": 9,
+      "PTS": 22,
+      "JUMPER_M": 8,
+      "PNT": 18,
+      "AFGM": 2,
+      "FTA": 5,
+      "FTM": 4,
+      "STL": 3,
+      "2CH": 8,
+      "PTO": 7,
+      "PF": 1,
+      "LAYUP_A": 1,
+      "LAYUP_M": 1,
+      "FB": 2
+     },
+     "advanced": {
+      "FG%": 0.75,
+      "3P%": null,
+      "FT%": 0.8,
+      "eFG%": 0.75,
+      "TS%": 0.7746478873239437,
+      "3PAr": 0.0,
+      "FTr": 0.4166666666666667,
+      "+/-": 20,
+      "POSS": 57,
+      "OPP_POSS": 55,
+      "ORtg": 112.28070175438596,
+      "DRtg": 80.0,
+      "Net": 32.28070175438596,
+      "OffNet": 23.33333333333333,
+      "OnOff": 8.94736842105263,
+      "OFF_+/-": 5,
+      "USG%": 0.2631578947368421,
+      "AST%": 0.058823529411764705,
+      "TOV%": 0.21978021978021978,
+      "OREB%": 0.16,
+      "DREB%": 0.2962962962962963,
+      "REB%": 0.23076923076923078,
+      "STL%": 0.05454545454545454,
+      "BLK%": 0.0,
+      "AST/TO": 0.25,
+      "PPS": 1.8333333333333333,
+      "AFG%": 0.2222222222222222,
+      "GmSc": 21.300000000000004,
+      "EFF": 30
+     },
+     "stints": [
+      [
+       0,
+       260,
+       1
+      ],
+      [
+       401,
+       600,
+       6
+      ],
+      [
+       600,
+       725,
+       -4
+      ],
+      [
+       847,
+       1019,
+       -2
+      ],
+      [
+       1089,
+       1200,
+       3
+      ],
+      [
+       1200,
+       1347,
+       -1
+      ],
+      [
+       1455,
+       1607,
+       8
+      ],
+      [
+       1742,
+       1746,
+       0
+      ],
+      [
+       1770,
+       1800,
+       2
+      ],
+      [
+       1800,
+       2084,
+       7
+      ]
+     ]
+    },
+    {
+     "num": "00",
+     "name": "Nicolas Guay-Paquet",
+     "starter": false,
+     "seconds": 396,
+     "box": {
+      "STL": 1,
+      "TOV": 1,
+      "PF": 1,
+      "OREB": 1,
+      "REB": 1
+     },
+     "advanced": {
+      "FG%": null,
+      "3P%": null,
+      "FT%": null,
+      "eFG%": null,
+      "TS%": null,
+      "3PAr": null,
+      "FTr": null,
+      "+/-": 10,
+      "POSS": 12,
+      "OPP_POSS": 13,
+      "ORtg": 158.33333333333334,
+      "DRtg": 69.23076923076923,
+      "Net": 89.10256410256412,
+      "OffNet": 19.444444444444443,
+      "OnOff": 69.65811965811967,
+      "OFF_+/-": 15,
+      "USG%": 0.05896226415094339,
+      "AST%": 0.0,
+      "TOV%": 1.0,
+      "OREB%": 0.25,
+      "DREB%": 0.0,
+      "REB%": 0.1,
+      "STL%": 0.07692307692307693,
+      "BLK%": 0.0,
+      "AST/TO": 0.0,
+      "PPS": null,
+      "AFG%": null,
+      "GmSc": 0.2999999999999998,
+      "EFF": 1
+     },
+     "stints": [
+      [
+       1455,
+       1562,
+       3
+      ],
+      [
+       1983,
+       2140,
+       5
+      ],
+      [
+       2268,
+       2400,
+       2
+      ]
+     ]
+    },
+    {
+     "num": "01",
+     "name": "Mor Malick Ndiaye",
+     "starter": false,
+     "seconds": 1283,
+     "box": {
+      "FGA": 9,
+      "3PA": 2,
+      "3PT_A": 2,
+      "FGM": 6,
+      "3PM": 2,
+      "PTS": 14,
+      "3PT_M": 2,
+      "AFGM": 2,
+      "2PA": 7,
+      "LAYUP_A": 2,
+      "PTO": 7,
+      "DREB": 1,
+      "REB": 2,
+      "TOV": 2,
+      "PF": 1,
+      "OREB": 1,
+      "JUMPER_A": 5,
+      "JUMPER_M": 3,
+      "PNT": 6,
+      "2CH": 2,
+      "STL": 2,
+      "LAYUP_M": 1,
+      "FB": 2
+     },
+     "advanced": {
+      "FG%": 0.6666666666666666,
+      "3P%": 1.0,
+      "FT%": null,
+      "eFG%": 0.7777777777777778,
+      "TS%": 0.7777777777777778,
+      "3PAr": 0.2222222222222222,
+      "FTr": 0.0,
+      "+/-": 16,
+      "POSS": 47,
+      "OPP_POSS": 48,
+      "ORtg": 110.63829787234043,
+      "DRtg": 75.0,
+      "Net": 35.63829787234043,
+      "OffNet": 21.479374110953046,
+      "OnOff": 14.158923761387385,
+      "OFF_+/-": 9,
+      "USG%": 0.18809849521203828,
+      "AST%": 0.0,
+      "TOV%": 0.18181818181818182,
+      "OREB%": 0.045454545454545456,
+      "DREB%": 0.045454545454545456,
+      "REB%": 0.045454545454545456,
+      "STL%": 0.041666666666666664,
+      "BLK%": 0.0,
+      "AST/TO": 0.0,
+      "PPS": 1.5555555555555556,
+      "AFG%": 0.3333333333333333,
+      "GmSc": 10.699999999999998,
+      "EFF": 13
+     },
+     "stints": [
+      [
+       188,
+       353,
+       3
+      ],
+      [
+       502,
+       600,
+       6
+      ],
+      [
+       630,
+       847,
+       -6
+      ],
+      [
+       931,
+       1200,
+       5
+      ],
+      [
+       1347,
+       1455,
+       0
+      ],
+      [
+       1607,
+       1800,
+       3
+      ],
+      [
+       1983,
+       2084,
+       3
+      ],
+      [
+       2268,
+       2400,
+       2
+      ]
+     ]
+    },
+    {
+     "num": "05",
+     "name": "Naythan Sincere",
+     "starter": false,
+     "seconds": 851,
+     "box": {
+      "STL": 2,
+      "FGA": 3,
+      "2PA": 3,
+      "LAYUP_A": 1,
+      "PF": 1,
+      "AST": 3,
+      "TOV": 3,
+      "DREB": 3,
+      "REB": 5,
+      "FTA": 4,
+      "FTM": 4,
+      "PTS": 4,
+      "JUMPER_A": 2,
+      "OREB": 2
+     },
+     "advanced": {
+      "FG%": 0.0,
+      "3P%": null,
+      "FT%": 1.0,
+      "eFG%": 0.0,
+      "TS%": 0.42016806722689076,
+      "3PAr": 0.0,
+      "FTr": 1.3333333333333333,
+      "+/-": 31,
+      "POSS": 32,
+      "OPP_POSS": 33,
+      "ORtg": 140.625,
+      "DRtg": 42.42424242424242,
+      "Net": 98.20075757575758,
+      "OffNet": -13.243831640058048,
+      "OnOff": 111.44458921581563,
+      "OFF_+/-": -6,
+      "USG%": 0.1771689497716895,
+      "AST%": 0.21428571428571427,
+      "TOV%": 0.3865979381443299,
+      "OREB%": 0.13333333333333333,
+      "DREB%": 0.1875,
+      "REB%": 0.16129032258064516,
+      "STL%": 0.06060606060606061,
+      "BLK%": 0.0,
+      "AST/TO": 1.0,
+      "PPS": 1.3333333333333333,
+      "AFG%": null,
+      "GmSc": 4.9,
+      "EFF": 8
+     },
+     "stints": [
+      [
+       260,
+       353,
+       3
+      ],
+      [
+       502,
+       600,
+       6
+      ],
+      [
+       632,
+       634,
+       0
+      ],
+      [
+       1019,
+       1106,
+       5
+      ],
+      [
+       1455,
+       1607,
+       8
+      ],
+      [
+       1746,
+       1800,
+       2
+      ],
+      [
+       1983,
+       2216,
+       5
+      ],
+      [
+       2268,
+       2400,
+       2
+      ]
+     ]
+    },
+    {
+     "num": "13",
+     "name": "Joel Shakamay",
+     "starter": false,
+     "seconds": 1024,
+     "box": {
+      "AST": 1,
+      "DREB": 5,
+      "REB": 6,
+      "FTA": 4,
+      "FTM": 3,
+      "PTS": 3,
+      "FGA": 2,
+      "3PA": 1,
+      "3PT_A": 1,
+      "STL": 1,
+      "OREB": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "BLK": 1
+     },
+     "advanced": {
+      "FG%": 0.0,
+      "3P%": 0.0,
+      "FT%": 0.75,
+      "eFG%": 0.0,
+      "TS%": 0.398936170212766,
+      "3PAr": 0.5,
+      "FTr": 2.0,
+      "+/-": 21,
+      "POSS": 35,
+      "OPP_POSS": 38,
+      "ORtg": 125.71428571428571,
+      "DRtg": 60.526315789473685,
+      "Net": 65.18796992481202,
+      "OffNet": 2.38297872340425,
+      "OnOff": 62.80499120140777,
+      "OFF_+/-": 4,
+      "USG%": 0.07686017988552739,
+      "AST%": 0.07142857142857142,
+      "TOV%": 0.0,
+      "OREB%": 0.05263157894736842,
+      "DREB%": 0.23809523809523808,
+      "REB%": 0.15,
+      "STL%": 0.02631578947368421,
+      "BLK%": 0.06666666666666667,
+      "AST/TO": null,
+      "PPS": 1.5,
+      "AFG%": null,
+      "GmSc": 5.800000000000001,
+      "EFF": 9
+     },
+     "stints": [
+      [
+       188,
+       502,
+       1
+      ],
+      [
+       931,
+       1200,
+       5
+      ],
+      [
+       1455,
+       1607,
+       8
+      ],
+      [
+       1983,
+       2140,
+       5
+      ],
+      [
+       2268,
+       2400,
+       2
+      ]
+     ]
+    },
+    {
+     "num": "14",
+     "name": "Mohamed E. Takrouni",
+     "starter": false,
+     "seconds": 184,
+     "box": {
+      "STL": 1,
+      "FTA": 3,
+      "FTM": 2,
+      "PTS": 2,
+      "PTO": 2
+     },
+     "advanced": {
+      "FG%": null,
+      "3P%": null,
+      "FT%": 0.6666666666666666,
+      "eFG%": null,
+      "TS%": 0.7575757575757576,
+      "3PAr": null,
+      "FTr": null,
+      "+/-": 2,
+      "POSS": 5,
+      "OPP_POSS": 6,
+      "ORtg": 120.0,
+      "DRtg": 66.66666666666667,
+      "Net": 53.33333333333333,
+      "OffNet": 27.75316455696202,
+      "OnOff": 25.58016877637131,
+      "OFF_+/-": 23,
+      "USG%": 0.1609756097560976,
+      "AST%": 0.0,
+      "TOV%": 0.0,
+      "OREB%": 0.0,
+      "DREB%": 0.0,
+      "REB%": 0.0,
+      "STL%": 0.16666666666666666,
+      "BLK%": 0.0,
+      "AST/TO": null,
+      "PPS": null,
+      "AFG%": null,
+      "GmSc": 2.6,
+      "EFF": 2
+     },
+     "stints": [
+      [
+       2216,
+       2400,
+       2
+      ]
+     ]
+    }
+   ],
+   "lineups": [
+    {
+     "players": [
+      "Emrick Janvier",
+      "Elliot Chabanol",
+      "Mathis Beauchamp",
+      "Mathis Yoka",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 632,
+     "for": {
+      "FGA": 19,
+      "2PA": 18,
+      "JUMPER_A": 16,
+      "FGM": 11,
+      "PTS": 24,
+      "JUMPER_M": 8,
+      "PNT": 20,
+      "AFGM": 5,
+      "POSS": 22,
+      "AST": 5,
+      "DREB": 8,
+      "REB": 11,
+      "LAYUP_A": 2,
+      "LAYUP_M": 2,
+      "FB": 4,
+      "FTA": 3,
+      "FTM": 1,
+      "STL": 2,
+      "OREB": 3,
+      "TOV": 5,
+      "3PA": 1,
+      "3PT_A": 1,
+      "3PM": 1,
+      "3PT_M": 1,
+      "PF": 1
+     },
+     "against": {
+      "POSS": 20,
+      "FGA": 19,
+      "2PA": 10,
+      "JUMPER_A": 6,
+      "PF": 4,
+      "3PA": 9,
+      "3PT_A": 9,
+      "FGM": 9,
+      "3PM": 5,
+      "PTS": 23,
+      "3PT_M": 5,
+      "AFGM": 8,
+      "AST": 8,
+      "DREB": 6,
+      "REB": 8,
+      "OREB": 2,
+      "TOV": 2,
+      "BLK": 1,
+      "LAYUP_A": 3,
+      "LAYUP_M": 2,
+      "FB": 4,
+      "PNT": 6,
+      "STL": 2,
+      "PTO": 3,
+      "JUMPER_M": 1,
+      "2CH": 2,
+      "DUNK_A": 1,
+      "DUNK_M": 1
+     },
+     "+/-": 1
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Elliot Chabanol",
+      "Mathis Beauchamp",
+      "Joel Shakamay",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 166,
+     "for": {
+      "DREB": 4,
+      "REB": 6,
+      "POSS": 6,
+      "TOV": 1,
+      "FGA": 7,
+      "3PA": 2,
+      "3PT_A": 2,
+      "FGM": 3,
+      "3PM": 1,
+      "PTS": 7,
+      "3PT_M": 1,
+      "AFGM": 1,
+      "AST": 1,
+      "2PA": 5,
+      "LAYUP_A": 2,
+      "OREB": 2,
+      "LAYUP_M": 1,
+      "PNT": 4,
+      "2CH": 4,
+      "JUMPER_A": 3,
+      "JUMPER_M": 1
+     },
+     "against": {
+      "POSS": 7,
+      "FGA": 6,
+      "2PA": 4,
+      "JUMPER_A": 3,
+      "STL": 1,
+      "LAYUP_A": 1,
+      "FGM": 2,
+      "PTS": 5,
+      "LAYUP_M": 1,
+      "FB": 2,
+      "PNT": 2,
+      "PTO": 2,
+      "3PA": 2,
+      "3PT_A": 2,
+      "3PM": 1,
+      "3PT_M": 1,
+      "AFGM": 1,
+      "AST": 1,
+      "DREB": 2,
+      "REB": 2
+     },
+     "+/-": 2
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Emrick Janvier",
+      "Naythan Sincere",
+      "Joel Shakamay",
+      "Mathis Yoka"
+     ],
+     "seconds": 93,
+     "for": {
+      "POSS": 4,
+      "STL": 3,
+      "FGA": 2,
+      "2PA": 1,
+      "LAYUP_A": 1,
+      "PF": 1,
+      "3PA": 1,
+      "3PT_A": 1,
+      "FGM": 1,
+      "3PM": 1,
+      "PTS": 3,
+      "3PT_M": 1,
+      "PTO": 3,
+      "AFGM": 1,
+      "AST": 1,
+      "DREB": 1,
+      "REB": 1,
+      "TOV": 1
+     },
+     "against": {
+      "POSS": 4,
+      "TOV": 3,
+      "DREB": 1,
+      "REB": 2,
+      "FGA": 2,
+      "3PA": 1,
+      "3PT_A": 1,
+      "STL": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "OREB": 1
+     },
+     "+/-": 3
+    },
+    {
+     "players": [
+      "Emrick Janvier",
+      "Elliot Chabanol",
+      "Mathis Beauchamp",
+      "Joel Shakamay",
+      "Mathis Yoka"
+     ],
+     "seconds": 48,
+     "for": {
+      "FGA": 2,
+      "3PA": 1,
+      "3PT_A": 1,
+      "OREB": 1,
+      "REB": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "POSS": 1,
+      "FTA": 2,
+      "FTM": 1,
+      "PTS": 1
+     },
+     "against": {
+      "BLK": 1,
+      "DREB": 1,
+      "REB": 1,
+      "POSS": 1,
+      "FGA": 1,
+      "3PA": 1,
+      "3PT_A": 1,
+      "FGM": 1,
+      "3PM": 1,
+      "PTS": 3,
+      "3PT_M": 1,
+      "AFGM": 1,
+      "AST": 1,
+      "PF": 1
+     },
+     "+/-": -2
+    },
+    {
+     "players": [
+      "Emrick Janvier",
+      "Elliot Chabanol",
+      "Mathis Beauchamp",
+      "Joel Shakamay",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 101,
+     "for": {
+      "DREB": 2,
+      "REB": 3,
+      "POSS": 4,
+      "FGA": 3,
+      "2PA": 3,
+      "JUMPER_A": 3,
+      "FTA": 2,
+      "FTM": 2,
+      "PTS": 2,
+      "STL": 1,
+      "OREB": 1,
+      "TOV": 1
+     },
+     "against": {
+      "POSS": 4,
+      "FGA": 4,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "DREB": 2,
+      "REB": 3,
+      "3PA": 2,
+      "3PT_A": 2,
+      "PF": 1,
+      "OREB": 1,
+      "TOV": 1,
+      "AST": 1,
+      "FGM": 1,
+      "PTS": 2,
+      "JUMPER_M": 1,
+      "AFGM": 1
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Emrick Janvier",
+      "Naythan Sincere",
+      "Mathis Yoka",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 90,
+     "for": {
+      "POSS": 4,
+      "FGA": 3,
+      "2PA": 2,
+      "LAYUP_A": 1,
+      "FGM": 2,
+      "PTS": 6,
+      "LAYUP_M": 1,
+      "PNT": 4,
+      "FTA": 2,
+      "FTM": 2,
+      "DREB": 1,
+      "REB": 1,
+      "JUMPER_A": 1,
+      "JUMPER_M": 1,
+      "AFGM": 1,
+      "AST": 1,
+      "3PA": 1,
+      "3PT_A": 1,
+      "PF": 1,
+      "TOV": 1
+     },
+     "against": {
+      "POSS": 4,
+      "FGA": 2,
+      "2PA": 1,
+      "LAYUP_A": 1,
+      "FGM": 1,
+      "PTS": 2,
+      "LAYUP_M": 1,
+      "PNT": 2,
+      "PTO": 2,
+      "PF": 2,
+      "3PA": 1,
+      "3PT_A": 1,
+      "DREB": 1,
+      "REB": 1
+     },
+     "+/-": 4
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Emrick Janvier",
+      "Naythan Sincere",
+      "Mathis Beauchamp",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 10,
+     "for": {
+      "POSS": 2,
+      "STL": 1,
+      "FGA": 2,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "OREB": 1,
+      "REB": 1,
+      "FGM": 1,
+      "PTS": 2,
+      "JUMPER_M": 1,
+      "PNT": 2,
+      "2CH": 2,
+      "PTO": 2
+     },
+     "against": {
+      "POSS": 1,
+      "TOV": 1,
+      "BLK": 1,
+      "PF": 1
+     },
+     "+/-": 2
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Elliot Chabanol",
+      "Mathis Beauchamp",
+      "Mathis Yoka",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 2,
+     "for": {},
+     "against": {
+      "POSS": 1,
+      "TOV": 1
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Emrick Janvier",
+      "Elliot Chabanol",
+      "Mathis Beauchamp",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 91,
+     "for": {
+      "FGA": 3,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "PF": 2,
+      "POSS": 4,
+      "TOV": 2,
+      "DREB": 2,
+      "REB": 2,
+      "FGM": 1,
+      "PTS": 2,
+      "JUMPER_M": 1,
+      "PNT": 2,
+      "AFGM": 1,
+      "AST": 1,
+      "STL": 1,
+      "BLK": 1,
+      "3PA": 1,
+      "3PT_A": 1
+     },
+     "against": {
+      "DREB": 2,
+      "REB": 2,
+      "POSS": 4,
+      "FTA": 4,
+      "FTM": 3,
+      "PTS": 3,
+      "PTO": 1,
+      "TOV": 1,
+      "STL": 1,
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1
+     },
+     "+/-": -1
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Emrick Janvier",
+      "Elliot Chabanol",
+      "Mathis Beauchamp",
+      "Mathis Yoka"
+     ],
+     "seconds": 365,
+     "for": {
+      "POSS": 11,
+      "TOV": 2,
+      "PF": 2,
+      "DREB": 1,
+      "REB": 4,
+      "FGA": 8,
+      "2PA": 6,
+      "JUMPER_A": 5,
+      "OREB": 3,
+      "FTA": 6,
+      "FTM": 2,
+      "PTS": 9,
+      "2CH": 3,
+      "FGM": 3,
+      "JUMPER_M": 1,
+      "PNT": 4,
+      "3PA": 2,
+      "3PT_A": 2,
+      "3PM": 1,
+      "3PT_M": 1,
+      "PTO": 3,
+      "STL": 2,
+      "LAYUP_A": 1,
+      "LAYUP_M": 1,
+      "FB": 2
+     },
+     "against": {
+      "POSS": 10,
+      "FGA": 8,
+      "2PA": 4,
+      "JUMPER_A": 4,
+      "FGM": 4,
+      "PTS": 13,
+      "JUMPER_M": 2,
+      "PNT": 4,
+      "AFGM": 4,
+      "AST": 4,
+      "STL": 1,
+      "OREB": 5,
+      "REB": 7,
+      "FTA": 4,
+      "FTM": 3,
+      "2CH": 4,
+      "PTO": 1,
+      "PF": 4,
+      "3PA": 4,
+      "3PT_A": 4,
+      "3PM": 2,
+      "3PT_M": 2,
+      "TOV": 4,
+      "BLK": 1,
+      "DREB": 2
+     },
+     "+/-": -4
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Emrick Janvier",
+      "Elliot Chabanol",
+      "Joel Shakamay",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 88,
+     "for": {
+      "DREB": 1,
+      "REB": 2,
+      "POSS": 3,
+      "FGA": 3,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "OREB": 1,
+      "FGM": 1,
+      "PTS": 2,
+      "JUMPER_M": 1,
+      "PNT": 2,
+      "2CH": 2,
+      "3PA": 1,
+      "3PT_A": 1
+     },
+     "against": {
+      "POSS": 3,
+      "FGA": 3,
+      "2PA": 3,
+      "JUMPER_A": 2,
+      "FGM": 2,
+      "PTS": 4,
+      "JUMPER_M": 1,
+      "PNT": 4,
+      "AFGM": 1,
+      "AST": 1,
+      "DREB": 1,
+      "REB": 1,
+      "LAYUP_A": 1,
+      "LAYUP_M": 1
+     },
+     "+/-": -2
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Naythan Sincere",
+      "Mathis Beauchamp",
+      "Joel Shakamay",
+      "Mathis Yoka"
+     ],
+     "seconds": 70,
+     "for": {
+      "TOV": 1,
+      "DREB": 2,
+      "REB": 4,
+      "POSS": 2,
+      "FTA": 2,
+      "FTM": 2,
+      "PTS": 4,
+      "FGA": 3,
+      "2PA": 3,
+      "JUMPER_A": 3,
+      "OREB": 2,
+      "FGM": 1,
+      "JUMPER_M": 1,
+      "PNT": 2,
+      "2CH": 2,
+      "PF": 1
+     },
+     "against": {
+      "POSS": 3,
+      "FGA": 2,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "PF": 1,
+      "FTA": 2
+     },
+     "+/-": 4
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Naythan Sincere",
+      "Mathis Beauchamp",
+      "Joel Shakamay",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 17,
+     "for": {
+      "DREB": 1,
+      "REB": 1,
+      "POSS": 1,
+      "FTA": 2,
+      "FTM": 1,
+      "PTS": 1
+     },
+     "against": {
+      "PF": 1
+     },
+     "+/-": 1
+    },
+    {
+     "players": [
+      "Nicolas Guay-Paquet",
+      "Emrick Janvier",
+      "Naythan Sincere",
+      "Joel Shakamay",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 32,
+     "for": {
+      "PF": 2,
+      "TOV": 2,
+      "POSS": 1,
+      "STL": 1,
+      "TF": 1
+     },
+     "against": {
+      "POSS": 2,
+      "TOV": 1,
+      "FTA": 1
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Nicolas Guay-Paquet",
+      "Elliot Chabanol",
+      "Naythan Sincere",
+      "Joel Shakamay",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 75,
+     "for": {
+      "POSS": 2,
+      "STL": 1,
+      "FTA": 4,
+      "FTM": 3,
+      "PTS": 3,
+      "PTO": 3,
+      "OREB": 2,
+      "REB": 3,
+      "2CH": 2,
+      "PF": 1,
+      "DREB": 1,
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1
+     },
+     "against": {
+      "TOV": 1,
+      "PF": 2,
+      "POSS": 1,
+      "FGA": 2,
+      "3PA": 2,
+      "3PT_A": 2,
+      "OREB": 1,
+      "REB": 1
+     },
+     "+/-": 3
+    },
+    {
+     "players": [
+      "Elliot Chabanol",
+      "Naythan Sincere",
+      "Mathis Beauchamp",
+      "Joel Shakamay",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 45,
+     "for": {
+      "TOV": 1,
+      "DREB": 2,
+      "REB": 3,
+      "POSS": 2,
+      "FGA": 3,
+      "2PA": 3,
+      "JUMPER_A": 3,
+      "OREB": 1,
+      "FGM": 2,
+      "PTS": 5,
+      "JUMPER_M": 2,
+      "PNT": 2,
+      "2CH": 2,
+      "FTA": 1,
+      "FTM": 1
+     },
+     "against": {
+      "POSS": 3,
+      "FGA": 2,
+      "3PA": 2,
+      "3PT_A": 2,
+      "PF": 1
+     },
+     "+/-": 5
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Emrick Janvier",
+      "Elliot Chabanol",
+      "Mathis Yoka",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 4,
+     "for": {
+      "POSS": 1,
+      "STL": 1,
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1
+     },
+     "against": {
+      "POSS": 1,
+      "TOV": 1
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Emrick Janvier",
+      "Elliot Chabanol",
+      "Naythan Sincere",
+      "Mathis Yoka"
+     ],
+     "seconds": 24,
+     "for": {
+      "OREB": 1,
+      "REB": 2,
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "DREB": 1
+     },
+     "against": {
+      "DREB": 1,
+      "REB": 1,
+      "POSS": 1,
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Mor Malick Ndiaye",
+      "Emrick Janvier",
+      "Elliot Chabanol",
+      "Naythan Sincere",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 30,
+     "for": {
+      "POSS": 1,
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "FGM": 1,
+      "PTS": 2,
+      "JUMPER_M": 1,
+      "PNT": 2
+     },
+     "against": {
+      "POSS": 1
+     },
+     "+/-": 2
+    },
+    {
+     "players": [
+      "Nicolas Guay-Paquet",
+      "Mor Malick Ndiaye",
+      "Naythan Sincere",
+      "Joel Shakamay",
+      "Eddy Mael Polom"
+     ],
+     "seconds": 101,
+     "for": {
+      "POSS": 4,
+      "FGA": 4,
+      "2PA": 4,
+      "JUMPER_A": 3,
+      "FGM": 4,
+      "PTS": 8,
+      "JUMPER_M": 3,
+      "PNT": 8,
+      "DREB": 1,
+      "REB": 1,
+      "AFGM": 1,
+      "AST": 1,
+      "STL": 1,
+      "LAYUP_A": 1,
+      "LAYUP_M": 1,
+      "FB": 2,
+      "PTO": 2
+     },
+     "against": {
+      "FGA": 3,
+      "3PA": 2,
+      "3PT_A": 2,
+      "FGM": 2,
+      "3PM": 1,
+      "PTS": 5,
+      "3PT_M": 1,
+      "AFGM": 1,
+      "AST": 1,
+      "POSS": 3,
+      "2PA": 1,
+      "LAYUP_A": 1,
+      "LAYUP_M": 1,
+      "PNT": 2,
+      "TOV": 1
+     },
+     "+/-": 3
+    },
+    {
+     "players": [
+      "Nicolas Guay-Paquet",
+      "Emrick Janvier",
+      "Naythan Sincere",
+      "Joel Shakamay",
+      "Mathis Yoka"
+     ],
+     "seconds": 56,
+     "for": {
+      "BLK": 1,
+      "DREB": 1,
+      "REB": 1,
+      "POSS": 1,
+      "FGA": 1,
+      "2PA": 1,
+      "LAYUP_A": 1,
+      "FGM": 1,
+      "PTS": 2,
+      "LAYUP_M": 1,
+      "PNT": 2
+     },
+     "against": {
+      "POSS": 2,
+      "FGA": 2,
+      "3PA": 2,
+      "3PT_A": 2,
+      "OREB": 1,
+      "REB": 1,
+      "PF": 1,
+      "TOV": 1
+     },
+     "+/-": 2
+    },
+    {
+     "players": [
+      "Emrick Janvier",
+      "Elliot Chabanol",
+      "Naythan Sincere",
+      "Mathis Beauchamp",
+      "Mathis Yoka"
+     ],
+     "seconds": 76,
+     "for": {
+      "POSS": 4,
+      "TOV": 1,
+      "STL": 1,
+      "FTA": 4,
+      "FTM": 3,
+      "PTS": 3,
+      "PTO": 2,
+      "BLK": 1,
+      "DREB": 1,
+      "REB": 3,
+      "FGA": 2,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "OREB": 2
+     },
+     "against": {
+      "POSS": 3,
+      "TOV": 1,
+      "PF": 2,
+      "FGA": 2,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "DREB": 1,
+      "REB": 1,
+      "3PA": 1,
+      "3PT_A": 1,
+      "FGM": 1,
+      "3PM": 1,
+      "PTS": 3,
+      "3PT_M": 1,
+      "AFGM": 1,
+      "AST": 1
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Emrick Janvier",
+      "Elliot Chabanol",
+      "Mathis Beauchamp",
+      "Mohamed E. Takrouni",
+      "Mathis Yoka"
+     ],
+     "seconds": 52,
+     "for": {
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "POSS": 1,
+      "STL": 1
+     },
+     "against": {
+      "DREB": 1,
+      "REB": 1,
+      "POSS": 1,
+      "TOV": 1
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Nicolas Guay-Paquet",
+      "Mor Malick Ndiaye",
+      "Naythan Sincere",
+      "Joel Shakamay",
+      "Mohamed E. Takrouni"
+     ],
+     "seconds": 132,
+     "for": {
+      "TOV": 3,
+      "POSS": 4,
+      "FGA": 2,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "FGM": 1,
+      "PTS": 6,
+      "JUMPER_M": 1,
+      "PTO": 4,
+      "STL": 1,
+      "FTA": 5,
+      "FTM": 4,
+      "OREB": 2,
+      "REB": 3,
+      "DREB": 1
+     },
+     "against": {
+      "POSS": 5,
+      "TOV": 2,
+      "PF": 2,
+      "BLK": 1,
+      "FGA": 3,
+      "3PA": 1,
+      "3PT_A": 1,
+      "STL": 1,
+      "2PA": 2,
+      "JUMPER_A": 1,
+      "FGM": 2,
+      "PTS": 4,
+      "JUMPER_M": 1,
+      "PTO": 2,
+      "AFGM": 2,
+      "AST": 2,
+      "DUNK_A": 1,
+      "DUNK_M": 1
+     },
+     "+/-": 2
+    }
+   ],
+   "assists": [
+    {
+     "from": "eddy mael polom",
+     "to": "mathis beauchamp",
+     "n": 1
+    },
+    {
+     "from": "mathis yoka",
+     "to": "mathis beauchamp",
+     "n": 1
+    },
+    {
+     "from": "elliot chabanol",
+     "to": "mathis yoka",
+     "n": 1
+    },
+    {
+     "from": "joel shakamay",
+     "to": "mor malick ndiaye",
+     "n": 1
+    },
+    {
+     "from": "naythan sincere",
+     "to": "mor malick ndiaye",
+     "n": 1
+    },
+    {
+     "from": "naythan sincere",
+     "to": "eddy mael polom",
+     "n": 2
+    },
+    {
+     "from": "elliot chabanol",
+     "to": "emrick janvier",
+     "n": 1
+    },
+    {
+     "from": "emrick janvier",
+     "to": "mathis beauchamp",
+     "n": 1
+    },
+    {
+     "from": "mathis beauchamp",
+     "to": "mathis yoka",
+     "n": 1
+    }
+   ]
+  },
+  "H": {
+   "name": "Edouard-Montpetit",
+   "box": {
+    "POSS": 85,
+    "FGA": 63,
+    "2PA": 33,
+    "JUMPER_A": 24,
+    "PF": 23,
+    "3PA": 30,
+    "3PT_A": 30,
+    "FGM": 25,
+    "3PM": 11,
+    "PTS": 67,
+    "3PT_M": 11,
+    "AFGM": 20,
+    "AST": 20,
+    "DREB": 21,
+    "REB": 32,
+    "OREB": 11,
+    "TOV": 22,
+    "BLK": 5,
+    "LAYUP_A": 7,
+    "LAYUP_M": 6,
+    "FB": 6,
+    "PNT": 20,
+    "STL": 7,
+    "PTO": 11,
+    "JUMPER_M": 6,
+    "FTA": 11,
+    "FTM": 6,
+    "2CH": 6,
+    "DUNK_A": 2,
+    "DUNK_M": 2
+   },
+   "periods": [
+    20,
+    16,
+    13,
+    18
+   ],
+   "advanced": {
+    "FG%": 0.3968253968253968,
+    "3P%": 0.36666666666666664,
+    "FT%": 0.5454545454545454,
+    "eFG%": 0.48412698412698413,
+    "TS%": 0.49380896226415094,
+    "3PAr": 0.47619047619047616,
+    "FTr": 0.1746031746031746,
+    "POSS": 85,
+    "POSS_EST": 78.84,
+    "PACE": 85.0,
+    "ORtg": 78.82352941176471,
+    "DRtg": 108.23529411764706,
+    "Net": -29.411764705882348,
+    "TOV%": 0.25882352941176473,
+    "OREB%": 0.2619047619047619,
+    "DREB%": 0.4883720930232558,
+    "FTM/FGA": 0.09523809523809523,
+    "AST_RATIO": 0.8,
+    "PPP": 0.788235294117647,
+    "BENCH": 11,
+    "PNT": 20,
+    "FB": 6,
+    "2CH": 6,
+    "PTO": 11,
+    "TIMEOUTS": 3
+   },
+   "players": [
+    {
+     "num": "03",
+     "name": "Mael Jean-L. Lajoie",
+     "starter": true,
+     "seconds": 2197,
+     "box": {
+      "PF": 2,
+      "AST": 3,
+      "FGA": 13,
+      "3PA": 6,
+      "3PT_A": 6,
+      "DREB": 1,
+      "REB": 1,
+      "TOV": 3,
+      "FGM": 3,
+      "3PM": 1,
+      "PTS": 7,
+      "3PT_M": 1,
+      "AFGM": 2,
+      "2PA": 7,
+      "JUMPER_A": 5,
+      "STL": 2,
+      "LAYUP_A": 2,
+      "JUMPER_M": 1,
+      "PNT": 4,
+      "FTA": 1,
+      "LAYUP_M": 1
+     },
+     "advanced": {
+      "FG%": 0.23076923076923078,
+      "3P%": 0.16666666666666666,
+      "FT%": 0.0,
+      "eFG%": 0.2692307692307692,
+      "TS%": 0.2604166666666667,
+      "3PAr": 0.46153846153846156,
+      "FTr": 0.07692307692307693,
+      "+/-": -23,
+      "POSS": 77,
+      "OPP_POSS": 78,
+      "ORtg": 77.92207792207792,
+      "DRtg": 106.41025641025641,
+      "Net": -28.48817848817849,
+      "OffNet": -41.071428571428584,
+      "OnOff": 12.583250083250093,
+      "OFF_+/-": -2,
+      "USG%": 0.2008797653958944,
+      "AST%": 0.15789473684210525,
+      "TOV%": 0.18248175182481755,
+      "OREB%": 0.0,
+      "DREB%": 0.02631578947368421,
+      "REB%": 0.013157894736842105,
+      "STL%": 0.02564102564102564,
+      "BLK%": 0.0,
+      "AST/TO": 1.0,
+      "PPS": 0.5384615384615384,
+      "AFG%": 0.6666666666666666,
+      "GmSc": -0.7000000000000002,
+      "EFF": -1
+     },
+     "stints": [
+      [
+       0,
+       353,
+       -4
+      ],
+      [
+       556,
+       600,
+       -2
+      ],
+      [
+       600,
+       1200,
+       4
+      ],
+      [
+       1200,
+       1800,
+       -10
+      ],
+      [
+       1800,
+       2400,
+       -11
+      ]
+     ]
+    },
+    {
+     "num": "06",
+     "name": "Maliko Tchamsi",
+     "starter": true,
+     "seconds": 2022,
+     "box": {
+      "FGA": 7,
+      "2PA": 4,
+      "JUMPER_A": 2,
+      "AST": 8,
+      "STL": 1,
+      "LAYUP_A": 2,
+      "FGM": 4,
+      "PTS": 11,
+      "LAYUP_M": 2,
+      "FB": 2,
+      "PNT": 6,
+      "PTO": 2,
+      "TOV": 3,
+      "DREB": 3,
+      "REB": 3,
+      "PF": 5,
+      "3PA": 3,
+      "3PT_A": 3,
+      "3PM": 1,
+      "3PT_M": 1,
+      "2CH": 5,
+      "AFGM": 2,
+      "FTA": 4,
+      "FTM": 2,
+      "JUMPER_M": 1
+     },
+     "advanced": {
+      "FG%": 0.5714285714285714,
+      "3P%": 0.3333333333333333,
+      "FT%": 0.5,
+      "eFG%": 0.6428571428571429,
+      "TS%": 0.6278538812785388,
+      "3PAr": 0.42857142857142855,
+      "FTr": 0.5714285714285714,
+      "+/-": -28,
+      "POSS": 71,
+      "OPP_POSS": 72,
+      "ORtg": 76.05633802816901,
+      "DRtg": 113.88888888888889,
+      "Net": -37.83255086071988,
+      "OffNet": 15.934065934065941,
+      "OnOff": -53.76661679478582,
+      "OFF_+/-": 3,
+      "USG%": 0.15638297872340426,
+      "AST%": 0.47058823529411764,
+      "TOV%": 0.25510204081632654,
+      "OREB%": 0.0,
+      "DREB%": 0.08823529411764706,
+      "REB%": 0.04285714285714286,
+      "STL%": 0.013888888888888888,
+      "BLK%": 0.0,
+      "AST/TO": 2.6666666666666665,
+      "PPS": 1.5714285714285714,
+      "AFG%": 0.5,
+      "GmSc": 9.4,
+      "EFF": 15
+     },
+     "stints": [
+      [
+       0,
+       600,
+       -8
+      ],
+      [
+       600,
+       634,
+       3
+      ],
+      [
+       784,
+       1200,
+       -2
+      ],
+      [
+       1200,
+       1800,
+       -10
+      ],
+      [
+       1800,
+       2172,
+       -11
+      ]
+     ]
+    },
+    {
+     "num": "12",
+     "name": "Jayden Sebakinga",
+     "starter": true,
+     "seconds": 2096,
+     "box": {
+      "DREB": 6,
+      "REB": 8,
+      "TOV": 4,
+      "FGA": 7,
+      "2PA": 7,
+      "JUMPER_A": 6,
+      "OREB": 2,
+      "FGM": 3,
+      "PTS": 6,
+      "JUMPER_M": 2,
+      "PNT": 2,
+      "AFGM": 3,
+      "PF": 4,
+      "AST": 1,
+      "PTO": 2,
+      "DUNK_A": 1,
+      "DUNK_M": 1
+     },
+     "advanced": {
+      "FG%": 0.42857142857142855,
+      "3P%": null,
+      "FT%": null,
+      "eFG%": 0.42857142857142855,
+      "TS%": 0.42857142857142855,
+      "3PAr": 0.0,
+      "FTr": 0.0,
+      "+/-": -21,
+      "POSS": 74,
+      "OPP_POSS": 74,
+      "ORtg": 78.37837837837837,
+      "DRtg": 106.75675675675676,
+      "Net": -28.378378378378386,
+      "OffNet": -36.363636363636374,
+      "OnOff": 7.985257985257988,
+      "OFF_+/-": -4,
+      "USG%": 0.14131551901336073,
+      "AST%": 0.05555555555555555,
+      "TOV%": 0.36363636363636365,
+      "OREB%": 0.05714285714285714,
+      "DREB%": 0.17142857142857143,
+      "REB%": 0.11428571428571428,
+      "STL%": 0.0,
+      "BLK%": 0.0,
+      "AST/TO": 0.25,
+      "PPS": 0.8571428571428571,
+      "AFG%": 1.0,
+      "GmSc": 0.5999999999999996,
+      "EFF": 7
+     },
+     "stints": [
+      [
+       0,
+       353,
+       -4
+      ],
+      [
+       449,
+       600,
+       -4
+      ],
+      [
+       600,
+       1200,
+       4
+      ],
+      [
+       1200,
+       1545,
+       -2
+      ],
+      [
+       1562,
+       1800,
+       -8
+      ],
+      [
+       1800,
+       1813,
+       -2
+      ],
+      [
+       1983,
+       2316,
+       -7
+      ],
+      [
+       2337,
+       2400,
+       2
+      ]
+     ]
+    },
+    {
+     "num": "15",
+     "name": "Lian Kamgang Kamla",
+     "starter": true,
+     "seconds": 1104,
+     "box": {
+      "AST": 1,
+      "FGA": 9,
+      "2PA": 4,
+      "JUMPER_A": 2,
+      "OREB": 2,
+      "REB": 3,
+      "TOV": 5,
+      "3PA": 5,
+      "3PT_A": 5,
+      "FGM": 4,
+      "3PM": 2,
+      "PTS": 10,
+      "3PT_M": 2,
+      "AFGM": 2,
+      "LAYUP_A": 2,
+      "LAYUP_M": 2,
+      "PNT": 4,
+      "PTO": 2,
+      "PF": 4,
+      "DREB": 1,
+      "STL": 1
+     },
+     "advanced": {
+      "FG%": 0.4444444444444444,
+      "3P%": 0.4,
+      "FT%": null,
+      "eFG%": 0.5555555555555556,
+      "TS%": 0.5555555555555556,
+      "3PAr": 0.5555555555555556,
+      "FTr": 0.0,
+      "+/-": -15,
+      "POSS": 43,
+      "OPP_POSS": 44,
+      "ORtg": 81.3953488372093,
+      "DRtg": 113.63636363636364,
+      "Net": -32.24101479915434,
+      "OffNet": -26.24854819976771,
+      "OnOff": -5.992466599386631,
+      "OFF_+/-": -10,
+      "USG%": 0.3371868978805395,
+      "AST%": 0.125,
+      "TOV%": 0.35714285714285715,
+      "OREB%": 0.1111111111111111,
+      "DREB%": 0.05,
+      "REB%": 0.07894736842105263,
+      "STL%": 0.022727272727272728,
+      "BLK%": 0.0,
+      "AST/TO": 0.2,
+      "PPS": 1.1111111111111112,
+      "AFG%": 0.5,
+      "GmSc": 2.0999999999999996,
+      "EFF": 5
+     },
+     "stints": [
+      [
+       0,
+       274,
+       -1
+      ],
+      [
+       502,
+       600,
+       -6
+      ],
+      [
+       600,
+       725,
+       4
+      ],
+      [
+       737,
+       784,
+       0
+      ],
+      [
+       1089,
+       1106,
+       -1
+      ],
+      [
+       1200,
+       1200,
+       0
+      ],
+      [
+       1347,
+       1455,
+       0
+      ],
+      [
+       1545,
+       1562,
+       0
+      ],
+      [
+       1630,
+       1800,
+       -3
+      ],
+      [
+       1800,
+       1983,
+       -4
+      ],
+      [
+       2084,
+       2140,
+       -2
+      ],
+      [
+       2316,
+       2325,
+       -2
+      ]
+     ]
+    },
+    {
+     "num": "21",
+     "name": "Ali Diouf",
+     "starter": true,
+     "seconds": 1732,
+     "box": {
+      "PF": 4,
+      "FGA": 13,
+      "3PA": 6,
+      "3PT_A": 6,
+      "FGM": 7,
+      "3PM": 4,
+      "PTS": 22,
+      "3PT_M": 4,
+      "AFGM": 7,
+      "BLK": 3,
+      "2PA": 7,
+      "LAYUP_A": 1,
+      "LAYUP_M": 1,
+      "FB": 4,
+      "PNT": 4,
+      "JUMPER_A": 5,
+      "STL": 1,
+      "DREB": 5,
+      "REB": 7,
+      "AST": 2,
+      "FTA": 6,
+      "FTM": 4,
+      "PTO": 5,
+      "OREB": 2,
+      "2CH": 1,
+      "JUMPER_M": 1,
+      "TOV": 2,
+      "DUNK_A": 1,
+      "DUNK_M": 1
+     },
+     "advanced": {
+      "FG%": 0.5384615384615384,
+      "3P%": 0.6666666666666666,
+      "FT%": 0.6666666666666666,
+      "eFG%": 0.6923076923076923,
+      "TS%": 0.7033248081841432,
+      "3PAr": 0.46153846153846156,
+      "FTr": 0.46153846153846156,
+      "+/-": -10,
+      "POSS": 59,
+      "OPP_POSS": 62,
+      "ORtg": 96.61016949152543,
+      "DRtg": 108.06451612903226,
+      "Net": -11.45434663750683,
+      "OffNet": -70.23411371237458,
+      "OnOff": 58.77976707486775,
+      "OFF_+/-": -15,
+      "USG%": 0.271551724137931,
+      "AST%": 0.14285714285714285,
+      "TOV%": 0.11337868480725623,
+      "OREB%": 0.06896551724137931,
+      "DREB%": 0.16666666666666666,
+      "REB%": 0.11864406779661017,
+      "STL%": 0.016129032258064516,
+      "BLK%": 0.06976744186046512,
+      "AST/TO": 1.0,
+      "PPS": 1.6923076923076923,
+      "AFG%": 1.0,
+      "GmSc": 18.699999999999996,
+      "EFF": 25
+     },
+     "stints": [
+      [
+       0,
+       449,
+       -4
+      ],
+      [
+       600,
+       1089,
+       7
+      ],
+      [
+       1200,
+       1513,
+       -2
+      ],
+      [
+       1800,
+       2084,
+       -7
+      ],
+      [
+       2140,
+       2337,
+       -4
+      ]
+     ]
+    },
+    {
+     "num": "05",
+     "name": "Charles Hetu",
+     "starter": false,
+     "seconds": 559,
+     "box": {
+      "FGA": 3,
+      "3PA": 2,
+      "3PT_A": 2,
+      "TOV": 3,
+      "STL": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "BLK": 1,
+      "AST": 1
+     },
+     "advanced": {
+      "FG%": 0.0,
+      "3P%": 0.0,
+      "FT%": null,
+      "eFG%": 0.0,
+      "TS%": 0.0,
+      "3PAr": 0.6666666666666666,
+      "FTr": 0.0,
+      "+/-": -5,
+      "POSS": 21,
+      "OPP_POSS": 19,
+      "ORtg": 66.66666666666667,
+      "DRtg": 100.0,
+      "Net": -33.33333333333333,
+      "OffNet": -27.79356060606061,
+      "OnOff": -5.5397727272727195,
+      "OFF_+/-": -20,
+      "USG%": 0.25862068965517243,
+      "AST%": 0.2,
+      "TOV%": 0.5,
+      "OREB%": 0.0,
+      "DREB%": 0.0,
+      "REB%": 0.0,
+      "STL%": 0.05263157894736842,
+      "BLK%": 0.08333333333333333,
+      "AST/TO": 0.3333333333333333,
+      "PPS": 0.0,
+      "AFG%": null,
+      "GmSc": -2.6999999999999997,
+      "EFF": -3
+     },
+     "stints": [
+      [
+       353,
+       502,
+       2
+      ],
+      [
+       634,
+       737,
+       3
+      ],
+      [
+       1455,
+       1630,
+       -8
+      ],
+      [
+       2268,
+       2400,
+       -2
+      ]
+     ]
+    },
+    {
+     "num": "08",
+     "name": "Jules Calixte",
+     "starter": false,
+     "seconds": 1195,
+     "box": {
+      "FGA": 8,
+      "3PA": 7,
+      "3PT_A": 7,
+      "FGM": 3,
+      "3PM": 2,
+      "PTS": 8,
+      "3PT_M": 2,
+      "AFGM": 3,
+      "PF": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "JUMPER_M": 1,
+      "DREB": 1,
+      "REB": 1,
+      "TOV": 1
+     },
+     "advanced": {
+      "FG%": 0.375,
+      "3P%": 0.2857142857142857,
+      "FT%": null,
+      "eFG%": 0.5,
+      "TS%": 0.5,
+      "3PAr": 0.875,
+      "FTr": 0.0,
+      "+/-": -26,
+      "POSS": 45,
+      "OPP_POSS": 41,
+      "ORtg": 60.0,
+      "DRtg": 129.26829268292684,
+      "Net": -69.26829268292684,
+      "OffNet": 11.36363636363636,
+      "OnOff": -80.6319290465632,
+      "OFF_+/-": 1,
+      "USG%": 0.20107238605898123,
+      "AST%": 0.0,
+      "TOV%": 0.1111111111111111,
+      "OREB%": 0.0,
+      "DREB%": 0.043478260869565216,
+      "REB%": 0.022222222222222223,
+      "STL%": 0.0,
+      "BLK%": 0.0,
+      "AST/TO": 0.0,
+      "PPS": 1.0,
+      "AFG%": 1.0,
+      "GmSc": 2.4999999999999996,
+      "EFF": 3
+     },
+     "stints": [
+      [
+       353,
+       556,
+       -2
+      ],
+      [
+       1033,
+       1200,
+       -7
+      ],
+      [
+       1562,
+       1800,
+       -8
+      ],
+      [
+       1813,
+       2400,
+       -9
+      ]
+     ]
+    },
+    {
+     "num": "09",
+     "name": "Kev. Bonilla-Montoya",
+     "starter": false,
+     "seconds": 1020,
+     "box": {
+      "AST": 4,
+      "PF": 3,
+      "BLK": 1,
+      "FGA": 3,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "OREB": 3,
+      "REB": 4,
+      "DREB": 1,
+      "3PA": 1,
+      "3PT_A": 1,
+      "FGM": 1,
+      "3PM": 1,
+      "PTS": 3,
+      "3PT_M": 1,
+      "AFGM": 1,
+      "STL": 1,
+      "TOV": 1
+     },
+     "advanced": {
+      "FG%": 0.3333333333333333,
+      "3P%": 1.0,
+      "FT%": null,
+      "eFG%": 0.5,
+      "TS%": 0.5,
+      "3PAr": 0.3333333333333333,
+      "FTr": 0.0,
+      "+/-": 1,
+      "POSS": 32,
+      "OPP_POSS": 33,
+      "ORtg": 81.25,
+      "DRtg": 75.75757575757575,
+      "Net": 5.492424242424249,
+      "OffNet": -51.48766328011611,
+      "OnOff": 56.98008752254036,
+      "OFF_+/-": -26,
+      "USG%": 0.1084598698481562,
+      "AST%": 0.4444444444444444,
+      "TOV%": 0.25,
+      "OREB%": 0.14285714285714285,
+      "DREB%": 0.045454545454545456,
+      "REB%": 0.09302325581395349,
+      "STL%": 0.030303030303030304,
+      "BLK%": 0.045454545454545456,
+      "AST/TO": 4.0,
+      "PPS": 1.0,
+      "AFG%": 1.0,
+      "GmSc": 5.999999999999999,
+      "EFF": 10
+     },
+     "stints": [
+      [
+       274,
+       600,
+       -7
+      ],
+      [
+       725,
+       1033,
+       7
+      ],
+      [
+       1106,
+       1200,
+       -2
+      ],
+      [
+       1200,
+       1347,
+       1
+      ],
+      [
+       1513,
+       1562,
+       0
+      ],
+      [
+       2172,
+       2268,
+       2
+      ]
+     ]
+    },
+    {
+     "num": "11",
+     "name": "Fidele K. M. Yerly",
+     "starter": false,
+     "seconds": 75,
+     "box": {},
+     "advanced": {
+      "FG%": null,
+      "3P%": null,
+      "FT%": null,
+      "eFG%": null,
+      "TS%": null,
+      "3PAr": null,
+      "FTr": null,
+      "+/-": 2,
+      "POSS": 3,
+      "OPP_POSS": 2,
+      "ORtg": 133.33333333333334,
+      "DRtg": 100.0,
+      "Net": 33.33333333333334,
+      "OffNet": -31.60446664707611,
+      "OnOff": 64.93779998040945,
+      "OFF_+/-": -27,
+      "USG%": 0.0,
+      "AST%": 0.0,
+      "TOV%": null,
+      "OREB%": 0.0,
+      "DREB%": 0.0,
+      "REB%": 0.0,
+      "STL%": 0.0,
+      "BLK%": 0.0,
+      "AST/TO": null,
+      "PPS": null,
+      "AFG%": null,
+      "GmSc": 0.0,
+      "EFF": 0
+     },
+     "stints": [
+      [
+       2325,
+       2400,
+       2
+      ]
+     ]
+    }
+   ],
+   "lineups": [
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Maliko Tchamsi",
+      "Jayden Sebakinga",
+      "Lian Kamgang Kamla",
+      "Ali Diouf"
+     ],
+     "seconds": 429,
+     "for": {
+      "POSS": 17,
+      "FGA": 12,
+      "2PA": 6,
+      "JUMPER_A": 4,
+      "PF": 4,
+      "3PA": 6,
+      "3PT_A": 6,
+      "FGM": 8,
+      "3PM": 5,
+      "PTS": 21,
+      "3PT_M": 5,
+      "AFGM": 7,
+      "AST": 7,
+      "DREB": 3,
+      "REB": 5,
+      "OREB": 2,
+      "TOV": 4,
+      "BLK": 2,
+      "LAYUP_A": 2,
+      "LAYUP_M": 2,
+      "FB": 4,
+      "PNT": 6,
+      "STL": 1,
+      "PTO": 2,
+      "JUMPER_M": 1
+     },
+     "against": {
+      "FGA": 16,
+      "2PA": 14,
+      "JUMPER_A": 10,
+      "FGM": 9,
+      "PTS": 21,
+      "JUMPER_M": 5,
+      "PNT": 14,
+      "AFGM": 4,
+      "POSS": 18,
+      "AST": 4,
+      "DREB": 3,
+      "REB": 7,
+      "LAYUP_A": 4,
+      "LAYUP_M": 2,
+      "FB": 2,
+      "FTA": 3,
+      "FTM": 1,
+      "STL": 2,
+      "OREB": 4,
+      "TOV": 4,
+      "3PA": 2,
+      "3PT_A": 2,
+      "3PM": 2,
+      "3PT_M": 2,
+      "2CH": 4,
+      "PF": 1
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Maliko Tchamsi",
+      "Kev. Bonilla-Montoya",
+      "Jayden Sebakinga",
+      "Ali Diouf"
+     ],
+     "seconds": 475,
+     "for": {
+      "TOV": 3,
+      "POSS": 12,
+      "FGA": 14,
+      "3PA": 6,
+      "3PT_A": 6,
+      "STL": 3,
+      "2PA": 8,
+      "JUMPER_A": 6,
+      "OREB": 4,
+      "REB": 7,
+      "FGM": 5,
+      "3PM": 3,
+      "PTS": 13,
+      "3PT_M": 3,
+      "2CH": 3,
+      "AFGM": 4,
+      "AST": 4,
+      "PF": 3,
+      "LAYUP_A": 2,
+      "DREB": 3,
+      "JUMPER_M": 1,
+      "PNT": 4,
+      "LAYUP_M": 1,
+      "PTO": 3
+     },
+     "against": {
+      "POSS": 14,
+      "STL": 3,
+      "FGA": 9,
+      "3PA": 3,
+      "3PT_A": 3,
+      "FGM": 4,
+      "3PM": 2,
+      "PTS": 10,
+      "3PT_M": 2,
+      "PTO": 3,
+      "AFGM": 2,
+      "AST": 2,
+      "DREB": 5,
+      "REB": 8,
+      "TOV": 5,
+      "FTA": 2,
+      "2PA": 6,
+      "JUMPER_A": 5,
+      "OREB": 3,
+      "JUMPER_M": 1,
+      "PNT": 4,
+      "2CH": 2,
+      "LAYUP_A": 1,
+      "LAYUP_M": 1,
+      "FB": 2
+     },
+     "+/-": 3
+    },
+    {
+     "players": [
+      "Charles Hetu",
+      "Maliko Tchamsi",
+      "Jules Calixte",
+      "Kev. Bonilla-Montoya",
+      "Ali Diouf"
+     ],
+     "seconds": 96,
+     "for": {
+      "BLK": 1,
+      "DREB": 2,
+      "REB": 2,
+      "POSS": 3,
+      "FGA": 3,
+      "3PA": 2,
+      "3PT_A": 2,
+      "FGM": 1,
+      "3PM": 1,
+      "PTS": 3,
+      "3PT_M": 1,
+      "AFGM": 1,
+      "AST": 1,
+      "PF": 2,
+      "2PA": 1,
+      "JUMPER_A": 1
+     },
+     "against": {
+      "FGA": 3,
+      "3PA": 1,
+      "3PT_A": 1,
+      "OREB": 1,
+      "REB": 3,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "POSS": 3,
+      "FTA": 4,
+      "FTM": 3,
+      "PTS": 3,
+      "DREB": 2
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Charles Hetu",
+      "Maliko Tchamsi",
+      "Jules Calixte",
+      "Kev. Bonilla-Montoya",
+      "Jayden Sebakinga"
+     ],
+     "seconds": 53,
+     "for": {
+      "POSS": 2,
+      "FGA": 2,
+      "3PA": 1,
+      "3PT_A": 1,
+      "OREB": 1,
+      "REB": 2,
+      "TOV": 1,
+      "DREB": 1,
+      "AST": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "FGM": 1,
+      "PTS": 2,
+      "JUMPER_M": 1,
+      "AFGM": 1
+     },
+     "against": {
+      "POSS": 2,
+      "STL": 1,
+      "FGA": 2,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "OREB": 1,
+      "REB": 1,
+      "TOV": 1
+     },
+     "+/-": 2
+    },
+    {
+     "players": [
+      "Maliko Tchamsi",
+      "Jules Calixte",
+      "Kev. Bonilla-Montoya",
+      "Jayden Sebakinga",
+      "Lian Kamgang Kamla"
+     ],
+     "seconds": 54,
+     "for": {
+      "POSS": 3,
+      "FGA": 2,
+      "2PA": 1,
+      "LAYUP_A": 1,
+      "FGM": 1,
+      "PTS": 2,
+      "LAYUP_M": 1,
+      "PNT": 2,
+      "PTO": 2,
+      "PF": 2,
+      "3PA": 1,
+      "3PT_A": 1
+     },
+     "against": {
+      "POSS": 2,
+      "FGA": 2,
+      "2PA": 2,
+      "LAYUP_A": 1,
+      "FGM": 2,
+      "PTS": 6,
+      "LAYUP_M": 1,
+      "PNT": 4,
+      "FTA": 2,
+      "FTM": 2,
+      "DREB": 1,
+      "REB": 1,
+      "JUMPER_A": 1,
+      "JUMPER_M": 1,
+      "AFGM": 1,
+      "AST": 1
+     },
+     "+/-": -4
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Maliko Tchamsi",
+      "Kev. Bonilla-Montoya",
+      "Jayden Sebakinga",
+      "Lian Kamgang Kamla"
+     ],
+     "seconds": 44,
+     "for": {
+      "DREB": 1,
+      "REB": 1,
+      "POSS": 2,
+      "TOV": 1,
+      "BLK": 1
+     },
+     "against": {
+      "FGA": 3,
+      "3PA": 1,
+      "3PT_A": 1,
+      "POSS": 3,
+      "PF": 1,
+      "TOV": 1,
+      "STL": 1,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "OREB": 1,
+      "REB": 1,
+      "FGM": 1,
+      "PTS": 2,
+      "JUMPER_M": 1,
+      "PNT": 2,
+      "2CH": 2,
+      "PTO": 2
+     },
+     "+/-": -2
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Charles Hetu",
+      "Jayden Sebakinga",
+      "Lian Kamgang Kamla",
+      "Ali Diouf"
+     ],
+     "seconds": 91,
+     "for": {
+      "DREB": 2,
+      "REB": 2,
+      "POSS": 4,
+      "FTA": 4,
+      "FTM": 3,
+      "PTS": 3,
+      "PTO": 1,
+      "TOV": 1,
+      "STL": 1,
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1
+     },
+     "against": {
+      "FGA": 3,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "PF": 2,
+      "POSS": 4,
+      "TOV": 2,
+      "DREB": 2,
+      "REB": 2,
+      "FGM": 1,
+      "PTS": 2,
+      "JUMPER_M": 1,
+      "PNT": 2,
+      "AFGM": 1,
+      "AST": 1,
+      "STL": 1,
+      "BLK": 1,
+      "3PA": 1,
+      "3PT_A": 1
+     },
+     "+/-": 1
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Charles Hetu",
+      "Kev. Bonilla-Montoya",
+      "Jayden Sebakinga",
+      "Ali Diouf"
+     ],
+     "seconds": 12,
+     "for": {
+      "POSS": 1,
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "FGM": 1,
+      "PTS": 2,
+      "JUMPER_M": 1,
+      "PNT": 2,
+      "AFGM": 1,
+      "AST": 1
+     },
+     "against": {
+      "POSS": 1,
+      "TOV": 1
+     },
+     "+/-": 2
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Kev. Bonilla-Montoya",
+      "Jayden Sebakinga",
+      "Lian Kamgang Kamla",
+      "Ali Diouf"
+     ],
+     "seconds": 47,
+     "for": {
+      "POSS": 1,
+      "STL": 1,
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "OREB": 1,
+      "REB": 1,
+      "FTA": 2,
+      "FTM": 1,
+      "PTS": 1,
+      "2CH": 1,
+      "PTO": 1,
+      "PF": 1
+     },
+     "against": {
+      "PF": 1,
+      "DREB": 1,
+      "REB": 2,
+      "POSS": 1,
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "OREB": 1,
+      "FTA": 2,
+      "FTM": 1,
+      "PTS": 1,
+      "2CH": 1
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Maliko Tchamsi",
+      "Jules Calixte",
+      "Jayden Sebakinga",
+      "Ali Diouf"
+     ],
+     "seconds": 189,
+     "for": {
+      "POSS": 7,
+      "FGA": 5,
+      "2PA": 3,
+      "JUMPER_A": 2,
+      "PF": 2,
+      "FTA": 2,
+      "3PA": 2,
+      "3PT_A": 2,
+      "FGM": 2,
+      "3PM": 1,
+      "PTS": 5,
+      "3PT_M": 1,
+      "AFGM": 1,
+      "AST": 1,
+      "LAYUP_A": 1,
+      "LAYUP_M": 1,
+      "PNT": 2,
+      "TOV": 2
+     },
+     "against": {
+      "DREB": 4,
+      "REB": 6,
+      "POSS": 8,
+      "FTA": 4,
+      "FTM": 4,
+      "PTS": 14,
+      "FGA": 7,
+      "2PA": 7,
+      "JUMPER_A": 6,
+      "OREB": 2,
+      "FGM": 5,
+      "JUMPER_M": 4,
+      "PNT": 10,
+      "2CH": 2,
+      "PF": 1,
+      "AFGM": 1,
+      "AST": 1,
+      "STL": 2,
+      "LAYUP_A": 1,
+      "LAYUP_M": 1,
+      "FB": 2,
+      "PTO": 4,
+      "TOV": 1
+     },
+     "+/-": -9
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Maliko Tchamsi",
+      "Jules Calixte",
+      "Jayden Sebakinga",
+      "Lian Kamgang Kamla"
+     ],
+     "seconds": 243,
+     "for": {
+      "PF": 3,
+      "POSS": 8,
+      "FTA": 2,
+      "FTM": 2,
+      "PTS": 2,
+      "DREB": 3,
+      "REB": 4,
+      "TOV": 4,
+      "FGA": 3,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "3PA": 2,
+      "3PT_A": 2,
+      "OREB": 1
+     },
+     "against": {
+      "POSS": 8,
+      "FTA": 4,
+      "FTM": 2,
+      "PTS": 8,
+      "PTO": 3,
+      "PF": 1,
+      "FGA": 7,
+      "2PA": 6,
+      "JUMPER_A": 4,
+      "STL": 3,
+      "LAYUP_A": 2,
+      "FGM": 3,
+      "LAYUP_M": 2,
+      "FB": 2,
+      "PNT": 6,
+      "3PA": 1,
+      "3PT_A": 1,
+      "OREB": 1,
+      "REB": 3,
+      "DREB": 2,
+      "JUMPER_M": 1,
+      "BLK": 1
+     },
+     "+/-": -6
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Maliko Tchamsi",
+      "Jules Calixte",
+      "Kev. Bonilla-Montoya",
+      "Jayden Sebakinga"
+     ],
+     "seconds": 94,
+     "for": {
+      "POSS": 4,
+      "FGA": 3,
+      "2PA": 2,
+      "JUMPER_A": 2,
+      "DREB": 2,
+      "REB": 2,
+      "3PA": 1,
+      "3PT_A": 1
+     },
+     "against": {
+      "DREB": 3,
+      "REB": 4,
+      "POSS": 3,
+      "FGA": 4,
+      "2PA": 3,
+      "JUMPER_A": 3,
+      "OREB": 1,
+      "FGM": 1,
+      "PTS": 2,
+      "JUMPER_M": 1,
+      "PNT": 2,
+      "2CH": 2,
+      "3PA": 1,
+      "3PT_A": 1
+     },
+     "+/-": -2
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Charles Hetu",
+      "Maliko Tchamsi",
+      "Jayden Sebakinga",
+      "Ali Diouf"
+     ],
+     "seconds": 58,
+     "for": {
+      "POSS": 2,
+      "TOV": 2,
+      "FTA": 1,
+      "PF": 2
+     },
+     "against": {
+      "PF": 2,
+      "TOV": 2,
+      "POSS": 2,
+      "STL": 2,
+      "TF": 1,
+      "FTA": 4,
+      "FTM": 3,
+      "PTS": 3,
+      "PTO": 3,
+      "OREB": 1,
+      "REB": 1,
+      "2CH": 2
+     },
+     "+/-": -3
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Charles Hetu",
+      "Maliko Tchamsi",
+      "Kev. Bonilla-Montoya",
+      "Jayden Sebakinga"
+     ],
+     "seconds": 32,
+     "for": {
+      "POSS": 1,
+      "FGA": 1,
+      "3PA": 1,
+      "3PT_A": 1,
+      "OREB": 1,
+      "REB": 1
+     },
+     "against": {
+      "PF": 1
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Charles Hetu",
+      "Maliko Tchamsi",
+      "Kev. Bonilla-Montoya",
+      "Lian Kamgang Kamla"
+     ],
+     "seconds": 17,
+     "for": {
+      "FGA": 1,
+      "3PA": 1,
+      "3PT_A": 1
+     },
+     "against": {
+      "DREB": 1,
+      "REB": 2,
+      "POSS": 1,
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "OREB": 1
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Charles Hetu",
+      "Maliko Tchamsi",
+      "Jules Calixte",
+      "Jayden Sebakinga"
+     ],
+     "seconds": 68,
+     "for": {
+      "POSS": 3,
+      "FGA": 2,
+      "3PA": 2,
+      "3PT_A": 2,
+      "PF": 1,
+      "TOV": 1
+     },
+     "against": {
+      "TOV": 1,
+      "DREB": 2,
+      "REB": 3,
+      "POSS": 2,
+      "FGA": 3,
+      "2PA": 3,
+      "JUMPER_A": 3,
+      "OREB": 1,
+      "FGM": 2,
+      "PTS": 5,
+      "JUMPER_M": 2,
+      "PNT": 2,
+      "2CH": 2,
+      "FTA": 1,
+      "FTM": 1
+     },
+     "+/-": -5
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Maliko Tchamsi",
+      "Jules Calixte",
+      "Lian Kamgang Kamla",
+      "Ali Diouf"
+     ],
+     "seconds": 170,
+     "for": {
+      "POSS": 7,
+      "FGA": 7,
+      "3PA": 3,
+      "3PT_A": 3,
+      "OREB": 1,
+      "REB": 3,
+      "2PA": 4,
+      "JUMPER_A": 2,
+      "FGM": 3,
+      "PTS": 6,
+      "JUMPER_M": 1,
+      "PNT": 4,
+      "2CH": 2,
+      "AFGM": 2,
+      "AST": 2,
+      "DREB": 2,
+      "DUNK_A": 1,
+      "DUNK_M": 1,
+      "FB": 2,
+      "LAYUP_A": 1,
+      "LAYUP_M": 1
+     },
+     "against": {
+      "POSS": 6,
+      "FGA": 6,
+      "2PA": 6,
+      "JUMPER_A": 6,
+      "FGM": 4,
+      "PTS": 8,
+      "JUMPER_M": 4,
+      "PNT": 8,
+      "DREB": 3,
+      "REB": 3,
+      "AFGM": 1,
+      "AST": 1,
+      "PF": 1
+     },
+     "+/-": -2
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Jules Calixte",
+      "Kev. Bonilla-Montoya",
+      "Jayden Sebakinga",
+      "Ali Diouf"
+     ],
+     "seconds": 96,
+     "for": {
+      "POSS": 3,
+      "FGA": 2,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "DREB": 2,
+      "REB": 2,
+      "3PA": 1,
+      "3PT_A": 1,
+      "FGM": 1,
+      "3PM": 1,
+      "PTS": 3,
+      "3PT_M": 1,
+      "AFGM": 1,
+      "AST": 1,
+      "PF": 1,
+      "TOV": 1
+     },
+     "against": {
+      "BLK": 1,
+      "DREB": 1,
+      "REB": 3,
+      "POSS": 3,
+      "FGA": 3,
+      "2PA": 3,
+      "JUMPER_A": 3,
+      "OREB": 2,
+      "FTA": 2,
+      "FTM": 1,
+      "PTS": 1,
+      "STL": 1
+     },
+     "+/-": 2
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Charles Hetu",
+      "Jules Calixte",
+      "Jayden Sebakinga",
+      "Ali Diouf"
+     ],
+     "seconds": 48,
+     "for": {
+      "POSS": 1,
+      "TOV": 1
+     },
+     "against": {
+      "TOV": 1,
+      "POSS": 1,
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "FGM": 1,
+      "PTS": 2,
+      "JUMPER_M": 1,
+      "PTO": 2
+     },
+     "+/-": -2
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Charles Hetu",
+      "Jules Calixte",
+      "Lian Kamgang Kamla",
+      "Ali Diouf"
+     ],
+     "seconds": 9,
+     "for": {
+      "POSS": 1,
+      "TOV": 1,
+      "PF": 1
+     },
+     "against": {
+      "POSS": 1,
+      "STL": 1,
+      "FTA": 3,
+      "FTM": 2,
+      "PTS": 2,
+      "PTO": 2,
+      "OREB": 1,
+      "REB": 1
+     },
+     "+/-": -2
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Charles Hetu",
+      "Jules Calixte",
+      "Fidele K. M. Yerly",
+      "Ali Diouf"
+     ],
+     "seconds": 12,
+     "for": {
+      "BLK": 1
+     },
+     "against": {
+      "FGA": 1,
+      "2PA": 1,
+      "JUMPER_A": 1,
+      "OREB": 1,
+      "REB": 1,
+      "TOV": 1
+     },
+     "+/-": 0
+    },
+    {
+     "players": [
+      "Mael Jean-L. Lajoie",
+      "Charles Hetu",
+      "Jules Calixte",
+      "Fidele K. M. Yerly",
+      "Jayden Sebakinga"
+     ],
+     "seconds": 63,
+     "for": {
+      "POSS": 3,
+      "FGA": 3,
+      "3PA": 1,
+      "3PT_A": 1,
+      "STL": 1,
+      "2PA": 2,
+      "JUMPER_A": 1,
+      "FGM": 2,
+      "PTS": 4,
+      "JUMPER_M": 1,
+      "PTO": 2,
+      "AFGM": 2,
+      "AST": 2,
+      "PF": 1,
+      "DUNK_A": 1,
+      "DUNK_M": 1
+     },
+     "against": {
+      "DREB": 1,
+      "REB": 1,
+      "POSS": 2,
+      "TOV": 1,
+      "FTA": 2,
+      "FTM": 2,
+      "PTS": 2
+     },
+     "+/-": 2
+    }
+   ],
+   "assists": [
+    {
+     "from": "lian kamgang kamla",
+     "to": "ali diouf",
+     "n": 1
+    },
+    {
+     "from": "maliko tchamsi",
+     "to": "ali diouf",
+     "n": 3
+    },
+    {
+     "from": "mael jean-l. lajoie",
+     "to": "ali diouf",
+     "n": 1
+    },
+    {
+     "from": "maliko tchamsi",
+     "to": "lian kamgang kamla",
+     "n": 2
+    },
+    {
+     "from": "kev. bonilla-montoya",
+     "to": "jules calixte",
+     "n": 1
+    },
+    {
+     "from": "maliko tchamsi",
+     "to": "jules calixte",
+     "n": 2
+    },
+    {
+     "from": "ali diouf",
+     "to": "mael jean-l. lajoie",
+     "n": 2
+    },
+    {
+     "from": "kev. bonilla-montoya",
+     "to": "jayden sebakinga",
+     "n": 1
+    },
+    {
+     "from": "kev. bonilla-montoya",
+     "to": "maliko tchamsi",
+     "n": 1
+    },
+    {
+     "from": "kev. bonilla-montoya",
+     "to": "ali diouf",
+     "n": 1
+    },
+    {
+     "from": "maliko tchamsi",
+     "to": "kev. bonilla-montoya",
+     "n": 1
+    },
+    {
+     "from": "mael jean-l. lajoie",
+     "to": "maliko tchamsi",
+     "n": 1
+    },
+    {
+     "from": "jayden sebakinga",
+     "to": "ali diouf",
+     "n": 1
+    },
+    {
+     "from": "mael jean-l. lajoie",
+     "to": "jayden sebakinga",
+     "n": 1
+    },
+    {
+     "from": "charles hetu",
+     "to": "jayden sebakinga",
+     "n": 1
+    }
+   ]
+  }
+ },
+ "warnings": [
+  "P1 00:27 : Elliot Chabanol est crédité de « MISSED 3 PTR by Elliot Chabanol » sans être sur le terrain",
+  "P1 00:27 : Ali Diouf est crédité de « REBOUND (DEF) by Ali Diouf » sans être sur le terrain",
+  "P2 07:11 : Eddy Mael Polom est crédité de « REBOUND (DEF) by Eddy Mael Polom » sans être sur le terrain",
+  "P3 05:26 : Lian Kamgang Kamla est crédité de « TURNOVR by Lian Kamgang Kamla » sans être sur le terrain",
+  "P3 04:28 : Lian Kamgang Kamla est crédité de « MISSED 3 PTR by Lian Kamgang Kamla » sans être sur le terrain",
+  "P3 00:24 : Mathis Yoka est crédité de « GOOD! JUMPER by Mathis Yoka [Pnt] » sans être sur le terrain"
+ ],
+ "score_mismatches": [],
+ "box_diffs": []
+}
