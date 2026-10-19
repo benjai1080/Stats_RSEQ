@@ -18,6 +18,7 @@ import html
 import json
 import re
 import sys
+import unicodedata
 import urllib.request
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -37,7 +38,9 @@ def other(side):
 
 
 def norm(name):
-    """Nom comparable : sans points de remplissage ni casse ni espaces doubles."""
+    """Nom comparable : sans points de remplissage, accents, casse ni espaces doubles."""
+    name = unicodedata.normalize("NFKD", name)
+    name = "".join(c for c in name if not unicodedata.combining(c))
     return re.sub(r"\s+", " ", name.rstrip(". ").strip()).lower()
 
 
@@ -78,6 +81,7 @@ class Player:
         self.on_op = Counter()        # stats de l'adversaire pendant qu'il est sur le terrain
         self.seconds = 0.0
         self.stints = []              # [début, fin, +/-] en secondes de match écoulées
+        self.last_out = -1.0          # dernière sortie du terrain (secondes écoulées)
 
     @property
     def key(self):
@@ -109,7 +113,13 @@ class Team:
         for pk, p in self.players.items():
             if len(pk) >= 18 and (k.startswith(pk) or pk.startswith(k)):
                 return p
-        return None
+        # Nom abîmé ou coupé (« umont ») : un seul joueur avec ce nom de famille.
+        last = k.split()[-1] if k else ""
+        same = [p for pk, p in self.players.items() if pk.split()[-1] == last]
+        if len(same) == 1 and len(last) > 2:
+            return same[0]
+        same = [p for pk, p in self.players.items() if pk.split()[-1].endswith(last)]
+        return same[0] if len(same) == 1 and len(last) > 3 else None
 
 
 # MIN vaut « 0+ » pour un joueur entré moins d'une minute.
@@ -178,19 +188,35 @@ class Event:
         self.idx = 0
 
 
+# « by NOM » manque parfois : l'action est alors attribuée à l'équipe.
 EVENT_PATTERNS = [
-    ("SHOT", re.compile(r"^(GOOD!|MISSED) (.+?) by (.+?)(?: \[([^\]]+)\])?$")),
-    ("REB", re.compile(r"^REBOUND \((OFF|DEF)\) by (.+)$")),
-    ("AST", re.compile(r"^ASSIST(?: ASSIST)? by (.+)$")),
-    ("TOV", re.compile(r"^TURNOVE?R by (.+)$")),
-    ("STL", re.compile(r"^STEAL by (.+)$")),
-    ("BLK", re.compile(r"^BLOCK by (.+)$")),
-    ("TECH", re.compile(r"^FOUL TE TECHNCL by (.+)$")),
-    ("FOUL", re.compile(r"^FOUL by (.+)$")),
+    ("SHOT", re.compile(r"^(GOOD!|MISSED) (.+?)(?: by (.+?))?(?: \[([^\]]+)\])?$")),
+    ("REB", re.compile(r"^REBOUND ?(?:\((OFF|DEF)\)|REBOUN?D?)?(?: by (.+))?$")),
+    ("AST", re.compile(r"^ASSIST(?: ASSIST)?(?: by (.+))?$")),
+    ("TOV", re.compile(r"^TURNOVE?R(?: by (.+))?$")),
+    ("STL", re.compile(r"^STEAL(?: by (.+))?$")),
+    ("BLK", re.compile(r"^BLOCK(?: by (.+))?$")),
+    ("TECH", re.compile(r"^FOUL TE TECHNCL(?: by (.+))?$")),
+    ("FOUL", re.compile(r"^FOUL(?: by (.+))?$")),
     ("SUBIN", re.compile(r"^SUB IN ?: ?(.+)$")),
     ("SUBOUT", re.compile(r"^SUB OUT ?: ?(.+)$")),
-    ("TIMEOUT", re.compile(r"^TIMEOUT ?(.*?) by (.+)$")),
+    ("TIMEOUT", re.compile(r"^TIMEOUT ?(.*?)(?: by (.+))?$")),
 ]
+
+SHOT_TEXT = re.compile(r"^(GOOD!|MISSED)D? ?(3.PTR|FT SHOT|FT|JUMPER|LAYUP|DUNK|TIP-?IN|[A-Z][A-Z -]*?)"
+                       r"[^A-Za-z0-9]?D?by[^A-Z(]*(.*)$")
+
+
+def clean_text(text):
+    """Répare les textes de tir abîmés par certaines feuilles : « MISSEDDFTDby)Ali Diouf »."""
+    if not text.startswith(("GOOD!", "MISSED")):
+        return text
+    m = SHOT_TEXT.match(text)
+    if not m or (" by " in text and not text.startswith("MISSEDD")):
+        return text
+    kind = m.group(2).replace("(", " ").strip()
+    kind = "3 PTR" if kind.startswith("3") else kind
+    return f"{m.group(1)} {kind} by {m.group(3).strip()}"
 
 # Ordre logique de deux actions écrites sur la même ligne (locaux à gauche, visiteurs à droite) :
 # la faute avant les lancers francs, le tir avant le rebond, les changements à la fin.
@@ -199,6 +225,7 @@ ROW_ORDER = {"FOUL": 0, "TECH": 0, "SHOT": 1, "FT": 1, "TOV": 1, "BLK": 2, "STL"
 
 
 def classify(ev):
+    ev.text = clean_text(ev.text)
     for kind, pat in EVENT_PATTERNS:
         m = pat.match(ev.text)
         if not m:
@@ -206,15 +233,15 @@ def classify(ev):
         if kind == "SHOT":
             ev.made = m.group(1) == "GOOD!"
             ev.shot = m.group(2).strip()
-            ev.who = m.group(3).strip()
+            ev.who = m.group(3).strip() if m.group(3) else None
             ev.tags = tuple(m.group(4).split("/")) if m.group(4) else ()
             ev.kind = "FT" if ev.shot.startswith("FT") else "SHOT"
         elif kind == "REB":
-            ev.reb, ev.who, ev.kind = m.group(1), m.group(2).strip(), kind
+            ev.reb, ev.who, ev.kind = m.group(1), (m.group(2) or "").strip() or None, kind
         elif kind == "TIMEOUT":
-            ev.shot, ev.who, ev.kind = m.group(1).strip(), m.group(2).strip(), kind
+            ev.shot, ev.who, ev.kind = m.group(1).strip(), (m.group(2) or "(TEAM)").strip(), kind
         else:
-            ev.who, ev.kind = m.group(1).strip(), kind
+            ev.who, ev.kind = (m.group(1) or "").strip() or None, kind
         return
     ev.kind = "OTHER"
 
@@ -293,6 +320,22 @@ def annotate(events, warnings):
             events[best].assist = ev.who
             ev.fg_ref = best
 
+    # Rebond sans nom : rebond mort entre deux lancers francs, sinon rebond d'équipe.
+    # Rebond sans type : offensif si l'équipe du rebondeur a raté le dernier tir.
+    last_miss = None
+    for i, ev in enumerate(events):
+        if ev.kind in ("SHOT", "FT") and not ev.made:
+            last_miss = ev
+        if ev.kind != "REB":
+            continue
+        if ev.who is None:
+            more_ft = last_miss is not None and last_miss.kind == "FT" and any(
+                e.kind == "FT" and e.side == last_miss.side and e.rem == last_miss.rem
+                and e.period == last_miss.period for e in events[i + 1:i + 6])
+            ev.who = "(DEADBALL)" if more_ft else "(TEAM)"
+        if ev.reb is None:
+            ev.reb = "OFF" if last_miss is not None and last_miss.side == ev.side else "DEF"
+
     techs = {(e.period, e.rem, e.side) for e in events if e.kind == "TECH"}
     trip = []
 
@@ -342,6 +385,7 @@ class Game:
         self.source = source
         self.warnings = []
         self.corrections = []         # changements avancés (voir early_sub)
+        self.repairs = []             # quintettes corrigés (voir ensure_lineups)
         self.on = {VIS: set(), HOME: set()}
         self.lineups = {VIS: {}, HOME: {}}
         self.score = {VIS: 0, HOME: 0}
@@ -354,8 +398,10 @@ class Game:
 
     # -- joueurs -----------------------------------------------------------
     def player(self, side, name, ev=None):
-        if name.startswith("("):
+        if name in ("(TEAM)", "(DEADBALL)"):
             return None
+        if name.startswith("("):
+            name = name.split(")", 1)[-1].strip() or name
         team = self.teams[side]
         p = team.find(name)
         if p is None:
@@ -470,24 +516,21 @@ class Game:
         self.off_turnover = {VIS: False, HOME: False}
         start_pts = dict(self.score)
         prev_rem = period_length(period)
-        checked = set()
         for ev in (e for e in self.events if e.period == period):
             if ev.rem > prev_rem:
                 self.warnings.append(f"P{period} {fmt_clock(ev.rem)} : le chrono remonte ({ev.text})")
             dt = max(0, prev_rem - ev.rem)
             if dt:
+                for side in SIDES:
+                    if len(self.on[side]) != 5:
+                        self.fix_count(side, ev, elapsed(period, prev_rem), keep=set())
                 self.tick(dt)
                 prev_rem = ev.rem
             action = ev.kind not in ("SUBIN", "SUBOUT", "TIMEOUT")
             if action:
+                self.ensure_lineups(ev)
                 if self.pending:
                     self.credit_possession()
-                for side in SIDES:
-                    if len(self.on[side]) != 5 and (period, ev.rem, side) not in checked:
-                        checked.add((period, ev.rem, side))
-                        self.warnings.append(
-                            f"P{period} {fmt_clock(ev.rem)} : {len(self.on[side])} joueurs de "
-                            f"{self.teams[side].name} sur le terrain")
             self.handle(ev)
         if prev_rem:
             self.tick(prev_rem)
@@ -517,6 +560,7 @@ class Game:
         if p not in self.on[p.side]:
             return False
         self.on[p.side].discard(p)
+        p.last_out = t
         stint = p.stints[-1]
         stint[1] = t
         stint[2] = p.plus_minus - stint[3]
@@ -565,10 +609,6 @@ class Game:
             return
 
         p = self.player(side, who) if who else None
-        if p is not None and p not in self.on[side] and not self.early_sub(ev, p):
-            self.warnings.append(
-                f"P{ev.period} {fmt_clock(ev.rem)} : {p.name} est crédité de « {ev.text} » "
-                f"sans être sur le terrain")
 
         if ev.kind == "SHOT":
             if self.ball != side:
@@ -636,6 +676,82 @@ class Game:
             # Crédité même sans panier associé, comme le box score officiel.
             self.credit(side, p, {"AST": 1})
 
+    # -- réparation des quintettes -----------------------------------------------
+    def ensure_lineups(self, ev):
+        """Avant chaque action : l'acteur est sur le terrain et chaque équipe a cinq joueurs.
+
+        Les feuilles oublient des changements. On corrige au moment où l'incohérence se voit,
+        en se fiant à la suite de la période : un joueur qui agit ou sort bientôt est sur le
+        terrain ; un joueur qui entre bientôt, ou ne fait plus rien, est sur le banc.
+        """
+        t = elapsed(ev.period, ev.rem)
+        actor = None
+        if ev.who and ev.kind not in ("SUBIN", "SUBOUT", "TIMEOUT"):
+            actor = self.player(ev.side, ev.who)
+        if actor is not None and actor not in self.on[ev.side] and not self.early_sub(ev, actor):
+            self.enter(actor, t)
+            role, idx = self.next_role(actor, ev, subs_only=True)
+            swapped = None
+            if role == "IN":
+                # Son entrée est notée plus tard : on l'avance, avec une des sorties notées en même temps.
+                sub_in = self.events[idx]
+                sub_in.skip = True
+                outs = [e for e in self.events[ev.idx + 1:]
+                        if e.period == sub_in.period and e.rem == sub_in.rem and e.side == sub_in.side
+                        and e.kind == "SUBOUT" and not e.skip]
+                for e in sorted(outs, key=lambda e: self.next_role(self.player(e.side, e.who), ev)[1] != e.idx):
+                    q = self.player(e.side, e.who)
+                    if q in self.on[ev.side] and q is not actor:
+                        self.leave(q, t)
+                        e.skip = True
+                        swapped = q
+                        break
+            note = (f"entrée notée à {fmt_clock(self.events[idx].rem)} avancée"
+                    + (f", avec la sortie de {swapped.name}" if swapped else "")
+                    if role == "IN" else "aucune entrée notée ; ajouté sur le terrain")
+            self.repairs.append(f"P{ev.period} {fmt_clock(ev.rem)} : {actor.name} agit (« {ev.text} ») ; {note}")
+        for side in SIDES:
+            if len(self.on[side]) != 5:
+                self.fix_count(side, ev, t, keep={actor} if actor else set())
+
+    def next_role(self, p, ev, subs_only=False):
+        """Prochaine apparition du joueur dans la période : ('IN'|'OUT'|'ACT'|None, index)."""
+        for e in self.events[ev.idx + 1:]:
+            if e.period != ev.period:
+                break
+            if e.side != p.side or not e.who or e.skip or e.kind == "TIMEOUT":
+                continue
+            if subs_only and e.kind not in ("SUBIN", "SUBOUT"):
+                continue
+            if self.teams[p.side].find(e.who) is p:
+                return {"SUBIN": "IN", "SUBOUT": "OUT"}.get(e.kind, "ACT"), e.idx
+        return None, len(self.events)
+
+    def fix_count(self, side, ev, t, keep):
+        team = self.teams[side]
+        before = len(self.on[side])
+        changed = []
+        while len(self.on[side]) > 5:
+            def out_rank(q):
+                role, idx = self.next_role(q, ev)
+                return {"IN": 0, None: 1}.get(role, 2), -idx
+            q = min((q for q in self.on[side] if q not in keep), key=out_rank)
+            self.leave(q, t)
+            changed.append(f"−{q.name}")
+        while len(self.on[side]) < 5:
+            def in_rank(q):
+                role, idx = self.next_role(q, ev)
+                return {"ACT": 0, "OUT": 0, None: 1}.get(role, 2), idx, -q.last_out
+            bench = [q for q in team.players.values() if q not in self.on[side]]
+            if not bench:
+                break
+            q = min(bench, key=in_rank)
+            self.enter(q, t)
+            changed.append(f"+{q.name}")
+        if changed:
+            self.repairs.append(f"P{ev.period} {fmt_clock(ev.rem)} : {before} joueurs de {team.name} "
+                                f"sur le terrain ; corrigé ({', '.join(changed)})")
+
     def early_sub(self, ev, p):
         """Un joueur agit juste avant son entrée notée : on avance son changement.
 
@@ -669,11 +785,15 @@ class Game:
         self.score[side] += pts
         t = elapsed(ev.period, ev.rem)
         self.flow.append((t, self.score[VIS], self.score[HOME], side, pts))
-        if ev.score and ev.score != self.score:
+        offset = (ev.score[HOME] - self.score[HOME], ev.score[VIS] - self.score[VIS]) if ev.score else None
+        if ev.score and ev.score != self.score and offset != self.score_offset:
             self.score_mismatches.append(
                 f"P{ev.period} {fmt_clock(ev.rem)} : score écrit {ev.score[HOME]}-{ev.score[VIS]}, "
                 f"recalculé {self.score[HOME]}-{self.score[VIS]}")
-            self.score = dict(ev.score)
+        if ev.score:
+            self.score_offset = offset
+
+    score_offset = (0, 0)
 
     def finish(self):
         for side in SIDES:
