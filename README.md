@@ -22,6 +22,34 @@ Exemple de saison : [`exemples/saison-edouard-montpetit.html`](exemples/saison-e
 
 Exemple de match : [`exemples/m001.html`](exemples/m001.html) (Montmorency 92 – Édouard-Montpetit 67, 2025-10-17), produit à partir de [`exemples/m001.htm`](exemples/m001.htm). Les mêmes données en JSON : [`exemples/m001.json`](exemples/m001.json).
 
+## Site public : saison 2026-2027
+
+Le site est dans [`docs/`](docs/) et publié par GitHub Pages : **https://benjai1080.github.io/Stats_RSEQ/**. Il présente la saison 2026-2027 d'Édouard-Montpetit, avec une liste déroulante pour chaque match et sans la section des quintettes. La saison 2025-2026 est en archive (`docs/2025-2026/`).
+
+Depuis 2026-2027, le RSEQ publie ses données autrement, et `rseq_diffusion.py` les lit :
+
+- **calendrier et résultats officiels** : API du RSEQ, celle qu'affiche la page de la ligue sur rseq-stats.ca. Son identifiant est retrouvé sur cette page à chaque exécution ;
+- **feuilles de match** : fichiers XML PrestoSports lus par le site de statistiques du RSEQ (`statistiques-bb-cold1-rseq.vercel.app`). Le jeu par jeu y est découpé par quart et par prolongation. Les changements y sont tous, alors que le site ne les montre qu'avec « Afficher les substitutions ». L'adresse du stockage et sa clé publique de lecture sont relues dans le code du site à chaque exécution : rien n'est recopié ici ;
+- `rseq_xml.py` traduit le XML pour le moteur de rejeu (`rseq_stats.py`), le même que pour l'ancien format.
+
+Les feuilles téléchargées sont gardées dans [`donnees/`](donnees/), avec une copie du calendrier.
+
+Quand le score d'une feuille diffère du résultat officiel (M03 : 77-84 sur la feuille, 79-84 au RSEQ), le site affiche le résultat officiel et le signale. Les stats du match viennent quand même de la feuille.
+
+### Mise à jour automatique
+
+Le workflow [`.github/workflows/mise-a-jour.yml`](.github/workflows/mise-a-jour.yml) tourne tous les soirs vers 21 h, heure de Montréal (20 h l'hiver). Il ne travaille que :
+
+- **le lundi** : il récupère les matchs de la semaine écoulée ;
+- **les jours suivants**, tant qu'un match d'Édouard-Montpetit joué avant ce lundi n'a pas encore sa feuille ou son résultat. Il abandonne après 21 jours.
+
+Quand il trouve du nouveau, il régénère `docs/` et commite sur `main`. GitHub Pages republie alors le site. Pour forcer une mise à jour : onglet Actions → « Mise à jour du site » → *Run workflow* (case « Reconstruire »).
+
+```bash
+python3 rseq_diffusion.py "Édouard-Montpetit"                   # reconstruit docs/ maintenant
+python3 rseq_diffusion.py "Édouard-Montpetit" --si-necessaire   # comme l'automatisation
+```
+
 ## Commandes
 
 ```bash

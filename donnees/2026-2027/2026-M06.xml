@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bbgame source="PrestoSports" version="7.23.0" generated="10/18/2026"> 
+  <venue gameid="" visid="MOMO" visname="Collège Montmorency" homeid="JOHN ABB" homename="Collège John Abbott" date="10/18/2026" location="Vanier College" time="5:15 PM" start="5:15 PM" end="" duration="" delay="" attend="0" schednote="" leaguegame="Y" neutralgame="N" postseason="N"> 
+    <officials text="Sebastien Gauthier, Robert Shaul, Francois Loignon"/>  
+    <notes/>  
+    <rules prds="4" minutes="10" minutesot="5" fouls="5" qh="Q" overtimeType="OT"/> 
+  </venue>  
+  <status complete="Y" running="F"/>  
+  <team vh="V" id="MOMO" name="Collège Montmorency" code="CCAA107" record=""> 
+    <linescore line="10,31,23,14" score="78"> 
+      <lineprd prd="1" score="10"/>  
+      <lineprd prd="2" score="31"/>  
+      <lineprd prd="3" score="23"/>  
+      <lineprd prd="4" score="14"/> 
+    </linescore>  
+    <totals> 
+      <stats fgm="29" fga="73" fgm3="10" fga3="30" ftm="10" fta="16" tp="78" blk="5" stl="12" ast="24" min="199" oreb="20" dreb="39" treb="59" pf="19" tf="0" to="22" dq="0" deadball="4,1" fgpct="39.7" fg3pct="33.3" ftpct="62.5"/>  
+      <special vh="V" pts_to="19" pts_ch2="19" pts_paint="32" pts_fastb="0" pts_bench="21" ties="1" leads="1" poss_count="0" poss_time="0" score_count="0" score_time="0" large_lead="37" large_lead_t="3rd-00:08"/> 
+    </totals>  
+    <player uni="0" code="0" name="Nicolas Guay-Paquet" checkname="GUAY-PAQUET,NICOLAS" gp="1" playerId="so1md9i6zc2b9c6p"> 
+      <stats oreb="3" dreb="1" treb="4" pf="2" tf="0" to="0" tp="2" fgm="1" fga="4" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="18"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="4" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="6" oreb="3" dreb="0" treb="3" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="1" code="1" name="Mohamed Takrouni" checkname="TAKROUNI,MOHAMED" gp="1" oncourt="Y" playerId="uiy0oqcf30ansvjk"> 
+      <stats oreb="1" dreb="3" treb="4" pf="2" tf="0" to="1" tp="0" fgm="0" fga="5" fgm3="0" fga3="3" ftm="0" fta="0" blk="1" stl="1" ast="2" min="16"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="2" min="4" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="1" stl="1" ast="0" min="6" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="2" code="2" name="Batiste Percher" checkname="PERCHER,BATISTE" gp="1" playerId="189iy1zu6gq7yvs0"> 
+      <stats oreb="0" dreb="1" treb="1" pf="2" tf="0" to="5" tp="5" fgm="2" fga="2" fgm3="1" fga3="1" ftm="0" fta="0" blk="0" stl="3" ast="6" min="14"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="1" fgm3="1" fga3="1" ftm="0" fta="0" tp="3" blk="0" stl="0" ast="2" min="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="3" ast="3" min="6" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="2" dq="0"/> 
+    </player>  
+    <player uni="3" code="3" name="Tristan Houle" checkname="HOULE,TRISTAN" gp="1" oncourt="Y" playerId="v7daxgm2o3fp9e6w"> 
+      <stats oreb="1" dreb="2" treb="3" pf="1" tf="0" to="0" tp="6" fgm="2" fga="8" fgm3="2" fga3="6" ftm="0" fta="0" blk="0" stl="0" ast="2" min="16"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="2" min="3" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="2" fga="4" fgm3="2" fga3="3" ftm="0" fta="0" tp="6" blk="0" stl="0" ast="0" min="6" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="5" code="5" name="Naythan Sincere" checkname="SINCERE,NAYTHAN" gp="1" gs="1" pos="*" playerId="t9fj488e5ehloa9t"> 
+      <stats oreb="1" dreb="5" treb="6" pf="1" tf="0" to="1" tp="16" fgm="6" fga="9" fgm3="3" fga3="4" ftm="1" fta="2" blk="0" stl="1" ast="4" min="21"/>  
+      <statsbyprd prd="1" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="6" oreb="1" dreb="1" treb="2" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="2" fgm3="1" fga3="1" ftm="1" fta="2" tp="6" blk="0" stl="1" ast="1" min="6" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="3" fga="3" fgm3="1" fga3="1" ftm="0" fta="0" tp="7" blk="0" stl="0" ast="2" min="5" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="1" fgm3="1" fga3="1" ftm="0" fta="0" tp="3" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="6" code="6" name="Mathis Beauchamp" checkname="BEAUCHAMP,MATHIS" gp="1" gs="1" pos="*" playerId="63axxb54swc349hk"> 
+      <stats oreb="2" dreb="8" treb="10" pf="1" tf="0" to="3" tp="19" fgm="6" fga="13" fgm3="2" fga3="6" ftm="5" fta="7" blk="1" stl="2" ast="3" min="24"/>  
+      <statsbyprd prd="1" fgm="1" fga="2" fgm3="1" fga3="1" ftm="2" fta="4" tp="5" blk="0" stl="2" ast="1" min="8" oreb="1" dreb="2" treb="3" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="5" fgm3="0" fga3="2" ftm="0" fta="0" tp="4" blk="0" stl="0" ast="2" min="8" oreb="1" dreb="3" treb="4" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="3" fga="3" fgm3="1" fga3="1" ftm="3" fta="3" tp="10" blk="1" stl="0" ast="0" min="8" oreb="0" dreb="3" treb="3" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="3" fgm3="0" fga3="2" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="8" code="8" name="Benjamin Grahic" checkname="GRAHIC,BENJAMIN" gp="1" gs="1" pos="*" oncourt="Y" playerId="0ykytamhinpf43e4"> 
+      <stats oreb="6" dreb="7" treb="13" pf="2" tf="0" to="6" tp="11" fgm="5" fga="9" fgm3="0" fga3="0" ftm="1" fta="2" blk="2" stl="1" ast="3" min="24"/>  
+      <statsbyprd prd="1" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="2" stl="0" ast="0" min="6" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="2" fgm="3" fga="4" fgm3="0" fga3="0" ftm="0" fta="0" tp="6" blk="0" stl="1" ast="1" min="6" oreb="5" dreb="2" treb="7" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="1" min="7" oreb="0" dreb="3" treb="3" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="1" fgm3="0" fga3="0" ftm="1" fta="2" tp="3" blk="0" stl="0" ast="1" min="5" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="2" dq="0"/> 
+    </player>  
+    <player uni="9" code="9" name="Trully Madimba" checkname="MADIMBA,TRULLY" gp="1" playerId="ywvkjfgq4ty0ekxi"> 
+      <stats oreb="1" dreb="1" treb="2" pf="2" tf="0" to="0" tp="8" fgm="3" fga="6" fgm3="0" fga3="2" ftm="2" fta="3" blk="0" stl="2" ast="2" min="14"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="4" fgm3="0" fga3="2" ftm="0" fta="0" tp="4" blk="0" stl="2" ast="1" min="6" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="1" fgm3="0" fga3="0" ftm="2" fta="3" tp="4" blk="0" stl="0" ast="1" min="5" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="11" code="11" name="Arie Mugisha" checkname="MUGISHA,ARIE" gp="1" oncourt="Y" playerId="3xut5qcz2yu3x9yt"> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="6"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="12" code="12" name="John Devalis" checkname="DEVALIS,JOHN" gp="1" gs="1" pos="*" oncourt="Y" playerId="padw9vd0qt4gv9uy"> 
+      <stats oreb="2" dreb="6" treb="8" pf="4" tf="0" to="4" tp="2" fgm="1" fga="5" fgm3="0" fga3="0" ftm="0" fta="0" blk="1" stl="0" ast="1" min="27"/>  
+      <statsbyprd prd="1" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="9" oreb="1" dreb="3" treb="4" pf="1" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="1" stl="0" ast="0" min="4" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="5" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="9" oreb="1" dreb="1" treb="2" pf="2" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="13" code="13" name="Isaac Riahi" checkname="RIAHI,ISAAC" gp="1" gs="1" pos="*" playerId="bfk32vyrqttsz45b"> 
+      <stats oreb="2" dreb="1" treb="3" pf="2" tf="0" to="1" tp="9" fgm="3" fga="12" fgm3="2" fga3="8" ftm="1" fta="2" blk="0" stl="2" ast="1" min="19"/>  
+      <statsbyprd prd="1" fgm="1" fga="7" fgm3="0" fga3="4" ftm="1" fta="2" tp="3" blk="0" stl="0" ast="0" min="9" oreb="2" dreb="0" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="4" fgm3="2" fga3="3" ftm="0" fta="0" tp="6" blk="0" stl="1" ast="1" min="4" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="TM" code="TM" name="Team" checkname="TEAM" gp="1" playerId=""> 
+      <stats oreb="1" dreb="4" treb="5" pf="0" tf="0" to="1" tp="0"/>  
+      <statsbyprd prd="1" oreb="1" dreb="2" treb="3" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="2" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="3" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" tp="0" dq="0"/> 
+    </player> 
+  </team>  
+  <team vh="H" id="JOHN ABB" name="Collège John Abbott" code="CCAA105" record=""> 
+    <linescore line="12,5,10,20" score="47"> 
+      <lineprd prd="1" score="12"/>  
+      <lineprd prd="2" score="5"/>  
+      <lineprd prd="3" score="10"/>  
+      <lineprd prd="4" score="20"/> 
+    </linescore>  
+    <totals> 
+      <stats fgm="18" fga="67" fgm3="2" fga3="19" ftm="9" fta="16" tp="47" blk="6" stl="12" ast="12" min="200" oreb="14" dreb="26" treb="40" pf="16" tf="0" to="22" dq="0" deadball="3,0" fgpct="26.9" fg3pct="10.5" ftpct="56.3"/>  
+      <special vh="H" pts_to="16" pts_ch2="8" pts_paint="30" pts_fastb="0" pts_bench="21" ties="2" leads="1" poss_count="0" poss_time="0" score_count="0" score_time="0" large_lead="6" large_lead_t="1st-04:05"/> 
+    </totals>  
+    <player uni="3" code="3" name="Ishaaq Ullah" checkname="ULLAH,ISHAAQ" gp="1" gs="1" pos="*" playerId=""> 
+      <stats oreb="0" dreb="0" treb="0" pf="1" tf="0" to="3" tp="3" fgm="1" fga="4" fgm3="0" fga3="2" ftm="1" fta="2" blk="0" stl="2" ast="0" min="19"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="1" ftm="1" fta="2" tp="1" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="0" min="8" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="4" code="4" name="Dumisile Davies Ncube" checkname="NCUBE,DUMISILE DAVIES" gp="1" gs="1" pos="*" oncourt="Y" playerId=""> 
+      <stats oreb="3" dreb="3" treb="6" pf="2" tf="0" to="5" tp="2" fgm="0" fga="14" fgm3="0" fga3="2" ftm="2" fta="5" blk="0" stl="1" ast="3" min="26"/>  
+      <statsbyprd prd="1" fgm="0" fga="4" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="2" min="6" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="3" fgm3="0" fga3="0" ftm="2" fta="3" tp="2" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="2" tp="0" blk="0" stl="0" ast="1" min="6" oreb="1" dreb="1" treb="2" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="4" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="8" oreb="2" dreb="0" treb="2" pf="0" tf="0" to="2" dq="0"/> 
+    </player>  
+    <player uni="5" code="5" name="Kelvin Clyne" checkname="CLYNE,KELVIN" gp="1" playerId=""> 
+      <stats oreb="0" dreb="2" treb="2" pf="2" tf="0" to="1" tp="7" fgm="3" fga="15" fgm3="1" fga3="6" ftm="0" fta="1" blk="1" stl="0" ast="3" min="20"/>  
+      <statsbyprd prd="1" fgm="1" fga="5" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="1" stl="0" ast="1" min="5" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="1" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="4" fgm3="0" fga3="2" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="3" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="2" fga="5" fgm3="1" fga3="3" ftm="0" fta="0" tp="5" blk="0" stl="0" ast="1" min="7" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="7" code="7" name="Malik Guerrier" checkname="GUERRIER,MALIK" gp="1" gs="1" pos="*" oncourt="Y" playerId=""> 
+      <stats oreb="0" dreb="2" treb="2" pf="0" tf="0" to="3" tp="10" fgm="4" fga="11" fgm3="1" fga3="6" ftm="1" fta="1" blk="0" stl="1" ast="1" min="29"/>  
+      <statsbyprd prd="1" fgm="3" fga="6" fgm3="1" fga3="3" ftm="1" fta="1" tp="8" blk="0" stl="0" ast="0" min="9" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="3" fgm3="0" fga3="2" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="0" min="6" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="3" dq="0"/> 
+    </player>  
+    <player uni="8" code="8" name="Lucas Cochin" checkname="COCHIN,LUCAS" gp="1" oncourt="Y" playerId=""> 
+      <stats oreb="2" dreb="3" treb="5" pf="4" tf="0" to="4" tp="8" fgm="3" fga="6" fgm3="0" fga3="0" ftm="2" fta="2" blk="0" stl="4" ast="2" min="21"/>  
+      <statsbyprd prd="1" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="2" ast="0" min="5" oreb="1" dreb="2" treb="3" pf="1" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="2" fga="5" fgm3="0" fga3="0" ftm="2" fta="2" tp="6" blk="0" stl="2" ast="2" min="10" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="9" code="9" name="Simmion Hyde" checkname="HYDE,SIMMION" gp="1" playerId=""> 
+      <stats oreb="0" dreb="1" treb="1" pf="2" tf="0" to="1" tp="2" fgm="1" fga="3" fgm3="0" fga3="0" ftm="0" fta="0" blk="1" stl="3" ast="1" min="22"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="1" min="7" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="1" stl="1" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="12" code="12" name="Carter Wise" checkname="WISE,CARTER" gp="1" gs="1" pos="*" playerId=""> 
+      <stats oreb="1" dreb="0" treb="1" pf="3" tf="0" to="1" tp="0" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" blk="3" stl="1" ast="0" min="16"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="1" stl="0" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="6" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="2" stl="0" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="15" code="15" name="Julian Bibaud-Wentink" checkname="BIBAUD-WENTINK,JULIAN" gp="1" gs="1" pos="*" oncourt="Y" playerId=""> 
+      <stats oreb="2" dreb="9" treb="11" pf="2" tf="0" to="2" tp="11" fgm="4" fga="6" fgm3="0" fga3="1" ftm="3" fta="5" blk="1" stl="0" ast="2" min="27"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="3" treb="3" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="1" stl="0" ast="0" min="6" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="2" fga="3" fgm3="0" fga3="1" ftm="0" fta="1" tp="4" blk="0" stl="0" ast="1" min="6" oreb="1" dreb="2" treb="3" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="2" fga="3" fgm3="0" fga3="0" ftm="3" fta="4" tp="7" blk="0" stl="0" ast="1" min="10" oreb="1" dreb="3" treb="4" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="21" code="21" name="Johsua Boisselle-Gaughan" checkname="BOISSELLE-GAUGHAN,JOHSUA" gp="1" oncourt="Y" playerId=""> 
+      <stats oreb="2" dreb="3" treb="5" pf="0" tf="0" to="1" tp="4" fgm="2" fga="5" fgm3="0" fga3="1" ftm="0" fta="0" blk="0" stl="0" ast="0" min="20"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="2" fga="3" fgm3="0" fga3="0" ftm="0" fta="0" tp="4" blk="0" stl="0" ast="0" min="7" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="TM" code="TM" name="Team" checkname="TEAM" gp="1" playerId=""> 
+      <stats oreb="4" dreb="3" treb="7" pf="0" tf="0" to="1" tp="0"/>  
+      <statsbyprd prd="1" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="2" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="1" tp="0" dq="0"/>  
+      <statsbyprd prd="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="4" oreb="2" dreb="2" treb="4" pf="0" tf="0" to="0" tp="0" dq="0"/> 
+    </player> 
+  </team>  
+  <plays format="tokens"> 
+    <period number="1" time="10:00"> 
+      <special vh="V" pts_to="3" pts_ch2="3" pts_paint="4" pts_fastb="0" pts_bench="0" ties="0" leads="0" poss_count="0" poss_time="0" score_count="6" score_time="1883" large_lead="4" large_lead_t="1st-07:38"/>  
+      <special vh="H" pts_to="6" pts_ch2="2" pts_paint="8" pts_fastb="0" pts_bench="4" ties="2" leads="1" poss_count="0" poss_time="0" score_count="4" score_time="1309" large_lead="6" large_lead_t="1st-04:05"/>  
+      <summary vh="V" fgm="3" fga="18" fgm3="1" fga3="8" ftm="3" fta="6" blk="2" stl="2" ast="3" oreb="6" dreb="7" treb="13" pf="4" tf="0" to="7"/>  
+      <summary vh="H" fgm="5" fga="17" fgm3="1" fga3="5" ftm="1" fta="1" blk="2" stl="4" ast="3" oreb="2" dreb="8" treb="10" pf="6" tf="0" to="6"/>  
+      <play vh="V" time="09:49" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="MISS" type="3PTR"/>  
+      <play vh="V" time="09:49" uni="TM" team="MOMO" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="09:42" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="TURNOVER"/>  
+      <play vh="H" time="09:41" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="STEAL"/>  
+      <play vh="H" time="09:30" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="09:30" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="BLOCK"/>  
+      <play vh="V" time="09:30" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="09:24" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="ASSIST"/>  
+      <play vh="V" time="09:24" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="GOOD" type="LAYUP" paint="Y" vscore="2" hscore="0"/>  
+      <play vh="H" time="09:12" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="FOUL"/>  
+      <play vh="H" time="09:12" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="TURNOVER"/>  
+      <play vh="V" time="09:03" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="MISS" type="3PTR"/>  
+      <play vh="H" time="09:03" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:49" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="08:49" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="BLOCK"/>  
+      <play vh="V" time="08:49" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="08:39" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:39" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:32" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="FOUL"/>  
+      <play vh="H" time="08:32" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="V" time="08:17" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="08:17" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="08:13" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="TURNOVER"/>  
+      <play vh="V" time="08:01" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="FOUL"/>  
+      <play vh="H" time="08:00" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="GOOD" type="LAYUP" paint="Y" vscore="2" hscore="2"/>  
+      <play vh="H" time="08:00" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="ASSIST"/>  
+      <play vh="H" time="07:53" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="FOUL"/>  
+      <play vh="V" time="07:53" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="FT" vscore="3" hscore="2"/>  
+      <play vh="V" time="07:53" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="MISS" type="FT"/>  
+      <play vh="H" time="07:53" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:53" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="SUB" type="IN"/>  
+      <play vh="V" time="07:53" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:43" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="07:43" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:38" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="3PTR" vscore="6" hscore="2"/>  
+      <play vh="V" time="07:38" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="ASSIST"/>  
+      <play vh="H" time="07:15" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="3PTR"/>  
+      <play vh="V" time="07:15" uni="TM" team="MOMO" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:10" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="SUB" type="IN"/>  
+      <play vh="V" time="07:10" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="V" time="07:10" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:10" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:10" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="IN"/>  
+      <play vh="H" time="07:10" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="SUB" type="IN"/>  
+      <play vh="H" time="07:10" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:10" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:03" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="TURNOVER"/>  
+      <play vh="H" time="06:40" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="TURNOVER"/>  
+      <play vh="V" time="06:39" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="STEAL"/>  
+      <play vh="V" time="06:36" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="MISS" type="3PTR"/>  
+      <play vh="H" time="06:36" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="06:21" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="GOOD" type="3PTR" vscore="6" hscore="5"/>  
+      <play vh="H" time="06:21" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="ASSIST"/>  
+      <play vh="V" time="06:20" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="FOUL"/>  
+      <play vh="V" time="06:20" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="SUB" type="IN"/>  
+      <play vh="V" time="06:20" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:20" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="SUB" type="IN"/>  
+      <play vh="H" time="06:20" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="H" time="06:20" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:20" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:18" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="GOOD" type="FT" vscore="6" hscore="6"/>  
+      <play vh="V" time="06:09" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="TURNOVER"/>  
+      <play vh="H" time="06:01" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="STEAL"/>  
+      <play vh="H" time="05:57" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="GOOD" type="LAYUP" paint="Y" vscore="6" hscore="8"/>  
+      <play vh="V" time="05:34" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="FOUL"/>  
+      <play vh="V" time="05:34" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="TURNOVER"/>  
+      <play vh="V" time="05:34" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="IN"/>  
+      <play vh="V" time="05:34" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:30" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="05:30" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="05:26" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="GOOD" type="LAYUP" paint="Y" vscore="6" hscore="10"/>  
+      <play vh="V" time="05:18" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="05:18" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="04:58" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="3PTR"/>  
+      <play vh="V" time="04:58" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="04:44" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="TURNOVER"/>  
+      <play vh="H" time="04:43" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="STEAL"/>  
+      <play vh="H" time="04:30" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="MISS" type="3PTR"/>  
+      <play vh="V" time="04:30" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="04:14" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="MISS" type="3PTR"/>  
+      <play vh="H" time="04:14" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="04:05" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="GOOD" type="JUMPER" paint="Y" vscore="6" hscore="12"/>  
+      <play vh="H" time="04:05" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="ASSIST"/>  
+      <play vh="V" time="03:46" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="TURNOVER"/>  
+      <play vh="H" time="03:46" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="STEAL"/>  
+      <play vh="V" time="03:46" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="SUB" type="IN"/>  
+      <play vh="V" time="03:46" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="SUB" type="IN"/>  
+      <play vh="V" time="03:46" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="SUB" type="IN"/>  
+      <play vh="V" time="03:46" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="SUB" type="IN"/>  
+      <play vh="V" time="03:46" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:46" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:46" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:46" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:46" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="IN"/>  
+      <play vh="H" time="03:46" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="H" time="03:46" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="H" time="03:46" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:46" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:46" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:31" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="03:31" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="03:15" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="MISS" type="3PTR"/>  
+      <play vh="V" time="03:15" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="03:13" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="FOUL"/>  
+      <play vh="V" time="03:13" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="MISS" type="FT"/>  
+      <play vh="V" time="03:13" uni="TM" team="MOMO" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="03:13" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="GOOD" type="FT" vscore="7" hscore="12"/>  
+      <play vh="H" time="03:13" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="H" time="03:13" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:50" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="TURNOVER"/>  
+      <play vh="H" time="02:50" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="FOUL"/>  
+      <play vh="H" time="02:50" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="IN"/>  
+      <play vh="H" time="02:50" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:40" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="02:40" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="02:25" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="FOUL"/>  
+      <play vh="V" time="02:25" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="SUB" type="IN"/>  
+      <play vh="V" time="02:25" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:25" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="H" time="02:25" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:24" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="MISS" type="3PTR"/>  
+      <play vh="V" time="02:24" uni="TM" team="MOMO" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="02:11" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="MISS" type="3PTR"/>  
+      <play vh="V" time="02:11" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="02:05" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="02:05" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="BLOCK"/>  
+      <play vh="H" time="02:05" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="01:46" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="TURNOVER"/>  
+      <play vh="V" time="01:46" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="SUB" type="IN"/>  
+      <play vh="V" time="01:46" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:46" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="SUB" type="IN"/>  
+      <play vh="H" time="01:46" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:41" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="FOUL"/>  
+      <play vh="V" time="01:41" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="FT" vscore="8" hscore="12"/>  
+      <play vh="V" time="01:41" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="MISS" type="FT"/>  
+      <play vh="V" time="01:41" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="01:34" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="GOOD" type="LAYUP" paint="Y" vscore="10" hscore="12"/>  
+      <play vh="V" time="01:34" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="ASSIST"/>  
+      <play vh="H" time="01:11" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="01:11" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="01:08" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="IN"/>  
+      <play vh="H" time="01:08" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="SUB" type="IN"/>  
+      <play vh="H" time="01:08" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:08" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="01:04" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="V" time="01:04" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:58" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="00:58" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="00:52" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="TURNOVER"/>  
+      <play vh="V" time="00:50" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="STEAL"/>  
+      <play vh="V" time="00:43" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="MISS" type="3PTR"/>  
+      <play vh="V" time="00:43" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="00:31" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="00:31" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="00:18" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="00:18" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="BLOCK"/>  
+      <play vh="H" time="00:18" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:11" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="00:11" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:00" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="00:00" uni="TM" team="MOMO" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <clock time="00:00"/> 
+    </period>  
+    <period number="2" time="10:00"> 
+      <special vh="V" pts_to="11" pts_ch2="13" pts_paint="16" pts_fastb="0" pts_bench="9" ties="1" leads="1" poss_count="0" poss_time="0" score_count="14" score_time="3802" large_lead="24" large_lead_t="2nd-01:20"/>  
+      <special vh="H" pts_to="2" pts_ch2="0" pts_paint="2" pts_fastb="0" pts_bench="2" ties="0" leads="0" poss_count="0" poss_time="0" score_count="4" score_time="1002" large_lead="2" large_lead_t="2nd-09:50"/>  
+      <summary vh="V" fgm="13" fga="26" fgm3="4" fga3="10" ftm="1" fta="2" blk="1" stl="5" ast="8" oreb="10" dreb="11" treb="21" pf="3" tf="0" to="5"/>  
+      <summary vh="H" fgm="1" fga="13" fgm3="0" fga3="4" ftm="3" fta="6" blk="1" stl="2" ast="0" oreb="1" dreb="3" treb="4" pf="2" tf="0" to="7"/>  
+      <play vh="V" time="10:00" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="V" time="10:00" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="SUB" type="IN"/>  
+      <play vh="V" time="10:00" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <play vh="V" time="10:00" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="SUB" type="OUT"/>  
+      <play vh="V" time="09:50" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="TURNOVER"/>  
+      <play vh="H" time="09:28" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="09:28" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="09:20" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="MISS" type="3PTR"/>  
+      <play vh="H" time="09:20" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="09:06" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="MISS" type="3PTR"/>  
+      <play vh="V" time="09:06" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="08:56" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="GOOD" type="LAYUP" paint="Y" vscore="12" hscore="12"/>  
+      <play vh="H" time="08:39" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="TURNOVER"/>  
+      <play vh="V" time="08:38" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="STEAL"/>  
+      <play vh="V" time="08:37" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="LAYUP" paint="Y" vscore="14" hscore="12"/>  
+      <play vh="V" time="08:37" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="ASSIST"/>  
+      <play vh="H" time="08:18" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="MISS" type="3PTR"/>  
+      <play vh="V" time="08:18" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="08:08" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:08" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:58" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="FOUL"/>  
+      <play vh="H" time="07:58" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="GOOD" type="FT" vscore="14" hscore="13"/>  
+      <play vh="H" time="07:58" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="MISS" type="FT"/>  
+      <play vh="H" time="07:58" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="07:58" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="SUB" type="IN"/>  
+      <play vh="V" time="07:58" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="SUB" type="IN"/>  
+      <play vh="V" time="07:58" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="SUB" type="IN"/>  
+      <play vh="V" time="07:58" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:58" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:58" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:55" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="07:55" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:49" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="TURNOVER"/>  
+      <play vh="H" time="07:46" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="STEAL"/>  
+      <play vh="H" time="07:41" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="IN"/>  
+      <play vh="H" time="07:41" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="SUB" type="IN"/>  
+      <play vh="H" time="07:41" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="SUB" type="IN"/>  
+      <play vh="H" time="07:41" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:41" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:41" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:32" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="07:32" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="BLOCK"/>  
+      <play vh="H" time="07:32" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:26" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="MISS" type="3PTR"/>  
+      <play vh="V" time="07:26" uni="TM" team="MOMO" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="07:19" uni="TM" team="JOHN ABB" checkname="TEAM" action="TURNOVER"/>  
+      <play vh="V" time="07:08" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="GOOD" type="3PTR" vscore="17" hscore="13"/>  
+      <play vh="V" time="07:08" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="ASSIST"/>  
+      <play vh="H" time="06:55" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="06:55" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="06:49" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="GOOD" type="LAYUP" paint="Y" vscore="19" hscore="13"/>  
+      <play vh="V" time="06:49" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="ASSIST"/>  
+      <play vh="H" time="06:48" uni="TM" team="JOHN ABB" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="H" time="06:48" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="H" time="06:48" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:31" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="TURNOVER"/>  
+      <play vh="V" time="06:30" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="STEAL"/>  
+      <play vh="V" time="06:19" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="TURNOVER"/>  
+      <play vh="H" time="06:08" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="TURNOVER"/>  
+      <play vh="H" time="06:08" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="H" time="06:08" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:52" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="GOOD" type="3PTR" vscore="22" hscore="13"/>  
+      <play vh="V" time="05:52" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="ASSIST"/>  
+      <play vh="H" time="05:32" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="05:32" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:27" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="05:27" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="05:24" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="FOUL"/>  
+      <play vh="V" time="05:24" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="V" time="05:24" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="IN"/>  
+      <play vh="V" time="05:24" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:24" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:24" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="H" time="05:24" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="IN"/>  
+      <play vh="H" time="05:24" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:24" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:22" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="MISS" type="3PTR"/>  
+      <play vh="V" time="05:22" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="05:13" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="ASSIST"/>  
+      <play vh="V" time="05:13" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="GOOD" type="3PTR" vscore="25" hscore="13"/>  
+      <play vh="H" time="05:04" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="TURNOVER"/>  
+      <play vh="H" time="05:04" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="IN"/>  
+      <play vh="H" time="05:04" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:58" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="TURNOVER"/>  
+      <play vh="V" time="04:43" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="FOUL"/>  
+      <play vh="H" time="04:43" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="FT"/>  
+      <play vh="H" time="04:43" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="04:43" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="FT"/>  
+      <play vh="V" time="04:43" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="04:27" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="04:27" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="04:23" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="04:23" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="04:19" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="GOOD" type="LAYUP" paint="Y" vscore="27" hscore="13"/>  
+      <play vh="V" time="04:05" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="FOUL"/>  
+      <play vh="H" time="04:05" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="GOOD" type="FT" vscore="27" hscore="14"/>  
+      <play vh="H" time="04:05" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="GOOD" type="FT" vscore="27" hscore="15"/>  
+      <play vh="V" time="04:05" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="SUB" type="IN"/>  
+      <play vh="V" time="04:05" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="SUB" type="IN"/>  
+      <play vh="V" time="04:05" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:05" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:05" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="H" time="04:05" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:53" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="03:53" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="03:48" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="GOOD" type="LAYUP" paint="Y" vscore="29" hscore="15"/>  
+      <play vh="H" time="03:34" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="MISS" type="3PTR"/>  
+      <play vh="V" time="03:34" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="03:24" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="GOOD" type="3PTR" vscore="32" hscore="15"/>  
+      <play vh="V" time="03:24" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="ASSIST"/>  
+      <play vh="H" time="03:06" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="03:06" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="02:59" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="02:59" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="BLOCK"/>  
+      <play vh="V" time="02:59" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="02:50" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="02:50" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="02:48" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="GOOD" type="TIPIN" paint="Y" vscore="34" hscore="15"/>  
+      <play vh="H" time="02:35" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="TURNOVER"/>  
+      <play vh="V" time="02:34" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="STEAL"/>  
+      <play vh="V" time="02:20" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="02:20" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="02:10" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="MISS" type="3PTR"/>  
+      <play vh="V" time="02:10" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="02:05" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="ASSIST"/>  
+      <play vh="V" time="02:05" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="JUMPER" vscore="36" hscore="15"/>  
+      <play vh="H" time="01:48" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="01:48" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:43" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="01:43" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="01:40" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="GOOD" type="LAYUP" paint="Y" vscore="38" hscore="15"/>  
+      <play vh="H" time="01:40" uni="TM" team="JOHN ABB" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="01:40" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="SUB" type="IN"/>  
+      <play vh="V" time="01:40" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="SUB" type="IN"/>  
+      <play vh="V" time="01:40" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="SUB" type="IN"/>  
+      <play vh="V" time="01:40" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="01:40" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="SUB" type="OUT"/>  
+      <play vh="V" time="01:40" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:40" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="SUB" type="IN"/>  
+      <play vh="H" time="01:40" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="SUB" type="IN"/>  
+      <play vh="H" time="01:40" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="H" time="01:40" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="IN"/>  
+      <play vh="H" time="01:40" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:40" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:40" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:40" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:23" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="TURNOVER"/>  
+      <play vh="V" time="01:21" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="STEAL"/>  
+      <play vh="H" time="01:20" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="FOUL"/>  
+      <play vh="V" time="01:20" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="MISS" type="FT"/>  
+      <play vh="V" time="01:20" uni="TM" team="MOMO" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="01:20" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="GOOD" type="FT" vscore="39" hscore="15"/>  
+      <play vh="H" time="00:55" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="TURNOVER"/>  
+      <play vh="V" time="00:54" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="STEAL"/>  
+      <play vh="V" time="00:51" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="TURNOVER"/>  
+      <play vh="H" time="00:50" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="STEAL"/>  
+      <play vh="H" time="00:34" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="GOOD" type="LAYUP" paint="Y" vscore="39" hscore="17"/>  
+      <play vh="V" time="00:29" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="GOOD" type="LAYUP" paint="Y" vscore="41" hscore="17"/>  
+      <play vh="V" time="00:29" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="ASSIST"/>  
+      <play vh="H" time="00:13" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="00:13" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:03" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="MISS" type="3PTR"/>  
+      <play vh="H" time="00:03" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="REBOUND" type="DEF"/>  
+      <clock time="00:00"/> 
+    </period>  
+    <period number="3" time="10:00"> 
+      <special vh="V" pts_to="2" pts_ch2="0" pts_paint="8" pts_fastb="0" pts_bench="4" ties="0" leads="0" poss_count="0" poss_time="0" score_count="13" score_time="3382" large_lead="37" large_lead_t="3rd-00:08"/>  
+      <special vh="H" pts_to="2" pts_ch2="2" pts_paint="10" pts_fastb="0" pts_bench="4" ties="0" leads="0" poss_count="0" poss_time="0" score_count="6" score_time="2027" large_lead="0" large_lead_t="-"/>  
+      <summary vh="V" fgm="8" fga="14" fgm3="2" fga3="4" ftm="5" fta="6" blk="1" stl="0" ast="9" oreb="1" dreb="12" treb="13" pf="5" tf="0" to="3"/>  
+      <summary vh="H" fgm="5" fga="19" fgm3="0" fga3="7" ftm="0" fta="3" blk="2" stl="2" ast="5" oreb="3" dreb="5" treb="8" pf="6" tf="0" to="2"/>  
+      <play vh="H" time="09:50" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="09:50" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="09:42" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="DUNK" paint="Y" vscore="43" hscore="17"/>  
+      <play vh="V" time="09:42" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="ASSIST"/>  
+      <play vh="H" time="09:26" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="09:26" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="BLOCK"/>  
+      <play vh="V" time="09:26" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="09:09" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="TURNOVER"/>  
+      <play vh="H" time="09:08" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="STEAL"/>  
+      <play vh="H" time="09:06" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="GOOD" type="LAYUP" paint="Y" vscore="43" hscore="19"/>  
+      <play vh="H" time="09:06" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="ASSIST"/>  
+      <play vh="V" time="08:45" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:45" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="BLOCK"/>  
+      <play vh="H" time="08:45" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:37" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="MISS" type="3PTR"/>  
+      <play vh="V" time="08:37" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="08:17" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:17" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="BLOCK"/>  
+      <play vh="H" time="08:17" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:01" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="3PTR"/>  
+      <play vh="V" time="08:01" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:52" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="GOOD" type="LAYUP" paint="Y" vscore="45" hscore="19"/>  
+      <play vh="H" time="07:36" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="3PTR"/>  
+      <play vh="V" time="07:36" uni="TM" team="MOMO" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:34" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="SUB" type="IN"/>  
+      <play vh="V" time="07:34" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:34" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="H" time="07:34" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="SUB" type="IN"/>  
+      <play vh="H" time="07:34" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:34" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:25" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="FOUL"/>  
+      <play vh="V" time="07:25" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="FT" vscore="46" hscore="19"/>  
+      <play vh="V" time="07:25" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="ASSIST"/>  
+      <play vh="V" time="07:25" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="FT" vscore="47" hscore="19"/>  
+      <play vh="H" time="07:17" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="07:17" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="07:10" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="FOUL"/>  
+      <play vh="V" time="07:10" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="SUB" type="IN"/>  
+      <play vh="V" time="07:10" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="V" time="07:10" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:10" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:10" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="SUB" type="IN"/>  
+      <play vh="H" time="07:10" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:05" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="JUMPER" vscore="49" hscore="19"/>  
+      <play vh="V" time="07:05" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="ASSIST"/>  
+      <play vh="H" time="06:44" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="49" hscore="21"/>  
+      <play vh="H" time="06:44" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="ASSIST"/>  
+      <play vh="V" time="06:44" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="FOUL"/>  
+      <play vh="H" time="06:44" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="FT"/>  
+      <play vh="H" time="06:44" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="06:39" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="GOOD" type="LAYUP" paint="Y" vscore="49" hscore="23"/>  
+      <play vh="H" time="06:39" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="ASSIST"/>  
+      <play vh="H" time="06:23" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="FOUL"/>  
+      <play vh="V" time="06:11" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="FOUL"/>  
+      <play vh="V" time="06:11" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="TURNOVER"/>  
+      <play vh="V" time="05:59" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="FOUL"/>  
+      <play vh="H" time="05:47" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="3PTR"/>  
+      <play vh="V" time="05:47" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:32" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="TURNOVER"/>  
+      <play vh="H" time="05:31" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="STEAL"/>  
+      <play vh="V" time="05:18" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="FOUL"/>  
+      <play vh="V" time="05:18" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="SUB" type="IN"/>  
+      <play vh="V" time="05:18" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="SUB" type="IN"/>  
+      <play vh="V" time="05:18" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="IN"/>  
+      <play vh="V" time="05:18" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:18" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:18" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:18" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="H" time="05:18" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:08" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="FOUL"/>  
+      <play vh="H" time="05:08" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="H" time="05:08" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="IN"/>  
+      <play vh="H" time="05:08" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:56" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="MISS" type="3PTR"/>  
+      <play vh="V" time="04:56" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="04:50" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="04:50" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="04:43" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="MISS" type="3PTR"/>  
+      <play vh="V" time="04:43" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="04:30" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="04:30" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="04:10" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="04:10" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="03:58" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:58" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="03:45" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="GOOD" type="3PTR" vscore="52" hscore="23"/>  
+      <play vh="V" time="03:45" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="ASSIST"/>  
+      <play vh="H" time="03:25" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="3PTR"/>  
+      <play vh="V" time="03:25" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="03:18" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="GOOD" type="LAYUP" paint="Y" vscore="54" hscore="23"/>  
+      <play vh="V" time="03:18" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="ASSIST"/>  
+      <play vh="H" time="03:14" uni="TM" team="JOHN ABB" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="03:14" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="SUB" type="IN"/>  
+      <play vh="V" time="03:14" uni="11" team="MOMO" checkname="MUGISHA,ARIE" action="SUB" type="IN"/>  
+      <play vh="V" time="03:14" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="SUB" type="IN"/>  
+      <play vh="V" time="03:14" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:14" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:14" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:14" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="H" time="03:14" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="IN"/>  
+      <play vh="H" time="03:14" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:14" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:02" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="03:02" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="02:50" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="02:50" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="02:45" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="FOUL"/>  
+      <play vh="V" time="02:45" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="MISS" type="FT"/>  
+      <play vh="V" time="02:45" uni="TM" team="MOMO" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="02:45" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="GOOD" type="FT" vscore="55" hscore="23"/>  
+      <play vh="V" time="02:45" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="ASSIST"/>  
+      <play vh="H" time="02:45" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="SUB" type="IN"/>  
+      <play vh="H" time="02:45" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:21" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="TURNOVER"/>  
+      <play vh="H" time="02:21" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="H" time="02:21" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:12" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="FOUL"/>  
+      <play vh="V" time="02:12" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="FT" vscore="56" hscore="23"/>  
+      <play vh="V" time="02:12" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="GOOD" type="FT" vscore="57" hscore="23"/>  
+      <play vh="H" time="01:50" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="MISS" type="3PTR"/>  
+      <play vh="V" time="01:50" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:41" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="GOOD" type="LAYUP" paint="Y" vscore="59" hscore="23"/>  
+      <play vh="V" time="01:41" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="ASSIST"/>  
+      <play vh="V" time="01:30" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="FOUL"/>  
+      <play vh="H" time="01:30" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="FT"/>  
+      <play vh="H" time="01:30" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="01:30" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="FT"/>  
+      <play vh="V" time="01:30" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="01:30" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="H" time="01:30" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="IN"/>  
+      <play vh="H" time="01:30" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:30" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="V" time="01:24" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="MISS" type="3PTR"/>  
+      <play vh="H" time="01:24" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="01:10" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="GOOD" type="LAYUP" paint="Y" vscore="59" hscore="25"/>  
+      <play vh="H" time="01:10" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="ASSIST"/>  
+      <play vh="V" time="00:52" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="GOOD" type="JUMPER" vscore="61" hscore="25"/>  
+      <play vh="V" time="00:52" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="ASSIST"/>  
+      <play vh="V" time="00:26" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="SUB" type="IN"/>  
+      <play vh="V" time="00:26" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:26" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="IN"/>  
+      <play vh="H" time="00:26" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="H" time="00:26" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:26" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:18" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="ASSIST"/>  
+      <play vh="H" time="00:18" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="61" hscore="27"/>  
+      <play vh="V" time="00:08" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="ASSIST"/>  
+      <play vh="V" time="00:08" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="3PTR" vscore="64" hscore="27"/>  
+      <clock time="00:00"/> 
+    </period>  
+    <period number="4" time="10:00"> 
+      <special vh="V" pts_to="3" pts_ch2="3" pts_paint="4" pts_fastb="0" pts_bench="8" ties="0" leads="0" poss_count="0" poss_time="0" score_count="7" score_time="2031" large_lead="37" large_lead_t="4th-09:47"/>  
+      <special vh="H" pts_to="6" pts_ch2="4" pts_paint="10" pts_fastb="0" pts_bench="11" ties="0" leads="0" poss_count="0" poss_time="0" score_count="12" score_time="2868" large_lead="0" large_lead_t="-"/>  
+      <summary vh="V" fgm="5" fga="15" fgm3="3" fga3="8" ftm="1" fta="2" blk="1" stl="5" ast="4" oreb="2" dreb="5" treb="7" pf="7" tf="0" to="6"/>  
+      <summary vh="H" fgm="7" fga="18" fgm3="1" fga3="3" ftm="5" fta="6" blk="1" stl="4" ast="4" oreb="4" dreb="7" treb="11" pf="2" tf="0" to="6"/>  
+      <play vh="V" time="10:00" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="V" time="10:00" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="SUB" type="IN"/>  
+      <play vh="V" time="10:00" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="10:00" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="10:00" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="SUB" type="IN"/>  
+      <play vh="H" time="10:00" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="IN"/>  
+      <play vh="H" time="10:00" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="H" time="10:00" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="10:00" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="H" time="10:00" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="09:47" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="09:47" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="09:44" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="09:44" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="09:31" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="FOUL"/>  
+      <play vh="H" time="09:31" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="GOOD" type="FT" vscore="64" hscore="28"/>  
+      <play vh="H" time="09:31" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="GOOD" type="FT" vscore="64" hscore="29"/>  
+      <play vh="H" time="09:26" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="H" time="09:26" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="OUT"/>  
+      <play vh="V" time="09:23" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="TURNOVER"/>  
+      <play vh="H" time="09:23" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="STEAL"/>  
+      <play vh="H" time="08:58" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="3PTR"/>  
+      <play vh="V" time="08:58" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="08:51" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="MISS" type="3PTR"/>  
+      <play vh="H" time="08:51" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="08:48" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="FOUL"/>  
+      <play vh="H" time="08:27" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:27" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="08:22" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:22" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="08:18" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:18" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="08:11" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="08:11" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="BLOCK"/>  
+      <play vh="V" time="08:11" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:52" uni="TM" team="MOMO" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="07:52" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="IN"/>  
+      <play vh="V" time="07:52" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="SUB" type="IN"/>  
+      <play vh="V" time="07:52" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:52" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:52" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="SUB" type="IN"/>  
+      <play vh="H" time="07:52" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:51" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="IN"/>  
+      <play vh="H" time="07:51" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:43" uni="TM" team="MOMO" checkname="TEAM" action="TURNOVER"/>  
+      <play vh="H" time="07:19" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="07:19" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:09" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="GOOD" type="LAYUP" paint="Y" vscore="66" hscore="29"/>  
+      <play vh="V" time="07:09" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="ASSIST"/>  
+      <play vh="H" time="06:44" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="GOOD" type="3PTR" vscore="66" hscore="32"/>  
+      <play vh="H" time="06:44" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="ASSIST"/>  
+      <play vh="H" time="06:28" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="FOUL"/>  
+      <play vh="H" time="06:28" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="H" time="06:28" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="06:27" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="GOOD" type="3PTR" vscore="69" hscore="32"/>  
+      <play vh="V" time="06:27" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="ASSIST"/>  
+      <play vh="H" time="06:00" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="69" hscore="34"/>  
+      <play vh="H" time="06:00" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="ASSIST"/>  
+      <play vh="V" time="05:54" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="FOUL"/>  
+      <play vh="V" time="05:54" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="TURNOVER"/>  
+      <play vh="V" time="05:54" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="SUB" type="IN"/>  
+      <play vh="V" time="05:54" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="SUB" type="IN"/>  
+      <play vh="V" time="05:54" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="SUB" type="IN"/>  
+      <play vh="V" time="05:54" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:54" uni="5" team="MOMO" checkname="SINCERE,NAYTHAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:54" uni="0" team="MOMO" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:35" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="05:35" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:30" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="05:30" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="BLOCK"/>  
+      <play vh="H" time="05:30" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="05:21" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="05:21" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="05:15" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="H" time="05:15" uni="9" team="JOHN ABB" checkname="HYDE,SIMMION" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:08" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="FOUL"/>  
+      <play vh="H" time="05:02" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="GOOD" type="LAYUP" paint="Y" vscore="69" hscore="36"/>  
+      <play vh="V" time="04:53" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="04:53" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="04:40" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="GOOD" type="3PTR" vscore="72" hscore="36"/>  
+      <play vh="V" time="04:40" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="ASSIST"/>  
+      <play vh="H" time="04:33" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="TURNOVER"/>  
+      <play vh="V" time="04:32" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="STEAL"/>  
+      <play vh="V" time="04:30" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="MISS" type="3PTR"/>  
+      <play vh="H" time="04:30" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="04:27" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="SUB" type="IN"/>  
+      <play vh="H" time="04:27" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:05" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="TURNOVER"/>  
+      <play vh="V" time="03:55" uni="6" team="MOMO" checkname="BEAUCHAMP,MATHIS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="03:55" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:30" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="3PTR"/>  
+      <play vh="H" time="03:30" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="03:26" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="SUB" type="IN"/>  
+      <play vh="V" time="03:26" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:26" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="H" time="03:26" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:20" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="TURNOVER"/>  
+      <play vh="V" time="03:19" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="STEAL"/>  
+      <play vh="V" time="03:17" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="TURNOVER"/>  
+      <play vh="H" time="03:16" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="STEAL"/>  
+      <play vh="H" time="03:08" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="GOOD" type="JUMPER" vscore="72" hscore="38"/>  
+      <play vh="V" time="02:57" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="MISS" type="3PTR"/>  
+      <play vh="H" time="02:57" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="02:51" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="FOUL"/>  
+      <play vh="H" time="02:51" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="FT"/>  
+      <play vh="H" time="02:51" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="02:51" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="FT" vscore="72" hscore="39"/>  
+      <play vh="V" time="02:51" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="SUB" type="IN"/>  
+      <play vh="V" time="02:51" uni="11" team="MOMO" checkname="MUGISHA,ARIE" action="SUB" type="IN"/>  
+      <play vh="V" time="02:51" uni="9" team="MOMO" checkname="MADIMBA,TRULLY" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:51" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:37" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="ASSIST"/>  
+      <play vh="V" time="02:37" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="GOOD" type="3PTR" vscore="75" hscore="39"/>  
+      <play vh="H" time="02:19" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="GOOD" type="LAYUP" paint="Y" vscore="75" hscore="41"/>  
+      <play vh="H" time="02:19" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="ASSIST"/>  
+      <play vh="V" time="02:04" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="MISS" type="3PTR"/>  
+      <play vh="H" time="02:04" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="01:54" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="TURNOVER"/>  
+      <play vh="V" time="01:53" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="STEAL"/>  
+      <play vh="H" time="01:51" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="FOUL"/>  
+      <play vh="V" time="01:51" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="GOOD" type="FT" vscore="76" hscore="41"/>  
+      <play vh="V" time="01:51" uni="8" team="MOMO" checkname="GRAHIC,BENJAMIN" action="MISS" type="FT"/>  
+      <play vh="H" time="01:51" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:51" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="SUB" type="IN"/>  
+      <play vh="V" time="01:51" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:51" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="H" time="01:51" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:33" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="76" hscore="43"/>  
+      <play vh="H" time="01:33" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="ASSIST"/>  
+      <play vh="V" time="01:33" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="SUB" type="IN"/>  
+      <play vh="V" time="01:33" uni="13" team="MOMO" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <play vh="V" time="01:26" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="TURNOVER"/>  
+      <play vh="H" time="01:25" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="STEAL"/>  
+      <play vh="H" time="01:23" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="TURNOVER"/>  
+      <play vh="V" time="01:21" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="STEAL"/>  
+      <play vh="V" time="01:20" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="GOOD" type="LAYUP" paint="Y" vscore="78" hscore="43"/>  
+      <play vh="H" time="01:06" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="TURNOVER"/>  
+      <play vh="V" time="01:05" uni="1" team="MOMO" checkname="TAKROUNI,MOHAMED" action="STEAL"/>  
+      <play vh="V" time="00:58" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="FOUL"/>  
+      <play vh="V" time="00:58" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="TURNOVER"/>  
+      <play vh="V" time="00:35" uni="12" team="MOMO" checkname="DEVALIS,JOHN" action="FOUL"/>  
+      <play vh="H" time="00:33" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="FT" vscore="78" hscore="44"/>  
+      <play vh="H" time="00:33" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="FT" vscore="78" hscore="45"/>  
+      <play vh="V" time="00:24" uni="3" team="MOMO" checkname="HOULE,TRISTAN" action="MISS" type="DUNK"/>  
+      <play vh="H" time="00:24" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOHSUA" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:16" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="00:16" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:14" uni="2" team="MOMO" checkname="PERCHER,BATISTE" action="TURNOVER"/>  
+      <play vh="H" time="00:13" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="STEAL"/>  
+      <play vh="H" time="00:11" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="00:11" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="00:03" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="GOOD" type="LAYUP" paint="Y" vscore="78" hscore="47"/>  
+      <clock time="00:00"/> 
+    </period> 
+  </plays> 
+</bbgame>
