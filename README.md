@@ -43,7 +43,9 @@ Le workflow [`.github/workflows/mise-a-jour.yml`](.github/workflows/mise-a-jour.
 - **le lundi** : il récupère les matchs de la semaine écoulée ;
 - **les jours suivants**, tant qu'un match d'Édouard-Montpetit joué avant ce lundi n'a pas encore sa feuille ou son résultat. Il abandonne après 21 jours.
 
-Quand il trouve du nouveau, il régénère `docs/` et commite sur `main`. GitHub Pages republie alors le site. Pour forcer une mise à jour : onglet Actions → « Mise à jour du site » → *Run workflow* (case « Reconstruire »).
+Quand il trouve du nouveau, il régénère `docs/`, commite sur `main` et republie le site avec le workflow « Publier le site » (`.github/workflows/pages.yml`).
+
+Réglage à faire une fois pour que le site soit en ligne : Settings → Pages → *Build and deployment* → Source : **GitHub Actions**. Pour forcer une mise à jour : onglet Actions → « Mise à jour du site » → *Run workflow* (case « Reconstruire »).
 
 ```bash
 python3 rseq_diffusion.py "Édouard-Montpetit"                   # reconstruit docs/ maintenant

@@ -26,6 +26,8 @@ jobs:
   maj:
     name: Récupérer les matchs et reconstruire le site
     runs-on: ubuntu-latest
+    outputs:
+      publie: ${{ steps.publier.outputs.publie }}
     steps:
       - uses: actions/checkout@v4
       - name: Récupérer et reconstruire
@@ -38,13 +40,26 @@ jobs:
             python3 rseq_diffusion.py "Édouard-Montpetit" --si-necessaire
           fi
       - name: Publier
+        id: publier
         run: |
           git add docs donnees
           if git diff --cached --quiet; then
             echo "Rien de nouveau."
+            echo "publie=non" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Site : mise à jour du $(TZ=America/Montreal date +%F)"
           git push
+          echo "publie=oui" >> "$GITHUB_OUTPUT"
+
+  pages:
+    name: Republier le site
+    needs: maj
+    if: needs.maj.outputs.publie == 'oui'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
