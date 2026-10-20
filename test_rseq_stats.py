@@ -6,7 +6,9 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 
+import rseq_diffusion as diffusion  # noqa: E402
 import rseq_saison as saison  # noqa: E402
+import rseq_xml  # noqa: E402
 import rseq_stats as rs  # noqa: E402
 from rseq_rapport import render  # noqa: E402
 
@@ -206,6 +208,72 @@ class Saison(unittest.TestCase):
         self.assertIn("Annexe : comprendre et interpréter les stats", page)
         self.assertIn('id="filtre-mj"', page)
         self.assertIn('<tr data-mj="1">', page)        # un seul match : toutes les lignes filtrables
+
+
+XML_M03 = HERE / "donnees" / "2026-2027" / "2026-M03.xml"
+
+
+class FeuilleXml(unittest.TestCase):
+    """Format 2026-2027 : XML PrestoSports (Édouard-Montpetit à Vanier, 2026-10-17, prolongation)."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.game = rseq_xml.analyse_xml(str(XML_M03), {rs.VIS: "Édouard-Montpetit", rs.HOME: "Vanier"})
+
+    def test_box_identique_a_celui_du_xml(self):
+        self.assertEqual([d for d in rs.compare_box(self.game) if d[2] != "MIN"], [])
+
+    def test_score_et_periodes(self):
+        self.assertEqual(self.game.score, {rs.VIS: 77, rs.HOME: 84})
+        self.assertEqual(self.game.period_pts[rs.VIS], [15, 12, 26, 17, 7])
+        self.assertEqual(self.game.n_periods, 5)
+
+    def test_minutes_avec_prolongation(self):
+        for side in rs.SIDES:
+            seconds = sum(p.seconds for p in self.game.teams[side].players.values())
+            self.assertAlmostEqual(seconds, 5 * 45 * 60)
+
+    def test_textes_des_actions(self):
+        import xml.etree.ElementTree as ET
+        play = ET.fromstring('<play action="MISS" type="3PTR"/>')
+        self.assertEqual(rseq_xml.play_text(play, "M Tchamsi"), "MISSED 3 PTR by M Tchamsi")
+        play = ET.fromstring('<play action="REBOUND" type="DEADB"/>')
+        self.assertEqual(rseq_xml.play_text(play, "(TEAM)"), "REBOUND (OFF) by (DEADBALL)")
+        play = ET.fromstring('<play action="SUB" type="OUT"/>')
+        self.assertEqual(rseq_xml.play_text(play, "J Lucas"), "SUB OUT: J Lucas")
+
+
+class Automatisation(unittest.TestCase):
+    """Quand l'automatisation du soir doit travailler."""
+
+    def setUp(self):
+        self.cal = {"matchs": [
+            {"num": "M03", "date": "2026-10-17", "visiteur": "Édouard-Montpetit", "receveur": "Vanier",
+             "pointage": [79, 84], "fichier": "2026-M03.xml"},
+            {"num": "M07", "date": "2026-10-23", "visiteur": "Ahuntsic", "receveur": "Édouard-Montpetit",
+             "pointage": None, "fichier": "2026-M07.xml"},
+        ]}
+        self.folder = XML_M03.parent           # contient 2026-M03.xml, pas 2026-M07.xml
+
+    def run_on(self, day):
+        from datetime import date
+        return diffusion.should_run(self.cal, "Édouard-Montpetit", self.folder, date.fromisoformat(day))
+
+    def test_lundi_toujours(self):
+        self.assertTrue(self.run_on("2026-10-19")[0])
+
+    def test_mardi_rien_si_tout_est_la(self):
+        self.assertEqual(self.run_on("2026-10-20"), (False, []))
+
+    def test_match_de_vendredi_attendu_lundi_puis_repris(self):
+        # M07 (vendredi 23) : pas attendu avant le lundi 26 ; ensuite repris tous les jours.
+        self.assertEqual(self.run_on("2026-10-24"), (False, []))
+        run, waiting = self.run_on("2026-10-27")
+        self.assertTrue(run)
+        self.assertEqual([m["num"] for m in waiting], ["M07"])
+
+    def test_abandon_apres_trois_semaines(self):
+        self.assertEqual(self.run_on("2026-11-17"), (False, []))
 
 
 if __name__ == "__main__":

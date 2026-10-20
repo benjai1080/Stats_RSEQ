@@ -267,7 +267,7 @@ def bench_line(bench, scope, key, fmt):
             f"8 sur 10 entre {f(p10)} et {f(p90)} <span class=\"muted\">({esc(who)})</span></li>")
 
 
-def annex_section(note="", bench=None, anchor="glossaire"):
+def annex_section(note="", bench=None, anchor="glossaire", skip=()):
     """Annexe : explication des stats et guide d'interprétation, avec les repères de la ligue s'il y en a."""
     out = [f'<h2 id="{anchor}">Annexe : comprendre et interpréter les stats</h2>']
     if note:
@@ -279,6 +279,8 @@ def annex_section(note="", bench=None, anchor="glossaire"):
     out.append('<p class="note">Survoler un titre de colonne affiche sa définition courte ; cliquer trie le '
                'tableau.</p><div class="guide">')
     for entry in GUIDE:
+        if entry["title"] in skip:
+            continue
         reps = "".join(bench_line(bench, *b) for b in entry.get("bench", []))
         out.append(
             f'<details class="fiche"{" open" if entry["level"] == "base" and entry is GUIDE[0] else ""}>'

@@ -209,10 +209,17 @@ def efficiency_section(v):
 SHOT_KINDS = [("LAYUP", "Lay-up"), ("DUNK", "Smash"), ("JUMPER", "Tir 2 pts"), ("3PT", "3 pts")]
 
 
+def tagged(*boxes):
+    """La feuille marque-t-elle la raquette et la contre-attaque ? (pas les XML PrestoSports 2026-2027)"""
+    return any(b["PNT"] or b["FB"] for b in boxes)
+
+
 def shots_section(v):
     t = v.team
-    heads = [("Joueur", "")] + [(k, f"{k} réussis-tentés") for _, k in SHOT_KINDS] + [
-        ("Raquette", "Points dans la raquette [Pnt]"), ("Contre-att.", "Points en contre-attaque [FB]"),
+    tags = tagged(t.box, v.opp.box)
+    heads = [("Joueur", "")] + [(k, f"{k} réussis-tentés") for _, k in SHOT_KINDS] + ([
+        ("Raquette", "Points dans la raquette [Pnt]"), ("Contre-att.", "Points en contre-attaque [FB]")]
+        if tags else []) + [
         ("2e chance", "Points après un rebond offensif, dans la même possession"),
         ("Après BP", "Points dans une possession commencée par une perte adverse")]
     rows = []
@@ -222,10 +229,13 @@ def shots_section(v):
         for key, _ in SHOT_KINDS:
             a = b[key + "_A"]
             cells.append((made(b[key + "_M"], a) if a else "–", "", b[key + "_M"]))
-        cells += [b["PNT"], b["FB"], b["2CH"], b["PTO"]]
+        cells += ([b["PNT"], b["FB"]] if tags else []) + [b["2CH"], b["PTO"]]
         rows.append(with_games(cells, games_of(v, p.key)))
     others = sorted({k[:-2] for k in t.box if k.endswith("_A")} - {k for k, _ in SHOT_KINDS})
     note = (f'<p class="note">Autres types de tirs : {esc(", ".join(others))}.</p>' if others else "")
+    if not tags:
+        note += ('<p class="note">Points dans la raquette et en contre-attaque : non affichés, la feuille de '
+                 'match ne les marque pas.</p>')
     return table(heads, rows) + note
 
 
@@ -318,6 +328,8 @@ def team_section(game):
                             ("2CH", "Deuxième chance", "Après un rebond offensif"),
                             ("PTO", "Après une balle perdue adverse", ""),
                             ("BENCH", "Banc", "Points des remplaçants")]:
+        if key in ("PNT", "FB") and not tagged(v.box, h.box):
+            continue
         lines.append(row(label, tip, av[key], ah[key], (av[key], ah[key])))
     lines.append('<tr class="sep"><th colspan="3">Déroulement</th></tr>')
     lv, lh = lead["largest"][VIS], lead["largest"][HOME]
@@ -601,7 +613,7 @@ def game_header(game):
             f'{src_html}</div>')
 
 
-def game_body(game, prefix="", sides=SIDES):
+def game_body(game, prefix="", sides=SIDES, quintettes=True):
     """Le rapport d'un match, sans en-tête de page. `prefix` rend les ancres uniques dans une page."""
     nav = [("equipes", "Équipes"), ("ecart", "Écart au score")]
     nav += [(f"t{side}", game.teams[side].name) for side in sides]
@@ -626,7 +638,8 @@ def game_body(game, prefix="", sides=SIDES):
         body.append("<h3>Impact sur le terrain</h3>" + impact_section(v))
         body.append("<h3>Efficacité individuelle</h3>" + efficiency_section(v))
         body.append("<h3>Tirs et sources de points</h3>" + shots_section(v))
-        body.append("<h3>Quintettes</h3>" + lineups_section(v))
+        if quintettes:
+            body.append("<h3>Quintettes</h3>" + lineups_section(v))
         body.append("<h3>Passes décisives : qui sert qui</h3>" + assists_section(v))
     body.append(f'<h2 id="{prefix}validation">Validation</h2>' + validation_section(game))
     return "".join(body)

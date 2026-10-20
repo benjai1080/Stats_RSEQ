@@ -27,7 +27,7 @@ import rseq_stats as rs
 from rseq_guide import annex_section
 from rseq_rapport import (View, assists_section, efficiency_section, esc, game_body, game_header,
                           impact_section, lineups_section, made, num, page, pct, shots_section, signed,
-                          split_diffs, table, tone, with_games)
+                          split_diffs, table, tagged, tone, with_games)
 
 BASE = "https://www.rseq-stats.ca/{ligue}/stats/{saison}/m{n:03d}.htm"
 SEASON_SIDE, OPP_SIDE = rs.HOME, rs.VIS     # côtés fictifs de l'équipe cumulée et de ses adversaires
@@ -186,6 +186,11 @@ class SeasonGame:
         self.code, self.game, self.side = code, game, side
         self.team, self.opp = game.teams[side], game.teams[rs.other(side)]
         self.pts, self.opp_pts = game.score[side], game.score[rs.other(side)]
+        # Résultat officiel du RSEQ (calendrier) : il prime sur le score rejoué de la feuille.
+        official = getattr(game, "official_score", None)
+        self.score_differs = bool(official) and official != game.score
+        if official:
+            self.pts, self.opp_pts = official[side], official[rs.other(side)]
         self.home = side == rs.HOME
         self.win = self.pts > self.opp_pts
         self.date = game.meta.get("date", "")
@@ -413,8 +418,10 @@ def team_table(season, bench=None):
         row("Part de 3 pts", "Tirs de 3 / tirs", a["3PAr"], o["3PAr"], higher=None),
         row("Paniers assistés", "", a["AST_RATIO"], ox["AST_RATIO"]),
         '<tr class="sep"><th colspan="4">D\'où viennent les points (par match)</th></tr>',
+    ] + ([
         row("Dans la raquette", "", b["PNT"] / n, ob["PNT"] / n, fmt=num),
         row("Contre-attaque", "", b["FB"] / n, ob["FB"] / n, fmt=num),
+    ] if tagged(b, ob) else []) + [
         row("Deuxième chance", "", b["2CH"] / n, ob["2CH"] / n, fmt=num),
         row("Après une balle perdue adverse", "", b["PTO"] / n, ob["PTO"] / n, fmt=num),
     ]
@@ -461,11 +468,20 @@ def reliability_section(season):
     for g in season.games:
         stats, mins = split_diffs(g.game)
         rel, level = reliability(g)
+        xml = g.game.score
+        score_note = (f'{xml[g.side]}-{xml[rs.other(g.side)]} ≠ officiel' if g.score_differs else "identique")
         rows.append([(f'<a href="#{g.code}">{esc(g.label())}</a>', "name", g.date), len(stats), len(mins),
-                     len(g.game.repairs), len(g.game.corrections), (rel, "", level)])
+                     len(g.game.repairs), len(g.game.corrections),
+                     (score_note, "neg" if g.score_differs else "", int(g.score_differs)), (rel, "", level)])
     out = [table([("Match", ""), ("Écarts de stats", "Avec le box score officiel"),
                   ("Écarts de minutes", "Plus d'une minute"), ("Quintettes corrigés", ""),
-                  ("Changements avancés", ""), ("Fiabilité", "")], rows)]
+                  ("Changements avancés", ""),
+                  ("Score de la feuille", "Score rejoué à partir de la feuille, comparé au résultat officiel"),
+                  ("Fiabilité", "")], rows)]
+    if any(g.score_differs for g in season.games):
+        out.append('<p class="note">Quand le score de la feuille diffère du résultat officiel du RSEQ, le '
+                   'résultat officiel est affiché ; les stats du match viennent quand même de la feuille, '
+                   'à laquelle il manque alors des points.</p>')
     merged = defaultdict(list)
     for k, canon in season.alias.items():
         if k != canon:
@@ -540,39 +556,55 @@ SEASON_JS = """
 """
 
 
-def render_season(season, saison_label, bench=None):
+def upcoming_section(upcoming):
+    """Matchs à venir de l'équipe : [{date, heure, adversaire, domicile, lieu}]."""
+    if not upcoming:
+        return ""
+    rows = [[(esc(m["date"]), "", m["date"]), esc(m.get("heure", "")),
+             (esc(m["adversaire"]), "name", m["adversaire"]), "domicile" if m["domicile"] else "extérieur",
+             (esc(m.get("lieu", "")), "name", m.get("lieu", ""))] for m in upcoming]
+    return ("<h3>À venir</h3>" + table([("Date", ""), ("Heure", ""), ("Adversaire", ""), ("Lieu", ""),
+                                         ("Salle", "")], rows, sortable=False))
+
+
+def render_season(season, saison_label, bench=None, quintettes=True, upcoming=(), extra_header="",
+                  intro=""):
     w, l = season.record()
     home = [g for g in season.games if g.home]
     away = [g for g in season.games if not g.home]
     a = season.team_numbers()
     n = len(season.games)
-    options = [f'<option value="saison">Saison complète · {n} matchs · {w} V – {l} D</option>']
+    options = [f'<option value="saison">Saison complète · {n} match{"s" if n > 1 else ""} · {w} V – {l} D</option>']
     options += [f'<option value="{g.code}">{esc(g.label())}</option>' for g in season.games]
     header = (f"<h1>{esc(season.name)} · saison {esc(saison_label)}</h1>"
               f'<div class="score"><span class="t">Fiche</span><span class="n">{w}-{l}</span></div>'
               f'<div class="picker"><label for="vue">Afficher</label><select id="vue">{"".join(options)}'
-              "</select></div>")
+              f"</select></div>{extra_header}")
     v = season.view()
     body = ['<section class="vue" data-vue="saison">']
     nav = [("bilan", "Bilan"), ("resultats", "Résultats"), ("equipe", "Équipe"), ("joueurs", "Joueurs"),
-           ("impact", "Impact"), ("quintettes", "Quintettes"), ("fiabilite", "Fiabilité"), ("annexe", "Annexe")]
+           ("impact", "Impact"), ("quintettes", "Quintettes") if quintettes else ("passes", "Passes"),
+           ("fiabilite", "Fiabilité"), ("annexe", "Annexe")]
     body.append("<nav>" + "".join(f'<a href="#saison-{x}">{esc(y)}</a>' for x, y in nav) + "</nav>")
     few = sum(1 for k in season.team.players if season.gp[k] <= FEW_GAMES)
     body.append(f'<div class="filtre"><button type="button" id="filtre-mj" aria-pressed="false" '
                 f'data-max="{FEW_GAMES}">Masquer les joueurs de {FEW_GAMES} matchs ou moins</button>'
                 f'<span class="muted" id="filtre-info">{few} joueur(s) concerné(s) ; le filtre touche aussi '
-                "les quintettes et les passes où ils apparaissent.</span></div>")
+                f'{"les quintettes et " if quintettes else ""}les passes où ils apparaissent.</span></div>')
+    if intro:
+        body.append(f'<p class="note">{intro}</p>')
     cards = [(f"{w}-{l}", "victoires – défaites"),
              (f"{season.record(home)[0]}-{season.record(home)[1]}", "à domicile"),
              (f"{season.record(away)[0]}-{season.record(away)[1]}", "à l'extérieur"),
-             (num(season.team.box["PTS"] / n), "points marqués par match"),
-             (num(season.opp.box["PTS"] / n), "points accordés par match"),
+             (num(sum(g.pts for g in season.games) / n), "points marqués par match"),
+             (num(sum(g.opp_pts for g in season.games) / n), "points accordés par match"),
              (num(a["ORtg"]), "ORtg (pts / 100 poss.)"), (num(a["DRtg"]), "DRtg"),
              (signed(a["Net"], 1), "Net")]
     body.append('<h2 id="saison-bilan">Bilan</h2><div class="cards">'
                 + "".join(f"<div><b>{x}</b><span>{esc(y)}</span></div>" for x, y in cards) + "</div>")
     body.append('<h2 id="saison-resultats">Résultats</h2>' + margins_chart(season) + results_section(season)
-                + '<p class="note">Cliquer sur un adversaire ou une barre ouvre le match.</p>')
+                + '<p class="note">Cliquer sur un adversaire ou une barre ouvre le match.</p>'
+                + upcoming_section(upcoming))
     body.append(f'<h2 id="saison-equipe">{esc(season.name)} contre ses adversaires</h2>'
                 + team_table(season, bench))
     body.append('<h2 id="saison-joueurs">Joueurs : stats de base</h2><p class="note">Source : box scores '
@@ -582,19 +614,25 @@ def render_season(season, saison_label, bench=None):
                 'sensibles aux quintettes corrigés (voir Fiabilité).</p>' + impact_section(v)
                 + "<h3>Efficacité individuelle</h3>" + efficiency_section(v)
                 + "<h3>Tirs et sources de points</h3>" + shots_section(v))
-    body.append('<h2 id="saison-quintettes">Quintettes</h2>' + lineups_section(v, limit=30)
-                + "<h3>Passes décisives : qui sert qui</h3>" + assists_section(v))
+    if quintettes:
+        body.append('<h2 id="saison-quintettes">Quintettes</h2>' + lineups_section(v, limit=30)
+                    + "<h3>Passes décisives : qui sert qui</h3>" + assists_section(v))
+    else:
+        body.append('<h2 id="saison-passes">Passes décisives : qui sert qui</h2>' + assists_section(v))
     body.append('<h2 id="saison-fiabilite">Fiabilité des données</h2><p class="note">Chaque match est rejoué '
                 'à partir de son play-by-play et comparé à son box score officiel. Fiabilité : bonne = au plus '
                 '4 écarts de stats et 15 corrections de quintette ; faible = plus de 20 écarts de stats.</p>'
                 + reliability_section(season))
     body.append(annex_section("Stats de base : box scores officiels. Tout le reste : play-by-play rejoué.",
-                              bench, anchor="saison-annexe"))
+                              bench, anchor="saison-annexe", skip=() if quintettes else ("Quintettes",)))
     body.append("</section>")
     for g in season.games:
+        official = (f'<div class="meta">Résultat officiel du RSEQ : {g.pts}-{g.opp_pts} '
+                    f'({esc(season.name)}) ; la feuille de match donne le score ci-dessus.</div>'
+                    if g.score_differs else "")
         body.append(f'<section class="vue" data-vue="{g.code}" hidden>'
-                    f'<div class="gamehead">{game_header(g.game)}</div>'
-                    + game_body(g.game, prefix=f"{g.code}-") + "</section>")
+                    f'<div class="gamehead">{game_header(g.game)}{official}</div>'
+                    + game_body(g.game, prefix=f"{g.code}-", quintettes=quintettes) + "</section>")
     return page(f"{season.name} · saison {saison_label}", header, "".join(body), SEASON_JS).replace(
         "</style>", SEASON_CSS + "</style>", 1)
 
@@ -624,6 +662,8 @@ def main(argv=None):
     ap.add_argument("--cache", default=".cache", help="dossier où garder les pages téléchargées")
     ap.add_argument("-o", "--html", default="saison.html")
     ap.add_argument("--json")
+    ap.add_argument("--sans-quintettes", action="store_true", help="omettre la section des quintettes")
+    ap.add_argument("--lien", help="lien affiché dans l'en-tête (ex. vers la saison en cours)")
     args = ap.parse_args(argv)
     pages = fetch_pages(args.ligue, args.saison, args.cache)
     all_games, _ = team_games(pages)
@@ -635,7 +675,10 @@ def main(argv=None):
     season = Season(args.equipe, games, skipped)
     label = f"20{args.saison[:2]}-{args.saison[2:]}" if len(args.saison) == 4 else args.saison
     bench = league_benchmarks(all_games, f"RSEQ {args.ligue.split('/')[-1]} {label}")
-    Path(args.html).write_text(render_season(season, label, bench), encoding="utf-8")
+    extra = f'<div class="meta" style="margin-top:8px"><a href="{esc(args.lien)}">saison en cours</a></div>' \
+        if args.lien else ""
+    Path(args.html).write_text(render_season(season, label, bench, quintettes=not args.sans_quintettes,
+                                             extra_header=extra), encoding="utf-8")
     if args.json:
         data = season_json(season)
         data["league"] = bench

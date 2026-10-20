@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bbgame source="PrestoSports" version="7.23.0" generated="10/17/2026"> 
+  <venue gameid="" visid="COLLÈGE " visname="Collège Jean-de-Brébeuf" homeid="CHAMPLAI" homename="Champlain College Saint-Lambert" date="10/17/2026" location="Vanier College" time="5:15 PM" start="5:15 PM" end="" duration="" delay="" attend="0" schednote="" leaguegame="Y" neutralgame="N" postseason="N"> 
+    <officials text=",,"></officials>  
+    <notes></notes>  
+    <rules prds="4" minutes="10" minutesot="5" fouls="5" qh="Q" overtimeType="OT"></rules> 
+  </venue>  
+  <status complete="Y" running="F" period="4" clock="00:00"></status>  
+  <team vh="V" id="COLLÈGE " name="Collège Jean-de-Brébeuf" code="CCAA135" record=""> 
+    <linescore line="24,14,20,20" score="78"> 
+      <lineprd prd="1" score="24"></lineprd>  
+      <lineprd prd="2" score="14"></lineprd>  
+      <lineprd prd="3" score="20"></lineprd>  
+      <lineprd prd="4" score="20"></lineprd> 
+    </linescore>  
+    <totals> 
+      <stats fgm="30" fga="68" fgm3="8" fga3="25" ftm="10" fta="12" tp="78" blk="1" stl="10" ast="9" min="201" oreb="11" dreb="25" treb="36" pf="13" tf="0" to="15" dq="0" deadball="6,5" fgpct="44.1" fg3pct="32.0" ftpct="83.3"></stats>  
+      <special vh="V" pts_to="17" pts_ch2="18" pts_paint="0" pts_fastb="0" pts_bench="24" ties="0" leads="0" poss_count="0" poss_time="0" score_count="0" score_time="0" large_lead="22" large_lead_t="4th-08:57"></special> 
+    </totals>  
+    <player uni="04" code="04" name="Aven Jairho Allana" checkname="ALLANA,AVEN JAIRHO" gp="0" playerId=""></player>  
+    <player uni="05" code="05" name="Nicolas Verreault" checkname="VERREAULT,NICOLAS" gp="1" gs="1" pos="*" oncourt="Y" playerId=""> 
+      <stats oreb="0" dreb="3" treb="3" pf="1" tf="0" to="2" tp="2" fgm="1" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" blk="0" stl="2" ast="3" min="27"></stats>  
+      <statsbyprd prd="1" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="9" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="1" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="1" min="5" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="7" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="07" code="07" name="Joseph Victor Boulanger" checkname="BOULANGER,JOSEPH VICTOR" gp="1" playerId=""> 
+      <stats oreb="1" dreb="7" treb="8" pf="1" tf="0" to="2" tp="14" fgm="5" fga="13" fgm3="1" fga3="5" ftm="3" fta="4" blk="0" stl="0" ast="0" min="24"></stats>  
+      <statsbyprd prd="1" fgm="3" fga="6" fgm3="1" fga3="2" ftm="3" fta="4" tp="10" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="3" treb="3" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="1" fga="4" fgm3="0" fga3="2" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="1" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="7" oreb="1" dreb="2" treb="3" pf="1" tf="0" to="2" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="09" code="09" name="Julien Arsenault" checkname="ARSENAULT,JULIEN" gp="1" gs="1" pos="*" oncourt="Y" playerId=""> 
+      <stats oreb="0" dreb="2" treb="2" pf="4" tf="0" to="1" tp="14" fgm="5" fga="9" fgm3="3" fga3="7" ftm="1" fta="2" blk="0" stl="2" ast="0" min="33"></stats>  
+      <statsbyprd prd="1" fgm="2" fga="3" fgm3="1" fga3="2" ftm="0" fta="0" tp="5" blk="0" stl="1" ast="0" min="10" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="1" fga="1" fgm3="1" fga3="1" ftm="0" fta="0" tp="3" blk="0" stl="1" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="2" fga="5" fgm3="1" fga3="4" ftm="1" fta="2" tp="6" blk="0" stl="0" ast="0" min="10" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="10" code="10" name="Adam Ouali-Alami" checkname="OUALI-ALAMI,ADAM" gp="1" gs="1" pos="*" oncourt="Y" playerId=""> 
+      <stats oreb="0" dreb="3" treb="3" pf="1" tf="0" to="1" tp="2" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="1" ast="0" min="16"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="0" min="5" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="11" code="11" name="Charles Ringuette" checkname="RINGUETTE,CHARLES" gp="1" gs="1" pos="*" oncourt="Y" playerId=""> 
+      <stats oreb="1" dreb="1" treb="2" pf="2" tf="0" to="0" tp="10" fgm="5" fga="8" fgm3="0" fga3="1" ftm="0" fta="0" blk="0" stl="1" ast="2" min="23"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="6" oreb="1" dreb="1" treb="2" pf="1" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="3" fga="3" fgm3="0" fga3="0" ftm="0" fta="0" tp="6" blk="0" stl="0" ast="1" min="7" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="1" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="1" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="12" code="12" name="Malek Alphonse" checkname="ALPHONSE,MALEK" gp="0" playerId=""></player>  
+    <player uni="13" code="13" name="Dickson Ibrahima Niang" checkname="NIANG,DICKSON IBRAHIMA" gp="0" playerId=""></player>  
+    <player uni="14" code="14" name="Nathan-Gabriel Pelissier" checkname="PELISSIER,NATHAN-GABRIEL" gp="1" oncourt="Y" playerId=""> 
+      <stats oreb="3" dreb="2" treb="5" pf="1" tf="0" to="1" tp="6" fgm="1" fga="3" fgm3="0" fga3="2" ftm="4" fta="4" blk="0" stl="1" ast="1" min="25"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="1" ftm="2" fta="2" tp="2" blk="0" stl="0" ast="0" min="4" oreb="1" dreb="2" treb="3" pf="1" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="1" ftm="2" fta="2" tp="2" blk="0" stl="0" ast="1" min="9" oreb="2" dreb="0" treb="2" pf="0" tf="0" to="1" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="15" code="15" name="Mauricio Abboud" checkname="ABBOUD,MAURICIO" gp="0" playerId=""></player>  
+    <player uni="21" code="21" name="Julius Ferguson" checkname="FERGUSON,JULIUS" gp="1" gs="1" pos="*" playerId=""> 
+      <stats oreb="3" dreb="3" treb="6" pf="1" tf="0" to="3" tp="26" fgm="10" fga="24" fgm3="4" fga3="9" ftm="2" fta="2" blk="0" stl="2" ast="0" min="31"></stats>  
+      <statsbyprd prd="1" fgm="3" fga="4" fgm3="1" fga3="1" ftm="0" fta="0" tp="7" blk="0" stl="0" ast="0" min="4" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="2" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="2" fga="8" fgm3="0" fga3="2" ftm="0" fta="0" tp="4" blk="0" stl="0" ast="0" min="9" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="1" fga="4" fgm3="1" fga3="3" ftm="2" fta="2" tp="5" blk="0" stl="2" ast="0" min="9" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="4" fga="8" fgm3="2" fga3="3" ftm="0" fta="0" tp="10" blk="0" stl="0" ast="0" min="9" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="24" code="24" name="Daniel Bryan Mvogo" checkname="MVOGO,DANIEL BRYAN" gp="1" playerId=""> 
+      <stats oreb="0" dreb="2" treb="2" pf="1" tf="0" to="0" tp="0" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="2" min="7"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="3" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="3" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="25" code="25" name="Joshua Mighty Muamba Kayembe" checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" gp="1" playerId=""> 
+      <stats oreb="3" dreb="2" treb="5" pf="1" tf="0" to="1" tp="4" fgm="2" fga="4" fgm3="0" fga3="0" ftm="0" fta="0" blk="1" stl="1" ast="1" min="15"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="2" fga="3" fgm3="0" fga3="0" ftm="0" fta="0" tp="4" blk="1" stl="0" ast="0" min="5" oreb="2" dreb="2" treb="4" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="TM" code="TM" name="Team" checkname="TEAM" gp="1" playerId=""> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="4" tp="0"></stats>  
+      <statsbyprd prd="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="2" tp="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" tp="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" tp="0" dq="0"></statsbyprd> 
+    </player> 
+  </team>  
+  <team vh="H" id="CHAMPLAI" name="Champlain College Saint-Lambert" code="CCAA151" record=""> 
+    <linescore line="10,18,13,20" score="61"> 
+      <lineprd prd="1" score="10"></lineprd>  
+      <lineprd prd="2" score="18"></lineprd>  
+      <lineprd prd="3" score="13"></lineprd>  
+      <lineprd prd="4" score="20"></lineprd> 
+    </linescore>  
+    <totals> 
+      <stats fgm="21" fga="61" fgm3="8" fga3="33" ftm="11" fta="11" tp="61" blk="2" stl="8" ast="7" min="201" oreb="8" dreb="20" treb="28" pf="14" tf="0" to="16" dq="0" deadball="1,3" fgpct="34.4" fg3pct="24.2" ftpct="100.0"></stats>  
+      <special vh="H" pts_to="10" pts_ch2="4" pts_paint="0" pts_fastb="0" pts_bench="8" ties="1" leads="0" poss_count="0" poss_time="0" score_count="0" score_time="0" large_lead="0" large_lead_t="-"></special> 
+    </totals>  
+    <player uni="01" code="01" name="R. Thama Tchiss" checkname="TCHISS,R THAMA" gp="1" playerId="3bzdjc59fbd4b8oh"> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="0"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="02" code="02" name="B. Brideau" checkname="BRIDEAU,B" gp="1" playerId="pil4aslp0k03ordm"> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="0"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="03" code="03" name="J, Bravo" checkname="J,BRAVO" gp="1" gs="1" pos="*" oncourt="Y" playerId="5bkj2uzzfy5pm3u7"> 
+      <stats oreb="1" dreb="2" treb="3" pf="2" tf="0" to="3" tp="8" fgm="3" fga="11" fgm3="0" fga3="4" ftm="2" fta="2" blk="0" stl="2" ast="2" min="33"></stats>  
+      <statsbyprd prd="1" fgm="1" fga="3" fgm3="0" fga3="1" ftm="2" fta="2" tp="4" blk="0" stl="1" ast="0" min="7" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="2" min="7" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="0" min="9" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="1" fga="3" fgm3="0" fga3="2" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="10" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="04" code="04" name="C. Reynolds-Raby" checkname="REYNOLDS-RABY,C" gp="1" playerId="xj0cl4t3l4esf3ex"> 
+      <stats oreb="0" dreb="1" treb="1" pf="0" tf="0" to="2" tp="0" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="1" min="11"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="3" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="2" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="05" code="05" name="C.S. Kuo" checkname="KUO,CS" gp="1" oncourt="Y" playerId="k0r1j84oulxq8l4d"> 
+      <stats oreb="2" dreb="1" treb="3" pf="0" tf="0" to="1" tp="6" fgm="2" fga="4" fgm3="2" fga3="4" ftm="0" fta="0" blk="0" stl="4" ast="2" min="24"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="1" fga="1" fgm3="1" fga3="1" ftm="0" fta="0" tp="3" blk="0" stl="1" ast="1" min="5" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="1" fga="2" fgm3="1" fga3="2" ftm="0" fta="0" tp="3" blk="0" stl="1" ast="1" min="6" oreb="2" dreb="0" treb="2" pf="0" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="06" code="06" name="L. Cleophat" checkname="CLEOPHAT,L" gp="1" gs="1" pos="*" oncourt="Y" playerId="ijnkknk5yr4c14jr"> 
+      <stats oreb="3" dreb="3" treb="6" pf="0" tf="0" to="2" tp="9" fgm="3" fga="14" fgm3="1" fga3="6" ftm="2" fta="2" blk="0" stl="0" ast="0" min="32"></stats>  
+      <statsbyprd prd="1" fgm="1" fga="3" fgm3="0" fga3="2" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="6" oreb="3" dreb="1" treb="4" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="2" fgm3="0" fga3="1" ftm="2" fta="2" tp="2" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="4" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="2" fga="5" fgm3="1" fga3="2" ftm="0" fta="0" tp="5" blk="0" stl="0" ast="0" min="10" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="08" code="08" name="A. Choueiri" checkname="CHOUEIRI,A" gp="1" playerId="y2kug4y7algan85o"> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="0"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="09" code="09" name="Z. Vailliancourt" checkname="VAILLIANCOURT,Z" gp="1" playerId="voy0rx3s62melimo"> 
+      <stats oreb="0" dreb="0" treb="0" pf="3" tf="0" to="1" tp="0" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" blk="0" stl="0" ast="1" min="8"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="3" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="10" code="10" name="B. Bravo" checkname="BRAVO,B" gp="1" gs="1" pos="*" oncourt="Y" playerId="1l7owmkj0wtuoidu"> 
+      <stats oreb="0" dreb="7" treb="7" pf="4" tf="0" to="1" tp="25" fgm="8" fga="15" fgm3="2" fga3="8" ftm="7" fta="7" blk="1" stl="1" ast="0" min="36"></stats>  
+      <statsbyprd prd="1" fgm="1" fga="4" fgm3="0" fga3="3" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="3" fga="5" fgm3="1" fga3="3" ftm="3" fta="3" tp="10" blk="1" stl="0" ast="0" min="10" oreb="0" dreb="4" treb="4" pf="1" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="3" fga="3" fgm3="1" fga3="1" ftm="4" fta="4" tp="11" blk="0" stl="0" ast="0" min="9" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="1" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="0" min="10" oreb="0" dreb="3" treb="3" pf="2" tf="0" to="1" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="11" code="11" name="H. Lavoie" checkname="LAVOIE,H" gp="1" gs="1" pos="*" oncourt="Y" playerId="pyk3dgkfsq9a9aeo"> 
+      <stats oreb="2" dreb="0" treb="2" pf="1" tf="0" to="1" tp="11" fgm="4" fga="8" fgm3="3" fga3="7" ftm="0" fta="0" blk="1" stl="0" ast="0" min="23"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="1" fga="3" fgm3="1" fga3="3" ftm="0" fta="0" tp="3" blk="1" stl="0" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="3" fga="4" fgm3="2" fga3="3" ftm="0" fta="0" tp="8" blk="0" stl="0" ast="0" min="8" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="14" code="14" name="O. Pieniak" checkname="PIENIAK,O" gp="1" gs="1" pos="*" playerId="4akmwec00ip2m8zw"> 
+      <stats oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" tp="0" fgm="0" fga="5" fgm3="0" fga3="3" ftm="0" fta="0" blk="0" stl="1" ast="1" min="18"></stats>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="4" fgm3="0" fga3="3" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="1" min="8" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="21" code="21" name="P. Cosco" checkname="COSCO,P" gp="1" playerId="0ihx0o3klpz9o7n8"> 
+      <stats oreb="0" dreb="5" treb="5" pf="3" tf="0" to="3" tp="2" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="16"></stats>  
+      <statsbyprd prd="1" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="1" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="0" dq="0"></statsbyprd> 
+    </player>  
+    <player uni="TM" code="TM" name="Team" checkname="TEAM" gp="1" playerId=""> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="2" tp="0"></stats>  
+      <statsbyprd prd="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" tp="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"></statsbyprd>  
+      <statsbyprd prd="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" tp="0" dq="0"></statsbyprd> 
+    </player> 
+  </team>  
+  <plays format="tokens"> 
+    <period number="1" time="10:00"> 
+      <special vh="V" pts_to="3" pts_ch2="4" pts_paint="0" pts_fastb="0" pts_bench="10" ties="0" leads="0" poss_count="0" poss_time="0" score_count="12" score_time="3019" large_lead="14" large_lead_t="1st-00:35"></special>  
+      <special vh="H" pts_to="2" pts_ch2="2" pts_paint="0" pts_fastb="0" pts_bench="2" ties="1" leads="0" poss_count="0" poss_time="0" score_count="5" score_time="1651" large_lead="0" large_lead_t="-"></special>  
+      <summary vh="V" fgm="9" fga="16" fgm3="3" fga3="5" ftm="3" fta="4" blk="0" stl="2" ast="1" oreb="2" dreb="6" treb="8" pf="3" tf="0" to="2"></summary>  
+      <summary vh="H" fgm="4" fga="15" fgm3="0" fga3="9" ftm="2" fta="2" blk="0" stl="2" ast="0" oreb="3" dreb="3" treb="6" pf="3" tf="0" to="3"></summary>  
+      <play vh="V" time="10:00" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="10:00" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="REBOUND" type="OFF"></play>  
+      <play vh="V" time="10:00" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="GOOD" type="JUMPER" vscore="2" hscore="0"></play>  
+      <play vh="H" time="09:47" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="09:47" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="REBOUND" type="OFF"></play>  
+      <play vh="H" time="09:38" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="09:38" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="REBOUND" type="OFF"></play>  
+      <play vh="V" time="09:32" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="FOUL"></play>  
+      <play vh="H" time="09:19" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="09:19" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="08:57" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="08:57" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="08:46" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="FOUL"></play>  
+      <play vh="H" time="08:46" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="GOOD" type="FT" vscore="2" hscore="1"></play>  
+      <play vh="H" time="08:46" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="GOOD" type="FT" vscore="2" hscore="2"></play>  
+      <play vh="V" time="08:32" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="GOOD" type="3PTR" vscore="5" hscore="2"></play>  
+      <play vh="H" time="08:11" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="08:11" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="V" time="07:55" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="GOOD" type="JUMPER" vscore="7" hscore="2"></play>  
+      <play vh="H" time="07:35" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="GOOD" type="JUMPER" vscore="7" hscore="4"></play>  
+      <play vh="V" time="07:20" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="TURNOVER"></play>  
+      <play vh="H" time="07:16" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="STEAL"></play>  
+      <play vh="H" time="07:12" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="07:12" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="06:57" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="SUB" type="IN"></play>  
+      <play vh="V" time="06:57" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="SUB" type="IN"></play>  
+      <play vh="V" time="06:57" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="SUB" type="OUT"></play>  
+      <play vh="V" time="06:57" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="SUB" type="OUT"></play>  
+      <play vh="H" time="06:57" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="SUB" type="IN"></play>  
+      <play vh="H" time="06:57" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="SUB" type="IN"></play>  
+      <play vh="H" time="06:57" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="SUB" type="IN"></play>  
+      <play vh="H" time="06:57" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="SUB" type="OUT"></play>  
+      <play vh="H" time="06:57" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="SUB" type="OUT"></play>  
+      <play vh="H" time="06:57" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="SUB" type="OUT"></play>  
+      <play vh="H" time="06:37" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="FOUL"></play>  
+      <play vh="V" time="06:36" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="TURNOVER"></play>  
+      <play vh="H" time="06:34" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="STEAL"></play>  
+      <play vh="H" time="06:18" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="06:18" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="REBOUND" type="OFF"></play>  
+      <play vh="H" time="06:13" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="JUMPER" vscore="7" hscore="6"></play>  
+      <play vh="V" time="05:54" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="GOOD" type="JUMPER" vscore="9" hscore="6"></play>  
+      <play vh="H" time="05:34" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="05:34" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="V" time="05:31" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="SUB" type="IN"></play>  
+      <play vh="V" time="05:31" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="SUB" type="OUT"></play>  
+      <play vh="V" time="05:20" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="05:20" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="04:56" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="TURNOVER"></play>  
+      <play vh="V" time="04:55" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="STEAL"></play>  
+      <play vh="V" time="04:50" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="04:50" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="REBOUND" type="OFF"></play>  
+      <play vh="V" time="04:44" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="04:44" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="V" time="04:26" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="GOOD" type="JUMPER" vscore="11" hscore="6"></play>  
+      <play vh="V" time="03:56" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="FOUL"></play>  
+      <play vh="V" time="03:56" uni="24" team="COLLÈGE " checkname="MVOGO,DANIEL BRYAN" action="SUB" type="IN"></play>  
+      <play vh="V" time="03:56" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="SUB" type="OUT"></play>  
+      <play vh="H" time="03:56" uni="09" team="CHAMPLAI" checkname="VAILLIANCOURT,Z" action="SUB" type="IN"></play>  
+      <play vh="H" time="03:56" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="SUB" type="IN"></play>  
+      <play vh="H" time="03:56" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="SUB" type="OUT"></play>  
+      <play vh="H" time="03:56" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="SUB" type="OUT"></play>  
+      <play vh="H" time="03:46" uni="09" team="CHAMPLAI" checkname="VAILLIANCOURT,Z" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="03:46" uni="24" team="COLLÈGE " checkname="MVOGO,DANIEL BRYAN" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="03:39" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="GOOD" type="3PTR" vscore="14" hscore="6"></play>  
+      <play vh="V" time="03:24" uni="24" team="COLLÈGE " checkname="MVOGO,DANIEL BRYAN" action="ASSIST"></play>  
+      <play vh="H" time="03:23" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="TURNOVER"></play>  
+      <play vh="H" time="03:05" uni="09" team="CHAMPLAI" checkname="VAILLIANCOURT,Z" action="FOUL"></play>  
+      <play vh="V" time="03:05" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="MISS" type="FT"></play>  
+      <play vh="V" time="03:05" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="V" time="03:05" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="GOOD" type="FT" vscore="15" hscore="6"></play>  
+      <play vh="H" time="02:55" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="GOOD" type="JUMPER" vscore="15" hscore="8"></play>  
+      <play vh="V" time="02:43" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="GOOD" type="JUMPER" vscore="17" hscore="8"></play>  
+      <play vh="H" time="02:28" uni="09" team="CHAMPLAI" checkname="VAILLIANCOURT,Z" action="TURNOVER"></play>  
+      <play vh="V" time="02:26" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="STEAL"></play>  
+      <play vh="V" time="02:22" uni="24" team="COLLÈGE " checkname="MVOGO,DANIEL BRYAN" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="02:22" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="02:02" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="GOOD" type="JUMPER" vscore="17" hscore="10"></play>  
+      <play vh="V" time="01:50" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="GOOD" type="3PTR" vscore="20" hscore="10"></play>  
+      <play vh="H" time="01:25" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="01:25" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="01:05" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="GOOD" type="JUMPER" vscore="22" hscore="10"></play>  
+      <play vh="H" time="00:42" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="00:42" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="00:35" uni="09" team="CHAMPLAI" checkname="VAILLIANCOURT,Z" action="FOUL"></play>  
+      <play vh="V" time="00:35" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="GOOD" type="FT" vscore="23" hscore="10"></play>  
+      <play vh="V" time="00:35" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="GOOD" type="FT" vscore="24" hscore="10"></play>  
+      <play vh="V" time="00:35" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="SUB" type="IN"></play>  
+      <play vh="V" time="00:35" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="SUB" type="IN"></play>  
+      <play vh="V" time="00:35" uni="24" team="COLLÈGE " checkname="MVOGO,DANIEL BRYAN" action="SUB" type="OUT"></play>  
+      <play vh="V" time="00:35" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="SUB" type="OUT"></play>  
+      <play vh="H" time="00:35" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="SUB" type="IN"></play>  
+      <play vh="H" time="00:35" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="SUB" type="IN"></play>  
+      <play vh="H" time="00:35" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="SUB" type="IN"></play>  
+      <play vh="H" time="00:35" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="SUB" type="OUT"></play>  
+      <play vh="H" time="00:35" uni="09" team="CHAMPLAI" checkname="VAILLIANCOURT,Z" action="SUB" type="OUT"></play>  
+      <play vh="H" time="00:35" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="SUB" type="OUT"></play>  
+      <play vh="H" time="00:25" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="00:25" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="00:13" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="00:13" uni="TM" team="CHAMPLAI" checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <clock time="00:00"></clock> 
+    </period>  
+    <period number="2" time="10:00"> 
+      <special vh="V" pts_to="2" pts_ch2="8" pts_paint="0" pts_fastb="0" pts_bench="8" ties="0" leads="0" poss_count="0" poss_time="0" score_count="8" score_time="1554" large_lead="16" large_lead_t="2nd-08:52"></special>  
+      <special vh="H" pts_to="0" pts_ch2="0" pts_paint="0" pts_fastb="0" pts_bench="3" ties="0" leads="0" poss_count="0" poss_time="0" score_count="11" score_time="3619" large_lead="0" large_lead_t="-"></special>  
+      <summary vh="V" fgm="6" fga="21" fgm3="0" fga3="6" ftm="2" fta="2" blk="1" stl="1" ast="1" oreb="4" dreb="8" treb="12" pf="4" tf="0" to="1"></summary>  
+      <summary vh="H" fgm="5" fga="16" fgm3="3" fga3="9" ftm="5" fta="5" blk="2" stl="1" ast="4" oreb="1" dreb="8" treb="9" pf="3" tf="0" to="3"></summary>  
+      <play vh="V" time="10:00" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="SUB" type="IN"></play>  
+      <play vh="V" time="10:00" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="SUB" type="OUT"></play>  
+      <play vh="H" time="09:46" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="09:46" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="09:31" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="FOUL"></play>  
+      <play vh="V" time="09:22" uni="TM" team="COLLÈGE " checkname="TEAM" action="TURNOVER"></play>  
+      <play vh="H" time="08:53" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="08:53" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="REBOUND" type="OFF"></play>  
+      <play vh="V" time="08:52" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="GOOD" type="JUMPER" vscore="26" hscore="10"></play>  
+      <play vh="H" time="08:48" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="08:48" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="V" time="08:36" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="FOUL"></play>  
+      <play vh="V" time="08:36" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="SUB" type="IN"></play>  
+      <play vh="V" time="08:36" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="SUB" type="OUT"></play>  
+      <play vh="H" time="08:23" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="JUMPER" vscore="26" hscore="12"></play>  
+      <play vh="V" time="07:59" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="07:59" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="07:47" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="FOUL"></play>  
+      <play vh="H" time="07:47" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="GOOD" type="FT" vscore="26" hscore="13"></play>  
+      <play vh="H" time="07:47" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="GOOD" type="FT" vscore="26" hscore="14"></play>  
+      <play vh="V" time="07:34" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="SUB" type="IN"></play>  
+      <play vh="V" time="07:34" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="SUB" type="OUT"></play>  
+      <play vh="V" time="07:32" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="07:32" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="H" time="07:27" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="FOUL"></play>  
+      <play vh="V" time="07:17" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="07:17" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="BLOCK"></play>  
+      <play vh="H" time="07:17" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="07:04" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="TURNOVER"></play>  
+      <play vh="V" time="06:51" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="06:51" uni="TM" team="CHAMPLAI" checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="H" time="06:34" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="3PTR" vscore="26" hscore="17"></play>  
+      <play vh="H" time="06:34" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="ASSIST"></play>  
+      <play vh="V" time="06:25" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="06:25" uni="TM" team="CHAMPLAI" checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="V" time="06:17" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="FOUL"></play>  
+      <play vh="V" time="06:17" uni="TM" team="COLLÈGE " checkname="TEAM" action="TURNOVER"></play>  
+      <play vh="H" time="06:02" uni="TM" team="CHAMPLAI" checkname="TEAM" action="TIMEOUT" type="FULL"></play>  
+      <play vh="V" time="06:02" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="SUB" type="IN"></play>  
+      <play vh="V" time="06:02" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="SUB" type="IN"></play>  
+      <play vh="V" time="06:02" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="SUB" type="OUT"></play>  
+      <play vh="V" time="06:02" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="SUB" type="OUT"></play>  
+      <play vh="H" time="05:56" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="05:56" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="05:38" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="05:38" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="REBOUND" type="OFF"></play>  
+      <play vh="V" time="05:32" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="GOOD" type="JUMPER" vscore="28" hscore="17"></play>  
+      <play vh="H" time="05:20" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="05:20" uni="TM" team="CHAMPLAI" checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="H" time="05:13" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="SUB" type="IN"></play>  
+      <play vh="H" time="05:13" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="SUB" type="IN"></play>  
+      <play vh="H" time="05:13" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="SUB" type="IN"></play>  
+      <play vh="H" time="05:13" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="SUB" type="OUT"></play>  
+      <play vh="H" time="05:13" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="SUB" type="OUT"></play>  
+      <play vh="H" time="05:13" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="SUB" type="OUT"></play>  
+      <play vh="H" time="05:12" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="TURNOVER"></play>  
+      <play vh="V" time="05:10" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="STEAL"></play>  
+      <play vh="V" time="05:08" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="GOOD" type="JUMPER" vscore="30" hscore="17"></play>  
+      <play vh="H" time="04:51" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="GOOD" type="3PTR" vscore="30" hscore="20"></play>  
+      <play vh="H" time="04:51" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="ASSIST"></play>  
+      <play vh="V" time="04:39" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="04:39" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="04:31" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="JUMPER" vscore="30" hscore="22"></play>  
+      <play vh="H" time="04:31" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="ASSIST"></play>  
+      <play vh="V" time="04:18" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="TURNOVER"></play>  
+      <play vh="H" time="04:17" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="STEAL"></play>  
+      <play vh="H" time="04:14" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="04:14" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="04:04" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="GOOD" type="JUMPER" vscore="32" hscore="22"></play>  
+      <play vh="V" time="04:04" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="ASSIST"></play>  
+      <play vh="H" time="03:34" uni="TM" team="CHAMPLAI" checkname="TEAM" action="TURNOVER"></play>  
+      <play vh="V" time="03:30" uni="TM" team="COLLÈGE " checkname="TEAM" action="TIMEOUT" type="FULL"></play>  
+      <play vh="V" time="03:23" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="03:13" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="BLOCK"></play>  
+      <play vh="H" time="03:13" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="03:03" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="03:03" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="02:56" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="02:56" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="02:53" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="FOUL"></play>  
+      <play vh="H" time="02:53" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="FT" vscore="32" hscore="23"></play>  
+      <play vh="H" time="02:53" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="FT" vscore="32" hscore="24"></play>  
+      <play vh="H" time="02:53" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="FT" vscore="32" hscore="25"></play>  
+      <play vh="V" time="02:34" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="02:34" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="02:27" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="TURNOVER"></play>  
+      <play vh="V" time="02:27" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="SUB" type="IN"></play>  
+      <play vh="V" time="02:27" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="SUB" type="OUT"></play>  
+      <play vh="V" time="02:14" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="SUB" type="IN"></play>  
+      <play vh="V" time="02:14" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="SUB" type="OUT"></play>  
+      <play vh="H" time="02:14" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="SUB" type="IN"></play>  
+      <play vh="H" time="02:14" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="SUB" type="IN"></play>  
+      <play vh="H" time="02:14" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="SUB" type="OUT"></play>  
+      <play vh="H" time="02:14" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="SUB" type="OUT"></play>  
+      <play vh="H" time="02:01" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="GOOD" type="3PTR" vscore="32" hscore="28"></play>  
+      <play vh="H" time="02:01" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="ASSIST"></play>  
+      <play vh="V" time="01:48" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="SUB" type="IN"></play>  
+      <play vh="V" time="01:48" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="SUB" type="OUT"></play>  
+      <play vh="H" time="01:48" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="SUB" type="IN"></play>  
+      <play vh="H" time="01:48" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="SUB" type="OUT"></play>  
+      <play vh="H" time="01:25" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="01:25" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="01:23" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="01:23" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="REBOUND" type="OFF"></play>  
+      <play vh="V" time="01:18" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="GOOD" type="JUMPER" vscore="34" hscore="28"></play>  
+      <play vh="V" time="01:18" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="01:18" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="01:14" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="01:14" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="01:06" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="01:06" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="01:04" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="01:04" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="REBOUND" type="OFF"></play>  
+      <play vh="V" time="01:00" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="GOOD" type="JUMPER" vscore="36" hscore="28"></play>  
+      <play vh="H" time="00:58" uni="TM" team="CHAMPLAI" checkname="TEAM" action="TIMEOUT" type="FULL"></play>  
+      <play vh="V" time="00:58" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="BLOCK"></play>  
+      <play vh="V" time="00:58" uni="24" team="COLLÈGE " checkname="MVOGO,DANIEL BRYAN" action="SUB" type="IN"></play>  
+      <play vh="V" time="00:58" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="SUB" type="OUT"></play>  
+      <play vh="V" time="00:51" uni="24" team="COLLÈGE " checkname="MVOGO,DANIEL BRYAN" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="00:51" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="00:31" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="00:31" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="00:12" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="00:12" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="REBOUND" type="OFF"></play>  
+      <play vh="H" time="00:00" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="FOUL"></play>  
+      <play vh="V" time="00:00" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="GOOD" type="FT" vscore="37" hscore="28"></play>  
+      <play vh="V" time="00:00" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="GOOD" type="FT" vscore="38" hscore="28"></play>  
+      <clock time="00:00"></clock> 
+    </period>  
+    <period number="3" time="10:00"> 
+      <special vh="V" pts_to="6" pts_ch2="4" pts_paint="0" pts_fastb="0" pts_bench="4" ties="0" leads="0" poss_count="0" poss_time="0" score_count="10" score_time="2369" large_lead="17" large_lead_t="3rd-00:31"></special>  
+      <special vh="H" pts_to="6" pts_ch2="0" pts_paint="0" pts_fastb="0" pts_bench="0" ties="0" leads="0" poss_count="0" poss_time="0" score_count="9" score_time="2746" large_lead="0" large_lead_t="-"></special>  
+      <summary vh="V" fgm="8" fga="13" fgm3="2" fga3="5" ftm="2" fta="2" blk="0" stl="5" ast="4" oreb="2" dreb="6" treb="8" pf="4" tf="0" to="6"></summary>  
+      <summary vh="H" fgm="4" fga="13" fgm3="1" fga3="5" ftm="4" fta="4" blk="0" stl="3" ast="1" oreb="1" dreb="2" treb="3" pf="3" tf="0" to="6"></summary>  
+      <play vh="V" time="10:00" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="SUB" type="IN"></play>  
+      <play vh="V" time="10:00" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="SUB" type="OUT"></play>  
+      <play vh="H" time="09:35" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="TURNOVER"></play>  
+      <play vh="V" time="09:34" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="STEAL"></play>  
+      <play vh="V" time="09:21" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="TURNOVER"></play>  
+      <play vh="H" time="09:12" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="09:12" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="08:49" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="TURNOVER"></play>  
+      <play vh="H" time="08:48" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="STEAL"></play>  
+      <play vh="H" time="08:33" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="08:33" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="08:21" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="GOOD" type="JUMPER" vscore="40" hscore="28"></play>  
+      <play vh="V" time="08:21" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="ASSIST"></play>  
+      <play vh="H" time="08:11" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="08:11" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="REBOUND" type="OFF"></play>  
+      <play vh="H" time="07:59" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="07:59" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="07:44" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="07:44" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="07:36" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="TURNOVER"></play>  
+      <play vh="V" time="07:34" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="STEAL"></play>  
+      <play vh="V" time="07:33" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="TURNOVER"></play>  
+      <play vh="H" time="07:32" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="STEAL"></play>  
+      <play vh="V" time="07:28" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="FOUL"></play>  
+      <play vh="H" time="07:28" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="FT" vscore="40" hscore="29"></play>  
+      <play vh="H" time="07:28" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="FT" vscore="40" hscore="30"></play>  
+      <play vh="H" time="07:28" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="SUB" type="IN"></play>  
+      <play vh="H" time="07:28" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="SUB" type="OUT"></play>  
+      <play vh="V" time="07:16" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="07:16" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="07:04" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="07:04" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="06:57" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="GOOD" type="JUMPER" vscore="42" hscore="30"></play>  
+      <play vh="H" time="06:37" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="TURNOVER"></play>  
+      <play vh="V" time="06:36" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="STEAL"></play>  
+      <play vh="V" time="06:29" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="06:29" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="REBOUND" type="OFF"></play>  
+      <play vh="V" time="06:24" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="GOOD" type="JUMPER" vscore="44" hscore="30"></play>  
+      <play vh="H" time="06:01" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="05:57" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="JUMPER" vscore="44" hscore="32"></play>  
+      <play vh="H" time="05:57" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="FOUL"></play>  
+      <play vh="V" time="05:57" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="SUB" type="IN"></play>  
+      <play vh="V" time="05:57" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="SUB" type="IN"></play>  
+      <play vh="V" time="05:57" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="SUB" type="OUT"></play>  
+      <play vh="V" time="05:57" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="SUB" type="OUT"></play>  
+      <play vh="H" time="05:57" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="SUB" type="IN"></play>  
+      <play vh="H" time="05:57" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="SUB" type="IN"></play>  
+      <play vh="H" time="05:57" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="SUB" type="OUT"></play>  
+      <play vh="H" time="05:57" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="SUB" type="OUT"></play>  
+      <play vh="V" time="05:49" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="TURNOVER"></play>  
+      <play vh="V" time="05:43" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="FOUL"></play>  
+      <play vh="H" time="05:36" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="GOOD" type="JUMPER" vscore="44" hscore="34"></play>  
+      <play vh="V" time="05:15" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="SUB" type="IN"></play>  
+      <play vh="V" time="05:15" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="SUB" type="IN"></play>  
+      <play vh="V" time="05:15" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="SUB" type="OUT"></play>  
+      <play vh="V" time="05:15" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="SUB" type="OUT"></play>  
+      <play vh="V" time="05:12" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="05:12" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="REBOUND" type="OFF"></play>  
+      <play vh="H" time="05:07" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="FOUL"></play>  
+      <play vh="H" time="05:07" uni="09" team="CHAMPLAI" checkname="VAILLIANCOURT,Z" action="SUB" type="IN"></play>  
+      <play vh="H" time="05:07" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="SUB" type="IN"></play>  
+      <play vh="H" time="05:07" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="SUB" type="OUT"></play>  
+      <play vh="H" time="05:07" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="SUB" type="OUT"></play>  
+      <play vh="H" time="05:00" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="FOUL"></play>  
+      <play vh="V" time="05:00" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="GOOD" type="FT" vscore="45" hscore="34"></play>  
+      <play vh="V" time="05:00" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="GOOD" type="FT" vscore="46" hscore="34"></play>  
+      <play vh="V" time="05:00" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="SUB" type="IN"></play>  
+      <play vh="V" time="05:00" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="SUB" type="OUT"></play>  
+      <play vh="H" time="05:00" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="SUB" type="IN"></play>  
+      <play vh="H" time="05:00" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="SUB" type="OUT"></play>  
+      <play vh="H" time="04:38" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="04:38" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="V" time="04:17" uni="TM" team="COLLÈGE " checkname="TEAM" action="TURNOVER"></play>  
+      <play vh="H" time="04:04" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="JUMPER" vscore="46" hscore="36"></play>  
+      <play vh="V" time="03:46" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="TURNOVER"></play>  
+      <play vh="H" time="03:43" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="STEAL"></play>  
+      <play vh="H" time="03:26" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="03:26" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="03:18" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="GOOD" type="JUMPER" vscore="48" hscore="36"></play>  
+      <play vh="V" time="03:18" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="ASSIST"></play>  
+      <play vh="V" time="03:08" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="FOUL"></play>  
+      <play vh="V" time="03:08" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="SUB" type="IN"></play>  
+      <play vh="V" time="03:08" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="SUB" type="OUT"></play>  
+      <play vh="H" time="03:08" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="SUB" type="IN"></play>  
+      <play vh="H" time="03:08" uni="09" team="CHAMPLAI" checkname="VAILLIANCOURT,Z" action="SUB" type="OUT"></play>  
+      <play vh="H" time="02:50" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="3PTR" vscore="48" hscore="39"></play>  
+      <play vh="H" time="02:42" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="ASSIST"></play>  
+      <play vh="V" time="02:30" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="TURNOVER"></play>  
+      <play vh="V" time="02:30" uni="24" team="COLLÈGE " checkname="MVOGO,DANIEL BRYAN" action="SUB" type="IN"></play>  
+      <play vh="V" time="02:30" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="SUB" type="OUT"></play>  
+      <play vh="H" time="02:14" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="02:14" uni="24" team="COLLÈGE " checkname="MVOGO,DANIEL BRYAN" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="01:50" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="GOOD" type="3PTR" vscore="51" hscore="39"></play>  
+      <play vh="V" time="01:50" uni="24" team="COLLÈGE " checkname="MVOGO,DANIEL BRYAN" action="ASSIST"></play>  
+      <play vh="V" time="01:24" uni="24" team="COLLÈGE " checkname="MVOGO,DANIEL BRYAN" action="FOUL"></play>  
+      <play vh="H" time="01:24" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="FT" vscore="51" hscore="40"></play>  
+      <play vh="H" time="01:24" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="FT" vscore="51" hscore="41"></play>  
+      <play vh="H" time="01:24" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="SUB" type="IN"></play>  
+      <play vh="H" time="01:24" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="SUB" type="OUT"></play>  
+      <play vh="V" time="01:14" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="GOOD" type="3PTR" vscore="54" hscore="41"></play>  
+      <play vh="V" time="01:14" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="ASSIST"></play>  
+      <play vh="H" time="00:59" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="TURNOVER"></play>  
+      <play vh="V" time="00:58" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="STEAL"></play>  
+      <play vh="V" time="00:54" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="GOOD" type="JUMPER" vscore="56" hscore="41"></play>  
+      <play vh="H" time="00:37" uni="04" team="CHAMPLAI" checkname="REYNOLDS-RABY,C" action="TURNOVER"></play>  
+      <play vh="V" time="00:31" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="GOOD" type="JUMPER" vscore="58" hscore="41"></play>  
+      <play vh="H" time="00:22" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="TURNOVER"></play>  
+      <play vh="V" time="00:21" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="STEAL"></play>  
+      <play vh="V" time="00:12" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="00:12" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <clock time="00:00"></clock> 
+    </period>  
+    <period number="4" time="10:00"> 
+      <special vh="V" pts_to="6" pts_ch2="2" pts_paint="0" pts_fastb="0" pts_bench="2" ties="0" leads="0" poss_count="0" poss_time="0" score_count="11" score_time="3374" large_lead="22" large_lead_t="4th-08:57"></special>  
+      <special vh="H" pts_to="2" pts_ch2="2" pts_paint="0" pts_fastb="0" pts_bench="3" ties="0" leads="0" poss_count="0" poss_time="0" score_count="8" score_time="2666" large_lead="0" large_lead_t="-"></special>  
+      <summary vh="V" fgm="7" fga="18" fgm3="3" fga3="9" ftm="3" fta="4" blk="0" stl="2" ast="3" oreb="3" dreb="5" treb="8" pf="2" tf="0" to="2"></summary>  
+      <summary vh="H" fgm="8" fga="17" fgm3="4" fga3="10" ftm="0" fta="0" blk="0" stl="2" ast="2" oreb="3" dreb="7" treb="10" pf="5" tf="0" to="2"></summary>  
+      <play vh="V" time="10:00" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="SUB" type="IN"></play>  
+      <play vh="V" time="10:00" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="SUB" type="OUT"></play>  
+      <play vh="V" time="09:43" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="TURNOVER"></play>  
+      <play vh="H" time="09:41" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="STEAL"></play>  
+      <play vh="H" time="09:33" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="09:33" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="09:23" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="GOOD" type="3PTR" vscore="61" hscore="41"></play>  
+      <play vh="H" time="09:00" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="TURNOVER"></play>  
+      <play vh="V" time="08:58" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="STEAL"></play>  
+      <play vh="V" time="08:57" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="GOOD" type="JUMPER" vscore="63" hscore="41"></play>  
+      <play vh="H" time="08:50" uni="TM" team="CHAMPLAI" checkname="TEAM" action="TIMEOUT" type="FULL"></play>  
+      <play vh="H" time="08:50" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="SUB" type="IN"></play>  
+      <play vh="H" time="08:50" uni="14" team="CHAMPLAI" checkname="PIENIAK,O" action="SUB" type="OUT"></play>  
+      <play vh="H" time="08:46" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="08:46" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="08:20" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="FOUL"></play>  
+      <play vh="V" time="08:19" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="08:19" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="08:03" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="GOOD" type="3PTR" vscore="63" hscore="44"></play>  
+      <play vh="V" time="07:40" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="07:40" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="07:31" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="07:31" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="REBOUND" type="OFF"></play>  
+      <play vh="H" time="07:26" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="GOOD" type="JUMPER" vscore="63" hscore="46"></play>  
+      <play vh="V" time="07:12" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="07:12" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="07:04" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="GOOD" type="3PTR" vscore="63" hscore="49"></play>  
+      <play vh="V" time="06:59" uni="TM" team="COLLÈGE " checkname="TEAM" action="TIMEOUT" type="FULL"></play>  
+      <play vh="V" time="06:59" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="SUB" type="IN"></play>  
+      <play vh="V" time="06:59" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="SUB" type="IN"></play>  
+      <play vh="V" time="06:59" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="SUB" type="IN"></play>  
+      <play vh="V" time="06:59" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="SUB" type="OUT"></play>  
+      <play vh="V" time="06:59" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="SUB" type="OUT"></play>  
+      <play vh="V" time="06:59" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="SUB" type="OUT"></play>  
+      <play vh="V" time="06:44" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="06:44" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="REBOUND" type="OFF"></play>  
+      <play vh="V" time="06:39" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="06:39" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="06:29" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="GOOD" type="JUMPER" vscore="63" hscore="51"></play>  
+      <play vh="V" time="06:07" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="06:07" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="05:57" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="FOUL"></play>  
+      <play vh="V" time="05:57" uni="TM" team="COLLÈGE " checkname="TEAM" action="TURNOVER"></play>  
+      <play vh="H" time="05:56" uni="09" team="CHAMPLAI" checkname="VAILLIANCOURT,Z" action="SUB" type="IN"></play>  
+      <play vh="H" time="05:56" uni="21" team="CHAMPLAI" checkname="COSCO,P" action="SUB" type="OUT"></play>  
+      <play vh="V" time="05:45" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="GOOD" type="JUMPER" vscore="65" hscore="51"></play>  
+      <play vh="V" time="05:33" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="FOUL"></play>  
+      <play vh="V" time="05:33" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="SUB" type="IN"></play>  
+      <play vh="V" time="05:33" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="SUB" type="OUT"></play>  
+      <play vh="H" time="05:33" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="SUB" type="IN"></play>  
+      <play vh="H" time="05:33" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="SUB" type="OUT"></play>  
+      <play vh="H" time="05:28" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="GOOD" type="3PTR" vscore="65" hscore="54"></play>  
+      <play vh="H" time="05:14" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="GOOD" type="3PTR" vscore="65" hscore="57"></play>  
+      <play vh="H" time="05:14" uni="09" team="CHAMPLAI" checkname="VAILLIANCOURT,Z" action="ASSIST"></play>  
+      <play vh="H" time="04:56" uni="09" team="CHAMPLAI" checkname="VAILLIANCOURT,Z" action="FOUL"></play>  
+      <play vh="V" time="04:56" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="GOOD" type="FT" vscore="66" hscore="57"></play>  
+      <play vh="V" time="04:56" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="GOOD" type="FT" vscore="67" hscore="57"></play>  
+      <play vh="V" time="04:56" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="SUB" type="IN"></play>  
+      <play vh="V" time="04:56" uni="07" team="COLLÈGE " checkname="BOULANGER,JOSEPH VICTOR" action="SUB" type="OUT"></play>  
+      <play vh="H" time="04:46" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="TURNOVER"></play>  
+      <play vh="V" time="04:44" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="STEAL"></play>  
+      <play vh="V" time="04:39" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="04:39" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="REBOUND" type="OFF"></play>  
+      <play vh="V" time="04:30" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="04:30" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="REBOUND" type="OFF"></play>  
+      <play vh="V" time="04:26" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="GOOD" type="JUMPER" vscore="69" hscore="57"></play>  
+      <play vh="V" time="04:26" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="ASSIST"></play>  
+      <play vh="H" time="04:16" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="04:16" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="REBOUND" type="OFF"></play>  
+      <play vh="H" time="04:06" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="04:06" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="03:44" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="TURNOVER"></play>  
+      <play vh="H" time="03:42" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="STEAL"></play>  
+      <play vh="H" time="03:41" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="GOOD" type="JUMPER" vscore="69" hscore="59"></play>  
+      <play vh="H" time="03:41" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="ASSIST"></play>  
+      <play vh="H" time="03:25" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="FOUL"></play>  
+      <play vh="H" time="03:25" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="SUB" type="IN"></play>  
+      <play vh="H" time="03:25" uni="09" team="CHAMPLAI" checkname="VAILLIANCOURT,Z" action="SUB" type="OUT"></play>  
+      <play vh="V" time="03:21" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="GOOD" type="3PTR" vscore="72" hscore="59"></play>  
+      <play vh="V" time="03:21" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="ASSIST"></play>  
+      <play vh="H" time="03:03" uni="11" team="CHAMPLAI" checkname="LAVOIE,H" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="03:03" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="V" time="02:55" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="SUB" type="IN"></play>  
+      <play vh="V" time="02:55" uni="25" team="COLLÈGE " checkname="KAYEMBE,JOSHUA MIGHTY MUAMBA" action="SUB" type="OUT"></play>  
+      <play vh="V" time="02:36" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="GOOD" type="3PTR" vscore="75" hscore="59"></play>  
+      <play vh="H" time="02:12" uni="TM" team="CHAMPLAI" checkname="TEAM" action="TURNOVER"></play>  
+      <play vh="V" time="02:12" uni="TM" team="COLLÈGE " checkname="TEAM" action="TIMEOUT" type="FULL"></play>  
+      <play vh="V" time="01:49" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="GOOD" type="JUMPER" vscore="77" hscore="59"></play>  
+      <play vh="V" time="01:49" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="ASSIST"></play>  
+      <play vh="V" time="01:35" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="FOUL"></play>  
+      <play vh="H" time="01:26" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="01:26" uni="05" team="COLLÈGE " checkname="VERREAULT,NICOLAS" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="01:10" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="01:10" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="01:01" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="GOOD" type="JUMPER" vscore="77" hscore="61"></play>  
+      <play vh="V" time="00:49" uni="11" team="COLLÈGE " checkname="RINGUETTE,CHARLES" action="MISS" type="JUMPER"></play>  
+      <play vh="H" time="00:49" uni="10" team="CHAMPLAI" checkname="BRAVO,B" action="REBOUND" type="DEF"></play>  
+      <play vh="H" time="00:42" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="MISS" type="JUMPER"></play>  
+      <play vh="V" time="00:42" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="REBOUND" type="DEF"></play>  
+      <play vh="V" time="00:22" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="GOOD" type="FT" vscore="78" hscore="61"></play>  
+      <play vh="V" time="00:21" uni="14" team="COLLÈGE " checkname="PELISSIER,NATHAN-GABRIEL" action="MISS" type="3PTR"></play>  
+      <play vh="V" time="00:21" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="H" time="00:18" uni="06" team="CHAMPLAI" checkname="CLEOPHAT,L" action="MISS" type="3PTR"></play>  
+      <play vh="H" time="00:18" uni="05" team="CHAMPLAI" checkname="KUO,CS" action="REBOUND" type="OFF"></play>  
+      <play vh="H" time="00:07" uni="03" team="CHAMPLAI" checkname="J,BRAVO" action="FOUL"></play>  
+      <play vh="V" time="00:07" uni="09" team="COLLÈGE " checkname="ARSENAULT,JULIEN" action="MISS" type="FT"></play>  
+      <play vh="V" time="00:07" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"></play>  
+      <play vh="V" time="00:07" uni="10" team="COLLÈGE " checkname="OUALI-ALAMI,ADAM" action="SUB" type="IN"></play>  
+      <play vh="V" time="00:07" uni="21" team="COLLÈGE " checkname="FERGUSON,JULIUS" action="SUB" type="OUT"></play>  
+      <clock time="00:00"></clock> 
+    </period> 
+  </plays> 
+</bbgame>

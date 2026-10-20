@@ -1,0 +1,50 @@
+# Met à jour le site (docs/) avec les matchs d'Édouard-Montpetit publiés par le RSEQ.
+# Tourne tous les soirs vers 21 h (heure de Montréal ; 20 h l'hiver), mais rseq_diffusion.py
+# --si-necessaire ne travaille que le lundi, ou les jours suivants tant qu'un match joué avant
+# ce lundi n'a pas encore sa feuille ou son résultat (le RSEQ les publie parfois en retard).
+# Les feuilles téléchargées (donnees/) et le site (docs/) sont gardés dans le dépôt.
+name: Mise à jour du site
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      forcer:
+        description: "Reconstruire même si aucun match n'est attendu"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mise-a-jour
+  cancel-in-progress: false
+
+jobs:
+  maj:
+    name: Récupérer les matchs et reconstruire le site
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Récupérer et reconstruire
+        env:
+          FORCER: ${{ inputs.forcer }}
+        run: |
+          if [ "$FORCER" = "true" ]; then
+            python3 rseq_diffusion.py "Édouard-Montpetit"
+          else
+            python3 rseq_diffusion.py "Édouard-Montpetit" --si-necessaire
+          fi
+      - name: Publier
+        run: |
+          git add docs donnees
+          if git diff --cached --quiet; then
+            echo "Rien de nouveau."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Site : mise à jour du $(TZ=America/Montreal date +%F)"
+          git push
