@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bbgame source="PrestoSports" version="7.24.0" generated="10/23/2026"> 
+  <venue gameid="" visid="COLLÈGE " visname="Collège John Abbott" homeid="CÉGEP DE" homename="Cégep de Sherbrooke" date="10/23/2026" location="Sherbrooke" time="7:00 PM" start="7:00 PM" end="" duration="" delay="" attend="0" schednote="" leaguegame="Y" neutralgame="N" postseason="N"> 
+    <officials text=",,"/>  
+    <notes/>  
+    <rules prds="4" minutes="10" minutesot="5" fouls="5" qh="Q" overtimeType="OT"/> 
+  </venue>  
+  <status complete="Y" running="F" period="4"/>  
+  <team vh="V" id="COLLÈGE " name="Collège John Abbott" code="CCAA105" record=""> 
+    <linescore line="16,11,16,8" score="51"> 
+      <lineprd prd="1" score="16"/>  
+      <lineprd prd="2" score="11"/>  
+      <lineprd prd="3" score="16"/>  
+      <lineprd prd="4" score="8"/> 
+    </linescore>  
+    <totals> 
+      <stats fgm="19" fga="61" fgm3="2" fga3="13" ftm="11" fta="16" tp="51" blk="2" stl="7" ast="4" min="199" oreb="19" dreb="26" treb="45" pf="22" tf="2" to="27" dq="1" deadball="8,3" fgpct="31.1" fg3pct="15.4" ftpct="68.8"/>  
+      <special vh="V" pts_to="7" pts_ch2="18" pts_paint="14" pts_fastb="0" pts_bench="23" ties="1" leads="1" poss_count="0" poss_time="0" score_count="0" score_time="0" large_lead="5" large_lead_t="2nd-08:42"/> 
+    </totals>  
+    <player uni="03" code="03" name="Ishaaq Ullah" checkname="ULLAH,ISHAAQ" gp="1" oncourt="Y" playerId=""> 
+      <stats oreb="1" dreb="1" treb="2" pf="3" tf="0" to="2" tp="4" fgm="1" fga="8" fgm3="1" fga3="5" ftm="1" fta="1" blk="0" stl="0" ast="0" min="14"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="3" fgm3="0" fga3="1" ftm="1" fta="1" tp="1" blk="0" stl="0" ast="0" min="2" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="1" fgm3="1" fga3="1" ftm="0" fta="0" tp="3" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="3" fgm3="0" fga3="2" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="04" code="04" name="Dumisile Davies Ncube" checkname="NCUBE,DUMISILE DAVIES" gp="1" gs="1" pos="*" oncourt="Y" playerId=""> 
+      <stats oreb="0" dreb="1" treb="1" pf="0" tf="0" to="4" tp="6" fgm="3" fga="10" fgm3="0" fga3="1" ftm="0" fta="1" blk="0" stl="0" ast="1" min="27"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="3" fgm3="0" fga3="0" ftm="0" fta="1" tp="2" blk="0" stl="0" ast="1" min="5" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="4" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="05" code="05" name="Kelvin Clyne" checkname="CLYNE,KELVIN" gp="1" gs="1" pos="*" oncourt="Y" playerId=""> 
+      <stats oreb="0" dreb="7" treb="7" pf="2" tf="0" to="5" tp="4" fgm="1" fga="9" fgm3="0" fga3="3" ftm="2" fta="2" blk="0" stl="2" ast="1" min="35"/>  
+      <statsbyprd prd="1" fgm="1" fga="3" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="0" min="7" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="9" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="2" fgm3="0" fga3="1" ftm="2" fta="2" tp="2" blk="0" stl="0" ast="1" min="10" oreb="0" dreb="3" treb="3" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="9" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="3" dq="0"/> 
+    </player>  
+    <player uni="06" code="06" name="Olivier Hyppolite" checkname="HYPPOLITE,OLIVIER" gp="1" playerId=""> 
+      <stats oreb="2" dreb="2" treb="4" pf="5" tf="0" to="0" tp="2" fgm="1" fga="5" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="19" dq="1"/>  
+      <statsbyprd prd="1" fgm="0" fga="3" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="8" oreb="1" dreb="1" treb="2" pf="2" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="07" code="07" name="Malik Guerrier" checkname="GUERRIER,MALIK" gp="1" playerId=""> 
+      <stats oreb="2" dreb="5" treb="7" pf="1" tf="0" to="1" tp="9" fgm="3" fga="6" fgm3="1" fga3="3" ftm="2" fta="2" blk="0" stl="0" ast="0" min="20"/>  
+      <statsbyprd prd="1" fgm="2" fga="2" fgm3="1" fga3="1" ftm="0" fta="0" tp="5" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="7" oreb="2" dreb="0" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="2" fgm3="0" fga3="1" ftm="2" fta="2" tp="2" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="3" treb="3" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="08" code="08" name="Lucas Cochin" checkname="COCHIN,LUCAS" gp="0" playerId=""/>  
+    <player uni="09" code="09" name="Simmion Hyde" checkname="HYDE,SIMMION" gp="1" gs="1" pos="*" playerId=""> 
+      <stats oreb="0" dreb="1" treb="1" pf="4" tf="1" to="3" tp="2" fgm="0" fga="5" fgm3="0" fga3="1" ftm="2" fta="2" blk="0" stl="1" ast="0" min="12"/>  
+      <statsbyprd prd="1" fgm="0" fga="4" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="2" fta="2" tp="2" blk="0" stl="1" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="1" tf="1" to="1" dq="0"/> 
+    </player>  
+    <player uni="12" code="12" name="Carter Wise" checkname="WISE,CARTER" gp="1" gs="1" pos="*" playerId=""> 
+      <stats oreb="2" dreb="2" treb="4" pf="3" tf="1" to="1" tp="4" fgm="1" fga="2" fgm3="0" fga3="0" ftm="2" fta="4" blk="1" stl="1" ast="0" min="15"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="2" dreb="2" treb="4" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="1" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="2" fta="4" tp="2" blk="1" stl="1" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="1" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="13" code="13" name="Keyon Ranger" checkname="RANGER,KEYON" gp="1" playerId=""> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="3"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="15" code="15" name="Julian Bibaud-Wentink" checkname="BIBAUD-WENTINK,JULIAN" gp="1" gs="1" pos="*" oncourt="Y" playerId=""> 
+      <stats oreb="6" dreb="7" treb="13" pf="1" tf="0" to="9" tp="12" fgm="5" fga="8" fgm3="0" fga3="0" ftm="2" fta="4" blk="1" stl="2" ast="0" min="34"/>  
+      <statsbyprd prd="1" fgm="2" fga="4" fgm3="0" fga3="0" ftm="1" fta="2" tp="5" blk="0" stl="1" ast="0" min="7" oreb="3" dreb="3" treb="6" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="1" stl="1" ast="0" min="10" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="3" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="1" fta="2" tp="1" blk="0" stl="0" ast="0" min="7" oreb="1" dreb="2" treb="3" pf="0" tf="0" to="5" dq="0"/>  
+      <statsbyprd prd="4" fgm="3" fga="4" fgm3="0" fga3="0" ftm="0" fta="0" tp="6" blk="0" stl="0" ast="0" min="10" oreb="2" dreb="2" treb="4" pf="1" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="21" code="21" name="Joshua Boisselle-Gaughan" checkname="BOISSELLE-GAUGHAN,JOSHUA" gp="1" oncourt="Y" playerId=""> 
+      <stats oreb="6" dreb="0" treb="6" pf="3" tf="0" to="1" tp="8" fgm="4" fga="8" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="1" ast="2" min="20"/>  
+      <statsbyprd prd="1" fgm="2" fga="3" fgm3="0" fga3="0" ftm="0" fta="0" tp="4" blk="0" stl="0" ast="2" min="7" oreb="3" dreb="0" treb="3" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="2" oreb="1" dreb="0" treb="1" pf="2" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="3" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="0" min="7" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="TM" code="TM" name="Team" checkname="TEAM" gp="1" playerId=""> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" tp="0"/>  
+      <statsbyprd prd="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" tp="0" dq="0"/>  
+      <statsbyprd prd="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/> 
+    </player> 
+  </team>  
+  <team vh="H" id="CÉGEP DE" name="Cégep de Sherbrooke" code="CCAA131" record=""> 
+    <linescore line="13,24,10,23" score="70"> 
+      <lineprd prd="1" score="13"/>  
+      <lineprd prd="2" score="24"/>  
+      <lineprd prd="3" score="10"/>  
+      <lineprd prd="4" score="23"/> 
+    </linescore>  
+    <totals> 
+      <stats fgm="21" fga="73" fgm3="8" fga3="43" ftm="20" fta="25" tp="70" blk="4" stl="14" ast="12" min="195" oreb="17" dreb="21" treb="38" pf="15" tf="3" to="11" dq="0" deadball="11,0" fgpct="28.8" fg3pct="18.6" ftpct="80.0"/>  
+      <special vh="H" pts_to="33" pts_ch2="17" pts_paint="18" pts_fastb="0" pts_bench="18" ties="0" leads="1" poss_count="0" poss_time="0" score_count="0" score_time="0" large_lead="19" large_lead_t="4th-00:18"/> 
+    </totals>  
+    <player uni="01" code="01" name="Zach Laliberté" checkname="LALIBERTÉ,ZACH" gp="1" playerId="50i3s6583z529hxw"> 
+      <stats oreb="2" dreb="0" treb="2" pf="1" tf="0" to="1" tp="2" fgm="1" fga="5" fgm3="0" fga3="2" ftm="0" fta="0" blk="0" stl="1" ast="0" min="13"/>  
+      <statsbyprd prd="1" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="3" oreb="2" dreb="0" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="02" code="02" name="Samson Kuesson Sossou" checkname="SOSSOU,SAMSON KUESSON" gp="1" gs="1" pos="*" oncourt="Y" playerId="un4o7phlvyhbmsy9"> 
+      <stats oreb="0" dreb="4" treb="4" pf="3" tf="0" to="3" tp="7" fgm="2" fga="13" fgm3="2" fga3="8" ftm="1" fta="2" blk="0" stl="3" ast="4" min="28"/>  
+      <statsbyprd prd="1" fgm="0" fga="4" fgm3="0" fga3="2" ftm="0" fta="0" tp="0" blk="0" stl="3" ast="1" min="6" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="2" min="7" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="1" treb="1" pf="2" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="2" fga="6" fgm3="2" fga3="5" ftm="1" fta="2" tp="7" blk="0" stl="0" ast="1" min="10" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="04" code="04" name="Ngandu François Lushiku" checkname="LUSHIKU,NGANDU FRANÇOIS" gp="0" playerId="k14f30tukq84zvez"/>  
+    <player uni="07" code="07" name="Alexis Tremblay" checkname="TREMBLAY,ALEXIS" gp="1" gs="1" pos="*" oncourt="Y" playerId="8184lfyq6bqcttwi"> 
+      <stats oreb="3" dreb="5" treb="8" pf="1" tf="0" to="0" tp="3" fgm="0" fga="8" fgm3="0" fga3="7" ftm="3" fta="4" blk="1" stl="1" ast="0" min="30"/>  
+      <statsbyprd prd="1" fgm="0" fga="4" fgm3="0" fga3="4" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="1" ftm="2" fta="2" tp="2" blk="1" stl="0" ast="0" min="7" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="2" fgm3="0" fga3="2" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="0" ftm="1" fta="2" tp="1" blk="0" stl="1" ast="0" min="10" oreb="2" dreb="2" treb="4" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="08" code="08" name="Albert Caza" checkname="CAZA,ALBERT" gp="1" gs="1" pos="*" playerId="p83gxj2bwmdj356y"> 
+      <stats oreb="0" dreb="4" treb="4" pf="2" tf="3" to="4" tp="17" fgm="6" fga="15" fgm3="1" fga3="8" ftm="4" fta="4" blk="1" stl="2" ast="2" min="30"/>  
+      <statsbyprd prd="1" fgm="1" fga="3" fgm3="1" fga3="2" ftm="0" fta="0" tp="3" blk="1" stl="0" ast="0" min="8" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="5" fgm3="0" fga3="2" ftm="2" fta="2" tp="6" blk="0" stl="1" ast="2" min="9" oreb="0" dreb="2" treb="2" pf="1" tf="1" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="3" fgm3="0" fga3="2" ftm="2" fta="2" tp="4" blk="0" stl="1" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="2" fga="4" fgm3="0" fga3="2" ftm="0" fta="0" tp="4" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="0" treb="0" pf="0" tf="2" to="2" dq="0"/> 
+    </player>  
+    <player uni="09" code="09" name="Laël Longchamp" checkname="LONGCHAMP,LAËL" gp="1" gs="1" pos="*" playerId="69xtlmpmg3ubzh7j"> 
+      <stats oreb="0" dreb="1" treb="1" pf="3" tf="0" to="0" tp="2" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="1" min="15"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="6" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="1" treb="1" pf="2" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="10" code="10" name="Drissa Toure" checkname="TOURE,DRISSA" gp="1" gs="1" pos="*" oncourt="Y" playerId="fp1i03skm9zo04ut"> 
+      <stats oreb="3" dreb="4" treb="7" pf="1" tf="0" to="1" tp="23" fgm="7" fga="15" fgm3="5" fga3="12" ftm="4" fta="6" blk="0" stl="4" ast="2" min="35"/>  
+      <statsbyprd prd="1" fgm="2" fga="4" fgm3="2" fga3="4" ftm="0" fta="0" tp="6" blk="0" stl="0" ast="1" min="8" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="3" fga="4" fgm3="2" fga3="3" ftm="2" fta="4" tp="10" blk="0" stl="1" ast="0" min="8" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="4" fgm3="1" fga3="3" ftm="2" fta="2" tp="5" blk="0" stl="2" ast="0" min="9" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="3" fgm3="0" fga3="2" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="1" min="10" oreb="1" dreb="2" treb="3" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="11" code="11" name="Olivier Normand" checkname="NORMAND,OLIVIER" gp="0" playerId="2sip28wmr1cq4xrz"/>  
+    <player uni="12" code="12" name="Elliot Lemay" checkname="LEMAY,ELLIOT" gp="0" playerId="rf1tmnujsure79xq"/>  
+    <player uni="13" code="13" name="Fenvi-Chama Lemba" checkname="LEMBA,FENVI-CHAMA" gp="1" oncourt="Y" playerId="tpxrq12eaf57n6fi"> 
+      <stats oreb="7" dreb="1" treb="8" pf="3" tf="0" to="0" tp="14" fgm="3" fga="9" fgm3="0" fga3="2" ftm="8" fta="9" blk="2" stl="3" ast="2" min="25"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="2" fta="2" tp="2" blk="2" stl="1" ast="0" min="4" oreb="1" dreb="1" treb="2" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="2" fta="2" tp="2" blk="0" stl="1" ast="0" min="4" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="4" fgm3="0" fga3="1" ftm="1" fta="2" tp="1" blk="0" stl="0" ast="0" min="7" oreb="3" dreb="0" treb="3" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="3" fga="4" fgm3="0" fga3="0" ftm="3" fta="3" tp="9" blk="0" stl="1" ast="2" min="10" oreb="2" dreb="0" treb="2" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="14" code="14" name="Olivier Boulet" checkname="BOULET,OLIVIER" gp="0" playerId="b4g4zzqi5jklrq8d"/>  
+    <player uni="15" code="15" name="Jordan Mbuyi Mbayi" checkname="MBAYI,JORDAN MBUYI" gp="1" oncourt="Y" playerId="214bzq97w1qhhf72"> 
+      <stats oreb="1" dreb="1" treb="2" pf="1" tf="0" to="1" tp="2" fgm="1" fga="5" fgm3="0" fga3="3" ftm="0" fta="0" blk="0" stl="0" ast="1" min="13"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="4" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="3" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="23" code="23" name="Renaud Mercure" checkname="MERCURE,RENAUD" gp="0" playerId="9a8lxbyhz4n9n6e1"/>  
+    <player uni="24" code="24" name="Theo Filiatre" checkname="FILIATRE,THEO" gp="1" playerId=""> 
+      <stats oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" tp="0" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" blk="0" stl="0" ast="0" min="6"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="TM" code="TM" name="Team" checkname="TEAM" gp="1" playerId=""> 
+      <stats oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" tp="0"/>  
+      <statsbyprd prd="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="2" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/> 
+    </player> 
+  </team>  
+  <plays format="tokens"> 
+    <period number="1" time="10:00"> 
+      <special vh="V" pts_to="1" pts_ch2="8" pts_paint="2" pts_fastb="0" pts_bench="9" ties="0" leads="1" poss_count="0" poss_time="0" score_count="8" score_time="1803" large_lead="3" large_lead_t="1st-00:00"/>  
+      <special vh="H" pts_to="8" pts_ch2="0" pts_paint="2" pts_fastb="0" pts_bench="4" ties="0" leads="0" poss_count="0" poss_time="0" score_count="6" score_time="2252" large_lead="6" large_lead_t="1st-08:17"/>  
+      <summary vh="V" fgm="7" fga="22" fgm3="1" fga3="2" ftm="1" fta="2" blk="0" stl="2" ast="2" oreb="8" dreb="10" treb="18" pf="3" tf="0" to="6"/>  
+      <summary vh="H" fgm="4" fga="19" fgm3="3" fga3="15" ftm="2" fta="2" blk="3" stl="4" ast="3" oreb="2" dreb="6" treb="8" pf="2" tf="0" to="3"/>  
+      <play vh="H" time="09:51" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="09:51" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="09:33" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="TURNOVER"/>  
+      <play vh="H" time="09:32" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="STEAL"/>  
+      <play vh="H" time="09:19" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="GOOD" type="3PTR" vscore="0" hscore="3"/>  
+      <play vh="H" time="09:19" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="ASSIST"/>  
+      <play vh="V" time="09:00" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="09:00" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:44" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="MISS" type="3PTR"/>  
+      <play vh="V" time="08:44" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="08:39" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="FOUL"/>  
+      <play vh="V" time="08:25" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="TURNOVER"/>  
+      <play vh="H" time="08:17" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="GOOD" type="3PTR" vscore="0" hscore="6"/>  
+      <play vh="H" time="08:17" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="ASSIST"/>  
+      <play vh="V" time="08:04" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="GOOD" type="JUMPER" vscore="2" hscore="6"/>  
+      <play vh="H" time="07:40" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="MISS" type="3PTR"/>  
+      <play vh="V" time="07:40" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:31" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="07:31" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="BLOCK"/>  
+      <play vh="V" time="07:31" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="07:28" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="SUB" type="IN"/>  
+      <play vh="H" time="07:28" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:26" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="H" time="07:24" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="STEAL"/>  
+      <play vh="H" time="07:22" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="TURNOVER"/>  
+      <play vh="V" time="07:20" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="STEAL"/>  
+      <play vh="V" time="07:11" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="07:11" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="BLOCK"/>  
+      <play vh="V" time="07:11" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:05" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="FOUL"/>  
+      <play vh="V" time="07:05" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="FT" vscore="3" hscore="6"/>  
+      <play vh="V" time="07:05" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="FT"/>  
+      <play vh="H" time="07:05" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="06:53" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="TURNOVER"/>  
+      <play vh="V" time="06:52" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="STEAL"/>  
+      <play vh="V" time="06:47" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="06:47" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="06:44" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="TURNOVER"/>  
+      <play vh="V" time="06:44" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="SUB" type="IN"/>  
+      <play vh="V" time="06:44" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="06:32" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="TURNOVER"/>  
+      <play vh="H" time="06:30" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="STEAL"/>  
+      <play vh="V" time="06:28" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="FOUL"/>  
+      <play vh="H" time="06:28" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="GOOD" type="FT" vscore="3" hscore="7"/>  
+      <play vh="H" time="06:28" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="GOOD" type="FT" vscore="3" hscore="8"/>  
+      <play vh="V" time="06:28" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="SUB" type="IN"/>  
+      <play vh="V" time="06:28" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="SUB" type="OUT"/>  
+      <play vh="V" time="06:16" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="06:16" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="BLOCK"/>  
+      <play vh="H" time="06:16" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="06:07" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="MISS" type="3PTR"/>  
+      <play vh="H" time="06:07" uni="TM" team="CÉGEP DE" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="05:57" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="05:57" uni="TM" team="CÉGEP DE" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="05:47" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="MISS" type="3PTR"/>  
+      <play vh="H" time="05:47" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="05:40" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="MISS" type="3PTR"/>  
+      <play vh="H" time="05:40" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="05:33" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="MISS" type="3PTR"/>  
+      <play vh="V" time="05:33" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:16" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="TURNOVER"/>  
+      <play vh="H" time="05:15" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="STEAL"/>  
+      <play vh="H" time="05:07" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="MISS" type="3PTR"/>  
+      <play vh="V" time="05:07" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="04:45" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="04:45" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="04:39" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="GOOD" type="JUMPER" vscore="5" hscore="8"/>  
+      <play vh="H" time="04:29" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="04:29" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="04:09" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="04:09" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="04:06" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="JUMPER" vscore="7" hscore="8"/>  
+      <play vh="V" time="03:55" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="FOUL"/>  
+      <play vh="H" time="03:55" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="SUB" type="IN"/>  
+      <play vh="H" time="03:55" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="SUB" type="IN"/>  
+      <play vh="H" time="03:55" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="SUB" type="IN"/>  
+      <play vh="H" time="03:55" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:55" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:55" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:49" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="GOOD" type="3PTR" vscore="7" hscore="11"/>  
+      <play vh="H" time="03:49" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="ASSIST"/>  
+      <play vh="V" time="03:25" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="03:25" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="03:19" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="GOOD" type="JUMPER" vscore="9" hscore="11"/>  
+      <play vh="V" time="03:19" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="ASSIST"/>  
+      <play vh="V" time="03:19" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="SUB" type="IN"/>  
+      <play vh="V" time="03:19" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="SUB" type="IN"/>  
+      <play vh="V" time="03:19" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:19" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:11" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="GOOD" type="LAYUP" paint="Y" vscore="9" hscore="13"/>  
+      <play vh="V" time="02:55" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="02:55" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="02:42" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="02:42" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="02:38" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="02:38" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="02:28" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="02:28" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="02:20" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="02:20" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="02:15" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="GOOD" type="3PTR" vscore="12" hscore="13"/>  
+      <play vh="V" time="02:15" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="ASSIST"/>  
+      <play vh="V" time="02:04" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="FOUL"/>  
+      <play vh="V" time="02:04" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="V" time="02:04" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="V" time="02:04" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:04" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:04" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:04" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:04" uni="24" team="CÉGEP DE" checkname="FILIATRE,THEO" action="SUB" type="IN"/>  
+      <play vh="H" time="02:04" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:04" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:04" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:54" uni="24" team="CÉGEP DE" checkname="FILIATRE,THEO" action="MISS" type="3PTR"/>  
+      <play vh="V" time="01:54" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:42" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="01:42" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="01:35" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="01:35" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="01:30" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="TURNOVER"/>  
+      <play vh="H" time="01:18" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="01:18" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:09" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="MISS" type="3PTR"/>  
+      <play vh="H" time="01:09" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:59" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="MISS" type="3PTR"/>  
+      <play vh="V" time="00:59" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:35" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="14" hscore="13"/>  
+      <play vh="H" time="00:20" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="00:20" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:00" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="GOOD" type="JUMPER" vscore="16" hscore="13"/>  
+      <clock time="00:00"/> 
+    </period>  
+    <period number="2" time="10:00"> 
+      <special vh="V" pts_to="0" pts_ch2="5" pts_paint="4" pts_fastb="0" pts_bench="7" ties="1" leads="0" poss_count="0" poss_time="0" score_count="6" score_time="2021" large_lead="5" large_lead_t="2nd-08:42"/>  
+      <special vh="H" pts_to="13" pts_ch2="9" pts_paint="6" pts_fastb="0" pts_bench="4" ties="0" leads="1" poss_count="0" poss_time="0" score_count="15" score_time="3246" large_lead="10" large_lead_t="2nd-00:50"/>  
+      <summary vh="V" fgm="5" fga="15" fgm3="0" fga3="3" ftm="1" fta="2" blk="1" stl="1" ast="1" oreb="5" dreb="3" treb="8" pf="8" tf="0" to="7"/>  
+      <summary vh="H" fgm="7" fga="17" fgm3="2" fga3="9" ftm="8" fta="10" blk="1" stl="4" ast="4" oreb="6" dreb="4" treb="10" pf="5" tf="0" to="1"/>  
+      <play vh="H" time="10:00" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="SUB" type="IN"/>  
+      <play vh="H" time="10:00" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="SUB" type="OUT"/>  
+      <play vh="V" time="09:50" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="TURNOVER"/>  
+      <play vh="H" time="09:49" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="STEAL"/>  
+      <play vh="H" time="09:46" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="GOOD" type="DUNK" paint="Y" vscore="16" hscore="15"/>  
+      <play vh="V" time="09:36" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="GOOD" type="LAYUP" paint="Y" vscore="18" hscore="15"/>  
+      <play vh="V" time="09:36" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="ASSIST"/>  
+      <play vh="V" time="09:25" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="FOUL"/>  
+      <play vh="V" time="09:25" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="SUB" type="IN"/>  
+      <play vh="V" time="09:25" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="H" time="09:19" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="FOUL"/>  
+      <play vh="V" time="08:56" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="08:56" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="08:52" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="FOUL"/>  
+      <play vh="H" time="08:52" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="SUB" type="IN"/>  
+      <play vh="H" time="08:52" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="SUB" type="OUT"/>  
+      <play vh="V" time="08:42" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="GOOD" type="JUMPER" vscore="20" hscore="15"/>  
+      <play vh="H" time="08:20" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="GOOD" type="3PTR" vscore="20" hscore="18"/>  
+      <play vh="H" time="08:20" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="ASSIST"/>  
+      <play vh="V" time="08:08" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="08:08" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="08:03" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="SUB" type="IN"/>  
+      <play vh="V" time="08:03" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="SUB" type="OUT"/>  
+      <play vh="H" time="08:03" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="SUB" type="IN"/>  
+      <play vh="H" time="08:03" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:57" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="V" time="07:57" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="V" time="07:57" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:44" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="MISS" type="3PTR"/>  
+      <play vh="V" time="07:44" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:24" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="V" time="07:24" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="SUB" type="IN"/>  
+      <play vh="V" time="07:24" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:23" uni="13" team="COLLÈGE " checkname="RANGER,KEYON" action="SUB" type="IN"/>  
+      <play vh="V" time="07:23" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:14" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="FOUL"/>  
+      <play vh="H" time="07:14" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="GOOD" type="FT" vscore="20" hscore="19"/>  
+      <play vh="H" time="07:14" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="MISS" type="FT"/>  
+      <play vh="H" time="07:14" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="SUB" type="IN"/>  
+      <play vh="H" time="07:14" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="SUB" type="IN"/>  
+      <play vh="H" time="07:14" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:14" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:13" uni="TM" team="CÉGEP DE" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:04" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="MISS" type="3PTR"/>  
+      <play vh="H" time="07:04" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="06:58" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="FOUL"/>  
+      <play vh="V" time="06:58" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="IN"/>  
+      <play vh="V" time="06:58" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:52" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="GOOD" type="3PTR" vscore="20" hscore="22"/>  
+      <play vh="H" time="06:52" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="ASSIST"/>  
+      <play vh="V" time="06:28" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="GOOD" type="JUMPER" vscore="22" hscore="22"/>  
+      <play vh="H" time="05:55" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="FOUL"/>  
+      <play vh="H" time="05:34" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="05:34" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="BLOCK"/>  
+      <play vh="H" time="05:34" uni="TM" team="CÉGEP DE" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="05:32" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="MISS" type="3PTR"/>  
+      <play vh="V" time="05:32" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="05:13" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="MISS" type="3PTR"/>  
+      <play vh="H" time="05:13" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="04:52" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="04:52" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="04:46" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="TURNOVER"/>  
+      <play vh="H" time="04:45" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="STEAL"/>  
+      <play vh="H" time="04:43" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="04:43" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="04:40" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="04:40" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="04:36" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="GOOD" type="JUMPER" vscore="22" hscore="24"/>  
+      <play vh="V" time="04:36" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="SUB" type="IN"/>  
+      <play vh="V" time="04:36" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="V" time="04:36" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="V" time="04:36" uni="13" team="COLLÈGE " checkname="RANGER,KEYON" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:36" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:36" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:36" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="SUB" type="IN"/>  
+      <play vh="H" time="04:36" uni="24" team="CÉGEP DE" checkname="FILIATRE,THEO" action="SUB" type="IN"/>  
+      <play vh="H" time="04:36" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="SUB" type="IN"/>  
+      <play vh="H" time="04:36" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:36" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:36" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:29" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="GOOD" type="LAYUP" paint="Y" vscore="22" hscore="26"/>  
+      <play vh="H" time="04:21" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="ASSIST"/>  
+      <play vh="V" time="03:59" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="03:59" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="03:51" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="FOUL"/>  
+      <play vh="V" time="03:51" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="V" time="03:51" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="V" time="03:51" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:51" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:37" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="MISS" type="3PTR"/>  
+      <play vh="V" time="03:37" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="03:21" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="GOOD" type="LAYUP" paint="Y" vscore="24" hscore="26"/>  
+      <play vh="H" time="03:21" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="FOUL"/>  
+      <play vh="V" time="03:21" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="FT"/>  
+      <play vh="H" time="03:21" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:13" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="GOOD" type="LAYUP" paint="Y" vscore="24" hscore="28"/>  
+      <play vh="H" time="03:13" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="ASSIST"/>  
+      <play vh="V" time="02:56" uni="TM" team="COLLÈGE " checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="02:56" uni="TM" team="COLLÈGE " checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="H" time="02:56" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="SUB" type="IN"/>  
+      <play vh="H" time="02:56" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="SUB" type="IN"/>  
+      <play vh="H" time="02:56" uni="24" team="CÉGEP DE" checkname="FILIATRE,THEO" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:56" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:40" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="02:36" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="02:36" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="V" time="02:36" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:28" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="H" time="02:27" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="STEAL"/>  
+      <play vh="V" time="02:24" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="FOUL"/>  
+      <play vh="H" time="02:24" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="GOOD" type="FT" vscore="24" hscore="29"/>  
+      <play vh="H" time="02:24" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="MISS" type="FT"/>  
+      <play vh="H" time="02:24" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="02:18" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="TURNOVER"/>  
+      <play vh="V" time="02:17" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="STEAL"/>  
+      <play vh="V" time="02:12" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="02:12" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="BLOCK"/>  
+      <play vh="H" time="02:12" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:56" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="FOUL"/>  
+      <play vh="H" time="01:56" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="GOOD" type="FT" vscore="24" hscore="30"/>  
+      <play vh="H" time="01:56" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="GOOD" type="FT" vscore="24" hscore="31"/>  
+      <play vh="V" time="01:56" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="01:53" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="MISS" type="3PTR"/>  
+      <play vh="V" time="01:53" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="01:51" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="FOUL" type="TECH"/>  
+      <play vh="V" time="01:51" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="GOOD" type="FT" vscore="25" hscore="31"/>  
+      <play vh="H" time="01:31" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="MISS" type="3PTR"/>  
+      <play vh="H" time="01:31" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="01:09" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="MISS" type="3PTR"/>  
+      <play vh="H" time="01:09" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="01:06" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="GOOD" type="JUMPER" vscore="25" hscore="33"/>  
+      <play vh="V" time="01:01" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="MISS" type="3PTR"/>  
+      <play vh="V" time="01:01" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="00:55" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="TURNOVER"/>  
+      <play vh="V" time="00:55" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="V" time="00:55" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="V" time="00:50" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="FOUL"/>  
+      <play vh="H" time="00:50" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="GOOD" type="FT" vscore="25" hscore="34"/>  
+      <play vh="H" time="00:50" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="GOOD" type="FT" vscore="25" hscore="35"/>  
+      <play vh="V" time="00:36" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="00:36" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="00:25" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="00:25" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="00:21" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="GOOD" type="JUMPER" vscore="27" hscore="35"/>  
+      <play vh="V" time="00:17" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="FOUL"/>  
+      <play vh="H" time="00:17" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="GOOD" type="FT" vscore="27" hscore="36"/>  
+      <play vh="H" time="00:17" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="GOOD" type="FT" vscore="27" hscore="37"/>  
+      <play vh="H" time="00:17" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="SUB" type="IN"/>  
+      <play vh="H" time="00:17" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="SUB" type="IN"/>  
+      <play vh="H" time="00:17" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:17" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="SUB" type="OUT"/>  
+      <play vh="V" time="00:06" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="TURNOVER"/>  
+      <play vh="H" time="00:04" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="STEAL"/>  
+      <play vh="H" time="00:00" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="FOUL"/>  
+      <play vh="V" time="00:00" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="V" time="00:00" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <clock time="00:00"/> 
+    </period>  
+    <period number="3" time="10:00"> 
+      <special vh="V" pts_to="4" pts_ch2="1" pts_paint="4" pts_fastb="0" pts_bench="7" ties="0" leads="0" poss_count="0" poss_time="0" score_count="13" score_time="3708" large_lead="0" large_lead_t="-"/>  
+      <special vh="H" pts_to="3" pts_ch2="1" pts_paint="2" pts_fastb="0" pts_bench="1" ties="0" leads="0" poss_count="0" poss_time="0" score_count="7" score_time="1982" large_lead="13" large_lead_t="3rd-02:04"/>  
+      <summary vh="V" fgm="3" fga="10" fgm3="1" fga3="3" ftm="9" fta="12" blk="1" stl="3" ast="1" oreb="2" dreb="10" treb="12" pf="4" tf="0" to="7"/>  
+      <summary vh="H" fgm="2" fga="19" fgm3="1" fga3="10" ftm="5" fta="6" blk="0" stl="3" ast="1" oreb="3" dreb="6" treb="9" pf="8" tf="0" to="5"/>  
+      <play vh="V" time="10:00" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="SUB" type="IN"/>  
+      <play vh="V" time="10:00" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="SUB" type="OUT"/>  
+      <play vh="H" time="10:00" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="SUB" type="IN"/>  
+      <play vh="H" time="10:00" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="SUB" type="OUT"/>  
+      <play vh="V" time="09:52" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="H" time="09:50" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="STEAL"/>  
+      <play vh="H" time="09:45" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="TURNOVER"/>  
+      <play vh="V" time="09:44" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="STEAL"/>  
+      <play vh="H" time="09:39" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="FOUL"/>  
+      <play vh="V" time="09:39" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="GOOD" type="FT" vscore="28" hscore="37"/>  
+      <play vh="V" time="09:39" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="GOOD" type="FT" vscore="29" hscore="37"/>  
+      <play vh="H" time="09:39" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="SUB" type="IN"/>  
+      <play vh="H" time="09:39" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="SUB" type="OUT"/>  
+      <play vh="H" time="09:33" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="09:33" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="09:15" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="H" time="08:56" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:56" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="08:52" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="FOUL"/>  
+      <play vh="H" time="08:52" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="MISS" type="FT"/>  
+      <play vh="H" time="08:52" uni="TM" team="CÉGEP DE" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="08:52" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="GOOD" type="FT" vscore="29" hscore="38"/>  
+      <play vh="V" time="08:45" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="H" time="08:38" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="TURNOVER"/>  
+      <play vh="V" time="08:24" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:24" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:15" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="MISS" type="3PTR"/>  
+      <play vh="H" time="08:15" uni="TM" team="CÉGEP DE" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="08:11" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="TURNOVER"/>  
+      <play vh="V" time="08:10" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="STEAL"/>  
+      <play vh="H" time="08:09" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="FOUL"/>  
+      <play vh="V" time="08:09" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="GOOD" type="FT" vscore="30" hscore="38"/>  
+      <play vh="V" time="08:09" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="GOOD" type="FT" vscore="31" hscore="38"/>  
+      <play vh="H" time="08:09" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="SUB" type="IN"/>  
+      <play vh="H" time="08:09" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="SUB" type="IN"/>  
+      <play vh="H" time="08:09" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="SUB" type="OUT"/>  
+      <play vh="H" time="08:09" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="SUB" type="OUT"/>  
+      <play vh="V" time="08:06" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="FOUL"/>  
+      <play vh="H" time="07:53" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="07:53" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:36" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="GOOD" type="LAYUP" paint="Y" vscore="33" hscore="38"/>  
+      <play vh="H" time="07:22" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="FOUL"/>  
+      <play vh="V" time="07:22" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="SUB" type="IN"/>  
+      <play vh="V" time="07:22" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="V" time="07:22" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:22" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:01" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="FOUL"/>  
+      <play vh="V" time="06:57" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="06:57" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="06:46" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="GOOD" type="3PTR" vscore="33" hscore="41"/>  
+      <play vh="H" time="06:46" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="ASSIST"/>  
+      <play vh="V" time="06:17" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="V" time="06:17" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="SUB" type="IN"/>  
+      <play vh="V" time="06:17" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:17" uni="24" team="CÉGEP DE" checkname="FILIATRE,THEO" action="SUB" type="IN"/>  
+      <play vh="H" time="06:17" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:05" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="06:05" uni="TM" team="CÉGEP DE" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="06:02" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="FOUL"/>  
+      <play vh="V" time="06:02" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="MISS" type="FT"/>  
+      <play vh="V" time="06:02" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="06:02" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="MISS" type="FT"/>  
+      <play vh="H" time="06:02" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="05:51" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="MISS" type="3PTR"/>  
+      <play vh="V" time="05:51" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:36" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="TURNOVER"/>  
+      <play vh="H" time="05:34" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="STEAL"/>  
+      <play vh="H" time="05:30" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="05:30" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="BLOCK"/>  
+      <play vh="V" time="05:30" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:11" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="MISS" type="3PTR"/>  
+      <play vh="V" time="05:11" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="05:06" uni="TM" team="COLLÈGE " checkname="TEAM" action="TURNOVER"/>  
+      <play vh="H" time="05:06" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="SUB" type="IN"/>  
+      <play vh="H" time="05:06" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="SUB" type="IN"/>  
+      <play vh="H" time="05:06" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="SUB" type="IN"/>  
+      <play vh="H" time="05:06" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:06" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:06" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:46" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="MISS" type="3PTR"/>  
+      <play vh="V" time="04:46" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="04:27" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="FOUL" type="TECH"/>  
+      <play vh="H" time="04:27" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="GOOD" type="FT" vscore="33" hscore="42"/>  
+      <play vh="H" time="04:27" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="GOOD" type="FT" vscore="33" hscore="43"/>  
+      <play vh="H" time="04:14" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="MISS" type="3PTR"/>  
+      <play vh="H" time="04:14" uni="TM" team="CÉGEP DE" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="04:11" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="FOUL"/>  
+      <play vh="H" time="04:11" uni="24" team="CÉGEP DE" checkname="FILIATRE,THEO" action="TURNOVER"/>  
+      <play vh="V" time="04:11" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="STEAL"/>  
+      <play vh="V" time="04:02" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="04:02" uni="24" team="CÉGEP DE" checkname="FILIATRE,THEO" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:53" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="03:53" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="03:49" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="TURNOVER"/>  
+      <play vh="V" time="03:49" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="V" time="03:49" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:49" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="SUB" type="IN"/>  
+      <play vh="H" time="03:49" uni="24" team="CÉGEP DE" checkname="FILIATRE,THEO" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:41" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="TURNOVER"/>  
+      <play vh="V" time="03:29" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="H" time="03:27" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="STEAL"/>  
+      <play vh="V" time="03:13" uni="TM" team="COLLÈGE " checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="03:13" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="FOUL"/>  
+      <play vh="H" time="03:13" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="GOOD" type="FT" vscore="33" hscore="44"/>  
+      <play vh="H" time="03:13" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="GOOD" type="FT" vscore="33" hscore="45"/>  
+      <play vh="V" time="03:13" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="V" time="03:13" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="IN"/>  
+      <play vh="V" time="03:13" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="SUB" type="IN"/>  
+      <play vh="V" time="03:13" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:13" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:13" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:00" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="03:00" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="02:58" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="FOUL"/>  
+      <play vh="V" time="02:58" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="FT"/>  
+      <play vh="V" time="02:58" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="02:58" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="FT" vscore="34" hscore="45"/>  
+      <play vh="H" time="02:45" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="MISS" type="3PTR"/>  
+      <play vh="H" time="02:45" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="02:35" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="MISS" type="3PTR"/>  
+      <play vh="V" time="02:35" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="02:12" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="02:12" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="02:04" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="GOOD" type="LAYUP" paint="Y" vscore="34" hscore="47"/>  
+      <play vh="V" time="01:38" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="GOOD" type="3PTR" vscore="37" hscore="47"/>  
+      <play vh="H" time="01:19" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="MISS" type="3PTR"/>  
+      <play vh="H" time="01:19" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="01:14" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="01:14" uni="TM" team="CÉGEP DE" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="01:14" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="FOUL"/>  
+      <play vh="V" time="01:14" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="GOOD" type="FT" vscore="38" hscore="47"/>  
+      <play vh="V" time="01:14" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="GOOD" type="FT" vscore="39" hscore="47"/>  
+      <play vh="H" time="00:52" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="MISS" type="3PTR"/>  
+      <play vh="V" time="00:52" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:44" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="GOOD" type="LAYUP" paint="Y" vscore="41" hscore="47"/>  
+      <play vh="V" time="00:44" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="ASSIST"/>  
+      <play vh="H" time="00:35" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="MISS" type="3PTR"/>  
+      <play vh="V" time="00:35" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:28" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="FOUL"/>  
+      <play vh="V" time="00:28" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="GOOD" type="FT" vscore="42" hscore="47"/>  
+      <play vh="V" time="00:28" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="GOOD" type="FT" vscore="43" hscore="47"/>  
+      <play vh="V" time="00:28" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="V" time="00:28" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:28" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="SUB" type="IN"/>  
+      <play vh="H" time="00:28" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:14" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="00:14" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:08" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="MISS" type="3PTR"/>  
+      <play vh="H" time="00:08" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="REBOUND" type="DEF"/>  
+      <clock time="00:00"/> 
+    </period>  
+    <period number="4" time="10:00"> 
+      <special vh="V" pts_to="2" pts_ch2="4" pts_paint="4" pts_fastb="0" pts_bench="0" ties="0" leads="0" poss_count="0" poss_time="0" score_count="4" score_time="860" large_lead="0" large_lead_t="-"/>  
+      <special vh="H" pts_to="9" pts_ch2="7" pts_paint="8" pts_fastb="0" pts_bench="9" ties="0" leads="0" poss_count="0" poss_time="0" score_count="14" score_time="3797" large_lead="19" large_lead_t="4th-00:18"/>  
+      <summary vh="V" fgm="4" fga="14" fgm3="0" fga3="5" ftm="0" fta="0" blk="0" stl="1" ast="0" oreb="4" dreb="3" treb="7" pf="7" tf="0" to="6"/>  
+      <summary vh="H" fgm="8" fga="18" fgm3="2" fga3="9" ftm="5" fta="7" blk="0" stl="3" ast="4" oreb="5" dreb="5" treb="10" pf="0" tf="0" to="2"/>  
+      <play vh="H" time="10:00" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="SUB" type="IN"/>  
+      <play vh="H" time="10:00" uni="09" team="CÉGEP DE" checkname="LONGCHAMP,LAËL" action="SUB" type="OUT"/>  
+      <play vh="H" time="09:53" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="09:53" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="09:36" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="09:36" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="09:16" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="TURNOVER"/>  
+      <play vh="H" time="09:15" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="STEAL"/>  
+      <play vh="V" time="09:13" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="FOUL"/>  
+      <play vh="V" time="09:13" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="SUB" type="IN"/>  
+      <play vh="V" time="09:13" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="H" time="08:55" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="MISS" type="3PTR"/>  
+      <play vh="H" time="08:55" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="08:48" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="GOOD" type="3PTR" vscore="43" hscore="50"/>  
+      <play vh="H" time="08:48" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="ASSIST"/>  
+      <play vh="V" time="08:31" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="MISS" type="3PTR"/>  
+      <play vh="V" time="08:31" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="08:25" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="08:25" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:23" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="MISS" type="3PTR"/>  
+      <play vh="V" time="08:23" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="07:59" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="07:59" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:56" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="FOUL"/>  
+      <play vh="V" time="07:56" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="V" time="07:56" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:50" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="FOUL"/>  
+      <play vh="H" time="07:32" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="MISS" type="3PTR"/>  
+      <play vh="H" time="07:32" uni="TM" team="CÉGEP DE" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="07:27" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="GOOD" type="JUMPER" vscore="43" hscore="52"/>  
+      <play vh="H" time="07:27" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="ASSIST"/>  
+      <play vh="V" time="07:09" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="TURNOVER"/>  
+      <play vh="H" time="07:08" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="STEAL"/>  
+      <play vh="H" time="06:55" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="GOOD" type="LAYUP" paint="Y" vscore="43" hscore="54"/>  
+      <play vh="V" time="06:55" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="FOUL"/>  
+      <play vh="V" time="06:55" uni="TM" team="COLLÈGE " checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="H" time="06:55" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="GOOD" type="FT" vscore="43" hscore="55"/>  
+      <play vh="V" time="06:55" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="V" time="06:55" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="SUB" type="IN"/>  
+      <play vh="V" time="06:55" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="SUB" type="OUT"/>  
+      <play vh="V" time="06:55" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="SUB" type="OUT"/>  
+      <play vh="V" time="06:47" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="TURNOVER"/>  
+      <play vh="H" time="06:45" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="STEAL"/>  
+      <play vh="H" time="06:30" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="MISS" type="3PTR"/>  
+      <play vh="V" time="06:30" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="06:02" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="06:02" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="05:49" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="MISS" type="3PTR"/>  
+      <play vh="H" time="05:49" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="05:42" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="GOOD" type="LAYUP" paint="Y" vscore="43" hscore="57"/>  
+      <play vh="V" time="05:24" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="MISS" type="3PTR"/>  
+      <play vh="V" time="05:24" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="05:19" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="JUMPER" vscore="45" hscore="57"/>  
+      <play vh="H" time="05:12" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="TURNOVER"/>  
+      <play vh="V" time="05:12" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="SUB" type="IN"/>  
+      <play vh="V" time="05:12" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="V" time="05:12" uni="12" team="COLLÈGE " checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:12" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:03" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="05:03" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="04:59" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="04:59" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="04:49" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="MISS" type="3PTR"/>  
+      <play vh="V" time="04:49" uni="TM" team="COLLÈGE " checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="04:49" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="SUB" type="IN"/>  
+      <play vh="H" time="04:49" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:45" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="47" hscore="57"/>  
+      <play vh="H" time="04:29" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="MISS" type="3PTR"/>  
+      <play vh="H" time="04:29" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="04:24" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="04:24" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="04:22" uni="TM" team="CÉGEP DE" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="04:22" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="V" time="04:22" uni="07" team="COLLÈGE " checkname="GUERRIER,MALIK" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:22" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="SUB" type="IN"/>  
+      <play vh="H" time="04:22" uni="01" team="CÉGEP DE" checkname="LALIBERTÉ,ZACH" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:11" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="GOOD" type="LAYUP" paint="Y" vscore="47" hscore="59"/>  
+      <play vh="V" time="04:01" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="TURNOVER"/>  
+      <play vh="H" time="03:47" uni="10" team="CÉGEP DE" checkname="TOURE,DRISSA" action="GOOD" type="JUMPER" vscore="47" hscore="61"/>  
+      <play vh="V" time="03:25" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="49" hscore="61"/>  
+      <play vh="H" time="03:06" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="GOOD" type="LAYUP" paint="Y" vscore="49" hscore="63"/>  
+      <play vh="H" time="03:06" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="ASSIST"/>  
+      <play vh="V" time="02:44" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="MISS" type="3PTR"/>  
+      <play vh="H" time="02:44" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="02:31" uni="TM" team="COLLÈGE " checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="02:31" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="FOUL"/>  
+      <play vh="H" time="02:31" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="MISS" type="FT"/>  
+      <play vh="H" time="02:31" uni="TM" team="CÉGEP DE" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="02:31" uni="07" team="CÉGEP DE" checkname="TREMBLAY,ALEXIS" action="GOOD" type="FT" vscore="49" hscore="64"/>  
+      <play vh="V" time="02:31" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="SUB" type="IN"/>  
+      <play vh="V" time="02:31" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:14" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="TURNOVER"/>  
+      <play vh="H" time="01:55" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="TURNOVER"/>  
+      <play vh="V" time="01:54" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="STEAL"/>  
+      <play vh="H" time="01:52" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="FOUL" type="TECH"/>  
+      <play vh="V" time="01:52" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="FOUL" type="TECH"/>  
+      <play vh="H" time="01:52" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="FOUL" type="TECH"/>  
+      <play vh="V" time="01:52" uni="21" team="COLLÈGE " checkname="BOISSELLE-GAUGHAN,JOSHUA" action="SUB" type="IN"/>  
+      <play vh="V" time="01:52" uni="09" team="COLLÈGE " checkname="HYDE,SIMMION" action="SUB" type="OUT"/>  
+      <play vh="V" time="01:42" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="3PTR"/>  
+      <play vh="H" time="01:42" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:34" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="FOUL"/>  
+      <play vh="H" time="01:34" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="GOOD" type="FT" vscore="49" hscore="65"/>  
+      <play vh="H" time="01:34" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="GOOD" type="FT" vscore="49" hscore="66"/>  
+      <play vh="V" time="01:34" uni="03" team="COLLÈGE " checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="V" time="01:34" uni="06" team="COLLÈGE " checkname="HYPPOLITE,OLIVIER" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:34" uni="15" team="CÉGEP DE" checkname="MBAYI,JORDAN MBUYI" action="SUB" type="IN"/>  
+      <play vh="H" time="01:34" uni="08" team="CÉGEP DE" checkname="CAZA,ALBERT" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:15" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="MISS" type="3PTR"/>  
+      <play vh="V" time="01:15" uni="15" team="COLLÈGE " checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:51" uni="04" team="COLLÈGE " checkname="NCUBE,DUMISILE DAVIES" action="GOOD" type="JUMPER" vscore="51" hscore="66"/>  
+      <play vh="H" time="00:36" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="GOOD" type="3PTR" vscore="51" hscore="69"/>  
+      <play vh="H" time="00:36" uni="13" team="CÉGEP DE" checkname="LEMBA,FENVI-CHAMA" action="ASSIST"/>  
+      <play vh="V" time="00:22" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="TURNOVER"/>  
+      <play vh="V" time="00:18" uni="05" team="COLLÈGE " checkname="CLYNE,KELVIN" action="FOUL"/>  
+      <play vh="H" time="00:18" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="MISS" type="FT"/>  
+      <play vh="H" time="00:18" uni="TM" team="CÉGEP DE" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="00:18" uni="02" team="CÉGEP DE" checkname="SOSSOU,SAMSON KUESSON" action="GOOD" type="FT" vscore="51" hscore="70"/>  
+      <clock time="00:00"/> 
+    </period> 
+  </plays> 
+</bbgame>

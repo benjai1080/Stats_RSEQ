@@ -100,7 +100,10 @@
    "visiteur": "Ahuntsic",
    "receveur": "Édouard-Montpetit",
    "lieu": "Cégep Édouard-Montpetit",
-   "pointage": null,
+   "pointage": [
+    61,
+    74
+   ],
    "prolongation": false,
    "fichier": "2026-M07.xml"
   },
@@ -112,7 +115,10 @@
    "visiteur": "Dawson",
    "receveur": "Outaouais",
    "lieu": "Cégep de l'Outaouais",
-   "pointage": null,
+   "pointage": [
+    100,
+    53
+   ],
    "prolongation": false,
    "fichier": "2026-M08.xml"
   },
@@ -124,7 +130,10 @@
    "visiteur": "John Abbott",
    "receveur": "Sherbrooke",
    "lieu": "Cégep de Sherbrooke",
-   "pointage": null,
+   "pointage": [
+    51,
+    70
+   ],
    "prolongation": false,
    "fichier": "2026-M09.xml"
   },
@@ -136,7 +145,10 @@
    "visiteur": "Thetford",
    "receveur": "Jean-de-Brébeuf",
    "lieu": "Collège Jean-de-Brébeuf",
-   "pointage": null,
+   "pointage": [
+    51,
+    64
+   ],
    "prolongation": false,
    "fichier": "2026-M10.xml"
   },
@@ -148,7 +160,10 @@
    "visiteur": "Ch.-St-Lambert",
    "receveur": "Sainte-Foy",
    "lieu": "Cégep de Sainte-Foy",
-   "pointage": null,
+   "pointage": [
+    80,
+    70
+   ],
    "prolongation": false,
    "fichier": "2026-M11.xml"
   },
@@ -160,7 +175,10 @@
    "visiteur": "Montmorency",
    "receveur": "Vanier",
    "lieu": "Collège Vanier",
-   "pointage": null,
+   "pointage": [
+    78,
+    72
+   ],
    "prolongation": false,
    "fichier": "2026-M12.xml"
   },
@@ -501,6 +519,18 @@
    "fichier": "2026-M40.xml"
   },
   {
+   "num": "M62",
+   "type": "saison",
+   "date": "2026-11-29",
+   "heure": "15:00",
+   "visiteur": "Thetford",
+   "receveur": "Vanier",
+   "lieu": "Collège Vanier",
+   "pointage": null,
+   "prolongation": false,
+   "fichier": "2026-M62.xml"
+  },
+  {
    "num": "M41",
    "type": "saison",
    "date": "2026-12-03",
@@ -751,18 +781,6 @@
    "pointage": null,
    "prolongation": false,
    "fichier": "2026-M61.xml"
-  },
-  {
-   "num": "M62",
-   "type": "saison",
-   "date": "2027-01-17",
-   "heure": "13:00",
-   "visiteur": "Thetford",
-   "receveur": "Vanier",
-   "lieu": "Collège Vanier",
-   "pointage": null,
-   "prolongation": false,
-   "fichier": "2026-M62.xml"
   },
   {
    "num": "M63",
@@ -1092,7 +1110,7 @@
    "num": "M90",
    "type": "saison",
    "date": "2027-02-13",
-   "heure": "15:00",
+   "heure": "13:00",
    "visiteur": "Sainte-Foy",
    "receveur": "Outaouais",
    "lieu": "Cégep de l'Outaouais",
