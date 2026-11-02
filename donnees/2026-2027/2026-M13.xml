@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bbgame source="PrestoSports" version="7.24.0" generated="10/30/2026"> 
+  <venue gameid="" visid="CEM" visname="Cégep Édouard-Montpetit" homeid="MON" homename="Collège Montmorency" date="10/30/2026" location="LAVAL" time="6:30 PM" start="6:30 PM" end="" duration="" delay="" attend="0" schednote="" leaguegame="Y" neutralgame="N" postseason="N"> 
+    <officials text=",,"/>  
+    <notes/>  
+    <rules prds="4" minutes="10" minutesot="5" fouls="5" qh="Q" overtimeType="OT"/> 
+  </venue>  
+  <status complete="Y" running="F" period="4"/>  
+  <team vh="V" id="CEM" name="Cégep Édouard-Montpetit" code="CCAA132" record=""> 
+    <linescore line="15,22,11,21" score="69"> 
+      <lineprd prd="1" score="15"/>  
+      <lineprd prd="2" score="22"/>  
+      <lineprd prd="3" score="11"/>  
+      <lineprd prd="4" score="21"/> 
+    </linescore>  
+    <totals> 
+      <stats fgm="24" fga="59" fgm3="6" fga3="21" ftm="15" fta="26" tp="69" blk="5" stl="11" ast="18" min="201" oreb="10" dreb="25" treb="35" pf="19" tf="0" to="17" dq="2" deadball="3,1" fgpct="40.7" fg3pct="28.6" ftpct="57.7"/>  
+      <special vh="V" pts_to="30" pts_ch2="4" pts_paint="26" pts_fastb="0" pts_bench="17" ties="2" leads="3" poss_count="0" poss_time="0" score_count="0" score_time="0" large_lead="16" large_lead_t="2nd-02:32"/> 
+    </totals>  
+    <player uni="01" code="01" name="Ernesto Antonio St Clair" checkname="CLAIR,ERNESTO ANTONIO ST" gp="1" playerId="84x9fpnnsrm8tr5b"> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="0"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="03" code="03" name="Maël Jean-Louis Lajoie" checkname="LAJOIE,MAËL JEAN-LOUIS" gp="1" gs="1" pos="*" oncourt="Y" playerId="ck10cgclirgdgzz3"> 
+      <stats oreb="2" dreb="0" treb="2" pf="2" tf="0" to="2" tp="16" fgm="5" fga="13" fgm3="1" fga3="5" ftm="5" fta="7" blk="0" stl="1" ast="1" min="27"/>  
+      <statsbyprd prd="1" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="5" fgm3="1" fga3="3" ftm="0" fta="1" tp="5" blk="0" stl="0" ast="0" min="7" oreb="2" dreb="0" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="2" fga="4" fgm3="0" fga3="1" ftm="0" fta="0" tp="4" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="2" fgm3="0" fga3="1" ftm="5" fta="6" tp="7" blk="0" stl="1" ast="0" min="9" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="04" code="04" name="Jules Calixte" checkname="CALIXTE,JULES" gp="1" playerId="ooetnr5ou8wbls2h"> 
+      <stats oreb="1" dreb="0" treb="1" pf="0" tf="0" to="1" tp="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="1" fta="2" blk="1" stl="1" ast="0" min="6"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="2" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="1" fta="2" tp="1" blk="1" stl="0" ast="0" min="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="05" code="05" name="Charles Hétu" checkname="HÉTU,CHARLES" gp="1" oncourt="Y" playerId="srrnfxpfybi0cyu1"> 
+      <stats oreb="0" dreb="1" treb="1" pf="1" tf="0" to="2" tp="10" fgm="3" fga="8" fgm3="2" fga3="5" ftm="2" fta="2" blk="0" stl="0" ast="2" min="27"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="4" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="3" fgm3="0" fga3="2" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="1" min="8" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="2" fga="4" fgm3="2" fga3="3" ftm="2" fta="2" tp="8" blk="0" stl="0" ast="0" min="10" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="06" code="06" name="Maliko Tchamsi" checkname="TCHAMSI,MALIKO" gp="1" gs="1" pos="*" oncourt="Y" playerId="6rhww15wv9ilx64t"> 
+      <stats oreb="0" dreb="9" treb="9" pf="1" tf="0" to="4" tp="4" fgm="2" fga="8" fgm3="0" fga3="2" ftm="0" fta="2" blk="0" stl="3" ast="8" min="37"/>  
+      <statsbyprd prd="1" fgm="1" fga="4" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="1" min="7" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="3" min="10" oreb="0" dreb="4" treb="4" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="3" min="10" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="2" tp="0" blk="0" stl="0" ast="1" min="10" oreb="0" dreb="4" treb="4" pf="1" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="07" code="07" name="Jayden Garnier" checkname="GARNIER,JAYDEN" gp="1" playerId="mf0lija76p8lrg3g"> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="0"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="08" code="08" name="Erick Timmer" checkname="TIMMER,ERICK" gp="1" playerId="oxju8omzmq77cvux"> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="0"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="09" code="09" name="Jushua Lucas" checkname="LUCAS,JUSHUA" gp="1" gs="1" pos="*" playerId="xwxzctdnhvsywm4p"> 
+      <stats oreb="0" dreb="4" treb="4" pf="3" tf="0" to="3" tp="10" fgm="4" fga="7" fgm3="0" fga3="0" ftm="2" fta="5" blk="1" stl="2" ast="5" min="34"/>  
+      <statsbyprd prd="1" fgm="1" fga="2" fgm3="0" fga3="0" ftm="1" fta="1" tp="3" blk="1" stl="0" ast="1" min="7" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="2" fgm3="0" fga3="0" ftm="0" fta="2" tp="4" blk="0" stl="2" ast="2" min="8" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="9" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="1" fgm3="0" fga3="0" ftm="1" fta="2" tp="3" blk="0" stl="0" ast="2" min="10" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="10" code="10" name="Adrien Denis Cooren" checkname="COOREN,ADRIEN DENIS" gp="1" oncourt="Y" playerId="bqu57cr07qxfzkk2"> 
+      <stats oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" tp="4" fgm="1" fga="5" fgm3="0" fga3="2" ftm="2" fta="2" blk="0" stl="0" ast="1" min="7"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="4" fgm3="0" fga3="1" ftm="2" fta="2" tp="4" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="12" code="12" name="Isaie Bedard" checkname="BEDARD,ISAIE" gp="1" playerId="smha6eg06ei8bf7s"> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="0"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="13" code="13" name="Jean-Thomas Grondin" checkname="GRONDIN,JEAN-THOMAS" gp="1" gs="1" pos="*" playerId="ziyuupjc1p4frnnu"> 
+      <stats oreb="1" dreb="2" treb="3" pf="5" tf="0" to="2" tp="16" fgm="6" fga="9" fgm3="3" fga3="3" ftm="1" fta="4" blk="1" stl="2" ast="0" min="28" dq="1"/>  
+      <statsbyprd prd="1" fgm="3" fga="4" fgm3="2" fga3="2" ftm="0" fta="2" tp="8" blk="0" stl="1" ast="0" min="10" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="2" fgm3="1" fga3="1" ftm="0" fta="0" tp="5" blk="0" stl="1" ast="0" min="8" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="3" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="1" stl="0" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="1" fta="2" tp="1" blk="0" stl="0" ast="0" min="3" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="14" code="14" name="Jed Akeding Masesa" checkname="MASESA,JED AKEDING" gp="1" oncourt="Y" playerId="cbvvaey63bszhvg6"> 
+      <stats oreb="1" dreb="0" treb="1" pf="1" tf="0" to="1" tp="2" fgm="1" fga="4" fgm3="0" fga3="3" ftm="0" fta="0" blk="1" stl="1" ast="0" min="11"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="1" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="4" fgm3="0" fga3="3" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="0" min="6" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="15" code="15" name="Jayden Sebakinga" checkname="SEBAKINGA,JAYDEN" gp="1" gs="1" pos="*" playerId="yxhm5a5049nfylp0"> 
+      <stats oreb="0" dreb="5" treb="5" pf="5" tf="0" to="1" tp="6" fgm="2" fga="4" fgm3="0" fga3="0" ftm="2" fta="2" blk="1" stl="1" ast="1" min="24" dq="1"/>  
+      <statsbyprd prd="1" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="1" stl="0" ast="1" min="8" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="1" treb="1" pf="2" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="0" ftm="2" fta="2" tp="2" blk="0" stl="1" ast="0" min="7" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="21" code="21" name="Moussa Fall" checkname="FALL,MOUSSA" gp="1" playerId="plfh2exwaoa5m773"> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="0"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="TM" code="TM" name="Team" checkname="TEAM" gp="1" playerId=""> 
+      <stats oreb="5" dreb="4" treb="9" pf="0" tf="0" to="0" tp="0"/>  
+      <statsbyprd prd="1" oreb="1" dreb="2" treb="3" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="2" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="3" oreb="2" dreb="1" treb="3" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="4" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="0" tp="0" dq="0"/> 
+    </player> 
+  </team>  
+  <team vh="H" id="MON" name="Collège Montmorency" code="CCAA107" record=""> 
+    <linescore line="14,9,18,20" score="61"> 
+      <lineprd prd="1" score="14"/>  
+      <lineprd prd="2" score="9"/>  
+      <lineprd prd="3" score="18"/>  
+      <lineprd prd="4" score="20"/> 
+    </linescore>  
+    <totals> 
+      <stats fgm="22" fga="63" fgm3="3" fga3="24" ftm="14" fta="19" tp="61" blk="2" stl="7" ast="14" min="199" oreb="19" dreb="33" treb="52" pf="22" tf="0" to="29" dq="1" deadball="0,2" fgpct="34.9" fg3pct="12.5" ftpct="73.7"/>  
+      <special vh="H" pts_to="16" pts_ch2="18" pts_paint="36" pts_fastb="0" pts_bench="4" ties="2" leads="2" poss_count="0" poss_time="0" score_count="0" score_time="0" large_lead="2" large_lead_t="1st-09:48"/> 
+    </totals>  
+    <player uni="00" code="00" name="Nicolas Guay-Paquet" checkname="GUAY-PAQUET,NICOLAS" gp="1" oncourt="Y" playerId="so1md9i6zc2b9c6p"> 
+      <stats oreb="0" dreb="1" treb="1" pf="1" tf="0" to="3" tp="0" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" blk="1" stl="0" ast="2" min="16"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="3" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="1" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="5" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="2" dq="0"/> 
+    </player>  
+    <player uni="01" code="01" name="Mohamed Takrouni" checkname="TAKROUNI,MOHAMED" gp="1" playerId="uiy0oqcf30ansvjk"> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="0"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="02" code="02" name="Batiste Percher" checkname="PERCHER,BATISTE" gp="1" oncourt="Y" playerId="189iy1zu6gq7yvs0"> 
+      <stats oreb="1" dreb="2" treb="3" pf="1" tf="0" to="2" tp="1" fgm="0" fga="3" fgm3="0" fga3="1" ftm="1" fta="2" blk="0" stl="0" ast="2" min="12"/>  
+      <statsbyprd prd="1" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="3" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="1" fta="2" tp="1" blk="0" stl="0" ast="1" min="5" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="03" code="03" name="Tristan Houle" checkname="HOULE,TRISTAN" gp="1" oncourt="Y" playerId="v7daxgm2o3fp9e6w"> 
+      <stats oreb="1" dreb="0" treb="1" pf="1" tf="0" to="1" tp="0" fgm="0" fga="3" fgm3="0" fga3="2" ftm="0" fta="0" blk="0" stl="0" ast="0" min="13"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="04" code="04" name="Joel Shakamay" checkname="SHAKAMAY,JOEL" gp="1" playerId="0d1ncuvrqexrp0m6"> 
+      <stats oreb="0" dreb="3" treb="3" pf="0" tf="0" to="0" tp="3" fgm="1" fga="1" fgm3="0" fga3="0" ftm="1" fta="1" blk="0" stl="0" ast="0" min="9"/>  
+      <statsbyprd prd="1" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="1" fta="1" tp="1" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="05" code="05" name="Naythan Sincere" checkname="SINCERE,NAYTHAN" gp="1" gs="1" pos="*" playerId="t9fj488e5ehloa9t"> 
+      <stats oreb="0" dreb="3" treb="3" pf="5" tf="0" to="5" tp="12" fgm="3" fga="9" fgm3="2" fga3="5" ftm="4" fta="4" blk="0" stl="1" ast="2" min="32" dq="1"/>  
+      <statsbyprd prd="1" fgm="0" fga="2" fgm3="0" fga3="2" ftm="2" fta="2" tp="2" blk="0" stl="1" ast="1" min="7" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="9" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="2" fgm3="1" fga3="1" ftm="0" fta="0" tp="3" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="2" fgm3="1" fga3="1" ftm="2" fta="2" tp="5" blk="0" stl="0" ast="1" min="8" oreb="0" dreb="1" treb="1" pf="2" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="06" code="06" name="Mathis Beauchamp" checkname="BEAUCHAMP,MATHIS" gp="1" gs="1" pos="*" oncourt="Y" playerId="63axxb54swc349hk"> 
+      <stats oreb="1" dreb="6" treb="7" pf="3" tf="0" to="7" tp="14" fgm="6" fga="20" fgm3="1" fga3="8" ftm="1" fta="2" blk="0" stl="2" ast="2" min="32"/>  
+      <statsbyprd prd="1" fgm="2" fga="5" fgm3="0" fga3="2" ftm="1" fta="2" tp="5" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="5" fgm3="0" fga3="2" ftm="0" fta="0" tp="4" blk="0" stl="0" ast="0" min="9" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="4" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="3" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="2" min="8" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="2" fga="7" fgm3="1" fga3="4" ftm="0" fta="0" tp="5" blk="0" stl="1" ast="0" min="9" oreb="1" dreb="1" treb="2" pf="2" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="08" code="08" name="Benjamin Grahic" checkname="GRAHIC,BENJAMIN" gp="1" gs="1" pos="*" playerId="0ykytamhinpf43e4"> 
+      <stats oreb="3" dreb="7" treb="10" pf="3" tf="0" to="3" tp="18" fgm="6" fga="8" fgm3="0" fga3="0" ftm="6" fta="7" blk="0" stl="1" ast="2" min="24"/>  
+      <statsbyprd prd="1" fgm="1" fga="3" fgm3="0" fga3="0" ftm="1" fta="2" tp="3" blk="0" stl="1" ast="0" min="7" oreb="2" dreb="4" treb="6" pf="0" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="4" fga="4" fgm3="0" fga3="0" ftm="3" fta="3" tp="11" blk="0" stl="0" ast="0" min="6" oreb="1" dreb="1" treb="2" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="1" fgm3="0" fga3="0" ftm="2" fta="2" tp="4" blk="0" stl="0" ast="2" min="7" oreb="0" dreb="2" treb="2" pf="2" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="09" code="09" name="Trully Madimba" checkname="MADIMBA,TRULLY" gp="1" playerId="ywvkjfgq4ty0ekxi"> 
+      <stats oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" tp="0" fgm="0" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" blk="0" stl="0" ast="0" min="3"/>  
+      <statsbyprd prd="1" fgm="0" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="11" code="11" name="Arie Mugisha" checkname="MUGISHA,ARIE" gp="1" playerId="3xut5qcz2yu3x9yt"> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="0"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="12" code="12" name="John Devalis" checkname="DEVALIS,JOHN" gp="1" gs="1" pos="*" oncourt="Y" playerId="padw9vd0qt4gv9uy"> 
+      <stats oreb="3" dreb="5" treb="8" pf="3" tf="0" to="2" tp="11" fgm="5" fga="8" fgm3="0" fga3="1" ftm="1" fta="3" blk="1" stl="3" ast="3" min="31"/>  
+      <statsbyprd prd="1" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="0" min="8" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="6" oreb="2" dreb="3" treb="5" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="2" fgm3="0" fga3="1" ftm="1" fta="2" tp="3" blk="1" stl="1" ast="2" min="9" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="2" fga="3" fgm3="0" fga3="0" ftm="0" fta="1" tp="4" blk="0" stl="1" ast="1" min="8" oreb="1" dreb="0" treb="1" pf="2" tf="0" to="2" dq="0"/> 
+    </player>  
+    <player uni="13" code="13" name="Isaac Riahi" checkname="RIAHI,ISAAC" gp="1" gs="1" pos="*" playerId="bfk32vyrqttsz45b"> 
+      <stats oreb="0" dreb="1" treb="1" pf="4" tf="0" to="3" tp="2" fgm="1" fga="6" fgm3="0" fga3="5" ftm="0" fta="0" blk="0" stl="0" ast="1" min="27"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="2" fgm3="0" fga3="2" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="9" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="4" fgm3="0" fga3="3" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="1" min="6" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="TM" code="TM" name="Team" checkname="TEAM" gp="1" playerId=""> 
+      <stats oreb="10" dreb="5" treb="15" pf="0" tf="0" to="2" tp="0"/>  
+      <statsbyprd prd="1" oreb="4" dreb="1" treb="5" pf="0" tf="0" to="1" tp="0" dq="0"/>  
+      <statsbyprd prd="2" oreb="2" dreb="2" treb="4" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="3" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="1" tp="0" dq="0"/>  
+      <statsbyprd prd="4" oreb="3" dreb="1" treb="4" pf="0" tf="0" to="0" tp="0" dq="0"/> 
+    </player> 
+  </team>  
+  <plays format="tokens"> 
+    <period number="1" time="10:00"> 
+      <special vh="V" pts_to="5" pts_ch2="0" pts_paint="6" pts_fastb="0" pts_bench="0" ties="2" leads="3" poss_count="0" poss_time="0" score_count="5" score_time="1323" large_lead="4" large_lead_t="1st-03:19"/>  
+      <special vh="H" pts_to="5" pts_ch2="6" pts_paint="10" pts_fastb="0" pts_bench="2" ties="1" leads="2" poss_count="0" poss_time="0" score_count="8" score_time="2558" large_lead="2" large_lead_t="1st-09:48"/>  
+      <summary vh="V" fgm="6" fga="14" fgm3="2" fga3="3" ftm="1" fta="3" blk="2" stl="3" ast="6" oreb="1" dreb="5" treb="6" pf="3" tf="0" to="5"/>  
+      <summary vh="H" fgm="5" fga="18" fgm3="0" fga3="6" ftm="4" fta="6" blk="0" stl="3" ast="3" oreb="4" dreb="7" treb="11" pf="3" tf="0" to="6"/>  
+      <play vh="H" time="09:48" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="LAYUP" paint="Y" vscore="0" hscore="2"/>  
+      <play vh="H" time="09:48" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="ASSIST"/>  
+      <play vh="V" time="09:25" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="GOOD" type="JUMPER" vscore="2" hscore="2"/>  
+      <play vh="V" time="09:25" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="ASSIST"/>  
+      <play vh="H" time="09:09" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="TURNOVER"/>  
+      <play vh="V" time="09:00" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="TURNOVER"/>  
+      <play vh="H" time="08:46" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:46" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="08:43" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="FOUL"/>  
+      <play vh="H" time="08:43" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="GOOD" type="FT" vscore="2" hscore="3"/>  
+      <play vh="H" time="08:43" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="MISS" type="FT"/>  
+      <play vh="V" time="08:43" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="08:34" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:34" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:27" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="TURNOVER"/>  
+      <play vh="V" time="08:25" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="STEAL"/>  
+      <play vh="V" time="08:03" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="08:03" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="07:59" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="FOUL"/>  
+      <play vh="H" time="07:59" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="TURNOVER"/>  
+      <play vh="V" time="07:48" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="GOOD" type="3PTR" vscore="5" hscore="3"/>  
+      <play vh="V" time="07:48" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="ASSIST"/>  
+      <play vh="V" time="07:35" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="FOUL"/>  
+      <play vh="H" time="07:35" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="GOOD" type="FT" vscore="5" hscore="4"/>  
+      <play vh="H" time="07:35" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="GOOD" type="FT" vscore="5" hscore="5"/>  
+      <play vh="H" time="07:35" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="H" time="07:35" uni="13" team="MON" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:12" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="07:12" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="07:04" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="07:04" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="06:56" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="06:56" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="06:51" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="TURNOVER"/>  
+      <play vh="V" time="06:49" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="STEAL"/>  
+      <play vh="V" time="06:40" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="06:40" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="06:27" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="3PTR"/>  
+      <play vh="H" time="06:27" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="06:22" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="06:22" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="06:05" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="TURNOVER"/>  
+      <play vh="H" time="06:04" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="STEAL"/>  
+      <play vh="H" time="06:01" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="06:01" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="BLOCK"/>  
+      <play vh="V" time="06:01" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="05:55" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="SUB" type="IN"/>  
+      <play vh="H" time="05:55" uni="09" team="MON" checkname="MADIMBA,TRULLY" action="SUB" type="IN"/>  
+      <play vh="H" time="05:55" uni="02" team="MON" checkname="PERCHER,BATISTE" action="SUB" type="IN"/>  
+      <play vh="H" time="05:55" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:55" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:55" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:46" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="MISS" type="3PTR"/>  
+      <play vh="H" time="05:46" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:41" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="SUB" type="IN"/>  
+      <play vh="V" time="05:41" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:21" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="GOOD" type="LAYUP" paint="Y" vscore="5" hscore="7"/>  
+      <play vh="H" time="05:21" uni="02" team="MON" checkname="PERCHER,BATISTE" action="ASSIST"/>  
+      <play vh="V" time="05:10" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="GOOD" type="LAYUP" paint="Y" vscore="7" hscore="7"/>  
+      <play vh="V" time="05:10" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="ASSIST"/>  
+      <play vh="H" time="05:06" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="FOUL"/>  
+      <play vh="V" time="05:06" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="GOOD" type="FT" vscore="8" hscore="7"/>  
+      <play vh="H" time="04:44" uni="09" team="MON" checkname="MADIMBA,TRULLY" action="MISS" type="3PTR"/>  
+      <play vh="H" time="04:44" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="04:38" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="SUB" type="IN"/>  
+      <play vh="H" time="04:38" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:34" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="LAYUP" paint="Y" vscore="8" hscore="9"/>  
+      <play vh="H" time="04:34" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="ASSIST"/>  
+      <play vh="H" time="04:34" uni="13" team="MON" checkname="RIAHI,ISAAC" action="SUB" type="IN"/>  
+      <play vh="H" time="04:34" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:14" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="GOOD" type="LAYUP" paint="Y" vscore="10" hscore="9"/>  
+      <play vh="V" time="04:14" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="ASSIST"/>  
+      <play vh="H" time="04:06" uni="02" team="MON" checkname="PERCHER,BATISTE" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="04:06" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="03:52" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="03:52" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:35" uni="09" team="MON" checkname="MADIMBA,TRULLY" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="03:35" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="BLOCK"/>  
+      <play vh="H" time="03:35" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="03:35" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="SUB" type="IN"/>  
+      <play vh="V" time="03:35" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:35" uni="03" team="MON" checkname="HOULE,TRISTAN" action="SUB" type="IN"/>  
+      <play vh="H" time="03:35" uni="09" team="MON" checkname="MADIMBA,TRULLY" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:32" uni="02" team="MON" checkname="PERCHER,BATISTE" action="MISS" type="3PTR"/>  
+      <play vh="V" time="03:32" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:22" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="IN"/>  
+      <play vh="H" time="03:22" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:19" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="GOOD" type="3PTR" vscore="13" hscore="9"/>  
+      <play vh="V" time="03:19" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="ASSIST"/>  
+      <play vh="V" time="03:04" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="FOUL"/>  
+      <play vh="H" time="03:04" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="FT"/>  
+      <play vh="H" time="03:04" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="03:04" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="FT" vscore="13" hscore="10"/>  
+      <play vh="V" time="03:04" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="SUB" type="IN"/>  
+      <play vh="V" time="03:04" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:04" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="IN"/>  
+      <play vh="H" time="03:04" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="SUB" type="IN"/>  
+      <play vh="H" time="03:04" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:04" uni="02" team="MON" checkname="PERCHER,BATISTE" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:42" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="TURNOVER"/>  
+      <play vh="H" time="02:40" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="STEAL"/>  
+      <play vh="H" time="02:35" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="MISS" type="3PTR"/>  
+      <play vh="H" time="02:35" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="02:31" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="GOOD" type="LAYUP" paint="Y" vscore="13" hscore="12"/>  
+      <play vh="V" time="02:11" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="SUB" type="IN"/>  
+      <play vh="V" time="02:11" uni="04" team="CEM" checkname="CALIXTE,JULES" action="SUB" type="IN"/>  
+      <play vh="V" time="02:11" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:11" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:02" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="TURNOVER"/>  
+      <play vh="H" time="01:45" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="TURNOVER"/>  
+      <play vh="V" time="01:36" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="GOOD" type="LAYUP" paint="Y" vscore="15" hscore="12"/>  
+      <play vh="V" time="01:36" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="ASSIST"/>  
+      <play vh="H" time="01:28" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="MISS" type="3PTR"/>  
+      <play vh="H" time="01:28" uni="03" team="MON" checkname="HOULE,TRISTAN" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="01:18" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="TURNOVER"/>  
+      <play vh="V" time="01:17" uni="04" team="CEM" checkname="CALIXTE,JULES" action="STEAL"/>  
+      <play vh="V" time="01:13" uni="04" team="CEM" checkname="CALIXTE,JULES" action="TURNOVER"/>  
+      <play vh="H" time="01:12" uni="12" team="MON" checkname="DEVALIS,JOHN" action="STEAL"/>  
+      <play vh="H" time="01:02" uni="12" team="MON" checkname="DEVALIS,JOHN" action="GOOD" type="LAYUP" paint="Y" vscore="15" hscore="14"/>  
+      <play vh="V" time="00:50" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="00:50" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:34" uni="TM" team="MON" checkname="TEAM" action="TURNOVER"/>  
+      <play vh="V" time="00:17" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="00:17" uni="04" team="CEM" checkname="CALIXTE,JULES" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="00:17" uni="13" team="MON" checkname="RIAHI,ISAAC" action="FOUL"/>  
+      <play vh="V" time="00:17" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="MISS" type="FT"/>  
+      <play vh="V" time="00:17" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="MISS" type="FT"/>  
+      <play vh="H" time="00:05" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="00:05" uni="02" team="MON" checkname="PERCHER,BATISTE" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="00:00" uni="02" team="MON" checkname="PERCHER,BATISTE" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="00:00" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <clock time="00:00"/> 
+    </period>  
+    <period number="2" time="10:00"> 
+      <special vh="V" pts_to="11" pts_ch2="0" pts_paint="12" pts_fastb="0" pts_bench="6" ties="0" leads="0" poss_count="0" poss_time="0" score_count="12" score_time="4413" large_lead="16" large_lead_t="2nd-02:32"/>  
+      <special vh="H" pts_to="0" pts_ch2="5" pts_paint="8" pts_fastb="0" pts_bench="1" ties="1" leads="0" poss_count="0" poss_time="0" score_count="4" score_time="864" large_lead="0" large_lead_t="-"/>  
+      <summary vh="V" fgm="9" fga="18" fgm3="2" fga3="8" ftm="2" fta="5" blk="1" stl="4" ast="6" oreb="2" dreb="7" treb="9" pf="4" tf="0" to="1"/>  
+      <summary vh="H" fgm="4" fga="15" fgm3="0" fga3="6" ftm="1" fta="2" blk="0" stl="0" ast="1" oreb="2" dreb="7" treb="9" pf="4" tf="0" to="9"/>  
+      <play vh="H" time="10:00" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="SUB" type="IN"/>  
+      <play vh="H" time="10:00" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="H" time="10:00" uni="02" team="MON" checkname="PERCHER,BATISTE" action="SUB" type="IN"/>  
+      <play vh="H" time="10:00" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="OUT"/>  
+      <play vh="H" time="10:00" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="10:00" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="09:52" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="FOUL"/>  
+      <play vh="H" time="09:52" uni="02" team="MON" checkname="PERCHER,BATISTE" action="MISS" type="FT"/>  
+      <play vh="H" time="09:52" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="09:52" uni="02" team="MON" checkname="PERCHER,BATISTE" action="GOOD" type="FT" vscore="15" hscore="15"/>  
+      <play vh="V" time="09:52" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="SUB" type="IN"/>  
+      <play vh="V" time="09:52" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="SUB" type="IN"/>  
+      <play vh="V" time="09:52" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="SUB" type="OUT"/>  
+      <play vh="V" time="09:52" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="SUB" type="OUT"/>  
+      <play vh="V" time="09:31" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="GOOD" type="LAYUP" paint="Y" vscore="17" hscore="15"/>  
+      <play vh="V" time="09:31" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="ASSIST"/>  
+      <play vh="H" time="09:20" uni="13" team="MON" checkname="RIAHI,ISAAC" action="MISS" type="3PTR"/>  
+      <play vh="V" time="09:20" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="09:13" uni="13" team="MON" checkname="RIAHI,ISAAC" action="FOUL"/>  
+      <play vh="V" time="09:13" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="GOOD" type="FT" vscore="18" hscore="15"/>  
+      <play vh="V" time="09:13" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="GOOD" type="FT" vscore="19" hscore="15"/>  
+      <play vh="H" time="08:58" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="TURNOVER"/>  
+      <play vh="H" time="08:55" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="IN"/>  
+      <play vh="H" time="08:55" uni="09" team="MON" checkname="MADIMBA,TRULLY" action="SUB" type="IN"/>  
+      <play vh="H" time="08:55" uni="13" team="MON" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <play vh="H" time="08:55" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="SUB" type="OUT"/>  
+      <play vh="V" time="08:41" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="GOOD" type="3PTR" vscore="22" hscore="15"/>  
+      <play vh="V" time="08:41" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="ASSIST"/>  
+      <play vh="H" time="08:38" uni="09" team="MON" checkname="MADIMBA,TRULLY" action="FOUL"/>  
+      <play vh="V" time="08:38" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="MISS" type="FT"/>  
+      <play vh="H" time="08:38" uni="12" team="MON" checkname="DEVALIS,JOHN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:38" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="SUB" type="IN"/>  
+      <play vh="H" time="08:38" uni="03" team="MON" checkname="HOULE,TRISTAN" action="SUB" type="IN"/>  
+      <play vh="H" time="08:38" uni="09" team="MON" checkname="MADIMBA,TRULLY" action="SUB" type="OUT"/>  
+      <play vh="H" time="08:38" uni="02" team="MON" checkname="PERCHER,BATISTE" action="SUB" type="OUT"/>  
+      <play vh="H" time="08:28" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="08:28" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="BLOCK"/>  
+      <play vh="V" time="08:28" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="08:21" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:21" uni="12" team="MON" checkname="DEVALIS,JOHN" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="08:12" uni="03" team="MON" checkname="HOULE,TRISTAN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="08:12" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:55" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="FOUL"/>  
+      <play vh="V" time="07:51" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="SUB" type="IN"/>  
+      <play vh="V" time="07:51" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="SUB" type="IN"/>  
+      <play vh="V" time="07:51" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="SUB" type="IN"/>  
+      <play vh="V" time="07:51" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:51" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:51" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:36" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="TURNOVER"/>  
+      <play vh="V" time="07:36" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="STEAL"/>  
+      <play vh="H" time="07:19" uni="12" team="MON" checkname="DEVALIS,JOHN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="07:19" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="MISS" type="3PTR"/>  
+      <play vh="H" time="07:15" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="3PTR"/>  
+      <play vh="H" time="07:15" uni="12" team="MON" checkname="DEVALIS,JOHN" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:06" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="TURNOVER"/>  
+      <play vh="V" time="06:55" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="FOUL"/>  
+      <play vh="H" time="06:44" uni="03" team="MON" checkname="HOULE,TRISTAN" action="MISS" type="3PTR"/>  
+      <play vh="H" time="06:44" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="06:41" uni="12" team="MON" checkname="DEVALIS,JOHN" action="FOUL"/>  
+      <play vh="V" time="06:36" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="FOUL"/>  
+      <play vh="H" time="06:36" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="IN"/>  
+      <play vh="H" time="06:36" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:20" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="DUNK" paint="Y" vscore="22" hscore="17"/>  
+      <play vh="H" time="06:20" uni="TM" team="MON" checkname="TEAM" action="ASSIST"/>  
+      <play vh="V" time="06:15" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="TURNOVER"/>  
+      <play vh="H" time="06:08" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="TURNOVER"/>  
+      <play vh="V" time="06:07" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="STEAL"/>  
+      <play vh="V" time="06:05" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="GOOD" type="LAYUP" paint="Y" vscore="24" hscore="17"/>  
+      <play vh="H" time="05:46" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="05:46" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:35" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="MISS" type="3PTR"/>  
+      <play vh="H" time="05:35" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="05:28" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="GOOD" type="LAYUP" paint="Y" vscore="24" hscore="19"/>  
+      <play vh="V" time="05:14" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="GOOD" type="3PTR" vscore="27" hscore="19"/>  
+      <play vh="V" time="05:14" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="ASSIST"/>  
+      <play vh="H" time="05:09" uni="TM" team="MON" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="H" time="05:09" uni="13" team="MON" checkname="RIAHI,ISAAC" action="SUB" type="IN"/>  
+      <play vh="H" time="05:09" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="IN"/>  
+      <play vh="H" time="05:09" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:09" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:58" uni="12" team="MON" checkname="DEVALIS,JOHN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="04:58" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="04:33" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="GOOD" type="JUMPER" vscore="29" hscore="19"/>  
+      <play vh="V" time="04:33" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="ASSIST"/>  
+      <play vh="H" time="04:22" uni="13" team="MON" checkname="RIAHI,ISAAC" action="TURNOVER"/>  
+      <play vh="V" time="04:20" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="STEAL"/>  
+      <play vh="V" time="04:14" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="GOOD" type="LAYUP" paint="Y" vscore="31" hscore="19"/>  
+      <play vh="V" time="04:14" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="ASSIST"/>  
+      <play vh="H" time="03:56" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="TURNOVER"/>  
+      <play vh="H" time="03:56" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="SUB" type="IN"/>  
+      <play vh="H" time="03:56" uni="02" team="MON" checkname="PERCHER,BATISTE" action="SUB" type="IN"/>  
+      <play vh="H" time="03:56" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:56" uni="03" team="MON" checkname="HOULE,TRISTAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:36" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="03:36" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="03:27" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="03:27" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:13" uni="13" team="MON" checkname="RIAHI,ISAAC" action="TURNOVER"/>  
+      <play vh="V" time="03:13" uni="04" team="CEM" checkname="CALIXTE,JULES" action="SUB" type="IN"/>  
+      <play vh="V" time="03:13" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:13" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="IN"/>  
+      <play vh="H" time="03:13" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:00" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="GOOD" type="LAYUP" paint="Y" vscore="33" hscore="19"/>  
+      <play vh="V" time="03:00" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="ASSIST"/>  
+      <play vh="H" time="02:57" uni="TM" team="MON" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="H" time="02:45" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="TURNOVER"/>  
+      <play vh="V" time="02:33" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="STEAL"/>  
+      <play vh="V" time="02:32" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="GOOD" type="LAYUP" paint="Y" vscore="35" hscore="19"/>  
+      <play vh="H" time="02:22" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="02:22" uni="12" team="MON" checkname="DEVALIS,JOHN" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="02:18" uni="12" team="MON" checkname="DEVALIS,JOHN" action="GOOD" type="LAYUP" paint="Y" vscore="35" hscore="21"/>  
+      <play vh="V" time="02:10" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="MISS" type="3PTR"/>  
+      <play vh="V" time="02:10" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="02:02" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="FOUL"/>  
+      <play vh="V" time="02:02" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="MISS" type="FT"/>  
+      <play vh="V" time="02:02" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="02:02" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="MISS" type="FT"/>  
+      <play vh="H" time="02:02" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="01:45" uni="13" team="MON" checkname="RIAHI,ISAAC" action="MISS" type="3PTR"/>  
+      <play vh="V" time="01:45" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:25" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="GOOD" type="LAYUP" paint="Y" vscore="37" hscore="21"/>  
+      <play vh="H" time="01:08" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="01:08" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:50" uni="04" team="CEM" checkname="CALIXTE,JULES" action="MISS" type="3PTR"/>  
+      <play vh="H" time="00:50" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:46" uni="03" team="MON" checkname="HOULE,TRISTAN" action="SUB" type="IN"/>  
+      <play vh="H" time="00:46" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="IN"/>  
+      <play vh="H" time="00:46" uni="13" team="MON" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:46" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:33" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="TURNOVER"/>  
+      <play vh="V" time="00:24" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="MISS" type="3PTR"/>  
+      <play vh="H" time="00:24" uni="02" team="MON" checkname="PERCHER,BATISTE" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:18" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="DUNK" paint="Y" vscore="37" hscore="23"/>  
+      <play vh="H" time="00:18" uni="02" team="MON" checkname="PERCHER,BATISTE" action="ASSIST"/>  
+      <play vh="V" time="00:01" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="00:01" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:00" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="MISS" type="3PTR"/>  
+      <play vh="V" time="00:00" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <clock time="00:00"/> 
+    </period>  
+    <period number="3" time="10:00"> 
+      <special vh="V" pts_to="6" pts_ch2="3" pts_paint="6" pts_fastb="0" pts_bench="3" ties="0" leads="0" poss_count="0" poss_time="0" score_count="6" score_time="1873" large_lead="16" large_lead_t="3rd-09:23"/>  
+      <special vh="H" pts_to="8" pts_ch2="4" pts_paint="10" pts_fastb="0" pts_bench="1" ties="0" leads="0" poss_count="0" poss_time="0" score_count="12" score_time="3454" large_lead="0" large_lead_t="-"/>  
+      <summary vh="V" fgm="5" fga="16" fgm3="0" fga3="5" ftm="1" fta="2" blk="2" stl="2" ast="3" oreb="1" dreb="3" treb="4" pf="6" tf="0" to="6"/>  
+      <summary vh="H" fgm="6" fga="12" fgm3="1" fga3="3" ftm="5" fta="6" blk="2" stl="2" ast="4" oreb="1" dreb="8" treb="9" pf="5" tf="0" to="5"/>  
+      <play vh="H" time="09:50" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="TURNOVER"/>  
+      <play vh="V" time="09:23" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="GOOD" type="LAYUP" paint="Y" vscore="39" hscore="23"/>  
+      <play vh="H" time="09:09" uni="12" team="MON" checkname="DEVALIS,JOHN" action="MISS" type="3PTR"/>  
+      <play vh="V" time="09:09" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="08:50" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="MISS" type="3PTR"/>  
+      <play vh="H" time="08:50" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:36" uni="TM" team="MON" checkname="TEAM" action="TURNOVER"/>  
+      <play vh="V" time="08:23" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="TURNOVER"/>  
+      <play vh="H" time="08:22" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="STEAL"/>  
+      <play vh="H" time="08:10" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="GOOD" type="LAYUP" paint="Y" vscore="39" hscore="25"/>  
+      <play vh="H" time="08:10" uni="12" team="MON" checkname="DEVALIS,JOHN" action="ASSIST"/>  
+      <play vh="V" time="07:48" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="07:48" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="07:36" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="07:36" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:32" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="GOOD" type="3PTR" vscore="39" hscore="28"/>  
+      <play vh="H" time="07:32" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="ASSIST"/>  
+      <play vh="V" time="07:27" uni="TM" team="CEM" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="07:04" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="GOOD" type="LAYUP" paint="Y" vscore="41" hscore="28"/>  
+      <play vh="H" time="06:51" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="GOOD" type="LAYUP" paint="Y" vscore="41" hscore="30"/>  
+      <play vh="H" time="06:51" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="ASSIST"/>  
+      <play vh="V" time="06:45" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="FOUL"/>  
+      <play vh="H" time="06:45" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="GOOD" type="FT" vscore="41" hscore="31"/>  
+      <play vh="V" time="06:42" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="GOOD" type="JUMPER" vscore="43" hscore="31"/>  
+      <play vh="V" time="06:42" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="ASSIST"/>  
+      <play vh="H" time="06:29" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="FOUL"/>  
+      <play vh="V" time="06:26" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="FOUL"/>  
+      <play vh="H" time="06:26" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="SUB" type="IN"/>  
+      <play vh="H" time="06:26" uni="02" team="MON" checkname="PERCHER,BATISTE" action="SUB" type="IN"/>  
+      <play vh="H" time="06:26" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:26" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:18" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="06:18" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="BLOCK"/>  
+      <play vh="H" time="06:18" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:54" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="05:54" uni="12" team="MON" checkname="DEVALIS,JOHN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:54" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="SUB" type="IN"/>  
+      <play vh="V" time="05:54" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:54" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="H" time="05:54" uni="13" team="MON" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:33" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="MISS" type="3PTR"/>  
+      <play vh="H" time="05:33" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="BLOCK"/>  
+      <play vh="V" time="05:33" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="05:26" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="05:26" uni="12" team="MON" checkname="DEVALIS,JOHN" action="BLOCK"/>  
+      <play vh="H" time="05:26" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:18" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="FOUL"/>  
+      <play vh="H" time="05:18" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="GOOD" type="FT" vscore="43" hscore="32"/>  
+      <play vh="H" time="05:18" uni="02" team="MON" checkname="PERCHER,BATISTE" action="TURNOVER"/>  
+      <play vh="H" time="05:18" uni="02" team="MON" checkname="PERCHER,BATISTE" action="FOUL"/>  
+      <play vh="V" time="05:18" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="SUB" type="IN"/>  
+      <play vh="V" time="05:18" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:18" uni="09" team="MON" checkname="MADIMBA,TRULLY" action="SUB" type="IN"/>  
+      <play vh="H" time="05:18" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:05" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="MISS" type="3PTR"/>  
+      <play vh="H" time="05:05" uni="02" team="MON" checkname="PERCHER,BATISTE" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="04:56" uni="09" team="MON" checkname="MADIMBA,TRULLY" action="TURNOVER"/>  
+      <play vh="V" time="04:55" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="STEAL"/>  
+      <play vh="V" time="04:43" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="GOOD" type="LAYUP" paint="Y" vscore="45" hscore="32"/>  
+      <play vh="V" time="04:43" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="ASSIST"/>  
+      <play vh="H" time="04:30" uni="02" team="MON" checkname="PERCHER,BATISTE" action="TURNOVER"/>  
+      <play vh="H" time="04:28" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="SUB" type="IN"/>  
+      <play vh="H" time="04:28" uni="13" team="MON" checkname="RIAHI,ISAAC" action="SUB" type="IN"/>  
+      <play vh="H" time="04:28" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="IN"/>  
+      <play vh="H" time="04:28" uni="09" team="MON" checkname="MADIMBA,TRULLY" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:28" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:28" uni="02" team="MON" checkname="PERCHER,BATISTE" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:13" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="04:13" uni="12" team="MON" checkname="DEVALIS,JOHN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="04:05" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="TURNOVER"/>  
+      <play vh="V" time="04:04" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="STEAL"/>  
+      <play vh="H" time="03:42" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="FOUL"/>  
+      <play vh="H" time="03:42" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="IN"/>  
+      <play vh="H" time="03:42" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="SUB" type="IN"/>  
+      <play vh="H" time="03:42" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:42" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:25" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="03:25" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="03:21" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="GOOD" type="JUMPER" vscore="47" hscore="32"/>  
+      <play vh="V" time="03:21" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="ASSIST"/>  
+      <play vh="H" time="03:05" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="GOOD" type="LAYUP" paint="Y" vscore="47" hscore="34"/>  
+      <play vh="V" time="03:02" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="FOUL"/>  
+      <play vh="H" time="03:02" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="GOOD" type="FT" vscore="47" hscore="35"/>  
+      <play vh="V" time="02:56" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="SUB" type="IN"/>  
+      <play vh="V" time="02:56" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:48" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="TURNOVER"/>  
+      <play vh="V" time="02:48" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="SUB" type="IN"/>  
+      <play vh="V" time="02:48" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:43" uni="12" team="MON" checkname="DEVALIS,JOHN" action="GOOD" type="LAYUP" paint="Y" vscore="47" hscore="37"/>  
+      <play vh="V" time="02:11" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="02:11" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="02:11" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="TURNOVER"/>  
+      <play vh="V" time="02:11" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="SUB" type="IN"/>  
+      <play vh="V" time="02:11" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:00" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="GOOD" type="LAYUP" paint="Y" vscore="47" hscore="39"/>  
+      <play vh="H" time="02:00" uni="12" team="MON" checkname="DEVALIS,JOHN" action="ASSIST"/>  
+      <play vh="V" time="02:00" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="FOUL"/>  
+      <play vh="H" time="02:00" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="GOOD" type="FT" vscore="47" hscore="40"/>  
+      <play vh="V" time="01:42" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="TURNOVER"/>  
+      <play vh="H" time="01:31" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="01:31" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:18" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="MISS" type="3PTR"/>  
+      <play vh="H" time="01:18" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="01:08" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="01:08" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:05" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="TURNOVER"/>  
+      <play vh="H" time="01:03" uni="12" team="MON" checkname="DEVALIS,JOHN" action="STEAL"/>  
+      <play vh="H" time="00:56" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="H" time="00:56" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="SUB" type="IN"/>  
+      <play vh="H" time="00:56" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:56" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="SUB" type="OUT"/>  
+      <play vh="V" time="00:47" uni="04" team="CEM" checkname="CALIXTE,JULES" action="SUB" type="IN"/>  
+      <play vh="V" time="00:47" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:37" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="FOUL"/>  
+      <play vh="V" time="00:29" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="TURNOVER"/>  
+      <play vh="V" time="00:18" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="FOUL"/>  
+      <play vh="H" time="00:18" uni="12" team="MON" checkname="DEVALIS,JOHN" action="MISS" type="FT"/>  
+      <play vh="H" time="00:18" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="00:18" uni="12" team="MON" checkname="DEVALIS,JOHN" action="GOOD" type="FT" vscore="47" hscore="41"/>  
+      <play vh="H" time="00:18" uni="09" team="MON" checkname="MADIMBA,TRULLY" action="SUB" type="IN"/>  
+      <play vh="H" time="00:18" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="00:00" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="MISS" type="3PTR"/>  
+      <play vh="H" time="00:00" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:00" uni="13" team="MON" checkname="RIAHI,ISAAC" action="FOUL"/>  
+      <play vh="V" time="00:00" uni="04" team="CEM" checkname="CALIXTE,JULES" action="MISS" type="FT"/>  
+      <play vh="V" time="00:00" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="00:00" uni="04" team="CEM" checkname="CALIXTE,JULES" action="GOOD" type="FT" vscore="48" hscore="41"/>  
+      <play vh="H" time="00:00" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="00:00" uni="04" team="CEM" checkname="CALIXTE,JULES" action="BLOCK"/>  
+      <play vh="V" time="00:00" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <clock time="00:00"/> 
+    </period>  
+    <period number="4" time="10:00"> 
+      <special vh="V" pts_to="8" pts_ch2="1" pts_paint="2" pts_fastb="0" pts_bench="8" ties="0" leads="0" poss_count="0" poss_time="0" score_count="15" score_time="3066" large_lead="10" large_lead_t="4th-09:50"/>  
+      <special vh="H" pts_to="3" pts_ch2="3" pts_paint="8" pts_fastb="0" pts_bench="0" ties="0" leads="0" poss_count="0" poss_time="0" score_count="11" score_time="3172" large_lead="0" large_lead_t="-"/>  
+      <summary vh="V" fgm="4" fga="11" fgm3="2" fga3="5" ftm="11" fta="16" blk="0" stl="2" ast="3" oreb="1" dreb="6" treb="7" pf="6" tf="0" to="5"/>  
+      <summary vh="H" fgm="7" fga="18" fgm3="2" fga3="9" ftm="4" fta="5" blk="0" stl="2" ast="6" oreb="2" dreb="6" treb="8" pf="10" tf="0" to="7"/>  
+      <play vh="V" time="10:00" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="SUB" type="IN"/>  
+      <play vh="V" time="10:00" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="SUB" type="IN"/>  
+      <play vh="V" time="10:00" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="SUB" type="OUT"/>  
+      <play vh="V" time="10:00" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="10:00" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="H" time="10:00" uni="02" team="MON" checkname="PERCHER,BATISTE" action="SUB" type="IN"/>  
+      <play vh="H" time="10:00" uni="13" team="MON" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <play vh="H" time="10:00" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="09:50" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="GOOD" type="3PTR" vscore="51" hscore="41"/>  
+      <play vh="V" time="09:50" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="ASSIST"/>  
+      <play vh="H" time="09:37" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="GOOD" type="LAYUP" paint="Y" vscore="51" hscore="43"/>  
+      <play vh="V" time="09:19" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="FOUL"/>  
+      <play vh="V" time="09:05" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="FOUL"/>  
+      <play vh="H" time="09:05" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="GOOD" type="FT" vscore="51" hscore="44"/>  
+      <play vh="H" time="09:05" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="GOOD" type="FT" vscore="51" hscore="45"/>  
+      <play vh="V" time="09:05" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="SUB" type="IN"/>  
+      <play vh="V" time="09:05" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="SUB" type="OUT"/>  
+      <play vh="V" time="08:44" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="08:44" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:44" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="TURNOVER"/>  
+      <play vh="V" time="08:28" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:28" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:18" uni="12" team="MON" checkname="DEVALIS,JOHN" action="FOUL"/>  
+      <play vh="H" time="08:18" uni="12" team="MON" checkname="DEVALIS,JOHN" action="TURNOVER"/>  
+      <play vh="H" time="08:18" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="SUB" type="IN"/>  
+      <play vh="H" time="08:18" uni="03" team="MON" checkname="HOULE,TRISTAN" action="SUB" type="IN"/>  
+      <play vh="H" time="08:18" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="08:18" uni="02" team="MON" checkname="PERCHER,BATISTE" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:54" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="GOOD" type="JUMPER" vscore="53" hscore="45"/>  
+      <play vh="V" time="07:54" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="ASSIST"/>  
+      <play vh="H" time="07:42" uni="12" team="MON" checkname="DEVALIS,JOHN" action="FOUL"/>  
+      <play vh="H" time="07:21" uni="03" team="MON" checkname="HOULE,TRISTAN" action="FOUL"/>  
+      <play vh="V" time="07:21" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="GOOD" type="FT" vscore="54" hscore="45"/>  
+      <play vh="V" time="07:21" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="GOOD" type="FT" vscore="55" hscore="45"/>  
+      <play vh="H" time="07:18" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="07:18" uni="12" team="MON" checkname="DEVALIS,JOHN" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:13" uni="12" team="MON" checkname="DEVALIS,JOHN" action="MISS" type="TIPIN"/>  
+      <play vh="H" time="07:13" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:09" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="3PTR" vscore="55" hscore="48"/>  
+      <play vh="H" time="07:09" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="ASSIST"/>  
+      <play vh="V" time="06:56" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="TURNOVER"/>  
+      <play vh="H" time="06:55" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="STEAL"/>  
+      <play vh="H" time="06:35" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="GOOD" type="3PTR" vscore="55" hscore="51"/>  
+      <play vh="H" time="06:35" uni="12" team="MON" checkname="DEVALIS,JOHN" action="ASSIST"/>  
+      <play vh="V" time="06:24" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="TURNOVER"/>  
+      <play vh="H" time="06:24" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="IN"/>  
+      <play vh="H" time="06:24" uni="13" team="MON" checkname="RIAHI,ISAAC" action="SUB" type="IN"/>  
+      <play vh="H" time="06:24" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:24" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="OUT"/>  
+      <play vh="V" time="06:19" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="SUB" type="IN"/>  
+      <play vh="V" time="06:19" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:10" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="FOUL"/>  
+      <play vh="V" time="05:54" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="GOOD" type="LAYUP" paint="Y" vscore="57" hscore="51"/>  
+      <play vh="H" time="05:37" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="05:37" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="05:31" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="TURNOVER"/>  
+      <play vh="V" time="05:24" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="MISS" type="3PTR"/>  
+      <play vh="H" time="05:24" uni="13" team="MON" checkname="RIAHI,ISAAC" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="05:11" uni="13" team="MON" checkname="RIAHI,ISAAC" action="GOOD" type="JUMPER" vscore="57" hscore="53"/>  
+      <play vh="H" time="05:11" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="ASSIST"/>  
+      <play vh="H" time="04:50" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="FOUL"/>  
+      <play vh="V" time="04:50" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="MISS" type="FT"/>  
+      <play vh="V" time="04:50" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="04:50" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="GOOD" type="FT" vscore="58" hscore="53"/>  
+      <play vh="H" time="04:50" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="H" time="04:50" uni="12" team="MON" checkname="DEVALIS,JOHN" action="SUB" type="IN"/>  
+      <play vh="H" time="04:50" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:50" uni="03" team="MON" checkname="HOULE,TRISTAN" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:46" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="TURNOVER"/>  
+      <play vh="V" time="04:45" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="STEAL"/>  
+      <play vh="V" time="04:36" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="TURNOVER"/>  
+      <play vh="H" time="04:36" uni="12" team="MON" checkname="DEVALIS,JOHN" action="STEAL"/>  
+      <play vh="H" time="04:31" uni="12" team="MON" checkname="DEVALIS,JOHN" action="TURNOVER"/>  
+      <play vh="H" time="04:31" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="SUB" type="IN"/>  
+      <play vh="H" time="04:31" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:07" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="04:07" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="03:53" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="03:53" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:30" uni="13" team="MON" checkname="RIAHI,ISAAC" action="MISS" type="3PTR"/>  
+      <play vh="V" time="03:30" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="03:22" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="FOUL"/>  
+      <play vh="H" time="03:22" uni="TM" team="MON" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="03:22" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="SUB" type="IN"/>  
+      <play vh="V" time="03:22" uni="13" team="CEM" checkname="GRONDIN,JEAN-THOMAS" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:22" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="IN"/>  
+      <play vh="H" time="03:22" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="SUB" type="IN"/>  
+      <play vh="H" time="03:22" uni="04" team="MON" checkname="SHAKAMAY,JOEL" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:22" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:09" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="GOOD" type="LAYUP" paint="Y" vscore="58" hscore="55"/>  
+      <play vh="H" time="03:09" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="ASSIST"/>  
+      <play vh="V" time="02:41" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="TURNOVER"/>  
+      <play vh="H" time="02:28" uni="13" team="MON" checkname="RIAHI,ISAAC" action="MISS" type="3PTR"/>  
+      <play vh="V" time="02:28" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="02:19" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="FOUL"/>  
+      <play vh="V" time="02:19" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="MISS" type="FT"/>  
+      <play vh="V" time="02:19" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="02:19" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="GOOD" type="FT" vscore="59" hscore="55"/>  
+      <play vh="H" time="02:15" uni="13" team="MON" checkname="RIAHI,ISAAC" action="TURNOVER"/>  
+      <play vh="V" time="02:15" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="STEAL"/>  
+      <play vh="V" time="02:15" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="GOOD" type="FT" vscore="60" hscore="55"/>  
+      <play vh="V" time="02:15" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="GOOD" type="FT" vscore="61" hscore="55"/>  
+      <play vh="H" time="02:02" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="3PTR"/>  
+      <play vh="H" time="02:02" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="01:58" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="01:58" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:54" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="FOUL"/>  
+      <play vh="H" time="01:50" uni="12" team="MON" checkname="DEVALIS,JOHN" action="GOOD" type="LAYUP" paint="Y" vscore="61" hscore="57"/>  
+      <play vh="H" time="01:50" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="ASSIST"/>  
+      <play vh="V" time="01:37" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="TURNOVER"/>  
+      <play vh="H" time="01:27" uni="13" team="MON" checkname="RIAHI,ISAAC" action="MISS" type="3PTR"/>  
+      <play vh="V" time="01:27" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:16" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="01:16" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="01:04" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="01:04" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="01:00" uni="TM" team="MON" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="00:48" uni="05" team="CEM" checkname="HÉTU,CHARLES" action="GOOD" type="3PTR" vscore="64" hscore="57"/>  
+      <play vh="V" time="00:48" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="ASSIST"/>  
+      <play vh="H" time="00:37" uni="12" team="MON" checkname="DEVALIS,JOHN" action="GOOD" type="LAYUP" paint="Y" vscore="64" hscore="59"/>  
+      <play vh="H" time="00:37" uni="13" team="MON" checkname="RIAHI,ISAAC" action="ASSIST"/>  
+      <play vh="V" time="00:37" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="FOUL"/>  
+      <play vh="H" time="00:37" uni="12" team="MON" checkname="DEVALIS,JOHN" action="MISS" type="FT"/>  
+      <play vh="V" time="00:37" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:25" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="MISS" type="3PTR"/>  
+      <play vh="H" time="00:25" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:22" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="FOUL"/>  
+      <play vh="V" time="00:22" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="MISS" type="FT"/>  
+      <play vh="V" time="00:22" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="00:22" uni="06" team="CEM" checkname="TCHAMSI,MALIKO" action="MISS" type="FT"/>  
+      <play vh="H" time="00:22" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:17" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="FOUL"/>  
+      <play vh="H" time="00:17" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="GOOD" type="FT" vscore="64" hscore="60"/>  
+      <play vh="H" time="00:17" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="GOOD" type="FT" vscore="64" hscore="61"/>  
+      <play vh="H" time="00:17" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="FOUL"/>  
+      <play vh="V" time="00:17" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="MISS" type="FT"/>  
+      <play vh="V" time="00:17" uni="TM" team="CEM" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="00:17" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="GOOD" type="FT" vscore="65" hscore="61"/>  
+      <play vh="H" time="00:17" uni="TM" team="MON" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="00:17" uni="14" team="CEM" checkname="MASESA,JED AKEDING" action="SUB" type="IN"/>  
+      <play vh="V" time="00:17" uni="15" team="CEM" checkname="SEBAKINGA,JAYDEN" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:17" uni="03" team="MON" checkname="HOULE,TRISTAN" action="SUB" type="IN"/>  
+      <play vh="H" time="00:17" uni="02" team="MON" checkname="PERCHER,BATISTE" action="SUB" type="IN"/>  
+      <play vh="H" time="00:17" uni="08" team="MON" checkname="GRAHIC,BENJAMIN" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:17" uni="05" team="MON" checkname="SINCERE,NAYTHAN" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:11" uni="03" team="MON" checkname="HOULE,TRISTAN" action="MISS" type="3PTR"/>  
+      <play vh="H" time="00:11" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="00:06" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="00:06" uni="TM" team="MON" checkname="TEAM" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="00:01" uni="06" team="MON" checkname="BEAUCHAMP,MATHIS" action="FOUL"/>  
+      <play vh="V" time="00:01" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="GOOD" type="FT" vscore="66" hscore="61"/>  
+      <play vh="V" time="00:01" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="GOOD" type="FT" vscore="67" hscore="61"/>  
+      <play vh="H" time="00:00" uni="03" team="MON" checkname="HOULE,TRISTAN" action="TURNOVER"/>  
+      <play vh="H" time="00:00" uni="13" team="MON" checkname="RIAHI,ISAAC" action="FOUL"/>  
+      <play vh="V" time="00:00" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="GOOD" type="FT" vscore="68" hscore="61"/>  
+      <play vh="V" time="00:00" uni="03" team="CEM" checkname="LAJOIE,MAËL JEAN-LOUIS" action="GOOD" type="FT" vscore="69" hscore="61"/>  
+      <play vh="V" time="00:00" uni="10" team="CEM" checkname="COOREN,ADRIEN DENIS" action="SUB" type="IN"/>  
+      <play vh="V" time="00:00" uni="09" team="CEM" checkname="LUCAS,JUSHUA" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:00" uni="00" team="MON" checkname="GUAY-PAQUET,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="H" time="00:00" uni="13" team="MON" checkname="RIAHI,ISAAC" action="SUB" type="OUT"/>  
+      <clock time="00:00"/> 
+    </period> 
+  </plays> 
+</bbgame>

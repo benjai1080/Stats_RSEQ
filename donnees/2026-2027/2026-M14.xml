@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bbgame source="PrestoSports" version="7.24.0" generated="11/1/2026"> 
+  <venue gameid="" visid="JOHN ABB" visname="John Abbott" homeid="AHUNTSIC" homename="Ahuntsic" date="10/30/2026" location="ahuntsic" time="7:00 PM" start="7:00 PM" end="" duration="" delay="" attend="0" schednote="" leaguegame="N" neutralgame="N" postseason="N"> 
+    <officials text=",,"/>  
+    <notes/>  
+    <rules prds="4" minutes="10" minutesot="5" fouls="5" qh="Q" overtimeType="OT"/> 
+  </venue>  
+  <status complete="Y" running="F" period="4"/>  
+  <team vh="V" id="JOHN ABB" name="John Abbott" code="CCAA105" record=""> 
+    <linescore line="24,17,14,22" score="77"> 
+      <lineprd prd="1" score="24"/>  
+      <lineprd prd="2" score="17"/>  
+      <lineprd prd="3" score="14"/>  
+      <lineprd prd="4" score="22"/> 
+    </linescore>  
+    <totals> 
+      <stats fgm="31" fga="71" fgm3="7" fga3="15" ftm="8" fta="18" tp="77" blk="3" stl="9" ast="16" min="200" oreb="13" dreb="19" treb="32" pf="18" tf="0" to="20" dq="0" deadball="3,8" fgpct="43.7" fg3pct="46.7" ftpct="44.4"/>  
+      <special vh="V" pts_to="14" pts_ch2="8" pts_paint="48" pts_fastb="0" pts_bench="22" ties="1" leads="0" poss_count="0" poss_time="0" score_count="0" score_time="0" large_lead="0" large_lead_t="-"/> 
+    </totals>  
+    <player uni="3" code="3" name="Ishaaq Ullah" checkname="ULLAH,ISHAAQ" gp="1" gs="1" pos="*" playerId="wzr2jxkunl8jkw25"> 
+      <stats oreb="0" dreb="0" treb="0" pf="1" tf="0" to="2" tp="13" fgm="4" fga="7" fgm3="3" fga3="3" ftm="2" fta="2" blk="0" stl="1" ast="2" min="29"/>  
+      <statsbyprd prd="1" fgm="2" fga="2" fgm3="2" fga3="2" ftm="2" fta="2" tp="8" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="1" fgm3="1" fga3="1" ftm="0" fta="0" tp="3" blk="0" stl="0" ast="1" min="9" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="7" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="4" code="4" name="Dumisile Davies Ncube" checkname="NCUBE,DUMISILE DAVIES" gp="1" playerId="kji3smec5s3plz7u"> 
+      <stats oreb="0" dreb="3" treb="3" pf="2" tf="0" to="2" tp="4" fgm="2" fga="7" fgm3="0" fga3="2" ftm="0" fta="0" blk="0" stl="2" ast="2" min="10"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="0" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="1" min="4" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="4" fgm3="0" fga3="1" ftm="0" fta="0" tp="2" blk="0" stl="1" ast="0" min="3" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="5" code="5" name="Kelvin Clyne" checkname="CLYNE,KELVIN" gp="1" gs="1" pos="*" oncourt="Y" playerId="irsqcr6jwlpehgnq"> 
+      <stats oreb="0" dreb="1" treb="1" pf="2" tf="0" to="6" tp="5" fgm="2" fga="8" fgm3="1" fga3="2" ftm="0" fta="1" blk="0" stl="3" ast="7" min="34"/>  
+      <statsbyprd prd="1" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="1" tp="2" blk="0" stl="0" ast="5" min="7" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="10" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="3" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="1" min="8" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="4" fgm3="1" fga3="2" ftm="0" fta="0" tp="3" blk="0" stl="2" ast="1" min="9" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="6" code="6" name="olivier " checkname=",OLIVIER" gp="1" oncourt="Y" playerId=""> 
+      <stats oreb="3" dreb="1" treb="4" pf="2" tf="0" to="2" tp="2" fgm="0" fga="4" fgm3="0" fga3="0" ftm="2" fta="3" blk="0" stl="0" ast="0" min="8"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="1" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="3" fgm3="0" fga3="0" ftm="1" fta="2" tp="1" blk="0" stl="0" ast="0" min="3" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="0" ftm="1" fta="1" tp="1" blk="0" stl="0" ast="0" min="1" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="7" code="7" name="Malik Guerrier" checkname="GUERRIER,MALIK" gp="1" playerId="aiq5xr8ryoopdwm3"> 
+      <stats oreb="1" dreb="0" treb="1" pf="0" tf="0" to="1" tp="0" fgm="0" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" blk="0" stl="0" ast="1" min="6"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="2" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="1" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="8" code="8" name="Lucas Cochin" checkname="COCHIN,LUCAS" gp="1" playerId="l8wopzso0symrhsq"> 
+      <stats oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="1" min="0"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="0" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="9" code="9" name="Simmon Hyde" checkname="HYDE,SIMMON" gp="1" gs="1" pos="*" oncourt="Y" playerId="82rlv8i6o59v4k3z"> 
+      <stats oreb="0" dreb="0" treb="0" pf="3" tf="0" to="2" tp="6" fgm="2" fga="8" fgm3="1" fga3="3" ftm="1" fta="4" blk="1" stl="0" ast="0" min="29"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="3" fgm3="1" fga3="1" ftm="1" fta="2" tp="6" blk="1" stl="0" ast="0" min="9" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="2" tp="0" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="4" fgm3="0" fga3="2" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="12" code="12" name="Carter Wise" checkname="WISE,CARTER" gp="1" gs="1" pos="*" playerId="t9ysea2ifjyk4zzn"> 
+      <stats oreb="1" dreb="3" treb="4" pf="3" tf="0" to="2" tp="6" fgm="3" fga="4" fgm3="0" fga3="1" ftm="0" fta="0" blk="0" stl="0" ast="1" min="23"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="3" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="3" fga="4" fgm3="0" fga3="1" ftm="0" fta="0" tp="6" blk="0" stl="0" ast="0" min="7" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="13" code="13" name="Keyon Ranger" checkname="RANGER,KEYON" gp="1" playerId="j9811kgncj6ey9k9"> 
+      <stats oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" tp="6" fgm="2" fga="5" fgm3="2" fga3="3" ftm="0" fta="0" blk="0" stl="0" ast="0" min="11"/>  
+      <statsbyprd prd="1" fgm="2" fga="3" fgm3="2" fga3="3" ftm="0" fta="0" tp="6" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="15" code="15" name="Julian Bibaud-Wentink" checkname="BIBAUD-WENTINK,JULIAN" gp="1" gs="1" pos="*" oncourt="Y" playerId="tuimr0b3ctvg6am5"> 
+      <stats oreb="5" dreb="8" treb="13" pf="2" tf="0" to="3" tp="25" fgm="11" fga="19" fgm3="0" fga3="0" ftm="3" fta="8" blk="1" stl="3" ast="2" min="36"/>  
+      <statsbyprd prd="1" fgm="4" fga="4" fgm3="0" fga3="0" ftm="0" fta="2" tp="8" blk="0" stl="0" ast="0" min="10" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="4" fga="7" fgm3="0" fga3="0" ftm="0" fta="0" tp="8" blk="1" stl="1" ast="0" min="6" oreb="1" dreb="1" treb="2" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="2" fga="4" fgm3="0" fga3="0" ftm="1" fta="2" tp="5" blk="0" stl="0" ast="1" min="10" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="4" fgm3="0" fga3="0" ftm="2" fta="4" tp="4" blk="0" stl="2" ast="1" min="10" oreb="3" dreb="5" treb="8" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="21" code="21" name="Joshua Boisselle-Gaughan" checkname="BOISSELLE-GAUGHAN,JOSHUA" gp="1" oncourt="Y" playerId="sv3xa31kwz998o6p"> 
+      <stats oreb="3" dreb="2" treb="5" pf="2" tf="0" to="0" tp="10" fgm="5" fga="7" fgm3="0" fga3="0" ftm="0" fta="0" blk="1" stl="0" ast="0" min="14"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="2" fga="4" fgm3="0" fga3="0" ftm="0" fta="0" tp="4" blk="0" stl="0" ast="0" min="7" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="3" fga="3" fgm3="0" fga3="0" ftm="0" fta="0" tp="6" blk="1" stl="0" ast="0" min="7" oreb="2" dreb="2" treb="4" pf="1" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="TM" code="TM" name="Team" checkname="TEAM" gp="1" playerId=""> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0"/>  
+      <statsbyprd prd="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/> 
+    </player> 
+  </team>  
+  <team vh="H" id="AHUNTSIC" name="Ahuntsic" code="CCAA102" record=""> 
+    <linescore line="27,27,20,11" score="85"> 
+      <lineprd prd="1" score="27"/>  
+      <lineprd prd="2" score="27"/>  
+      <lineprd prd="3" score="20"/>  
+      <lineprd prd="4" score="11"/> 
+    </linescore>  
+    <totals> 
+      <stats fgm="32" fga="76" fgm3="9" fga3="28" ftm="12" fta="19" tp="85" blk="4" stl="9" ast="17" min="202" oreb="22" dreb="24" treb="46" pf="24" tf="0" to="17" dq="1" deadball="0,5" fgpct="42.1" fg3pct="32.1" ftpct="63.2"/>  
+      <special vh="H" pts_to="26" pts_ch2="22" pts_paint="40" pts_fastb="0" pts_bench="47" ties="0" leads="0" poss_count="0" poss_time="0" score_count="0" score_time="0" large_lead="21" large_lead_t="4th-09:11"/> 
+    </totals>  
+    <player uni="4" code="4" name="Antoine Samson" checkname="SAMSON,ANTOINE" gp="1" gs="1" pos="*" playerId="cm0zpebij6yjxe49"> 
+      <stats oreb="1" dreb="2" treb="3" pf="5" tf="0" to="2" tp="11" fgm="3" fga="8" fgm3="1" fga3="3" ftm="4" fta="4" blk="0" stl="1" ast="1" min="25" dq="1"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="0" ftm="2" fta="2" tp="2" blk="0" stl="1" ast="0" min="7" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="5" fgm3="1" fga3="3" ftm="0" fta="0" tp="5" blk="0" stl="0" ast="0" min="7" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="1" min="5" oreb="0" dreb="1" treb="1" pf="2" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="0" ftm="2" fta="2" tp="2" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="2" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="5" code="5" name="Daniel Kalonga Mwamba" checkname="MWAMBA,DANIEL KALONGA" gp="1" gs="1" pos="*" playerId="sxi7btodiq82hx34"> 
+      <stats oreb="1" dreb="1" treb="2" pf="1" tf="0" to="2" tp="5" fgm="2" fga="6" fgm3="1" fga3="5" ftm="0" fta="0" blk="0" stl="2" ast="3" min="21"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="2" min="9" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="3" fgm3="1" fga3="2" ftm="0" fta="0" tp="5" blk="0" stl="0" ast="1" min="5" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="2" dq="0"/> 
+    </player>  
+    <player uni="6" code="6" name="Raphaël Amuri" checkname="AMURI,RAPHAËL" gp="1" gs="1" pos="*" oncourt="Y" playerId="hg89nutjyy9x00r0"> 
+      <stats oreb="3" dreb="5" treb="8" pf="1" tf="0" to="4" tp="12" fgm="5" fga="18" fgm3="0" fga3="3" ftm="2" fta="2" blk="1" stl="0" ast="2" min="33"/>  
+      <statsbyprd prd="1" fgm="3" fga="10" fgm3="0" fga3="3" ftm="0" fta="0" tp="6" blk="0" stl="0" ast="0" min="7" oreb="3" dreb="1" treb="4" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="4" fgm3="0" fga3="0" ftm="0" fta="0" tp="4" blk="1" stl="0" ast="1" min="10" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="8" oreb="0" dreb="1" treb="1" pf="0" tf="0" to="2" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="2" fgm3="0" fga3="0" ftm="2" fta="2" tp="2" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="2" treb="2" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="7" code="7" name="Xavier Joseph" checkname="JOSEPH,XAVIER" gp="0" playerId="oj2vq4f1l4ctxudt"/>  
+    <player uni="8" code="8" name="Christ Emmanuel Dadié" checkname="DADIÉ,CHRIST EMMANUEL" gp="1" gs="1" pos="*" playerId="oidmman1xl1b6yp3"> 
+      <stats oreb="2" dreb="0" treb="2" pf="2" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="2" blk="0" stl="1" ast="0" min="7"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="2" tp="0" blk="0" stl="1" ast="0" min="2" oreb="1" dreb="0" treb="1" pf="2" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="1" dreb="0" treb="1" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="9" code="9" name="Adam El Aslami" checkname="ASLAMI,ADAM EL" gp="1" gs="1" pos="*" oncourt="Y" playerId="qz7k2vcomlhn9bes"> 
+      <stats oreb="4" dreb="5" treb="9" pf="2" tf="0" to="1" tp="10" fgm="4" fga="5" fgm3="1" fga3="1" ftm="1" fta="1" blk="1" stl="1" ast="2" min="29"/>  
+      <statsbyprd prd="1" fgm="2" fga="2" fgm3="1" fga3="1" ftm="1" fta="1" tp="6" blk="0" stl="0" ast="1" min="8" oreb="2" dreb="0" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="1" stl="1" ast="0" min="9" oreb="2" dreb="2" treb="4" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="8" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="4" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="10" code="10" name="Osazee Joshua Iyamu" checkname="IYAMU,OSAZEE JOSHUA" gp="1" playerId="c2kfcmcswvbm0jyp"> 
+      <stats oreb="3" dreb="2" treb="5" pf="1" tf="0" to="1" tp="0" fgm="0" fga="2" fgm3="0" fga3="0" ftm="0" fta="0" blk="1" stl="1" ast="1" min="11"/>  
+      <statsbyprd prd="1" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="1" stl="0" ast="1" min="6" oreb="2" dreb="1" treb="3" pf="1" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="11" code="11" name="Achraf Jean Aubin Zoure" checkname="ZOURE,ACHRAF JEAN AUBIN" gp="1" playerId="tkz7uz7e53e512pg"> 
+      <stats oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" tp="0" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" blk="0" stl="0" ast="0" min="0"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="12" code="12" name="Jose Francisco Vilna" checkname="VILNA,JOSE FRANCISCO" gp="1" oncourt="Y" playerId="ddtv9guxuuw6yb96"> 
+      <stats oreb="3" dreb="4" treb="7" pf="3" tf="0" to="4" tp="9" fgm="3" fga="8" fgm3="0" fga3="3" ftm="3" fta="6" blk="1" stl="1" ast="4" min="17"/>  
+      <statsbyprd prd="1" fgm="1" fga="3" fgm3="0" fga3="1" ftm="1" fta="2" tp="3" blk="0" stl="0" ast="2" min="3" oreb="2" dreb="1" treb="3" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="1" fgm3="0" fga3="0" ftm="1" fta="1" tp="3" blk="1" stl="1" ast="1" min="4" oreb="1" dreb="0" treb="1" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="3" fgm="1" fga="3" fgm3="0" fga3="1" ftm="1" fta="1" tp="3" blk="0" stl="0" ast="1" min="6" oreb="0" dreb="3" treb="3" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="2" tp="0" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="2" dq="0"/> 
+    </player>  
+    <player uni="13" code="13" name="Chriss-Mattéo Anovil" checkname="ANOVIL,CHRISS-MATTÉO" gp="1" oncourt="Y" playerId="ig2mwambkgex02uu"> 
+      <stats oreb="2" dreb="1" treb="3" pf="0" tf="0" to="0" tp="9" fgm="4" fga="6" fgm3="0" fga3="1" ftm="1" fta="1" blk="0" stl="0" ast="1" min="16"/>  
+      <statsbyprd prd="1" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="2" fga="2" fgm3="0" fga3="0" ftm="1" fta="1" tp="5" blk="0" stl="0" ast="1" min="8" oreb="2" dreb="1" treb="3" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="2" fga="4" fgm3="0" fga3="1" ftm="0" fta="0" tp="4" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="15" code="15" name="Nicolas Corneau" checkname="CORNEAU,NICOLAS" gp="1" oncourt="Y" playerId="ciqss95fcganuye7"> 
+      <stats oreb="2" dreb="0" treb="2" pf="2" tf="0" to="0" tp="23" fgm="8" fga="14" fgm3="6" fga3="10" ftm="1" fta="2" blk="0" stl="1" ast="1" min="17"/>  
+      <statsbyprd prd="1" fgm="2" fga="3" fgm3="2" fga3="3" ftm="0" fta="0" tp="6" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="1" fga="4" fgm3="1" fga3="2" ftm="0" fta="0" tp="3" blk="0" stl="0" ast="1" min="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="5" fga="6" fgm3="3" fga3="4" ftm="0" fta="0" tp="13" blk="0" stl="1" ast="0" min="7" oreb="2" dreb="0" treb="2" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="1" fgm3="0" fga3="1" ftm="1" fta="2" tp="1" blk="0" stl="0" ast="0" min="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/> 
+    </player>  
+    <player uni="16" code="16" name="Alexis Perreault" checkname="PERREAULT,ALEXIS" gp="0" playerId="alavjtby8a8q0svz"/>  
+    <player uni="18" code="18" name="Juvesny Vilaire Michaud" checkname="MICHAUD,JUVESNY VILAIRE" gp="1" playerId="4fbxx1m3so45h25m"> 
+      <stats oreb="1" dreb="1" treb="2" pf="3" tf="0" to="1" tp="4" fgm="2" fga="4" fgm3="0" fga3="1" ftm="0" fta="1" blk="0" stl="0" ast="1" min="14"/>  
+      <statsbyprd prd="1" fgm="1" fga="2" fgm3="0" fga3="0" ftm="0" fta="1" tp="2" blk="0" stl="0" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="1" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="1" min="1" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="5" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="4" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="0" min="2" oreb="1" dreb="1" treb="2" pf="0" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="21" code="21" name="Cheick Fofana" checkname="FOFANA,CHEICK" gp="1" playerId="zds4i9fmnmpbkn5b"> 
+      <stats oreb="0" dreb="3" treb="3" pf="3" tf="0" to="2" tp="2" fgm="1" fga="5" fgm3="0" fga3="1" ftm="0" fta="0" blk="0" stl="1" ast="1" min="12"/>  
+      <statsbyprd prd="1" fgm="1" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="2" blk="0" stl="0" ast="1" min="3" oreb="0" dreb="1" treb="1" pf="1" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="2" fgm="0" fga="0" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="0" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" dq="0"/>  
+      <statsbyprd prd="3" fgm="0" fga="1" fgm3="0" fga3="0" ftm="0" fta="0" tp="0" blk="0" stl="0" ast="0" min="3" oreb="0" dreb="2" treb="2" pf="1" tf="0" to="1" dq="0"/>  
+      <statsbyprd prd="4" fgm="0" fga="3" fgm3="0" fga3="1" ftm="0" fta="0" tp="0" blk="0" stl="1" ast="0" min="6" oreb="0" dreb="0" treb="0" pf="1" tf="0" to="1" dq="0"/> 
+    </player>  
+    <player uni="TM" code="TM" name="Team" checkname="TEAM" gp="1" playerId=""> 
+      <stats oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0"/>  
+      <statsbyprd prd="1" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="2" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="3" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/>  
+      <statsbyprd prd="4" oreb="0" dreb="0" treb="0" pf="0" tf="0" to="0" tp="0" dq="0"/> 
+    </player> 
+  </team>  
+  <plays format="tokens"> 
+    <period number="1" time="10:00"> 
+      <special vh="V" pts_to="3" pts_ch2="0" pts_paint="10" pts_fastb="0" pts_bench="6" ties="1" leads="0" poss_count="0" poss_time="0" score_count="10" score_time="2035" large_lead="0" large_lead_t="-"/>  
+      <special vh="H" pts_to="11" pts_ch2="8" pts_paint="12" pts_fastb="0" pts_bench="13" ties="0" leads="0" poss_count="0" poss_time="0" score_count="14" score_time="4367" large_lead="10" large_lead_t="1st-06:11"/>  
+      <summary vh="V" fgm="9" fga="11" fgm3="4" fga3="5" ftm="2" fta="5" blk="0" stl="0" ast="5" oreb="0" dreb="4" treb="4" pf="6" tf="0" to="8"/>  
+      <summary vh="H" fgm="10" fga="24" fgm3="3" fga3="9" ftm="4" fta="8" blk="0" stl="4" ast="6" oreb="10" dreb="4" treb="14" pf="6" tf="0" to="2"/>  
+      <play vh="H" time="09:39" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="JUMPER"/>  
+      <play vh="V" time="09:39" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="09:21" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="09:21" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="09:11" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="MISS" type="3PTR"/>  
+      <play vh="H" time="09:11" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="09:01" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="FOUL"/>  
+      <play vh="H" time="09:01" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="GOOD" type="FT" vscore="0" hscore="1"/>  
+      <play vh="H" time="09:01" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="GOOD" type="FT" vscore="0" hscore="2"/>  
+      <play vh="V" time="08:47" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="TURNOVER"/>  
+      <play vh="H" time="08:44" uni="8" team="AHUNTSIC" checkname="DADIÉ,CHRIST EMMANUEL" action="STEAL"/>  
+      <play vh="H" time="08:41" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="GOOD" type="LAYUP" paint="Y" vscore="0" hscore="4"/>  
+      <play vh="H" time="08:29" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="ASSIST"/>  
+      <play vh="V" time="08:21" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="SUB" type="IN"/>  
+      <play vh="V" time="08:21" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="SUB" type="OUT"/>  
+      <play vh="V" time="08:18" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="TURNOVER"/>  
+      <play vh="V" time="08:12" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="FOUL"/>  
+      <play vh="H" time="08:12" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:12" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="08:03" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="FOUL"/>  
+      <play vh="H" time="08:03" uni="8" team="AHUNTSIC" checkname="DADIÉ,CHRIST EMMANUEL" action="MISS" type="FT"/>  
+      <play vh="H" time="08:03" uni="8" team="AHUNTSIC" checkname="DADIÉ,CHRIST EMMANUEL" action="MISS" type="FT"/>  
+      <play vh="H" time="08:03" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="08:03" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="V" time="08:03" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="V" time="08:03" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="08:03" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="H" time="07:59" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="3PTR"/>  
+      <play vh="H" time="07:59" uni="8" team="AHUNTSIC" checkname="DADIÉ,CHRIST EMMANUEL" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:53" uni="8" team="AHUNTSIC" checkname="DADIÉ,CHRIST EMMANUEL" action="FOUL"/>  
+      <play vh="H" time="07:49" uni="8" team="AHUNTSIC" checkname="DADIÉ,CHRIST EMMANUEL" action="FOUL"/>  
+      <play vh="H" time="07:49" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="SUB" type="IN"/>  
+      <play vh="H" time="07:49" uni="8" team="AHUNTSIC" checkname="DADIÉ,CHRIST EMMANUEL" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:41" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="TURNOVER"/>  
+      <play vh="H" time="07:35" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="GOOD" type="LAYUP" paint="Y" vscore="0" hscore="6"/>  
+      <play vh="V" time="07:35" uni="TM" team="JOHN ABB" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="07:35" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="FOUL"/>  
+      <play vh="H" time="07:35" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="MISS" type="FT"/>  
+      <play vh="H" time="07:35" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:23" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="07:23" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:13" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="3PTR"/>  
+      <play vh="V" time="07:13" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="06:51" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="TURNOVER"/>  
+      <play vh="H" time="06:49" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="STEAL"/>  
+      <play vh="H" time="06:47" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="06:47" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="06:45" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="GOOD" type="LAYUP" paint="Y" vscore="0" hscore="8"/>  
+      <play vh="V" time="06:17" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="TURNOVER"/>  
+      <play vh="H" time="06:16" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="STEAL"/>  
+      <play vh="H" time="06:11" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="GOOD" type="DUNK" paint="Y" vscore="0" hscore="10"/>  
+      <play vh="H" time="06:11" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="ASSIST"/>  
+      <play vh="V" time="06:07" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="2" hscore="10"/>  
+      <play vh="V" time="05:39" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="4" hscore="10"/>  
+      <play vh="H" time="05:34" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="05:34" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:29" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="FOUL"/>  
+      <play vh="H" time="05:21" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="05:21" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="05:20" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="FOUL"/>  
+      <play vh="V" time="05:16" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="SUB" type="IN"/>  
+      <play vh="V" time="05:16" uni="13" team="JOHN ABB" checkname="RANGER,KEYON" action="SUB" type="IN"/>  
+      <play vh="V" time="05:16" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="V" time="05:16" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="V" time="05:16" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:16" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:16" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:16" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:15" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="TURNOVER"/>  
+      <play vh="H" time="05:07" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="MISS" type="3PTR"/>  
+      <play vh="H" time="05:07" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="05:00" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="GOOD" type="LAYUP" paint="Y" vscore="4" hscore="12"/>  
+      <play vh="H" time="05:00" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="ASSIST"/>  
+      <play vh="H" time="04:59" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="GOOD" type="FT" vscore="4" hscore="13"/>  
+      <play vh="V" time="04:49" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="GOOD" type="LAYUP" paint="Y" vscore="6" hscore="13"/>  
+      <play vh="H" time="04:49" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="FOUL"/>  
+      <play vh="V" time="04:49" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="IN"/>  
+      <play vh="V" time="04:49" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="SUB" type="IN"/>  
+      <play vh="V" time="04:49" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="IN"/>  
+      <play vh="V" time="04:49" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:49" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:49" uni="13" team="JOHN ABB" checkname="RANGER,KEYON" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:47" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="FT"/>  
+      <play vh="H" time="04:47" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="04:38" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="3PTR"/>  
+      <play vh="H" time="04:38" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="04:34" uni="13" team="JOHN ABB" checkname="RANGER,KEYON" action="FOUL"/>  
+      <play vh="H" time="04:34" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="GOOD" type="FT" vscore="6" hscore="14"/>  
+      <play vh="H" time="04:34" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="MISS" type="FT"/>  
+      <play vh="V" time="04:34" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="04:34" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="V" time="04:34" uni="13" team="JOHN ABB" checkname="RANGER,KEYON" action="SUB" type="IN"/>  
+      <play vh="V" time="04:34" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="V" time="04:34" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:34" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:34" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:25" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="8" hscore="14"/>  
+      <play vh="H" time="04:12" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="GOOD" type="JUMPER" vscore="8" hscore="16"/>  
+      <play vh="V" time="03:58" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="GOOD" type="3PTR" vscore="11" hscore="16"/>  
+      <play vh="V" time="03:58" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="ASSIST"/>  
+      <play vh="H" time="03:33" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="03:33" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="03:29" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="03:29" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:29" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="FOUL"/>  
+      <play vh="V" time="03:29" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="FT"/>  
+      <play vh="V" time="03:29" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="FT"/>  
+      <play vh="H" time="03:29" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:29" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="H" time="03:29" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="SUB" type="IN"/>  
+      <play vh="H" time="03:29" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="SUB" type="IN"/>  
+      <play vh="H" time="03:29" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="SUB" type="IN"/>  
+      <play vh="H" time="03:29" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:29" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:29" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:29" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="SUB" type="OUT"/>  
+      <play vh="H" time="03:22" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="GOOD" type="LAYUP" paint="Y" vscore="11" hscore="18"/>  
+      <play vh="V" time="03:03" uni="13" team="JOHN ABB" checkname="RANGER,KEYON" action="GOOD" type="3PTR" vscore="14" hscore="18"/>  
+      <play vh="V" time="03:03" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="ASSIST"/>  
+      <play vh="H" time="02:49" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="TURNOVER"/>  
+      <play vh="V" time="02:40" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="TURNOVER"/>  
+      <play vh="H" time="02:38" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="STEAL"/>  
+      <play vh="H" time="02:26" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="02:26" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="02:22" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="GOOD" type="3PTR" vscore="17" hscore="18"/>  
+      <play vh="H" time="02:19" uni="TM" team="AHUNTSIC" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="02:19" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="ASSIST"/>  
+      <play vh="H" time="02:19" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="SUB" type="IN"/>  
+      <play vh="H" time="02:19" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:58" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="GOOD" type="3PTR" vscore="17" hscore="21"/>  
+      <play vh="H" time="01:58" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="ASSIST"/>  
+      <play vh="V" time="01:47" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="H" time="01:46" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="TURNOVER"/>  
+      <play vh="H" time="01:45" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="SUB" type="IN"/>  
+      <play vh="H" time="01:45" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="SUB" type="OUT"/>  
+      <play vh="V" time="01:38" uni="13" team="JOHN ABB" checkname="RANGER,KEYON" action="GOOD" type="3PTR" vscore="20" hscore="21"/>  
+      <play vh="V" time="01:38" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="ASSIST"/>  
+      <play vh="H" time="01:28" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="GOOD" type="3PTR" vscore="20" hscore="24"/>  
+      <play vh="H" time="01:28" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="ASSIST"/>  
+      <play vh="V" time="01:06" uni="13" team="JOHN ABB" checkname="RANGER,KEYON" action="MISS" type="3PTR"/>  
+      <play vh="H" time="01:06" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:57" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="FOUL"/>  
+      <play vh="V" time="00:57" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="GOOD" type="FT" vscore="21" hscore="24"/>  
+      <play vh="V" time="00:57" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="GOOD" type="FT" vscore="22" hscore="24"/>  
+      <play vh="V" time="00:02" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="24" hscore="24"/>  
+      <play vh="V" time="00:02" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="ASSIST"/>  
+      <play vh="H" time="00:00" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="GOOD" type="3PTR" vscore="24" hscore="27"/>  
+      <play vh="H" time="00:00" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="ASSIST"/>  
+      <clock time="00:00"/> 
+    </period>  
+    <period number="2" time="10:00"> 
+      <special vh="V" pts_to="3" pts_ch2="0" pts_paint="10" pts_fastb="0" pts_bench="0" ties="0" leads="0" poss_count="0" poss_time="0" score_count="8" score_time="2940" large_lead="0" large_lead_t="-"/>  
+      <special vh="H" pts_to="7" pts_ch2="6" pts_paint="14" pts_fastb="0" pts_bench="11" ties="0" leads="0" poss_count="0" poss_time="0" score_count="14" score_time="5268" large_lead="13" large_lead_t="2nd-03:00"/>  
+      <summary vh="V" fgm="7" fga="16" fgm3="2" fga3="3" ftm="1" fta="2" blk="2" stl="1" ast="3" oreb="3" dreb="3" treb="6" pf="3" tf="0" to="7"/>  
+      <summary vh="H" fgm="11" fga="22" fgm3="3" fga3="8" ftm="2" fta="2" blk="3" stl="2" ast="6" oreb="6" dreb="4" treb="10" pf="5" tf="0" to="4"/>  
+      <play vh="H" time="09:45" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="09:45" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="BLOCK"/>  
+      <play vh="V" time="09:45" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="09:26" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="26" hscore="27"/>  
+      <play vh="V" time="09:26" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="ASSIST"/>  
+      <play vh="H" time="09:16" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="GOOD" type="3PTR" vscore="26" hscore="30"/>  
+      <play vh="H" time="09:16" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="ASSIST"/>  
+      <play vh="V" time="08:56" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="28" hscore="30"/>  
+      <play vh="H" time="08:45" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="GOOD" type="3PTR" vscore="28" hscore="33"/>  
+      <play vh="H" time="08:45" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="ASSIST"/>  
+      <play vh="V" time="08:18" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:18" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="BLOCK"/>  
+      <play vh="V" time="08:18" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="08:18" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="H" time="08:18" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="SUB" type="IN"/>  
+      <play vh="H" time="08:18" uni="8" team="AHUNTSIC" checkname="DADIÉ,CHRIST EMMANUEL" action="SUB" type="OUT"/>  
+      <play vh="H" time="08:18" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="SUB" type="OUT"/>  
+      <play vh="V" time="08:16" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="TURNOVER"/>  
+      <play vh="H" time="08:10" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="GOOD" type="LAYUP" paint="Y" vscore="28" hscore="35"/>  
+      <play vh="H" time="08:10" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="ASSIST"/>  
+      <play vh="V" time="08:02" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="TURNOVER"/>  
+      <play vh="H" time="08:00" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="STEAL"/>  
+      <play vh="H" time="07:59" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="MISS" type="3PTR"/>  
+      <play vh="H" time="07:59" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:53" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="MISS" type="3PTR"/>  
+      <play vh="H" time="07:53" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:51" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="GOOD" type="LAYUP" paint="Y" vscore="28" hscore="37"/>  
+      <play vh="V" time="07:51" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="FOUL"/>  
+      <play vh="H" time="07:51" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="GOOD" type="FT" vscore="28" hscore="38"/>  
+      <play vh="H" time="07:51" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="SUB" type="IN"/>  
+      <play vh="H" time="07:51" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:45" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="30" hscore="38"/>  
+      <play vh="V" time="07:45" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="ASSIST"/>  
+      <play vh="V" time="07:29" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="GOOD" type="3PTR" vscore="33" hscore="38"/>  
+      <play vh="H" time="07:12" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="07:12" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="07:09" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="FOUL"/>  
+      <play vh="H" time="07:07" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="GOOD" type="FT" vscore="33" hscore="39"/>  
+      <play vh="H" time="07:00" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="07:00" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="06:57" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="GOOD" type="LAYUP" paint="Y" vscore="33" hscore="41"/>  
+      <play vh="H" time="06:54" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="06:54" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="BLOCK"/>  
+      <play vh="V" time="06:54" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="06:28" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="TURNOVER"/>  
+      <play vh="V" time="06:28" uni="13" team="JOHN ABB" checkname="RANGER,KEYON" action="SUB" type="IN"/>  
+      <play vh="V" time="06:28" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="06:16" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="06:16" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="06:09" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="H" time="05:48" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="TURNOVER"/>  
+      <play vh="H" time="05:30" uni="11" team="AHUNTSIC" checkname="ZOURE,ACHRAF JEAN AUBIN" action="FOUL"/>  
+      <play vh="V" time="05:30" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="MISS" type="FT"/>  
+      <play vh="V" time="05:30" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="GOOD" type="FT" vscore="34" hscore="41"/>  
+      <play vh="V" time="05:30" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="IN"/>  
+      <play vh="V" time="05:30" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:28" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="GOOD" type="LAYUP" paint="Y" vscore="34" hscore="43"/>  
+      <play vh="H" time="05:25" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="SUB" type="IN"/>  
+      <play vh="H" time="05:25" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="SUB" type="IN"/>  
+      <play vh="H" time="05:25" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="SUB" type="OUT"/>  
+      <play vh="H" time="05:25" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="SUB" type="OUT"/>  
+      <play vh="V" time="05:12" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="05:12" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="BLOCK"/>  
+      <play vh="H" time="05:12" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="04:42" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="GOOD" type="LAYUP" paint="Y" vscore="34" hscore="45"/>  
+      <play vh="V" time="04:42" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="GOOD" type="LAYUP" paint="Y" vscore="36" hscore="45"/>  
+      <play vh="V" time="04:27" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="04:27" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="04:18" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="GOOD" type="LAYUP" paint="Y" vscore="36" hscore="47"/>  
+      <play vh="H" time="04:18" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="ASSIST"/>  
+      <play vh="V" time="04:05" uni="13" team="JOHN ABB" checkname="RANGER,KEYON" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="04:05" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="BLOCK"/>  
+      <play vh="V" time="04:05" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="04:04" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="FOUL"/>  
+      <play vh="V" time="03:51" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="GOOD" type="3PTR" vscore="39" hscore="47"/>  
+      <play vh="V" time="03:51" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="ASSIST"/>  
+      <play vh="H" time="03:31" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="GOOD" type="3PTR" vscore="39" hscore="50"/>  
+      <play vh="H" time="03:31" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="ASSIST"/>  
+      <play vh="V" time="03:16" uni="13" team="JOHN ABB" checkname="RANGER,KEYON" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="03:16" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="03:12" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="03:12" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:00" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="GOOD" type="JUMPER" vscore="39" hscore="52"/>  
+      <play vh="V" time="02:46" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="MISS" type="3PTR"/>  
+      <play vh="H" time="02:46" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="02:35" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="MISS" type="3PTR"/>  
+      <play vh="H" time="02:35" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="02:30" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="02:30" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="02:27" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="FOUL"/>  
+      <play vh="V" time="02:15" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="02:15" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="01:44" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="TURNOVER"/>  
+      <play vh="H" time="01:42" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="STEAL"/>  
+      <play vh="H" time="01:42" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="TURNOVER"/>  
+      <play vh="H" time="01:27" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="FOUL"/>  
+      <play vh="V" time="01:27" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="SUB" type="IN"/>  
+      <play vh="V" time="01:27" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="SUB" type="IN"/>  
+      <play vh="V" time="01:27" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="V" time="01:27" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="SUB" type="OUT"/>  
+      <play vh="V" time="01:27" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="V" time="01:27" uni="13" team="JOHN ABB" checkname="RANGER,KEYON" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:25" uni="8" team="AHUNTSIC" checkname="DADIÉ,CHRIST EMMANUEL" action="SUB" type="IN"/>  
+      <play vh="H" time="01:25" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="SUB" type="IN"/>  
+      <play vh="H" time="01:25" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:25" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="SUB" type="OUT"/>  
+      <play vh="V" time="01:21" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="41" hscore="52"/>  
+      <play vh="H" time="01:13" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="01:13" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="01:09" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="TURNOVER"/>  
+      <play vh="H" time="01:07" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="GOOD" type="LAYUP" paint="Y" vscore="41" hscore="54"/>  
+      <play vh="H" time="01:07" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="ASSIST"/>  
+      <play vh="V" time="00:57" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="TURNOVER"/>  
+      <play vh="H" time="00:57" uni="TM" team="AHUNTSIC" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="00:57" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="SUB" type="IN"/>  
+      <play vh="V" time="00:57" uni="13" team="JOHN ABB" checkname="RANGER,KEYON" action="SUB" type="IN"/>  
+      <play vh="V" time="00:57" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="SUB" type="OUT"/>  
+      <play vh="V" time="00:57" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:47" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="MISS" type="3PTR"/>  
+      <play vh="V" time="00:47" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="00:32" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="FOUL"/>  
+      <play vh="H" time="00:25" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="MISS" type="3PTR"/>  
+      <play vh="H" time="00:25" uni="8" team="AHUNTSIC" checkname="DADIÉ,CHRIST EMMANUEL" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="00:17" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="FOUL"/>  
+      <play vh="V" time="00:15" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="V" time="00:15" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="SUB" type="OUT"/>  
+      <play vh="V" time="00:02" uni="TM" team="JOHN ABB" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="00:01" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="TURNOVER"/>  
+      <play vh="H" time="00:01" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="TURNOVER"/>  
+      <play vh="V" time="00:00" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="STEAL"/>  
+      <clock time="00:00"/> 
+    </period>  
+    <period number="3" time="10:00"> 
+      <special vh="V" pts_to="4" pts_ch2="0" pts_paint="12" pts_fastb="0" pts_bench="7" ties="0" leads="0" poss_count="0" poss_time="0" score_count="8" score_time="2785" large_lead="0" large_lead_t="-"/>  
+      <special vh="H" pts_to="8" pts_ch2="4" pts_paint="8" pts_fastb="0" pts_bench="16" ties="0" leads="0" poss_count="0" poss_time="0" score_count="9" score_time="2094" large_lead="19" large_lead_t="3rd-03:48"/>  
+      <summary vh="V" fgm="6" fga="18" fgm3="0" fga3="1" ftm="2" fta="6" blk="0" stl="3" ast="5" oreb="3" dreb="4" treb="7" pf="3" tf="0" to="4"/>  
+      <summary vh="H" fgm="8" fga="15" fgm3="3" fga3="6" ftm="1" fta="1" blk="0" stl="2" ast="3" oreb="3" dreb="9" treb="12" pf="8" tf="0" to="3"/>  
+      <play vh="V" time="09:41" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="43" hscore="54"/>  
+      <play vh="V" time="09:41" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="ASSIST"/>  
+      <play vh="H" time="09:41" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="FOUL"/>  
+      <play vh="V" time="09:41" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="FT"/>  
+      <play vh="H" time="09:41" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="09:27" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="09:27" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="09:08" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="MISS" type="FT"/>  
+      <play vh="V" time="09:01" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="ASSIST"/>  
+      <play vh="H" time="08:48" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="MISS" type="3PTR"/>  
+      <play vh="V" time="08:48" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="08:43" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="MISS" type="FT"/>  
+      <play vh="V" time="08:43" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="08:28" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="08:28" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="08:23" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="GOOD" type="LAYUP" paint="Y" vscore="45" hscore="54"/>  
+      <play vh="V" time="08:23" uni="8" team="JOHN ABB" checkname="COCHIN,LUCAS" action="ASSIST"/>  
+      <play vh="V" time="08:07" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:07" uni="TM" team="AHUNTSIC" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="07:55" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="TURNOVER"/>  
+      <play vh="V" time="07:50" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="GOOD" type="LAYUP" paint="Y" vscore="47" hscore="54"/>  
+      <play vh="V" time="07:48" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="STEAL"/>  
+      <play vh="H" time="07:47" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="SUB" type="IN"/>  
+      <play vh="H" time="07:47" uni="8" team="AHUNTSIC" checkname="DADIÉ,CHRIST EMMANUEL" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:29" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="07:29" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="07:20" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="FOUL"/>  
+      <play vh="H" time="07:13" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="FOUL"/>  
+      <play vh="V" time="06:59" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="06:59" uni="TM" team="AHUNTSIC" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="06:59" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="FOUL"/>  
+      <play vh="V" time="06:59" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="SUB" type="IN"/>  
+      <play vh="V" time="06:59" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:54" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="FOUL"/>  
+      <play vh="V" time="06:53" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="TURNOVER"/>  
+      <play vh="H" time="06:52" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="STEAL"/>  
+      <play vh="H" time="06:49" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="FOUL"/>  
+      <play vh="V" time="06:49" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="49" hscore="54"/>  
+      <play vh="V" time="06:49" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="FT" vscore="50" hscore="54"/>  
+      <play vh="H" time="06:49" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="H" time="06:49" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:28" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="06:28" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="06:23" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="GOOD" type="LAYUP" paint="Y" vscore="50" hscore="56"/>  
+      <play vh="V" time="06:20" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="06:20" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="06:14" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="TURNOVER"/>  
+      <play vh="V" time="06:14" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="STEAL"/>  
+      <play vh="H" time="06:08" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="05:58" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="GOOD" type="3PTR" vscore="50" hscore="59"/>  
+      <play vh="H" time="05:58" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="ASSIST"/>  
+      <play vh="H" time="05:08" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="GOOD" type="3PTR" vscore="50" hscore="62"/>  
+      <play vh="H" time="05:01" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="GOOD" type="LAYUP" paint="Y" vscore="50" hscore="64"/>  
+      <play vh="V" time="04:52" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="04:52" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="04:50" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="FOUL"/>  
+      <play vh="V" time="04:50" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="IN"/>  
+      <play vh="V" time="04:50" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="V" time="04:50" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="SUB" type="IN"/>  
+      <play vh="V" time="04:50" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:50" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:50" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:50" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="SUB" type="IN"/>  
+      <play vh="H" time="04:50" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="SUB" type="OUT"/>  
+      <play vh="V" time="04:41" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="TURNOVER"/>  
+      <play vh="H" time="04:41" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="GOOD" type="3PTR" vscore="50" hscore="67"/>  
+      <play vh="H" time="04:41" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="ASSIST"/>  
+      <play vh="V" time="04:19" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="04:19" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:48" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="GOOD" type="DUNK" paint="Y" vscore="50" hscore="69"/>  
+      <play vh="V" time="03:43" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="03:43" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="03:43" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="03:43" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:43" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="ASSIST"/>  
+      <play vh="H" time="03:43" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="FOUL"/>  
+      <play vh="V" time="03:43" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="MISS" type="FT"/>  
+      <play vh="V" time="03:43" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="GOOD" type="FT" vscore="51" hscore="69"/>  
+      <play vh="H" time="03:24" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="MISS" type="3PTR"/>  
+      <play vh="H" time="03:18" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="03:03" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="03:03" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="02:52" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="3PTR"/>  
+      <play vh="H" time="02:52" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="02:45" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="TURNOVER"/>  
+      <play vh="V" time="02:44" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="STEAL"/>  
+      <play vh="V" time="02:41" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="GOOD" type="LAYUP" paint="Y" vscore="53" hscore="69"/>  
+      <play vh="V" time="02:41" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="ASSIST"/>  
+      <play vh="H" time="02:30" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="FOUL"/>  
+      <play vh="V" time="02:30" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="V" time="02:30" uni="7" team="JOHN ABB" checkname="GUERRIER,MALIK" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:30" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="SUB" type="IN"/>  
+      <play vh="H" time="02:30" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="SUB" type="IN"/>  
+      <play vh="H" time="02:30" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:30" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:16" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="02:16" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="02:13" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="02:13" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="02:09" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="FOUL"/>  
+      <play vh="V" time="01:56" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="TURNOVER"/>  
+      <play vh="H" time="01:56" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="STEAL"/>  
+      <play vh="H" time="01:56" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="GOOD" type="LAYUP" paint="Y" vscore="53" hscore="71"/>  
+      <play vh="V" time="01:56" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="FOUL"/>  
+      <play vh="H" time="01:56" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="GOOD" type="FT" vscore="53" hscore="72"/>  
+      <play vh="V" time="01:56" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="SUB" type="IN"/>  
+      <play vh="V" time="01:56" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="SUB" type="OUT"/>  
+      <play vh="H" time="01:56" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="SUB" type="IN"/>  
+      <play vh="H" time="01:56" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="SUB" type="OUT"/>  
+      <play vh="V" time="00:29" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="GOOD" type="LAYUP" paint="Y" vscore="55" hscore="72"/>  
+      <play vh="V" time="00:29" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="ASSIST"/>  
+      <play vh="H" time="00:27" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="00:27" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:24" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="TURNOVER"/>  
+      <play vh="V" time="00:24" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="IN"/>  
+      <play vh="V" time="00:24" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:09" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="MISS" type="JUMPER"/>  
+      <play vh="H" time="00:09" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="00:03" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="GOOD" type="JUMPER" vscore="55" hscore="74"/>  
+      <clock time="00:00"/> 
+    </period>  
+    <period number="4" time="10:00"> 
+      <special vh="V" pts_to="4" pts_ch2="8" pts_paint="16" pts_fastb="0" pts_bench="9" ties="0" leads="0" poss_count="0" poss_time="0" score_count="13" score_time="2619" large_lead="0" large_lead_t="-"/>  
+      <special vh="H" pts_to="0" pts_ch2="4" pts_paint="6" pts_fastb="0" pts_bench="7" ties="0" leads="0" poss_count="0" poss_time="0" score_count="8" score_time="1560" large_lead="21" large_lead_t="4th-09:11"/>  
+      <summary vh="V" fgm="9" fga="26" fgm3="1" fga3="6" ftm="3" fta="5" blk="1" stl="5" ast="3" oreb="7" dreb="8" treb="15" pf="6" tf="0" to="1"/>  
+      <summary vh="H" fgm="3" fga="15" fgm3="0" fga3="5" ftm="5" fta="8" blk="1" stl="1" ast="2" oreb="3" dreb="7" treb="10" pf="5" tf="0" to="8"/>  
+      <play vh="H" time="09:51" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="H" time="09:51" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="SUB" type="IN"/>  
+      <play vh="H" time="09:51" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="SUB" type="IN"/>  
+      <play vh="H" time="09:51" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="SUB" type="IN"/>  
+      <play vh="H" time="09:51" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="SUB" type="IN"/>  
+      <play vh="H" time="09:51" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="SUB" type="OUT"/>  
+      <play vh="H" time="09:51" uni="8" team="AHUNTSIC" checkname="DADIÉ,CHRIST EMMANUEL" action="SUB" type="OUT"/>  
+      <play vh="H" time="09:51" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="SUB" type="OUT"/>  
+      <play vh="H" time="09:51" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="SUB" type="OUT"/>  
+      <play vh="H" time="09:51" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="SUB" type="OUT"/>  
+      <play vh="V" time="09:37" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="09:37" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="BLOCK"/>  
+      <play vh="H" time="09:37" uni="TM" team="AHUNTSIC" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="09:32" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="SUB" type="IN"/>  
+      <play vh="V" time="09:32" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="09:22" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="FOUL"/>  
+      <play vh="H" time="09:15" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="MISS" type="3PTR"/>  
+      <play vh="H" time="09:15" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="09:11" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="GOOD" type="LAYUP" paint="Y" vscore="55" hscore="76"/>  
+      <play vh="V" time="08:52" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="FOUL"/>  
+      <play vh="V" time="08:52" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="IN"/>  
+      <play vh="V" time="08:52" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="SUB" type="OUT"/>  
+      <play vh="H" time="08:47" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="08:47" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="08:29" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="08:29" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="08:24" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="MISS" type="DUNK"/>  
+      <play vh="V" time="08:24" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="08:20" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="FOUL"/>  
+      <play vh="V" time="08:20" uni="TM" team="JOHN ABB" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="08:14" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="GOOD" type="3PTR" vscore="58" hscore="76"/>  
+      <play vh="V" time="08:14" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="ASSIST"/>  
+      <play vh="H" time="07:56" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="TURNOVER"/>  
+      <play vh="V" time="07:55" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="STEAL"/>  
+      <play vh="V" time="07:51" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="07:51" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="07:47" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="07:47" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="07:43" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="MISS" type="3PTR"/>  
+      <play vh="H" time="07:43" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="REBOUND" type="OFF"/>  
+      <play vh="H" time="07:39" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="GOOD" type="LAYUP" paint="Y" vscore="58" hscore="78"/>  
+      <play vh="H" time="07:39" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="ASSIST"/>  
+      <play vh="H" time="07:25" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="FOUL"/>  
+      <play vh="H" time="07:25" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="SUB" type="IN"/>  
+      <play vh="H" time="07:25" uni="18" team="AHUNTSIC" checkname="MICHAUD,JUVESNY VILAIRE" action="SUB" type="OUT"/>  
+      <play vh="V" time="07:14" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="MISS" type="3PTR"/>  
+      <play vh="V" time="07:14" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="07:07" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="TURNOVER"/>  
+      <play vh="H" time="07:06" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="STEAL"/>  
+      <play vh="H" time="07:04" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="MISS" type="3PTR"/>  
+      <play vh="V" time="07:04" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="06:43" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="3PTR"/>  
+      <play vh="V" time="06:43" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="06:38" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="GOOD" type="LAYUP" paint="Y" vscore="60" hscore="78"/>  
+      <play vh="H" time="06:31" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="TURNOVER"/>  
+      <play vh="V" time="06:31" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="SUB" type="IN"/>  
+      <play vh="V" time="06:31" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:31" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="SUB" type="IN"/>  
+      <play vh="H" time="06:31" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="SUB" type="IN"/>  
+      <play vh="H" time="06:31" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="SUB" type="OUT"/>  
+      <play vh="H" time="06:31" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="SUB" type="OUT"/>  
+      <play vh="V" time="06:11" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="06:11" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="06:07" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="TURNOVER"/>  
+      <play vh="V" time="06:03" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="06:03" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="05:50" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="05:50" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:44" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="05:44" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="05:42" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="GOOD" type="LAYUP" paint="Y" vscore="62" hscore="78"/>  
+      <play vh="V" time="05:42" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="ASSIST"/>  
+      <play vh="H" time="05:19" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="05:19" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="05:01" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="GOOD" type="LAYUP" paint="Y" vscore="64" hscore="78"/>  
+      <play vh="H" time="04:02" uni="TM" team="AHUNTSIC" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="H" time="04:02" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="SUB" type="IN"/>  
+      <play vh="H" time="04:02" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="SUB" type="IN"/>  
+      <play vh="H" time="04:02" uni="21" team="AHUNTSIC" checkname="FOFANA,CHEICK" action="SUB" type="OUT"/>  
+      <play vh="H" time="04:02" uni="10" team="AHUNTSIC" checkname="IYAMU,OSAZEE JOSHUA" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:55" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="FOUL"/>  
+      <play vh="H" time="03:55" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="GOOD" type="FT" vscore="64" hscore="79"/>  
+      <play vh="H" time="03:55" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="GOOD" type="FT" vscore="64" hscore="80"/>  
+      <play vh="V" time="03:55" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="IN"/>  
+      <play vh="V" time="03:55" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="OUT"/>  
+      <play vh="V" time="03:35" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="03:35" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="03:35" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="MISS" type="3PTR"/>  
+      <play vh="V" time="03:35" uni="TM" team="JOHN ABB" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="03:19" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="GOOD" type="LAYUP" paint="Y" vscore="66" hscore="80"/>  
+      <play vh="H" time="03:06" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="TURNOVER"/>  
+      <play vh="V" time="03:05" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="STEAL"/>  
+      <play vh="V" time="02:58" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="SUB" type="IN"/>  
+      <play vh="V" time="02:58" uni="3" team="JOHN ABB" checkname="ULLAH,ISHAAQ" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:58" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="SUB" type="IN"/>  
+      <play vh="H" time="02:58" uni="5" team="AHUNTSIC" checkname="MWAMBA,DANIEL KALONGA" action="SUB" type="OUT"/>  
+      <play vh="H" time="02:51" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="02:51" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="02:41" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="MISS" type="3PTR"/>  
+      <play vh="H" time="02:41" uni="TM" team="AHUNTSIC" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="V" time="02:39" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="SUB" type="IN"/>  
+      <play vh="V" time="02:39" uni="12" team="JOHN ABB" checkname="WISE,CARTER" action="SUB" type="OUT"/>  
+      <play vh="V" time="02:32" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="FOUL"/>  
+      <play vh="H" time="02:27" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="MISS" type="3PTR"/>  
+      <play vh="V" time="02:27" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="02:18" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="GOOD" type="LAYUP" paint="Y" vscore="68" hscore="80"/>  
+      <play vh="H" time="02:12" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="TURNOVER"/>  
+      <play vh="V" time="02:10" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="STEAL"/>  
+      <play vh="V" time="02:05" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="MISS" type="3PTR"/>  
+      <play vh="H" time="02:05" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="01:42" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="TURNOVER"/>  
+      <play vh="V" time="01:40" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="STEAL"/>  
+      <play vh="V" time="01:29" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="LAYUP" paint="Y" vscore="70" hscore="80"/>  
+      <play vh="V" time="01:29" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="ASSIST"/>  
+      <play vh="H" time="01:20" uni="13" team="AHUNTSIC" checkname="ANOVIL,CHRISS-MATTÉO" action="GOOD" type="LAYUP" paint="Y" vscore="70" hscore="82"/>  
+      <play vh="H" time="01:20" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="ASSIST"/>  
+      <play vh="V" time="00:56" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="00:56" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:55" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="TURNOVER"/>  
+      <play vh="V" time="00:55" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="SUB" type="IN"/>  
+      <play vh="V" time="00:55" uni="4" team="JOHN ABB" checkname="NCUBE,DUMISILE DAVIES" action="SUB" type="OUT"/>  
+      <play vh="H" time="00:53" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="FOUL"/>  
+      <play vh="V" time="00:53" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="GOOD" type="FT" vscore="71" hscore="82"/>  
+      <play vh="H" time="00:35" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="00:35" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="BLOCK"/>  
+      <play vh="V" time="00:35" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="H" time="00:28" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="FOUL"/>  
+      <play vh="V" time="00:28" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="FT"/>  
+      <play vh="V" time="00:28" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="FT" vscore="72" hscore="82"/>  
+      <play vh="H" time="00:28" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="SUB" type="IN"/>  
+      <play vh="H" time="00:28" uni="4" team="AHUNTSIC" checkname="SAMSON,ANTOINE" action="SUB" type="OUT"/>  
+      <play vh="V" time="00:07" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="FOUL"/>  
+      <play vh="H" time="00:07" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="MISS" type="FT"/>  
+      <play vh="H" time="00:07" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="MISS" type="FT"/>  
+      <play vh="V" time="00:07" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:00" uni="5" team="JOHN ABB" checkname="CLYNE,KELVIN" action="MISS" type="3PTR"/>  
+      <play vh="V" time="00:00" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="00:00" uni="6" team="JOHN ABB" checkname=",OLIVIER" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="00:00" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="00:00" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="GOOD" type="LAYUP" paint="Y" vscore="74" hscore="82"/>  
+      <play vh="H" time="00:00" uni="12" team="AHUNTSIC" checkname="VILNA,JOSE FRANCISCO" action="TURNOVER"/>  
+      <play vh="V" time="00:00" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="STEAL"/>  
+      <play vh="H" time="00:00" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="FOUL"/>  
+      <play vh="V" time="00:00" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="FT"/>  
+      <play vh="V" time="00:00" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="GOOD" type="FT" vscore="75" hscore="82"/>  
+      <play vh="V" time="00:00" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="00:00" uni="TM" team="AHUNTSIC" checkname="TEAM" action="REBOUND" type="DEADB"/>  
+      <play vh="H" time="00:00" uni="TM" team="AHUNTSIC" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="H" time="00:00" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="GOOD" type="FT" vscore="75" hscore="83"/>  
+      <play vh="H" time="00:00" uni="6" team="AHUNTSIC" checkname="AMURI,RAPHAËL" action="GOOD" type="FT" vscore="75" hscore="84"/>  
+      <play vh="V" time="00:00" uni="TM" team="JOHN ABB" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="00:00" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="MISS" type="LAYUP"/>  
+      <play vh="V" time="00:00" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="REBOUND" type="OFF"/>  
+      <play vh="V" time="00:00" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="GOOD" type="LAYUP" paint="Y" vscore="77" hscore="84"/>  
+      <play vh="V" time="00:00" uni="TM" team="JOHN ABB" checkname="TEAM" action="TIMEOUT" type="FULL"/>  
+      <play vh="V" time="00:00" uni="9" team="JOHN ABB" checkname="HYDE,SIMMON" action="MISS" type="LAYUP"/>  
+      <play vh="H" time="00:00" uni="9" team="AHUNTSIC" checkname="ASLAMI,ADAM EL" action="REBOUND" type="DEF"/>  
+      <play vh="V" time="00:00" uni="21" team="JOHN ABB" checkname="BOISSELLE-GAUGHAN,JOSHUA" action="FOUL"/>  
+      <play vh="H" time="00:00" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="GOOD" type="FT" vscore="77" hscore="85"/>  
+      <play vh="H" time="00:00" uni="15" team="AHUNTSIC" checkname="CORNEAU,NICOLAS" action="MISS" type="FT"/>  
+      <play vh="V" time="00:00" uni="15" team="JOHN ABB" checkname="BIBAUD-WENTINK,JULIAN" action="REBOUND" type="DEF"/>  
+      <clock time="00:00"/> 
+    </period> 
+  </plays> 
+</bbgame>

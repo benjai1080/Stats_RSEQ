@@ -190,7 +190,10 @@
    "visiteur": "Édouard-Montpetit",
    "receveur": "Montmorency",
    "lieu": "Collège Montmorency",
-   "pointage": null,
+   "pointage": [
+    69,
+    61
+   ],
    "prolongation": false,
    "fichier": "2026-M13.xml"
   },
@@ -202,7 +205,10 @@
    "visiteur": "John Abbott",
    "receveur": "Ahuntsic",
    "lieu": "Collège Ahuntsic",
-   "pointage": null,
+   "pointage": [
+    77,
+    85
+   ],
    "prolongation": false,
    "fichier": "2026-M14.xml"
   },
@@ -214,7 +220,10 @@
    "visiteur": "Sainte-Foy",
    "receveur": "Jean-de-Brébeuf",
    "lieu": "Collège Jean-de-Brébeuf",
-   "pointage": null,
+   "pointage": [
+    67,
+    64
+   ],
    "prolongation": false,
    "fichier": "2026-M15.xml"
   },
@@ -226,7 +235,10 @@
    "visiteur": "Dawson",
    "receveur": "Thetford",
    "lieu": "Cégep de Thetford",
-   "pointage": null,
+   "pointage": [
+    76,
+    80
+   ],
    "prolongation": false,
    "fichier": "2026-M16.xml"
   },
@@ -238,7 +250,10 @@
    "visiteur": "Ch.-St-Lambert",
    "receveur": "Outaouais",
    "lieu": "Cégep de l'Outaouais",
-   "pointage": null,
+   "pointage": [
+    89,
+    53
+   ],
    "prolongation": false,
    "fichier": "2026-M17.xml"
   },
@@ -250,7 +265,10 @@
    "visiteur": "Vanier",
    "receveur": "Sherbrooke",
    "lieu": "Cégep de Sherbrooke",
-   "pointage": null,
+   "pointage": [
+    74,
+    67
+   ],
    "prolongation": false,
    "fichier": "2026-M18.xml"
   },
